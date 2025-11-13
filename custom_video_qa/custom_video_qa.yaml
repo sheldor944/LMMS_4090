@@ -1,0 +1,33 @@
+dataset_path: json
+dataset_kwargs:
+  data_files:
+    test: ./datasets/custom_video_qa/test.json
+  token: False
+  cache_dir: custom_video_qa_cache
+
+task: "custom_video_qa"
+test_split: test
+output_type: generate_until
+doc_to_visual: !function utils.custom_video_qa_doc_to_visual
+doc_to_text: !function utils.custom_video_qa_doc_to_text
+doc_to_target: "answer"
+generation_kwargs:
+  max_new_tokens: 16
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+process_results: !function utils.custom_video_qa_process_results
+metric_list:
+  - metric: custom_video_qa_score
+    aggregation: !function utils.custom_video_qa_aggregate_results
+    higher_is_better: true
+lmms_eval_specific_kwargs:
+  default:
+    frame_num: 64  # Default number of frames to sample
+    use_topk: True  # Use top-k frame sampling
+    pre_prompt: ""
+    post_prompt: "\nAnswer with the option's letter from the given choices directly."
+metadata:
+  - version: 1.0
+  - description: "Custom video QA task for evaluating video understanding with multiple-choice questions"

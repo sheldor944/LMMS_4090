@@ -1,0 +1,18 @@
+# Ignore Python venvs
+.venv/
+.venv*/
+venv/
+env/
+
+# Ignore cache folders
+__pycache__/
+*.pyc
+
+# Ignore LMMS_eval cache
+custom_video_qa_cache/
+lmms_eval/custom_video_qa_cache/
+
+# Ignore tar files
+*.tar.gz
+*.zip
+
