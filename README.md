@@ -123,3 +123,10 @@ mv /home/train01/LVBench/LongVideoBench/videos \
 /home/train01/.cache/huggingface/longvideobench_custom_cache/
 ```
 
+## **9. How to run 
+To run use this command 
+```bash
+bash total_run.sh
+```
+you can use the nohup if you need 
+also for invidivual run of the dataset i.e videomme and longvideo bench use 'generate_and_run_LV.sh' and 'generate_and_run_custom_videoqa.sh'
