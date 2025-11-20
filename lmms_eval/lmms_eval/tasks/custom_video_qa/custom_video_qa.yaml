@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k64_alpha0.75_sup1.0_temporal.json
+    test: datasets/custom_video_qa/selected_frames_videomme_k32_aks.json
   cache_dir: custom_video_qa_cache
 
 task: "custom_video_qa"
@@ -26,11 +26,11 @@ metric_list:
 
 lmms_eval_specific_kwargs:
   default:
-    frame_num: 64
+    frame_num: 32
     use_topk: True
     pre_prompt: ""
     post_prompt: "\nAnswer with the option's letter from the given choices directly."
 
 metadata:
   version: 1.0
-  description: "Auto-generated Custom video QA task for selected_dbfp_videomme_blip_k64_alpha0.75_sup1.0_temporal"
+  description: "Auto-generated Custom video QA task for selected_frames_videomme_k32_aks"

@@ -183,7 +183,6 @@ EOF
         --log_samples \
         --log_samples_suffix "$PREFIX" \
         --verbosity DEBUG \
-        --limit 2\
         >> "$LOG_PATH" 2>&1
     # Check exit status
     exit_status=$?
