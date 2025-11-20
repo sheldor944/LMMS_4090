@@ -9,6 +9,7 @@ Create a venv inside the `lmms_eval` folder under the root:
 cd lmms_eval
 python3.12 -m venv .venv
 ```
+This also works with python3.13
 
 ## **2. Install packages**
 
