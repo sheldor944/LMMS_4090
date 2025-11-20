@@ -153,7 +153,7 @@ EOFYAML
 
     # Change to SCRIPT_DIR before running lmms_eval
     cd "$SCRIPT_DIR"
-    frame_num=8
+    
     # Run with accelerate (sequential execution)
     # CUDA_VISIBLE_DEVICES=1 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
     # accelerate launch --num_processes 1 --main_process_port 29500 \

@@ -145,7 +145,7 @@ EOF
     OUT_PATH="${RESULT_DIR}/${PREFIX}_results"
 
     # Override frame_num if needed
-    frame_num=8
+    
 
     log_message "Starting lmms_eval for: $dataset_name"
     log_message "Using frame_num: $frame_num"
