@@ -1,0 +1,24 @@
+# Ignore virtual environments (anywhere in the project)
+venv/
+*/venv/
+*/*/venv/
+.venv/
+*/.venv/
+*/*/.venv/
+
+LLaVA-NeXT-Video-7B-Qwen2/
+lmms.tar.gz
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Cache directories
+*.cache/
+.cache/
