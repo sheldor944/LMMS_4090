@@ -1,8 +1,8 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/longvideobench/selected_dbfp_longvideobench_blip_k16_alpha0.75_sup3_score_diff.json
-  cache_dir: longvideobench_custom_cache  # This matches where your videos are
+    test: datasets/longvideobench/selected_dbfp_longvideobench_blip_k32_alpha0.75_sup1.0_score_diff.json
+  cache_dir: longvideobench_custom_cache
 
 task: "longvideobench_custom"
 test_split: test

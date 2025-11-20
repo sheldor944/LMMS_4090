@@ -18,7 +18,7 @@
 
 
 
-PREFIX="Full_DBFP_newUtils$(date +"%Y%m%d_%H")"
+PREFIX="Full_TEST_newUtils$(date +"%Y%m%d_%H")"
 mkdir -p ./results/full_logs
 
 nohup bash -c '
@@ -31,6 +31,7 @@ CUDA_VISIBLE_DEVICES=0,1 PYTHONWARNINGS="ignore" stdbuf -oL -eL accelerate launc
   --log_samples \
   --log_samples_suffix '"$PREFIX"' \
   --verbosity DEBUG \
+  --limit 4\
   2>&1 | tee ./results/full_logs/'"$PREFIX"'.log
 ' > /dev/null 2>&1 &
 disown

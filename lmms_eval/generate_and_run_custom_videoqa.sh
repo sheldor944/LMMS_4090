@@ -145,7 +145,7 @@ EOF
     OUT_PATH="${RESULT_DIR}/${PREFIX}_results"
 
     # Override frame_num if needed
-    #frame_num=8
+    frame_num=8
 
     log_message "Starting lmms_eval for: $dataset_name"
     log_message "Using frame_num: $frame_num"
@@ -159,7 +159,20 @@ EOF
 
     # Run with nohup in foreground (sequential execution)
     # The script itself can be run with nohup, but each task runs sequentially
-    accelerate launch --num_processes 2 --multi_gpu \
+    # accelerate launch --num_processes 2 --multi_gpu \
+    # -m lmms_eval \
+    #     --model "$MODEL_NAME" \
+    #     --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
+    #     --tasks custom_video_qa \
+    #     --batch_size 1 \
+    #     --device cuda \
+    #     --output_path "$OUT_PATH" \
+    #     --log_samples \
+    #     --log_samples_suffix "$PREFIX" \
+    #     --verbosity DEBUG \
+    #     --limit 3 \
+    #     >> "$LOG_PATH" 2>&1
+    CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
@@ -170,9 +183,8 @@ EOF
         --log_samples \
         --log_samples_suffix "$PREFIX" \
         --verbosity DEBUG \
-        --limit 3 \
+        
         >> "$LOG_PATH" 2>&1
-
     # Check exit status
     exit_status=$?
     
