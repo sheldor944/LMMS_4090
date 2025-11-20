@@ -74,7 +74,7 @@ for json_path in "${json_files[@]}"; do
     frame_num=$(echo "$filename" | grep -oP 'k\K[0-9]+')
     if [[ -z "$frame_num" ]]; then
         log_message "WARNING: Could not extract frame_num from $filename, using default=16"
-        frame_num=16
+        frame_num=64
     fi
 
     log_message "Detected frame_num = $frame_num"
