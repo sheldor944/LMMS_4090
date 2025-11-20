@@ -178,6 +178,7 @@ EOFYAML
         --output_path "$OUT_PATH" \
         --log_samples \
         --log_samples_suffix "$PREFIX" \
+        --limit 2\
         --verbosity DEBUG \
        
         >> "$LOG_PATH" 2>&1
