@@ -10,7 +10,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/custom_video_qa"
 YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml"
-RESULT_DIR="$SCRIPT_DIR/results/full_logs"
+RESULT_DIR="$SCRIPT_DIR/results/full_logs/300_runs"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
 MODEL_NAME="llava_vid"
@@ -170,9 +170,9 @@ EOF
     #     --log_samples \
     #     --log_samples_suffix "$PREFIX" \
     #     --verbosity DEBUG \
-    #     --limit 3 \
+    #     --limit 300 \
     #     >> "$LOG_PATH" 2>&1
-    CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 \
+    CUDA_VISIBLE_DEVICES=0,1 accelerate launch --num_processes 2 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \

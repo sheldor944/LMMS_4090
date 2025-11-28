@@ -1,0 +1,1139 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-11-22 16:18:39[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-22 16:18:39[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-22 16:18:39[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-22 16:18:39[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-22 16:18:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-22 16:18:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-22 16:18:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-22 16:18:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': '/home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal_20251122_161832_results'}[0m
+[32m2025-11-22 16:18:40[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m430[0m - [33m[1m --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.[0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': '/home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal_20251122_161832_results'}[0m
+[32m2025-11-22 16:18:40[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m430[0m - [33m[1m --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.[0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-11-22 16:18:40[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+OpenCLIP not installed
+OpenCLIP not installed
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+force sample: False
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+force sample: False
+Rank 0:  Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Rank 0:  Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.59s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.85s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.64s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.30s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.01s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.23s/it]
+Generating test split: 0 examples [00:00, ? examples/s]Rank 0:  Model Class: LlavaQwenForCausalLM
+Generating test split: 2700 examples [00:00, 97426.15 examples/s]
+[32m2025-11-22 16:18:53[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 1 (local rank 1)[0m
+[32m2025-11-22 16:18:53[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank1-world_size2-tokenizer is not cached, generating...[0m
+[32m2025-11-22 16:18:53[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 1...[0m
+  0%|          | 0/150 [00:00<?, ?it/s]100%|██████████| 150/150 [00:00<00:00, 8272.57it/s]
+[32m2025-11-22 16:18:53[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 150[0m
+[32m2025-11-22 16:18:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m215[0m - [1mUsing 2 devices with data parallelism[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2025-11-22 16:18:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank0-world_size2-tokenizer is not cached, generating...[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 0...[0m
+  0%|          | 0/150 [00:00<?, ?it/s]100%|██████████| 150/150 [00:00<00:00, 8238.12it/s]
+[32m2025-11-22 16:18:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 150[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/150 [00:00<?, ?it/s][32m2025-11-22 16:18:54[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video fFjv93ACGo8[0m
+[32m2025-11-22 16:18:54[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video fFjv93ACGo8[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=1[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=0[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and berries, which kind of the decoration has the largest number?
+A. Apples.
+B. Candles.
+C. Berries.
+D. The three kinds are of the same number.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   1%|          | 1/150 [00:02<06:50,  2.76s/it][32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video fFjv93ACGo8[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=2[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the genre of this video?
+A. It is a news report that introduces the history behind Christmas decorations.
+B. It is a documentary on the evolution of Christmas holiday recipes.
+C. It is a travel vlog exploring Christmas markets around the world.
+D. It is a tutorial on DIY Christmas ornament crafting.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+[32m2025-11-22 16:18:57[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video N1cdUjctpG8[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=3[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:18:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following features/items is not discussed in the video in relation to the tomb?
+A. Inkstone.
+B. Niche.
+C. Jade.
+D. Sacrificial table.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:18:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:18:58[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video N1cdUjctpG8[0m
+[32m2025-11-22 16:18:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=5[0m
+[32m2025-11-22 16:18:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:18:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many red socks are above the fireplace at the end of this video?
+A. 1.
+B. 4.
+C. 2.
+D. 3.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:18:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+Model Responding:   1%|▏         | 2/150 [00:04<05:52,  2.38s/it][32m2025-11-22 16:18:59[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video N1cdUjctpG8[0m
+[32m2025-11-22 16:18:59[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=4[0m
+[32m2025-11-22 16:18:59[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:18:59[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:18:59[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many porcelain jars were discovered in the niches located in the primary chamber of the tomb?
+A. 4.
+B. 9.
+C. 5.
+D. 13.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HIjX8OPuf-w[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=7[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following reasons motivated the archaeologists to excavate the tomb?
+A. Because it's from Ming Dynasty and of specific archaeological significance.
+B. Because a new railway line will be built nearby.
+C. Because there were treasures inside the tomb.
+D. Highway realignment.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   2%|▏         | 3/150 [00:06<05:07,  2.09s/it][32m2025-11-22 16:19:00[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HIjX8OPuf-w[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=6[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the video telling when the burger placed in the upper right corner at the end of the video first appears?
+A. Beef with spices came from Russia to Germany.
+B. The steak began to be sandwiched between two pieces of bread.
+C. Steak burgers spread throughout the United States.
+D. The standardization of hamburgers.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HwnB8aCn8yE[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=9[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many national flags appear in the video?
+A. 3.
+B. 4.
+C. 2.
+D. 5.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   3%|▎         | 4/150 [00:08<04:57,  2.04s/it][32m2025-11-22 16:19:02[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HIjX8OPuf-w[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=8[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, which of the following is considered the earliest stage of human evolution?
+A. Ramapithecus.
+B. Dryopithecus.
+C. Ardipithecus Ramidus.
+D. Homo Sapiens.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+[32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HwnB8aCn8yE[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=11[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: In which country is the food featured in the video recognized worldwide?
+A. Mongolia.
+B. Russia.
+C. Germany.
+D. United States.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+Model Responding:   3%|▎         | 5/150 [00:10<04:58,  2.06s/it][32m2025-11-22 16:19:04[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video HwnB8aCn8yE[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=10[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Given the information provided by the video, during which stage of human evolution did the regression of body hair occur rapidly?
+A. Dryopithecus.
+B. Homo Sapiens.
+C. Ardipithecus Ramidus.
+D. Homo Sapiens Neanderthalensi.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+[32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 24i4ncHuf6A[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=13[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, in which state did human's ancestors first begin to walk on two legs?
+A. Dryopithecus.
+B. Ramapithecus.
+C. Ardipithecus Ramidus.
+D. Homo Habilis.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+Model Responding:   4%|▍         | 6/150 [00:12<04:42,  1.96s/it][32m2025-11-22 16:19:06[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 24i4ncHuf6A[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=12[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What's the trigger that set off the war mentioned in the video?
+A. Militarisim.
+B. The assasination of Archduke Franze Fredinand.
+C. King Edward III of England's claim to the French throne.
+D. Germany's blitzkrieg against Poland.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 40BlVzjxu-I[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=15[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, how many individuals were in the car when Archduke Franz Ferdinand was assassinated?
+A. Three.
+B. Two.
+C. One.
+D. Four.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:   5%|▍         | 7/150 [00:14<04:40,  1.96s/it][32m2025-11-22 16:19:08[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 24i4ncHuf6A[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=14[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:08[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following options is incorrect regarding the events in Sarajevo depicted in the video?
+A. It was organized by the Black Hand in Serbia.
+B. Ferdinand was sitting on the left side of the car.
+C. Ferdinand was wearing a white hat.
+D. The killer was wearing black suit.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+Model Responding:   5%|▌         | 8/150 [00:16<04:37,  1.95s/it][32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 40BlVzjxu-I[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=16[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is one of the symbols of the festival that is introduced by the video?
+A. Turkey.
+B. Moose.
+C. Moon cake.
+D. Shamrock.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+[32m2025-11-22 16:19:10[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 40BlVzjxu-I[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=17[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:10[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What happened when Irish imiggrants brought the tradition of St. Patrick's Day to America?
+A. They began to center around drinking and celebrating the festival.
+B. St. Patrick moved to America.
+C. They celebrated St. Patrick's birth instead.
+D. They attended the church and gather for feasts.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   6%|▌         | 9/150 [00:18<04:55,  2.10s/it][32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 0ay2Qy3wBe8[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=18[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is special about the celebration in New York according to the video?
+A. Hosting large parades.
+B. Dressing in green and dyeing the river to green.
+C. Drinking a lot.
+D. Planting shamrocks.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:13[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 0ay2Qy3wBe8[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=19[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How is the smoke generated by the man depicted in the video?
+A. By burning a piece of cloth.
+B. By lighting a torch.
+C. By smoking.
+D. By lighting a bonefire.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   7%|▋         | 10/150 [00:20<04:59,  2.14s/it][32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 0ay2Qy3wBe8[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=20[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What kind of communication is listed before Semaphore?
+A. Telephone.
+B. Homing pigeon.
+C. Telegraph.
+D. Pony express.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:15[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video _tvmjsKXTu8[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=21[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the specific sentence in the smart phone that makes the man embarrassed?
+A. BTW...you got something in your teeth!
+B. Dude! You gotta come toBigStuf Camps!
+C. Smoke Sig 2.0.
+D. Last but not least.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   7%|▋         | 11/150 [00:23<05:13,  2.26s/it][32m2025-11-22 16:19:17[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video _tvmjsKXTu8[0m
+[32m2025-11-22 16:19:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=22[0m
+[32m2025-11-22 16:19:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: In the video, what color pen did the author use when he wrote "guitar" for the second time?
+A. Brown.
+B. Blue.
+C. Black.
+D. Pink.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+[32m2025-11-22 16:19:18[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video _tvmjsKXTu8[0m
+[32m2025-11-22 16:19:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=23[0m
+[32m2025-11-22 16:19:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many different guitar-shaped instruments are there in the video?
+A. 2.
+B. 7.
+C. 3.
+D. 11.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+Model Responding:   8%|▊         | 12/150 [00:25<04:59,  2.17s/it][32m2025-11-22 16:19:19[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video sUDY-SMREtA[0m
+[32m2025-11-22 16:19:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=24[0m
+[32m2025-11-22 16:19:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What does the second half of the video show?
+A. An advertisement for a music software.
+B. A tutorial on how to practice guitar on electronic devices.
+C. The history of guitar software on electronic devices.
+D. An advertisement for a tablet computer.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:19:20[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video sUDY-SMREtA[0m
+[32m2025-11-22 16:19:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=25[0m
+[32m2025-11-22 16:19:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which color of clothes is QuYuan wearing in the video?
+A. White.
+B. Blue.
+C. Brown.
+D. Yellow.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   9%|▊         | 13/150 [00:27<04:56,  2.17s/it][32m2025-11-22 16:19:21[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video sUDY-SMREtA[0m
+[32m2025-11-22 16:19:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=26[0m
+[32m2025-11-22 16:19:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:22[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the video, which day does the festival fall on the lunar calendar?
+A. January 1th.
+B. May 5th.
+C. September 9th.
+D. May 15th.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:22[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:22[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video PSt_op3fQck[0m
+[32m2025-11-22 16:19:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=27[0m
+[32m2025-11-22 16:19:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, which of the following is the main reason why people commemorate Qu Yuan?
+A. Because people love Zongzi.
+B. Because he committed suicide by drowing himself in Miluo River.
+C. Because he brought peace and prosperity to the state.
+D. Because he was exile.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:   9%|▉         | 14/150 [00:29<04:48,  2.12s/it][32m2025-11-22 16:19:23[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video PSt_op3fQck[0m
+[32m2025-11-22 16:19:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=28[0m
+[32m2025-11-22 16:19:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What can be learned from this video?
+A. The history of intercultural conflicts and disputes.
+B. Quick ways to grasp the fundamentals of intercultural communication. understanding.
+C. Techniques for mastering a foreign language in a short period of time.
+D. Strategies for resolving international political conflicts.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+[32m2025-11-22 16:19:24[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video PSt_op3fQck[0m
+[32m2025-11-22 16:19:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=29[0m
+[32m2025-11-22 16:19:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:25[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the pattern on the clothing of the staff who is behaving informally at the airline counter?
+A. A flower.
+B. A coconut tree.
+C. A flying bird.
+D. None of the above.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:25[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+Model Responding:  10%|█         | 15/150 [00:31<04:37,  2.05s/it][32m2025-11-22 16:19:25[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video OE5S-NbNsro[0m
+[32m2025-11-22 16:19:25[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=30[0m
+[32m2025-11-22 16:19:25[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:25[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:25[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: At the end of the animation, which place does not the copilot travel to?
+A. The White House.
+B. The Big Ben.
+C. The Egyptian Pyramids.
+D. The Eiffel Tower.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-11-22 16:19:26[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video OE5S-NbNsro[0m
+[32m2025-11-22 16:19:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=31[0m
+[32m2025-11-22 16:19:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:27[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the kind of the dance in the video?
+A. Hip hop.
+B. Jazz.
+C. Ballet.
+D. Folk dance.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:27[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+Model Responding:  11%|█         | 16/150 [00:33<04:30,  2.02s/it][32m2025-11-22 16:19:27[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video OE5S-NbNsro[0m
+[32m2025-11-22 16:19:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=32[0m
+[32m2025-11-22 16:19:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What's the color of the cosmos introduced by the video?
+A. White.
+B. Black.
+C. Navy blue.
+D. Dark purple.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+[32m2025-11-22 16:19:28[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video qvwfWyU9Gfc[0m
+[32m2025-11-22 16:19:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=33[0m
+[32m2025-11-22 16:19:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:29[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What are the moves in the last scene of this dance?
+A. Kneel down on one knee and lean back.
+B. Passe and then chasse.
+C. Releve and then pirouette.
+D. Passe and then Grand jete.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:29[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  11%|█▏        | 17/150 [00:35<04:33,  2.06s/it][32m2025-11-22 16:19:29[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video qvwfWyU9Gfc[0m
+[32m2025-11-22 16:19:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=34[0m
+[32m2025-11-22 16:19:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:30[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the video, which of the following describes the reason why the student ate the banana?
+A. Because the banana looks tasty.
+B. Because he considered the process of eating a banana is art.
+C. Because he didn't think the  banana worth $120,000.
+D. Because he wanted to followed the man who ate a banana in a exhibition in 2019.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:30[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+[32m2025-11-22 16:19:30[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video qvwfWyU9Gfc[0m
+[32m2025-11-22 16:19:30[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=35[0m
+[32m2025-11-22 16:19:30[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:30[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:30[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:31[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What did the student do after eating the banana in the video?
+A. He ate a banana in exhibition again in 2019.
+B. He throwed the skin of banana.
+C. He reattached the skin of banana using the same tape.
+D. The action of eating a banana was considered art.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:31[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  12%|█▏        | 18/150 [00:37<04:23,  2.00s/it][32m2025-11-22 16:19:31[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5wLv3pCqZ9o[0m
+[32m2025-11-22 16:19:31[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=36[0m
+[32m2025-11-22 16:19:31[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:31[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:31[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:32[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What's the color of the tape in the video?
+A. Green.
+B. Black.
+C. Yellow.
+D. Gray.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:32[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+[32m2025-11-22 16:19:32[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5wLv3pCqZ9o[0m
+[32m2025-11-22 16:19:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=37[0m
+[32m2025-11-22 16:19:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:33[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following is visible in the background of the video when the miniature bottle is shown empty?
+A. Water.
+B. Cork.
+C. Shells.
+D. Star.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:33[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  13%|█▎        | 19/150 [00:39<04:20,  1.99s/it][32m2025-11-22 16:19:33[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5wLv3pCqZ9o[0m
+[32m2025-11-22 16:19:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=38[0m
+[32m2025-11-22 16:19:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:34[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, which of the following ingredients is not used in the artwork?
+A. Shell.
+B. Glue.
+C. Blue Food Dye.
+D. Oil.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:34[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+[32m2025-11-22 16:19:34[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video uqILuTcux_o[0m
+[32m2025-11-22 16:19:34[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=39[0m
+[32m2025-11-22 16:19:34[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:34[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:34[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:35[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What was the next step taken by the operator after filling the bottle with oil?
+A. Applied glue to cork.
+B. Added blue food dye.
+C. Added 1/3 water.
+D. Put the cork on the bottle.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:35[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  13%|█▎        | 20/150 [00:41<04:18,  1.99s/it][32m2025-11-22 16:19:35[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video uqILuTcux_o[0m
+[32m2025-11-22 16:19:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=40[0m
+[32m2025-11-22 16:19:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:37[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following can be identified as Susan White-Oakes' most recent art piece, based on the video?
+A. A tiger.
+B. A bird.
+C. A fish.
+D. A pangolin.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:37[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+[32m2025-11-22 16:19:37[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video uqILuTcux_o[0m
+[32m2025-11-22 16:19:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=41[0m
+[32m2025-11-22 16:19:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:38[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the video, what is Susan White-Oakes' latest art work made of?
+A. Silver.
+B. Iron.
+C. Bronze.
+D. Copper.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:38[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+Model Responding:  14%|█▍        | 21/150 [00:43<04:26,  2.07s/it][32m2025-11-22 16:19:38[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video eXKE0nAMmg4[0m
+[32m2025-11-22 16:19:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=42[0m
+[32m2025-11-22 16:19:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:39[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What does Susan White-Oakes often do before polishing the whole body?
+A. She sculptures the legs.
+B. She attaches the copper scales to the body.
+C. She decides what size the head should be.
+D. She shapes the claws.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:39[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:39[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video eXKE0nAMmg4[0m
+[32m2025-11-22 16:19:39[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=43[0m
+[32m2025-11-22 16:19:39[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:39[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:39[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which elements are depicted in the painting introduced by the video?
+A. A little girl and a red balloon.
+B. A little boy and a red balloon.
+C. A little girl and a blue balloon.
+D. An adult and a blue balloon.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  15%|█▍        | 22/150 [00:45<04:24,  2.07s/it][32m2025-11-22 16:19:40[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video eXKE0nAMmg4[0m
+[32m2025-11-22 16:19:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=44[0m
+[32m2025-11-22 16:19:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:41[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the video, what happened when the painting was sold?
+A. Someone put a shredder inside the painting.
+B. The buyer was very happy because it got more worthy.
+C. It disapeared.
+D. It shredded into pieces.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:41[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+[32m2025-11-22 16:19:41[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5_fXicEnKKk[0m
+[32m2025-11-22 16:19:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=45[0m
+[32m2025-11-22 16:19:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:42[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the information provided by the video, which of the following statements is not correct?
+A. The painting got more expensive because it shredded.
+B. The buyer put a shredder inside the painting many years ago.
+C. People in the auction house were stunned when the painting shredded.
+D. Banksky considered the shredding of painting is part of art.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:42[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  15%|█▌        | 23/150 [00:48<04:35,  2.17s/it][32m2025-11-22 16:19:42[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5_fXicEnKKk[0m
+[32m2025-11-22 16:19:42[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=46[0m
+[32m2025-11-22 16:19:42[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:42[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:42[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:43[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: When was the painting mentioned in the video painted?
+A. 1998.
+B. 1889.
+C. 1899.
+D. 1988.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:43[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-11-22 16:19:43[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 5_fXicEnKKk[0m
+[32m2025-11-22 16:19:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=47[0m
+[32m2025-11-22 16:19:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:44[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following elements does not appear in the paintings primarily mentioned in the video?
+A. Van Gogh' tragic life.
+B. The Van Gogh's artistic attainments.
+C. The value of the painting.
+D. The hope that led Van Gogh into success.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:44[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  16%|█▌        | 24/150 [00:49<04:09,  1.98s/it][32m2025-11-22 16:19:44[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video O0qVPW1fUn4[0m
+[32m2025-11-22 16:19:44[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=48[0m
+[32m2025-11-22 16:19:44[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:44[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:44[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following elements is not present in the "Starry Sky"?
+A. Houses.
+B. Stars.
+C. Castle.
+D. Moon.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video O0qVPW1fUn4[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=49[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the information provided by the video, what is the maximum number of fingers required to play this piece of music?
+A. Three.
+B. Ten.
+C. Four.
+D. Five.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  17%|█▋        | 25/150 [00:51<04:07,  1.98s/it][32m2025-11-22 16:19:45[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video O0qVPW1fUn4[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=50[0m
+[32m2025-11-22 16:19:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:46[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:46[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:47[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What do the characters in this video mean?
+A. Volume.
+B. Scale.
+C. Note.
+D. Strength of pressing the piano keys.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:47[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-11-22 16:19:47[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tX8a00l_Dfs[0m
+[32m2025-11-22 16:19:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=51[0m
+[32m2025-11-22 16:19:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:48[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: In this video, why some keys are blue while others are green?
+A. Because it indicates the hand to play them.
+B. Because it can help to make the video more colorful.
+C. Because the YouTuber love these two colors.
+D. Because keys on the special piano are eithor blue or green.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:48[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:  17%|█▋        | 26/150 [00:53<04:11,  2.03s/it][32m2025-11-22 16:19:48[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tX8a00l_Dfs[0m
+[32m2025-11-22 16:19:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=52[0m
+[32m2025-11-22 16:19:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:49[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, which finger does not need to press the strings when playing Em9?
+A. Index finger.
+B. Middle finger.
+C. Ring finger.
+D. Little finger.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:49[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+[32m2025-11-22 16:19:49[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tX8a00l_Dfs[0m
+[32m2025-11-22 16:19:49[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=53[0m
+[32m2025-11-22 16:19:49[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:49[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:49[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many kinds of chords are played in the video?
+A. Eight.
+B. Seven.
+C. Fourteen.
+D. Six.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  18%|█▊        | 27/150 [00:55<04:08,  2.02s/it][32m2025-11-22 16:19:50[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video mVIXU0x9ocI[0m
+[32m2025-11-22 16:19:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=54[0m
+[32m2025-11-22 16:19:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:51[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What did the YouTuber do at the latter part of the video?
+A. He played his favorite tune.
+B. He claimed that he loves the chords mentioned above.
+C. He played some complex chords.
+D. He strung many chords.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:51[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+[32m2025-11-22 16:19:51[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video mVIXU0x9ocI[0m
+[32m2025-11-22 16:19:51[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=55[0m
+[32m2025-11-22 16:19:51[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:51[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:51[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the author's intention in presenting a scene where all birds fly away except for one on the branch?
+A. The bird feels tired of flying.
+B. The bird likes to stay on the branch.
+C. The bird might get used to being alone.
+D. The bird is dead.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  19%|█▊        | 28/150 [00:57<04:09,  2.04s/it][32m2025-11-22 16:19:52[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video mVIXU0x9ocI[0m
+[32m2025-11-22 16:19:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=56[0m
+[32m2025-11-22 16:19:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:53[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the raven doing in the video?
+A. Eating.
+B. Flying.
+C. Walking.
+D. Sleeping.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:53[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:19:53[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video YPaLGP_xr-w[0m
+[32m2025-11-22 16:19:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=57[0m
+[32m2025-11-22 16:19:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:53[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Whom is the poem in the video written by?
+A. Michael.
+B. Alone.
+C. Edgar.
+D. Shakespeare.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+Model Responding:  19%|█▉        | 29/150 [00:59<04:06,  2.04s/it][32m2025-11-22 16:19:54[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video YPaLGP_xr-w[0m
+[32m2025-11-22 16:19:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=58[0m
+[32m2025-11-22 16:19:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:55[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the video, which of the following statements provides the most accurate explanation for why the Statue of Liberty is green in color?
+A. Because the copper is rusty.
+B. Because she was painted green.
+C. Because people didn't like her original color.
+D. Because she is not the origin one any more.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:55[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+[32m2025-11-22 16:19:55[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video YPaLGP_xr-w[0m
+[32m2025-11-22 16:19:55[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=59[0m
+[32m2025-11-22 16:19:55[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How did the photographer who took pictures of the three tourists in the video take the photo?
+A. By standing at the foot of the statue.
+B. By going up to the crown of the statue.
+C. By asking the vistor to lie down.
+D. By lying down himself.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  20%|██        | 30/150 [01:02<04:06,  2.05s/it][32m2025-11-22 16:19:56[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video TbaCxIJ_VP4[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=60[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:56[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Based on the information provided by the video, where is the best spot for tourists to take aerial photos of the sculpture mentioned in the video?
+A. At her feet.
+B. At her crown.
+C. Taken from the sea in the distance.
+D. At her neck.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video TbaCxIJ_VP4[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=61[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following accurately describes the content of the video?
+A. How mRNA vaccines work.
+B. Production process and specifications of mRNA vaccines.
+C. Application market of mRNA vaccine.
+D. Possible side effects of mRNA vaccines.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  21%|██        | 31/150 [01:03<04:00,  2.02s/it][32m2025-11-22 16:19:58[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video TbaCxIJ_VP4[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=62[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:19:58[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What color is the cell membrane of the virus-invaded cell in the video?
+A. Black.
+B. Yellow.
+C. Red.
+D. Blue.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+Model Responding:  21%|██▏       | 32/150 [01:05<03:56,  2.00s/it][32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video n3IYmdy6d4Y[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=64[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Where does mRNA come from in the video?
+A. Cells.
+B. Vaccines.
+C. COVID-19 virus.
+D. Antibodies.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-11-22 16:20:00[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video n3IYmdy6d4Y[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=63[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What detail does the caption provide about the term "synovial" at the beginning of the video?
+A. It is derived from the Latin word for 'egg'.
+B. It is a term used to describe a type of joint movement.
+C. It refers to a type of bone tissue.
+D. It indicates a condition related to the joints.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:  22%|██▏       | 33/150 [01:07<03:53,  1.99s/it][32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video iZYLeIJwe4w[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=66[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, how long should one wait before cracking the same knuckle again?
+A. About 25 minutes.
+B. About 20 minutes.
+C. About 15 minutes.
+D. About 23 minutes.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+[32m2025-11-22 16:20:02[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video n3IYmdy6d4Y[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=65[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following could be the main topic of the video segment?
+A. The surgical procedure for joint replacement.
+B. The nutritional requirements for healthy bones.
+C. The explanation of how joint lubrication works.
+D. What happens to your knuckles when you crack them.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+[32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video iZYLeIJwe4w[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=67[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which option best describes the main topic of the video?
+A. Bacteria are replicating inside a cell.
+B. A cell is being infected by a virus.
+C. An immune cell is destroying pathogens.
+D. A platelet is clotting blood.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  23%|██▎       | 34/150 [01:10<04:02,  2.09s/it][32m2025-11-22 16:20:04[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video iZYLeIJwe4w[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=68[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:04[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which cell shown in the video is of the same type as the white cell scrolling at the beginning?
+A. The green cells in the middle of the video, devour a red cell.
+B. The devoured green cells at the beginning of the video.
+C. Tiny dense cells in blue at the beginning of the video.
+D. It is impossible to extrapolate.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  23%|██▎       | 35/150 [01:12<04:05,  2.14s/it][32m2025-11-22 16:20:06[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video jkNxmTrrZSk[0m
+[32m2025-11-22 16:20:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=70[0m
+[32m2025-11-22 16:20:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the mechanism/process that can break down bacteria according to the video?
+A. Special digestive enzymes: such as proteases or nucleases, which can break down bacterial proteins or nucleic acids under specific conditions.
+B. Medical surgical instruments: e.g. scalpels, dissecting scissors, grinding equipment, etc., used for handling bacteria in surgery or cell culture.
+C. Environmental disinfectants: Certain disinfectants, such as alcohol or hydrogen peroxide, are capable of disrupting the cell walls and membranes of bacteria, causing them to lyse.
+D. Autoclaves: Autoclaving kills microorganisms, including bacteria, in medical devices or sample processing.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+[32m2025-11-22 16:20:07[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video jkNxmTrrZSk[0m
+[32m2025-11-22 16:20:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=69[0m
+[32m2025-11-22 16:20:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which object is depicted as a small flying black dot at the start of the video?
+A. Dust mites in the lungs.
+B. Virus.
+C. Protein Receptors.
+D. Black bacteria.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  24%|██▍       | 36/150 [01:15<04:23,  2.32s/it][32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video ebzbKa32kuk[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=72[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What does the video depict?
+A. A virus attacks a cell.
+B. The replication of DNA.
+C. A neuron sends a signal.
+D. White blood cells attacking a pathogen.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+[32m2025-11-22 16:20:09[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video jkNxmTrrZSk[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=71[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:11[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What structure is primarily depicted in the video?
+A. A model of a human lung.
+B. A model of a human heart.
+C. A model of a human liver.
+D. A model of a human kidney.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:11[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  25%|██▍       | 37/150 [01:17<04:17,  2.28s/it][32m2025-11-22 16:20:11[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video ebzbKa32kuk[0m
+[32m2025-11-22 16:20:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=74[0m
+[32m2025-11-22 16:20:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:12[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What might be the primary focus of the video?
+A. The process by which viruses are eliminated by the body's immune response.
+B. Mechanisms of viral infection.
+C. Production and spread of viruses.
+D. Types of viruses and the most harmful ones.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:12[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+[32m2025-11-22 16:20:12[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video ebzbKa32kuk[0m
+[32m2025-11-22 16:20:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=73[0m
+[32m2025-11-22 16:20:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following best describes the purpose of the content shown in the video?
+A. For medical education.
+B. For psychological prevention and treatment.
+C. For diagnosis of special cases.
+D. To guide home exercise programmes.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  25%|██▌       | 38/150 [01:19<04:06,  2.20s/it][32m2025-11-22 16:20:13[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video XWfqBKeC0g8[0m
+[32m2025-11-22 16:20:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=76[0m
+[32m2025-11-22 16:20:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following features is NOT visible on the model of the heart in the video?
+A. Coronary arteries.
+B. Pulmonary veins.
+C. Hepatic veins.
+D. Aortic valve.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+[32m2025-11-22 16:20:15[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video XWfqBKeC0g8[0m
+[32m2025-11-22 16:20:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=75[0m
+[32m2025-11-22 16:20:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:16[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What level of magnification is used to view the cells in the video?
+A. 2000x magnification.
+B. 1500x magnification.
+C. 1000x magnification.
+D. 500x magnification.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:16[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  26%|██▌       | 39/150 [01:21<04:14,  2.29s/it][32m2025-11-22 16:20:16[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tS4a6I4-Yjo[0m
+[32m2025-11-22 16:20:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=78[0m
+[32m2025-11-22 16:20:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What type of cells are highlighted in the video?
+A. Lung cancer cells.
+B. Brain cancer cells.
+C. Pancreatic cancer cells.
+D. Stomach cancer cells.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-11-22 16:20:17[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video XWfqBKeC0g8[0m
+[32m2025-11-22 16:20:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=77[0m
+[32m2025-11-22 16:20:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Why does the woman need to drink water at the beginning of the video?
+A. Because she is preparing for a medical examination.
+B. Because she went through an operation and needed to be hydrated.
+C. Because she is sick and takes medication that requires a lot of water for adequate reflection.
+D. Instead of water, she drinks a special medicine.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  27%|██▋       | 40/150 [01:23<04:01,  2.19s/it][32m2025-11-22 16:20:18[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tS4a6I4-Yjo[0m
+[32m2025-11-22 16:20:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=80[0m
+[32m2025-11-22 16:20:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What process might these cells be undergoing?
+A. Amitosis.
+B. Photosynthesis.
+C. Enzymatic reactions.
+D. Mitosis.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+[32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video tS4a6I4-Yjo[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=79[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following statements can be inferred from the video?
+A. The patient is undergoing an ECG.
+B. The patient is undergoing a CT scan.
+C. The healthcare worker is teaching a medical student.
+D. The healthcare worker is conducting a medical experiment.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  27%|██▋       | 41/150 [01:25<03:55,  2.16s/it][32m2025-11-22 16:20:20[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video TVkck1ACKDQ[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=82[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-22 16:20:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+W1122 16:20:21.224000 137776 torch/distributed/elastic/agent/server/api.py:725] Received 1 death signal, shutting down workers
+W1122 16:20:21.225000 137776 torch/distributed/elastic/multiprocessing/api.py:908] Sending process 137808 closing signal SIGHUP
+W1122 16:20:21.226000 137776 torch/distributed/elastic/multiprocessing/api.py:908] Sending process 137809 closing signal SIGHUP
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1226, in launch_command
+    multi_gpu_launcher(args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 853, in multi_gpu_launcher
+    distrib_run.run(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+    ~~~~~~~~~~~~~~~
+        config=config,
+        ~~~~~~~~~~~~~~
+        entrypoint=cmd,
+        ~~~~~~~~~~~~~~~
+    )(*cmd_args)
+    ~^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 881, in _invoke_run
+    time.sleep(monitor_interval)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 85, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 137776 got signal: 1

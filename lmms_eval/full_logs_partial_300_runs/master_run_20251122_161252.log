@@ -1,0 +1,48 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/master_run_20251122_161252.log
+
+Found 14 JSON files to process
+
+--------------------------------------------------
+[1/14] Processing dataset: selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff_20251122_161252.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff_20251122_161252_results
+Start time: Sat Nov 22 16:12:52 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_score_diff
+End time: Sat Nov 22 16:18:32 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[2/14] Processing dataset: selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal_20251122_161832.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/selected_dbfp_videomme_blip_k16_alpha0.75_sup1.0_temporal_20251122_161832_results
+Start time: Sat Nov 22 16:18:32 UTC 2025
+

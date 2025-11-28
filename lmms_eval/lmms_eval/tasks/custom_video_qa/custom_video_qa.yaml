@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/custom_video_qa/selected_frames_videomme_k32_aks.json
+    test: datasets/custom_video_qa/selected_videomme_frames_k8_aks.json
   cache_dir: custom_video_qa_cache
 
 task: "custom_video_qa"
@@ -23,14 +23,13 @@ metric_list:
   - metric: custom_video_qa_score
     aggregation: !function utils.custom_video_qa_aggregate_results
     higher_is_better: true
-
 lmms_eval_specific_kwargs:
   default:
-    frame_num: 32
+    frame_num: 8
     use_topk: True
     pre_prompt: ""
     post_prompt: "\nAnswer with the option's letter from the given choices directly."
 
 metadata:
   version: 1.0
-  description: "Auto-generated Custom video QA task for selected_frames_videomme_k32_aks"
+  description: "Auto-generated Custom video QA task for selected_videomme_frames_k8_aks"

@@ -10,7 +10,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/longvideobench"
 YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml"
-RESULT_DIR="$SCRIPT_DIR/results/full_logs"
+RESULT_DIR="$SCRIPT_DIR/results/full_logs/300_run_LV"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
 MODEL_NAME="llava_vid"
@@ -77,7 +77,7 @@ for json_path in "${json_files[@]}"; do
         frame_num=64
     fi
 
-    log_message "Detected frame_num = $frame_num"
+    log_message "Detected frame_num = $frame_num"f
     log_message "YAML will use test: $rel_json_path"
 
     # Verify the JSON file exists
@@ -168,19 +168,32 @@ EOFYAML
     #     --verbosity DEBUG \
     #     --limit 3\
     #     >> "$LOG_PATH" 2>&1
-    CUDA_VISIBLE_DEVICES=0 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
-    accelerate launch --num_processes 1 --main_process_port 29500 \
+    # CUDA_VISIBLE_DEVICES=1 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
+    # accelerate launch --num_processes 1 --main_process_port 29500 \
+    # -m lmms_eval \
+    #     --model "$MODEL_NAME" \
+    #     --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False,device_map=auto" \
+    #     --tasks longvideobench_custom \
+    #     --batch_size 1 \
+    #     --output_path "$OUT_PATH" \
+    #     --log_samples \
+    #     --log_samples_suffix "$PREFIX" \
+    #     --verbosity DEBUG \
+    #     >> "$LOG_PATH" 2>&1
+    CUDA_VISIBLE_DEVICES=0,1 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
+    accelerate launch --num_processes 2 --main_process_port 29500 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
-        --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False,device_map=auto" \
+        --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
         --tasks longvideobench_custom \
         --batch_size 1 \
+        --device cuda \
         --output_path "$OUT_PATH" \
         --log_samples \
         --log_samples_suffix "$PREFIX" \
         --verbosity DEBUG \
-       
         >> "$LOG_PATH" 2>&1
+        
     # Check exit status
     exit_status=$?
     
