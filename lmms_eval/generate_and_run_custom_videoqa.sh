@@ -172,7 +172,7 @@ EOF
     #     --verbosity DEBUG \
     #     --limit 300 \
     #     >> "$LOG_PATH" 2>&1
-    CUDA_VISIBLE_DEVICES=0,1 accelerate launch --num_processes 2 \
+    CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
