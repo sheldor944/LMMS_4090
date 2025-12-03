@@ -180,8 +180,8 @@ EOFYAML
     #     --log_samples_suffix "$PREFIX" \
     #     --verbosity DEBUG \
     #     >> "$LOG_PATH" 2>&1
-    CUDA_VISIBLE_DEVICES=0,1 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
-    accelerate launch --num_processes 2 --main_process_port 29500 \
+    CUDA_VISIBLE_DEVICES=0 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
+    accelerate launch --num_processes 1 --main_process_port 29500 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
