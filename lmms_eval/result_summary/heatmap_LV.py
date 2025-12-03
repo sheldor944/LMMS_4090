@@ -131,7 +131,7 @@ for row, (metric, label) in enumerate(duration_metrics, start=1):
 # ================================================================
 #                        SAVE OUTPUT
 # ================================================================
-OUTFILE = "longvideobench_heatmap_poster.png"
+OUTFILE = "longvideobench_heatmap_poster_adaptive.png"
 plt.savefig(OUTFILE, dpi=150, bbox_inches="tight", pad_inches=0.3)
 plt.show()
 

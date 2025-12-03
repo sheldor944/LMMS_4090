@@ -4,7 +4,7 @@ import glob
 from pathlib import Path
 
 # ==== CONFIG ====
-INPUT_DIR = "../results/full_logs/300_run_LV/"  # Directory containing your result/log files
+INPUT_DIR = "../results/full_logs/full_fixed_radius/"  # Directory containing your result/log files
 OUTPUT_FILE = "./extracted_results_longvideobench.csv"  # Output CSV file
 FILE_PATTERN = "*.log"
 # ================
