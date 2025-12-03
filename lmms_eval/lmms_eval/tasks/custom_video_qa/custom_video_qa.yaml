@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/custom_video_qa/selected_videomme_frames_k8_aks.json
+    test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k32_alpha0.85_sup2.0_score_diff.json
   cache_dir: custom_video_qa_cache
 
 task: "custom_video_qa"
@@ -25,11 +25,11 @@ metric_list:
     higher_is_better: true
 lmms_eval_specific_kwargs:
   default:
-    frame_num: 8
+    frame_num: 16
     use_topk: True
     pre_prompt: ""
     post_prompt: "\nAnswer with the option's letter from the given choices directly."
 
 metadata:
   version: 1.0
-  description: "Auto-generated Custom video QA task for selected_videomme_frames_k8_aks"
+  description: "Auto-generated Custom video QA task for selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3"

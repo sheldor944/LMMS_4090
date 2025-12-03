@@ -6,8 +6,8 @@ from pathlib import Path
 from collections import defaultdict
 
 # ==== CONFIG: CHANGE THESE TO MATCH YOUR DATA ====
-INPUT_DIR = "./converted_selected_longvideobench_16_8_optimized/"  # Directory containing input JSON files
-OUTPUT_DIR = "./converted_selected_longvideobench_16_8_optimized/processed/"  # Directory for output files
+INPUT_DIR = "./longvideobench_32_64_optimized_adaptive_radius_tuning/"  # Directory containing input JSON files
+OUTPUT_DIR = "./longvideobench_32_64_optimized_adaptive_radius_tuning/all_same_processed/"  # Directory for output files
 
 # Optional: file pattern to match (e.g., "*.json" or "selected_*.json")
 FILE_PATTERN = "*.json"
@@ -23,11 +23,11 @@ TARGET_PER_CAT = {
     15: 40,      # 189 available -> taking 50
     60: 40,      # 172 available -> taking 50
     600: 100,    # 412 available -> taking 100
-    3600: 120    # 564 available -> taking 100
+    3600: 150    # 564 available -> taking 100
 }
 # Total: 50 + 50 + 100 + 100 = 300
 
-SEED = 1337
+SEED = 3432
 # =================================================
 
 def load_json(path):
@@ -45,6 +45,7 @@ def process_file(input_path, output_path):
     print(f"\n{'='*60}")
     print(f"Processing: {input_path}")
     print(f"{'='*60}")
+    random.seed(SEED)
     
     try:
         data = load_json(input_path)

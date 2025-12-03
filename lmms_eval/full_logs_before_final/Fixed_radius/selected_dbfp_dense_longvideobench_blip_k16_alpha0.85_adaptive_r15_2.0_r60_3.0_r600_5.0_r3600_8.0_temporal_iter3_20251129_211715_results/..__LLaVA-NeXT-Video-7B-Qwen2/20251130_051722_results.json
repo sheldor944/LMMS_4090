@@ -1,0 +1,115 @@
+{
+  "results": {
+    "longvideobench_custom": {
+      "alias": "longvideobench_custom",
+      "lvb_custom_acc,none": 0.61032,
+      "lvb_custom_acc_stderr,none": "N/A",
+      "submission,none": [],
+      "submission_stderr,none": []
+    }
+  },
+  "group_subtasks": {
+    "longvideobench_custom": []
+  },
+  "configs": {
+    "longvideobench_custom": {
+      "task": "longvideobench_custom",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3.json"
+        },
+        "cache_dir": "longvideobench_custom_cache"
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function longvideobench_custom_doc_to_visual at 0x7b127c007560>",
+      "doc_to_text": "<function longvideobench_custom_doc_to_text at 0x7b12a0370cc0>",
+      "doc_to_target": "correct_choice",
+      "process_results": "<function longvideobench_custom_process_results at 0x7b12a0371f80>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "lvb_custom_acc",
+          "aggregation": "<function longvideobench_custom_aggregate_results at 0x7b12a0373240>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 128,
+        "temperature": 0.0,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "description": "Auto-generated LongVideoBench task for selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "pre_prompt": "",
+          "post_prompt": "Answer with the option's letter from the given choices directly."
+        },
+        "pre_prompt": "",
+        "post_prompt": "Answer with the option's letter from the given choices directly."
+      }
+    }
+  },
+  "versions": {
+    "longvideobench_custom": 1.0
+  },
+  "n-shot": {
+    "longvideobench_custom": 0
+  },
+  "higher_is_better": {
+    "longvideobench_custom": {
+      "lvb_custom_acc": true
+    }
+  },
+  "n-samples": {
+    "longvideobench_custom": {
+      "original": 1337,
+      "effective": 1337
+    }
+  },
+  "config": {
+    "model": "llava_vid",
+    "model_args": "pretrained=../LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=16,overwrite=False",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "38be154",
+  "date": "20251130_051722",
+  "task_hashes": {
+    "longvideobench_custom": "1f5dcd0ce5d1a79f37a44993f442d4b841d553ee15cedd8d07a8f74ba896f232"
+  },
+  "model_source": "llava_vid",
+  "model_name": "../LLaVA-NeXT-Video-7B-Qwen2",
+  "model_name_sanitized": "..__LLaVA-NeXT-Video-7B-Qwen2",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 267893.173957606,
+  "end_time": 269422.745147841,
+  "total_evaluation_time_seconds": "1529.5711902349722"
+}

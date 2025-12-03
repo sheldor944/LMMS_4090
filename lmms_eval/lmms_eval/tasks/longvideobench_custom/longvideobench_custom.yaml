@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/longvideobench/selected_longvideobench_frames_k16_aks.json
+    test: datasets/longvideobench/selected_frames_ada_dq_k32_beta0.5_delta3.0.json
   cache_dir: longvideobench_custom_cache
 
 task: "longvideobench_custom"
@@ -31,4 +31,4 @@ lmms_eval_specific_kwargs:
 
 metadata:
   version: 1.0
-  description: "Auto-generated LongVideoBench task for selected_longvideobench_frames_k16_aks"
+  description: "Auto-generated LongVideoBench task for selected_dbfp_dense_longvideobench_blip_k24_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1_optimized"

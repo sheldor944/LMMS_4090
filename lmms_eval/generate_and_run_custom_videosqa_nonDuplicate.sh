@@ -11,7 +11,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/custom_video_qa"
 YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml"
-RESULT_DIR="$SCRIPT_DIR/results/full_logs/300_runs"
+RESULT_DIR="$SCRIPT_DIR/results/full_logs/vmme_param_tune"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
 MODEL_NAME="llava_vid"

@@ -1,0 +1,95 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-11-29 10:34:22[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-29 10:34:22[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-29 10:34:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-29 10:34:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-29 10:34:23[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': '/home/train01/miraj/lmms_eval/results/full_logs//selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1_20251129_103418_results'}[0m
+[32m2025-11-29 10:34:23[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['longvideobench_custom'][0m
+[32m2025-11-29 10:34:23[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+force sample: False
+Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.62s/it]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 549, in <module>
+    cli_evaluate()
+    ~~~~~~~~~~~~^^
+  File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+                       ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+        model=args.model,
+    ...<28 lines>...
+        **request_caching_args,
+    )
+  File "/home/train01/miraj/lmms_eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+  File "/home/train01/miraj/lmms_eval/lmms_eval/evaluator.py", line 189, in simple_evaluate
+    lm = lmms_eval.models.get_model(model, force_simple).create_from_arg_string(
+        model_args,
+    ...<4 lines>...
+        },
+    )
+  File "/home/train01/miraj/lmms_eval/lmms_eval/api/model.py", line 306, in create_from_arg_string
+    return cls(**args, **args2)
+  File "/home/train01/miraj/lmms_eval/lmms_eval/models/simple/llava_vid.py", line 177, in __init__
+    self._tokenizer, self._model, self._image_processor, self._max_length = load_pretrained_model(pretrained, None, self.model_name, device_map=self.device_map, torch_dtype=self.torch_dtype, attn_implementation=attn_implementation)
+                                                                            ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/train01/miraj/LLaVA-NeXT/llava/model/builder.py", line 228, in load_pretrained_model
+    model = LlavaQwenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, attn_implementation=attn_implementation, **kwargs)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/transformers/modeling_utils.py", line 3502, in from_pretrained
+    ) = cls._load_pretrained_model(
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<13 lines>...
+        keep_in_fp32_modules=keep_in_fp32_modules,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/transformers/modeling_utils.py", line 3926, in _load_pretrained_model
+    new_error_msgs, offload_index, state_dict_index = _load_state_dict_into_meta_model(
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        model_to_load,
+        ^^^^^^^^^^^^^^
+    ...<13 lines>...
+        unexpected_keys=unexpected_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/transformers/modeling_utils.py", line 761, in _load_state_dict_into_meta_model
+    param = param.to(dtype)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1235, in launch_command
+    simple_launcher(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 820, in simple_launcher
+    process.wait()
+    ~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/subprocess.py", line 1280, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 2066, in _wait
+    (pid, sts) = self._try_wait(0)
+                 ~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.13/subprocess.py", line 2024, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

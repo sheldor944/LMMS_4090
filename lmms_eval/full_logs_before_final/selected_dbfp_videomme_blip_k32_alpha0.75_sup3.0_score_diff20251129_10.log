@@ -1,0 +1,179 @@
+[32m2025-11-29 10:05:55[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-29 10:05:55[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-29 10:05:55[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-29 10:05:55[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-29 10:05:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-29 10:05:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-29 10:05:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-29 10:05:56[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/full_logs/selected_dbfp_videomme_blip_k32_alpha0.75_sup3.0_score_diff20251129_10_results'}[0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/full_logs/selected_dbfp_videomme_blip_k32_alpha0.75_sup3.0_score_diff20251129_10_results'}[0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-11-29 10:05:57[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+OpenCLIP not installed
+OpenCLIP not installed
+force sample: False
+force sample: False
+Rank 0:  Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Rank 0:  Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.59s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.89s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.66s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.79s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.00s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.25s/it]
+Rank 0:  Model Class: LlavaQwenForCausalLM
+[32m2025-11-29 10:06:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m215[0m - [1mUsing 2 devices with data parallelism[0m
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/tenacity/__init__.py", line 470, in __call__
+[rank1]:     result = fn(*args, **kwargs)
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/api/task.py", line 1052, in download
+[rank1]:     self.dataset = datasets.load_dataset(
+[rank1]:                    ~~~~~~~~~~~~~~~~~~~~~^
+[rank1]:         path=self.DATASET_PATH,
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     ...<3 lines>...
+[rank1]:         **dataset_kwargs if dataset_kwargs is not None else {},
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )
+[rank1]:     ^
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/load.py", line 1397, in load_dataset
+[rank1]:     builder_instance = load_dataset_builder(
+[rank1]:         path=path,
+[rank1]:     ...<10 lines>...
+[rank1]:         **config_kwargs,
+[rank1]:     )
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/load.py", line 1137, in load_dataset_builder
+[rank1]:     dataset_module = dataset_module_factory(
+[rank1]:         path,
+[rank1]:     ...<5 lines>...
+[rank1]:         cache_dir=cache_dir,
+[rank1]:     )
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/load.py", line 913, in dataset_module_factory
+[rank1]:     ).get_module()
+[rank1]:       ~~~~~~~~~~^^
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/load.py", line 527, in get_module
+[rank1]:     data_files = DataFilesDict.from_patterns(
+[rank1]:         patterns,
+[rank1]:         download_config=self.download_config,
+[rank1]:         base_path=base_path,
+[rank1]:     )
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/data_files.py", line 705, in from_patterns
+[rank1]:     else DataFilesList.from_patterns(
+[rank1]:          ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[rank1]:         patterns_for_key,
+[rank1]:         ^^^^^^^^^^^^^^^^^
+[rank1]:     ...<2 lines>...
+[rank1]:         download_config=download_config,
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )
+[rank1]:     ^
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/data_files.py", line 598, in from_patterns
+[rank1]:     resolve_pattern(
+[rank1]:     ~~~~~~~~~~~~~~~^
+[rank1]:         pattern,
+[rank1]:         ^^^^^^^^
+[rank1]:     ...<2 lines>...
+[rank1]:         download_config=download_config,
+[rank1]:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:     )
+[rank1]:     ^
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/datasets/data_files.py", line 387, in resolve_pattern
+[rank1]:     raise FileNotFoundError(error_msg)
+[rank1]: FileNotFoundError: Unable to find '/home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_frames_k8_aks.json'
+
+[rank1]: The above exception was the direct cause of the following exception:
+
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "<frozen runpy>", line 198, in _run_module_as_main
+[rank1]:   File "<frozen runpy>", line 88, in _run_code
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 549, in <module>
+[rank1]:     cli_evaluate()
+[rank1]:     ~~~~~~~~~~~~^^
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 368, in cli_evaluate
+[rank1]:     raise e
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+[rank1]:     results, samples = cli_evaluate_single(args)
+[rank1]:                        ~~~~~~~~~~~~~~~~~~~^^^^^^
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+[rank1]:     results = evaluator.simple_evaluate(
+[rank1]:         model=args.model,
+[rank1]:     ...<28 lines>...
+[rank1]:         **request_caching_args,
+[rank1]:     )
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/utils.py", line 536, in _wrapper
+[rank1]:     return fn(*args, **kwargs)
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/evaluator.py", line 200, in simple_evaluate
+[rank1]:     task_dict = get_task_dict(tasks, task_manager, task_type)
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/tasks/__init__.py", line 565, in get_task_dict
+[rank1]:     task_name_from_string_dict = task_manager.load_task_or_group(
+[rank1]:         string_task_name_list,
+[rank1]:         task_type,
+[rank1]:     )
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/tasks/__init__.py", line 378, in load_task_or_group
+[rank1]:     all_loaded_tasks = dict(collections.ChainMap(*map(load_fn, task_list)))
+[rank1]:                             ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/tasks/__init__.py", line 297, in _load_individual_task_or_group
+[rank1]:     return _load_task(task_config, task=name_or_config)
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/tasks/__init__.py", line 267, in _load_task
+[rank1]:     task_object = TaskObj(config=config, model_name=self.model_name)
+[rank1]:   File "/home/train01/miraj/lmms_eval/lmms_eval/api/task.py", line 722, in __init__
+[rank1]:     self.download(self.config.dataset_kwargs)
+[rank1]:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/tenacity/__init__.py", line 330, in wrapped_f
+[rank1]:     return self(f, *args, **kw)
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/tenacity/__init__.py", line 467, in __call__
+[rank1]:     do = self.iter(retry_state=retry_state)
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/tenacity/__init__.py", line 368, in iter
+[rank1]:     result = action(retry_state)
+[rank1]:   File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/tenacity/__init__.py", line 411, in exc_check
+[rank1]:     raise retry_exc from fut.exception()
+[rank1]: tenacity.RetryError: RetryError[<Future at 0x73296aa0efd0 state=finished raised FileNotFoundError>]
+W1129 10:06:19.635000 2818268 torch/distributed/elastic/multiprocessing/api.py:908] Sending process 2818320 closing signal SIGTERM
+E1129 10:06:19.849000 2818268 torch/distributed/elastic/multiprocessing/api.py:882] failed (exitcode: 1) local_rank: 1 (pid: 2818321) of binary: /home/train01/miraj/lmms_eval/venv/bin/python3
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1226, in launch_command
+    multi_gpu_launcher(args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 853, in multi_gpu_launcher
+    distrib_run.run(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+    ~~~~~~~~~~~~~~~
+        config=config,
+        ~~~~~~~~~~~~~~
+        entrypoint=cmd,
+        ~~~~~~~~~~~~~~~
+    )(*cmd_args)
+    ~^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 293, in launch_agent
+    raise ChildFailedError(
+    ...<2 lines>...
+    )
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+lmms_eval FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-11-29_10:06:19
+  host      : train01
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2818321)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

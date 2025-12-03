@@ -1,0 +1,572 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/master_run_20251201_200411.log
+
+Found 72 JSON files to process
+
+--------------------------------------------------
+[1/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_124306.log
+
+--------------------------------------------------
+[2/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_125020.log
+
+--------------------------------------------------
+[3/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_125643.log
+
+--------------------------------------------------
+[4/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_130307.log
+
+--------------------------------------------------
+[5/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_130933.log
+
+--------------------------------------------------
+[6/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_131559.log
+
+--------------------------------------------------
+[7/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_132224.log
+
+--------------------------------------------------
+[8/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_132853.log
+
+--------------------------------------------------
+[9/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_133524.log
+
+--------------------------------------------------
+[10/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_134152.log
+
+--------------------------------------------------
+[11/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_134824.log
+
+--------------------------------------------------
+[12/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_135453.log
+
+--------------------------------------------------
+[13/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_140122.log
+
+--------------------------------------------------
+[14/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_140801.log
+
+--------------------------------------------------
+[15/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_141442.log
+
+--------------------------------------------------
+[16/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_142118.log
+
+--------------------------------------------------
+[17/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_142758.log
+
+--------------------------------------------------
+[18/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_143434.log
+
+--------------------------------------------------
+[19/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_144113.log
+
+--------------------------------------------------
+[20/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_144758.log
+
+--------------------------------------------------
+[21/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_145443.log
+
+--------------------------------------------------
+[22/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_150128.log
+
+--------------------------------------------------
+[23/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_150815.log
+
+--------------------------------------------------
+[24/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_151459.log
+
+--------------------------------------------------
+[25/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_152144.log
+
+--------------------------------------------------
+[26/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_152812.log
+
+--------------------------------------------------
+[27/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_153437.log
+
+--------------------------------------------------
+[28/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_154106.log
+
+--------------------------------------------------
+[29/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_154733.log
+
+--------------------------------------------------
+[30/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_155401.log
+
+--------------------------------------------------
+[31/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_160029.log
+
+--------------------------------------------------
+[32/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_160701.log
+
+--------------------------------------------------
+[33/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_161331.log
+
+--------------------------------------------------
+[34/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_162003.log
+
+--------------------------------------------------
+[35/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_162635.log
+
+--------------------------------------------------
+[36/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_163308.log
+
+--------------------------------------------------
+[37/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_163941.log
+
+--------------------------------------------------
+[38/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_164621.log
+
+--------------------------------------------------
+[39/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_165301.log
+
+--------------------------------------------------
+[40/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_165939.log
+
+--------------------------------------------------
+[41/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_170619.log
+
+--------------------------------------------------
+[42/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_171258.log
+
+--------------------------------------------------
+[43/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_171937.log
+
+--------------------------------------------------
+[44/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_172626.log
+
+--------------------------------------------------
+[45/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_173312.log
+
+--------------------------------------------------
+[46/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_173957.log
+
+--------------------------------------------------
+[47/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_174645.log
+
+--------------------------------------------------
+[48/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_175334.log
+
+--------------------------------------------------
+[49/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_180020.log
+
+--------------------------------------------------
+[50/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_180647.log
+
+--------------------------------------------------
+[51/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_181313.log
+
+--------------------------------------------------
+[52/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_181943.log
+
+--------------------------------------------------
+[53/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_182611.log
+
+--------------------------------------------------
+[54/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_183237.log
+
+--------------------------------------------------
+[55/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_183904.log
+
+--------------------------------------------------
+[56/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_184535.log
+
+--------------------------------------------------
+[57/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_185206.log
+
+--------------------------------------------------
+[58/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_185836.log
+
+--------------------------------------------------
+[59/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_190512.log
+
+--------------------------------------------------
+[60/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_191146.log
+
+--------------------------------------------------
+[61/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_191818.log
+
+--------------------------------------------------
+[62/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_192459.log
+
+--------------------------------------------------
+[63/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_193137.log
+
+--------------------------------------------------
+[64/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_193814.log
+
+--------------------------------------------------
+[65/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_194454.log
+
+--------------------------------------------------
+[66/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_200412.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_200412_results
+Start time: Mon Dec  1 20:04:12 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+End time: Mon Dec  1 20:10:49 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[67/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_201049.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_201049_results
+Start time: Mon Dec  1 20:10:49 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+End time: Mon Dec  1 20:17:36 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[68/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_201736.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_201736_results
+Start time: Mon Dec  1 20:17:36 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+End time: Mon Dec  1 20:24:21 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[69/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_202421.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_202421_results
+Start time: Mon Dec  1 20:24:21 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+End time: Mon Dec  1 20:31:06 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[70/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_203107.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_203107_results
+Start time: Mon Dec  1 20:31:07 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+End time: Mon Dec  1 20:37:55 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[71/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_203755.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_203755_results
+Start time: Mon Dec  1 20:37:55 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+End time: Mon Dec  1 20:44:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[72/72] Checking dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_204443.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_204443_results
+Start time: Mon Dec  1 20:44:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+End time: Mon Dec  1 20:51:29 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+======================================================
+ALL DATASETS PROCESSED SEQUENTIALLY.
+======================================================
+Summary:
+  Total datasets found: 72
+  Skipped (already done): 65
+  Newly processed: 7
+  Completed: Mon Dec  1 20:51:29 UTC 2025
+======================================================

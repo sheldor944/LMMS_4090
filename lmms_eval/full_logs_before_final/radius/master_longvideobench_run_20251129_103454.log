@@ -1,0 +1,26 @@
+======================================================
+AUTO LMMS-EVAL LONGVIDEOBENCH RUNNER (NOHUP MODE)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/longvideobench
+YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/radius
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/radius/master_longvideobench_run_20251129_103454.log
+
+Found 24 JSON files to process
+
+--------------------------------------------------
+[1/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1_20251129_103454.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1_20251129_103454_results
+Start time: Sat Nov 29 10:34:54 UTC 2025
+

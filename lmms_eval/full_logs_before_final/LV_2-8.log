@@ -1,0 +1,524 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-11-29 09:57:04[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-11-29 09:57:04[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-11-29 09:57:05[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-11-29 09:57:05[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-11-29 09:57:06[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/full_logs/LV_2-8_results'}[0m
+[32m2025-11-29 09:57:06[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['longvideobench_custom'][0m
+[32m2025-11-29 09:57:06[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+force sample: False
+Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.39s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.03s/it]
+Model Class: LlavaQwenForCausalLM
+[32m2025-11-29 09:57:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m223[0m - [1mUsing single device: cuda:0[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2025-11-29 09:57:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-longvideobench_custom-0shot-rank0-world_size1-tokenizer is not cached, generating...[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for longvideobench_custom on rank 0...[0m
+  0%|          | 0/200 [00:00<?, ?it/s]100%|██████████| 200/200 [00:00<00:00, 13127.30it/s]
+[32m2025-11-29 09:57:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: longvideobench_custom; number of requests on this rank: 200[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/200 [00:00<?, ?it/s][32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = HeRS3nwySI8.mp4[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/HeRS3nwySI8.mp4[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: HeRS3nwySI8.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=0[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the dark tunnel, a green light flickers in the distance. In the middle is a woman wearing a blue top and black pants. When the woman appears for the first time, what happens?
+A. Falls to the ground
+B. Takes out a wooden stick
+C. Half-kneels on the ground
+D. Leans against the wall
+E. Runs away into the distance
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   0%|          | 1/200 [00:03<10:47,  3.25s/it][32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = GFg98TDqCpw.mp4[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/GFg98TDqCpw.mp4[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: GFg98TDqCpw.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=1[0m
+[32m2025-11-29 09:57:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:22[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the lower right corner of the video, there is a bald person wearing sunglasses and dressed in black. There are also three boys on the screen: the one on the left is wearing a blue short-sleeve shirt, the one on the right is wearing a red long-sleeve shirt, and the one in the middle is wearing a gray short-sleeve shirt. Which of the following items does not appear in the video?
+A. Black hat
+B. White hat
+C. Sunglasses
+D. Blue short-sleeve shirt
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:   1%|          | 2/200 [00:05<08:22,  2.54s/it][32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = 8Qe03WDCrB4.mp4[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/8Qe03WDCrB4.mp4[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: 8Qe03WDCrB4.mp4 | Selected 4 frames[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=2[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 4 specific frames[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 4 custom frames[0m
+[32m2025-11-29 09:57:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 4 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the scene, there is a group of people, young and old, male and female, gathered in front of a building watching a performance on a stage. What object exists in this scene?
+A. Basketball
+B. Olive
+C. Soccer ball
+D. Ping pong ball
+E. Balloon
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: E[0m
+Model Responding:   2%|▏         | 3/200 [00:05<05:27,  1.66s/it][32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = IGmuaY1jB1w.mp4[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/IGmuaY1jB1w.mp4[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: IGmuaY1jB1w.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=3[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+When the subtitles say 'packages after just cating lunch other,' the number 26 appears in the bottom right corner of the screen, and an image with colorful parts is shown. Beside the image, there are two lines of green text, four lines of yellow text, and two lines of red text. What other items are present on the screen?
+A. Sunglasses with earrings
+B. Airplane
+C. Sunflower
+D. Microphone
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   2%|▏         | 4/200 [00:07<05:35,  1.71s/it][32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = ZaXpMou55lw.mp4[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/ZaXpMou55lw.mp4[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: ZaXpMou55lw.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=4[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the upper right corner of a white background, a middle-aged man wearing a gray short-sleeved shirt is explaining. Behind him are a piano keyboard and various objects. At the top of the screen are bold English letters, and in the center is a table with white data on a black background. What object is present in the scene?
+A. A silver bracelet
+B. A pair of glasses
+C. There is a URL
+D. There is a wristwatch
+E. A yellow bracelet
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   2%|▎         | 5/200 [00:10<06:30,  2.00s/it][32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = bDpgz_2Piqg.mp4[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/bDpgz_2Piqg.mp4[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: bDpgz_2Piqg.mp4 | Selected 5 frames[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=5[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 5 specific frames[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 5 custom frames[0m
+[32m2025-11-29 09:57:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 5 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:29[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+A man wearing a grey shirt and a black hat is standing in front of a container holding food. There are many people around him, including one at the forefront wearing a black headscarf and another person in a grey shirt holding a plate of food. There's also a man wearing glasses in the corner. What type of hat is this?
+A. Western cowboy hat
+B. Fisherman hat
+C. Duck tongue hat
+D. Beret
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:29[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+Model Responding:   3%|▎         | 6/200 [00:11<05:12,  1.61s/it][32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = i327DBSS_iE.mp4[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/i327DBSS_iE.mp4[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: i327DBSS_iE.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=6[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:29[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:32[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+After a video scene of a woman wearing a light-colored coat, carrying a red bag, walking a small dog through a forest filled with red leaves, which season appears first?
+A. Autumn
+B. Summer
+C. Winter
+D. Spring
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:32[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   4%|▎         | 7/200 [00:14<06:53,  2.14s/it][32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = VwZeSoYugZk.mp4[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/VwZeSoYugZk.mp4[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: VwZeSoYugZk.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=7[0m
+[32m2025-11-29 09:57:32[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:33[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:35[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Above a green lake, there is a small building by the shore. In the distance, there are some mountain peaks and a deep blue sky with clouds floating in it. The small building by the lake is light yellow with two windows. When it is mentioned that 'and only allowing a small group of people and animals, to survive and repopulate,' what is the shape of the roof of the small building?
+A. Staircase
+B. Square
+C. Triangle
+D. Rectangle
+E. Semi-circle
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:35[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   4%|▍         | 8/200 [00:16<06:47,  2.12s/it][32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = td35F9LNazA.mp4[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/td35F9LNazA.mp4[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: td35F9LNazA.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=8[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:35[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:38[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Inside a vehicle, there's a man wearing a colorful long-sleeve shirt and sporting short hair and stubble. He's standing near the electrical control module, introducing something with his left hand raised. When this man appears in a room with dim yellow lighting, what change does he undergo?
+A. He changed into a checkered shirt
+B. He changed into a black garment
+C. He changed into a black and white patterned garment
+D. He changed into a white garment
+E. He changed into a gray garment
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:38[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: E.[0m
+Model Responding:   4%|▍         | 9/200 [00:19<07:36,  2.39s/it][32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = qksR2Zvd-FM.mp4[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/qksR2Zvd-FM.mp4[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: qksR2Zvd-FM.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=9[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:38[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the distance, there are lush plants. On the right, two soldiers are operating long-barreled weapons in a bunker. On the left, two soldiers are standing face to face. In front of the cannon, there are military vehicles and tanks. After the subtitle 'of damage over long distance' appears, who is the first person to appear?
+A. A soldier dressed in military green camouflage, wearing a black headgear.
+B. A man wearing camouflage clothes, with short khaki hair.
+C. A man with short gray hair, without a hat, exposing his forehead, wearing dark brown shoes.
+D. A soldier with short khaki hair, wearing military green camouflage without a helmet.
+E. A soldier wearing a green steel helmet, dressed in khaki military uniform.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:40[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   5%|▌         | 10/200 [00:21<07:42,  2.43s/it][32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = iwXp1fT89-M.mp4[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/iwXp1fT89-M.mp4[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: iwXp1fT89-M.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=10[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:40[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:43[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Which of the following scene sequences is correct?
+A. First, in a room with three white doors, the woman points to the word 'live' on her sleeve. Next, in the same room with three white doors, the woman stands under a green figurehead and lifts her left hand to touch her hair. Finally, in a room with green walls, a woman wearing a blue sleeveless knit top is drinking water with a straw while wearing earphones.
+B. First, in a room with three white doors, the woman points to the word 'live' on her sleeve. Next, in a room with green walls, a woman wearing a blue sleeveless knit top is drinking water with a straw while wearing earphones. Finally, in the same room with three white doors, the woman stands under a green figurehead and lifts her left hand to touch her hair.
+C. First, in a room with green walls, a woman wearing a blue sleeveless knit top is drinking water with a straw while wearing earphones. Next, in a room with three white doors, the woman points to the word 'live' on her sleeve. Finally, in the same room with three white doors, the woman stands under a green figurehead and lifts her left hand to touch her hair.
+D. First, in a room with three white doors, the woman stands under a green figurehead and lifts her left hand to touch her hair. Next, in a room with green walls, a woman wearing a blue sleeveless knit top is drinking water with a straw while wearing earphones. Finally, in the same room with three white doors, the woman points to the word 'live' on her sleeve.
+E. First, in a room with green walls, a woman wearing a blue sleeveless knit top is drinking water with a straw while wearing earphones. Next, in a room with three white doors, the woman stands under a green figurehead and lifts her left hand to touch her hair. Finally, in the same room with three white doors, the woman points to the word 'live' on her sleeve.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:43[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   6%|▌         | 11/200 [00:24<08:09,  2.59s/it][32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = O6UedmnRJc0.mp4[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/O6UedmnRJc0.mp4[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: O6UedmnRJc0.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=11[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:43[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+The background is a white wall, with a black cabinet on the right side. A man wearing a white long-sleeved shirt and black pants stands next to a round wooden table with fruit and food on it, speaking to the camera. In which other scenes does this man appear?
+A. On a sandy beach by the sea
+B. On a mountain covered with plants
+C. Next to a man in a gym wearing a black tank top holding two dumbbells
+D. By a swimming pool
+E. In a dining hall
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:45[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   6%|▌         | 12/200 [00:27<07:51,  2.51s/it][32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = J_ZmaKRpyoU.mp4[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/J_ZmaKRpyoU.mp4[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: J_ZmaKRpyoU.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=12[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:45[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:48[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the screen, there are 15 images on the PPT. On the right side of the images, there are several lines of English text, with the words 'Comparison: Qualitative Results' written on the images. In the bottom right corner, there is a woman wearing a dark blue inner coat with a black outer coat. Which images are highlighted on the screen?
+A. The last image in the bottom right corner is highlighted with a green box
+B. The last image in the top left corner is highlighted with a green box
+C. The last image in the bottom right corner is highlighted with a red box
+D. An image in the middle is highlighted
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:48[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   6%|▋         | 13/200 [00:29<07:59,  2.57s/it][32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = LfUsGv-ESbc.mp4[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/LfUsGv-ESbc.mp4[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: LfUsGv-ESbc.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=13[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:48[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+The screen displays a webpage. The webpage contains some code, a gray image at the top, three clickable icons in the left sidebar, and login and settings options on the right side. In the bottom right corner, a man with sunglasses and short hair, wearing black clothes, is explaining something. When he mentions 'there you go and nothing happens of,' what is the shape of the gray icon in the top-right corner of the screen?
+A. Stairs
+B. Rectangle
+C. Triangle
+D. Circle
+E. Pentagram
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:   7%|▋         | 14/200 [00:32<07:40,  2.48s/it][32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = -kaF6SnSEo8.mp4[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/-kaF6SnSEo8.mp4[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: -kaF6SnSEo8.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=14[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:50[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+When a man wearing a red shirt with white stripes and a man wearing a white short-sleeve shirt with red and blue patterns appear in the video, which item are they both wearing?
+A. The man in the white shirt is wearing black-framed glasses, while the man in the red shirt is not
+B. A blue bracelet
+C. The man in the red shirt is wearing black-framed glasses, while the man in the white shirt is not
+D. The man in the red shirt is wearing an orange scarf, while the man in the white shirt is not
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   8%|▊         | 15/200 [00:34<07:13,  2.34s/it][32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = _Y1pW77M3Pg.mp4[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/_Y1pW77M3Pg.mp4[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: _Y1pW77M3Pg.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=15[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:52[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+In the screen, a man wearing a black hooded jacket is sitting in front of a white window. He is looking to the left. The screen also shows the text 'Look at the window.' After the phrase 'wait hold that look look at the window' is mentioned, what does he do?
+A. He raises both hands in a 'Y' shape.
+B. He places both hands on his head.
+C. He clenches both fists and places them on his chest.
+D. He places his left hand on his forehead.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:54[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:   8%|▊         | 16/200 [00:36<06:53,  2.25s/it][32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = tWiGnu2BNsY.mp4[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/tWiGnu2BNsY.mp4[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: tWiGnu2BNsY.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=16[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:54[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:57:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+A man wearing white clothes is lying on the grass in a graveyard. Next to him are yellow clothes and a black bag. On the grass, there are many standing tombstones. Before the man lies down on the grass, what was he doing?
+A. Piloting a plane
+B. Peeling an apple
+C. Cutting a watermelon
+D. Coughing
+E. Opening a wheelbarrow
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:57:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+Model Responding:   8%|▊         | 17/200 [00:38<07:11,  2.36s/it][32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = _g3Y_mk64Wc.mp4[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/_g3Y_mk64Wc.mp4[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: _g3Y_mk64Wc.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=17[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:57:57[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+A woman wearing an off-shoulder top is sitting on a white sofa. She has orange nail polish and is wearing a necklace. Behind her is a white wall and a black armrest. Two books are on either side of her. When the subtitle 'honeymooners is one of my favorites and' appears, what is the woman doing?
+A. The woman is holding a book in each hand
+B. The woman is holding a pen in both hands
+C. The woman is holding a book in her right hand and a pen in her left hand
+D. The woman is holding a book in her left hand and a paper in her right hand
+E. The woman is holding a book in her left hand and a pen in her right hand
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:   9%|▉         | 18/200 [00:41<07:19,  2.41s/it][32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = 5dJUUQufzw4.mp4[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/5dJUUQufzw4.mp4[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: 5dJUUQufzw4.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=18[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:00[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+By the blue-green waterside of the lake, a man in black clothes is sitting on the ground on the left, and a man in a hooded jacket is standing on the right. In which of the following scenes does the man standing by the lake appear?
+A. On the ground in front of a red hill
+B. On the ground in front of a yellow hill
+C. On a jade-green grassland
+D. At a crowded intersection
+E. On a yacht on the blue sea
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  10%|▉         | 19/200 [00:44<07:39,  2.54s/it][32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = _uL3a3aMdMQ.mp4[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/_uL3a3aMdMQ.mp4[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: _uL3a3aMdMQ.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=19[0m
+[32m2025-11-29 09:58:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:03[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:03[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:05[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+On a green meadow, next to it is a riverside road with many pedestrians walking. On the green meadow, there is a woman with dark skin wearing a white short-sleeve shirt and holding wheat. When she says 'everyone is mixed up with different', what shape is the hair accessory on her head?
+A. Bear ears shape
+B. Rose shape
+C. Butterfly shape
+D. Bunny ears shape
+E. Feather shape
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:05[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A.[0m
+Model Responding:  10%|█         | 20/200 [00:47<07:57,  2.65s/it][32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = 7270293967017725185.mp4[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/7270293967017725185.mp4[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: 7270293967017725185.mp4 | Selected 8 frames[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=20[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2025-11-29 09:58:05[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+On a flat surface illuminated by the sun, there is a woman wearing a gray hoodie and a black choker on her neck. Behind her, there is a white door and white columns. What hairstyle does the woman in the gray hoodie have?
+A. high ponytail
+B. braids
+C. curly hair
+D. bun
+E. pigtails
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:  10%|█         | 21/200 [00:48<06:52,  2.31s/it][32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = sEiyR7-0FOA.mp4[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/sEiyR7-0FOA.mp4[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: sEiyR7-0FOA.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=21[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+There are two people holding a book and a pen, wearing khaki outerwear and hats. There is a tank between them. On the tank, there is a person wearing black clothes. When the subtitle 'the next day two Italian War' appears, what color is the book the person on the left is holding?
+A. red
+B. green
+C. yellow
+D. black
+E. white
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:09[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+Model Responding:  11%|█         | 22/200 [00:51<07:00,  2.36s/it][32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = E7FSg22MdKE.mp4[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/E7FSg22MdKE.mp4[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: E7FSg22MdKE.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=22[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:09[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:12[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+There are four people walking down a street: two adults and two children. The child on the left has long hair and is wearing white clothes. The child on the right has long hair and is wearing a white and purple dress. The adult on the left is wearing a purple short-sleeve shirt and white pants. The adult on the right has short hair and is wearing white clothes and pants. They are all holding hands. Which vegetable appears first after the subtitle 'Music' is mentioned?
+A. Tomato
+B. Carrot
+C. Cabbage
+D. Watermelon
+E. Eggplant
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:12[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:  12%|█▏        | 23/200 [00:53<07:05,  2.40s/it][32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = tdm72-vYxTs.mp4[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/tdm72-vYxTs.mp4[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: tdm72-vYxTs.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=23[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:12[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-11-29 09:58:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+A pair of hands appears on the screen holding a knife on a wooden board, which has a white food item broken in half. What are these hands doing?
+A. The hands are using the knife to slice the wooden board vertically
+B. The hands are taking away the wooden board
+C. The hands are using the knife to slice the food item vertically
+D. The hands are using the knife to slice the wooden board horizontally
+E. The hands are using the knife to slice the food item horizontally
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-11-29 09:58:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C.[0m
+Model Responding:  12%|█▏        | 24/200 [00:56<07:44,  2.64s/it][32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m408[0m - [1mDEBUG: base_cache_dir = /home/train01/.cache/huggingface/[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m417[0m - [1mDEBUG: cache_name from YAML = longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m425[0m - [1mDEBUG: final cache_dir = /home/train01/.cache/huggingface/longvideobench_custom_cache[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m429[0m - [1mDEBUG: video_filename from doc = RTUFPjliMCU.mp4[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m445[0m - [1mDEBUG: constructed video_path = /home/train01/.cache/huggingface/longvideobench_custom_cache/videos/RTUFPjliMCU.mp4[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m446[0m - [1mDEBUG: video_path exists? True[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mutils[0m:[36mlongvideobench_custom_doc_to_visual[0m:[36m484[0m - [1m[longvideobench_custom] Video: RTUFPjliMCU.mp4 | Selected 16 frames[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=24[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-11-29 09:58:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1235, in launch_command
+    simple_launcher(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 823, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/train01/miraj/lmms_eval/venv/bin/python3', '-m', 'lmms_eval', '--model', 'llava_vid', '--model_args', 'pretrained=../LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=16,overwrite=False,device_map=balanced', '--tasks', 'longvideobench_custom', '--batch_size', '1', '--output_path', './results/full_logs/LV_2-8_results', '--log_samples', '--log_samples_suffix', 'LV_2-8', '--verbosity', 'DEBUG']' died with <Signals.SIGTERM: 15>.

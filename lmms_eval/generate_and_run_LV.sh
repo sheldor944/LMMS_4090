@@ -10,13 +10,13 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/longvideobench"
 YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml"
-RESULT_DIR="$SCRIPT_DIR/results/full_logs/300_run_LV"
+RESULT_DIR="$SCRIPT_DIR/results/full_logs/Fixed_radius"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
 MODEL_NAME="llava_vid"
 
 # Master log file for the entire run
-MASTER_LOG="$RESULT_DIR/master_longvideobench_run_$(date +"%Y%m%d_%H%M%S").log"
+MASTER_LOG="$RESULT_DIR/master_longvideobench_with_adaptive_tuning_radius_run_$(date +"%Y%m%d_%H%M%S").log"
 
 # Ensure dirs exist
 mkdir -p "$RESULT_DIR"
@@ -180,8 +180,8 @@ EOFYAML
     #     --log_samples_suffix "$PREFIX" \
     #     --verbosity DEBUG \
     #     >> "$LOG_PATH" 2>&1
-    CUDA_VISIBLE_DEVICES=0 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
-    accelerate launch --num_processes 1 --main_process_port 29500 \
+    CUDA_VISIBLE_DEVICES=0,1 PYTHONWARNINGS="ignore" stdbuf -oL -eL \
+    accelerate launch --num_processes 2 --main_process_port 29500 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \

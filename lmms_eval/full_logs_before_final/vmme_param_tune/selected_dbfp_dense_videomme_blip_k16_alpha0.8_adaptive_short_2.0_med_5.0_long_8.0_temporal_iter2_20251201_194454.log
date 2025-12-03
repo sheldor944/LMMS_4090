@@ -1,0 +1,288 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2025-12-01 19:44:58[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-12-01 19:44:58[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2025-12-01 19:44:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-12-01 19:44:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2025-12-01 19:44:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-12-01 19:44:59[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2025-12-01 19:45:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-12-01 19:45:00[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/train01/miraj/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': '/home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_194454_results'}[0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': '/home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_194454_results'}[0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2025-12-01 19:45:00[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+OpenCLIP not installed
+OpenCLIP not installed
+force sample: False
+force sample: False
+Rank 0:  Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+Rank 0:  Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.65s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.92s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.68s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.01s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.99s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.25s/it]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 300 examples [00:00, 38606.18 examples/s]
+[32m2025-12-01 19:45:13[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 1 (local rank 1)[0m
+[32m2025-12-01 19:45:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank1-world_size2-tokenizer is not cached, generating...[0m
+[32m2025-12-01 19:45:13[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 1...[0m
+  0%|          | 0/150 [00:00<?, ?it/s]100%|██████████| 150/150 [00:00<00:00, 8409.91it/s]
+[32m2025-12-01 19:45:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 150[0m
+Rank 0:  Model Class: LlavaQwenForCausalLM
+[32m2025-12-01 19:45:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m215[0m - [1mUsing 2 devices with data parallelism[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2025-12-01 19:45:14[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank0-world_size2-tokenizer is not cached, generating...[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 0...[0m
+  0%|          | 0/150 [00:00<?, ?it/s]100%|██████████| 150/150 [00:00<00:00, 8440.04it/s]
+[32m2025-12-01 19:45:14[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 150[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/150 [00:00<?, ?it/s][32m2025-12-01 19:45:14[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video AyIqI6P8eN8[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=1[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:14[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video MPfuSfiZ96A[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=0[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:14[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:16[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the purpose of collecting sap from a rubber tree in the video?
+A. To use as cooking ingredients.
+B. For medicinal purposes.
+C. As decoration.
+D. To use as fuel for self-made lamps.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:16[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+Model Responding:   1%|          | 1/150 [00:02<06:09,  2.48s/it][32m2025-12-01 19:45:16[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video BiJtPU9uP0c[0m
+[32m2025-12-01 19:45:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=2[0m
+[32m2025-12-01 19:45:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:16[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What type of street performance is showcased in the video?
+A. Martial art.
+B. Musical instrument performance.
+C. Street dance.
+D. Streetball.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:17[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-12-01 19:45:17[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video djr6T2C8Gfs[0m
+[32m2025-12-01 19:45:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=3[0m
+[32m2025-12-01 19:45:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:17[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: As can be seen in the video, which animal is seeking to capture the two ghost cowboys?
+A. A horse.
+B. A dog.
+C. A panda.
+D. A wolf.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:18[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-12-01 19:45:18[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video qeefjE74SXI[0m
+[32m2025-12-01 19:45:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=5[0m
+[32m2025-12-01 19:45:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:18[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: How many different kinds of animal faces are made in this video?
+A. 4.
+B. 3.
+C. 5.
+D. 2.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+Model Responding:   1%|▏         | 2/150 [00:05<06:15,  2.54s/it][32m2025-12-01 19:45:19[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video XK6ApJHa59I[0m
+[32m2025-12-01 19:45:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=4[0m
+[32m2025-12-01 19:45:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What was the height of the first attempt of the championship-winning athlete in the video?
+A. 5.45m.
+B. 5.60m.
+C. 5.75m.
+D. 6.00m.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:20[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: C[0m
+[32m2025-12-01 19:45:20[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video 4IenX7OHumk[0m
+[32m2025-12-01 19:45:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=7[0m
+[32m2025-12-01 19:45:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:20[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which item is being held by the actor in the image on the poster displayed at the end of the video?
+A. A glass.
+B. A book.
+C. A hat.
+D. A microphone.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:21[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: A[0m
+Model Responding:   2%|▏         | 3/150 [00:06<05:22,  2.20s/it][32m2025-12-01 19:45:21[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video BEIVOKz4zXw[0m
+[32m2025-12-01 19:45:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=6[0m
+[32m2025-12-01 19:45:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:21[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the setting for "Grease The Musical" as mentioned in the video?
+A. Sydney Opera House.
+B. Broadway.
+C. West End.
+D. Rydell High.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D[0m
+Model Responding:   3%|▎         | 4/150 [00:09<05:25,  2.23s/it][32m2025-12-01 19:45:23[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video j0J-favyUeQ[0m
+[32m2025-12-01 19:45:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=8[0m
+[32m2025-12-01 19:45:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which location appears in the video?
+A. Aisa.
+B. Africa.
+C. Europe.
+D. Antarctica.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:24[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B[0m
+[32m2025-12-01 19:45:24[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video eno3UMEMQJI[0m
+[32m2025-12-01 19:45:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=9[0m
+[32m2025-12-01 19:45:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:24[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: What is the main focus of this video?
+A. How mainstream apps work.
+B. How some tech products work.
+C. Technology products in music.
+D. Strong tech company.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:26[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+Model Responding:   3%|▎         | 5/150 [00:11<05:37,  2.33s/it][32m2025-12-01 19:45:26[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video c0siCya457M[0m
+[32m2025-12-01 19:45:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=10[0m
+[32m2025-12-01 19:45:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:26[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:27[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: Which of the following descriptions about the author's use of Bluetooth headsets is correct?
+A. He only wore the left earphone.
+B. He has headphones on both ears.
+C. He only wore the right earphone.
+D. He was not wearing headphones.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:27[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: B.[0m
+[32m2025-12-01 19:45:27[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video zKyWRRJQbkM[0m
+[32m2025-12-01 19:45:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=11[0m
+[32m2025-12-01 19:45:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:27[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+[32m2025-12-01 19:45:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+Question: According to the video, which of the following events occurred in India?
+A. Making a movie about war.
+B. A Bollywood movie broke box office records.
+C. Crops are being burned.
+D. The farmers staged A protest.
+Answer with the option's letter from the given choices directly.[0m
+[32m2025-12-01 19:45:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: D.[0m
+Model Responding:   4%|▍         | 6/150 [00:13<05:18,  2.21s/it][32m2025-12-01 19:45:28[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 16 frames for video N1cdUjctpG8[0m
+[32m2025-12-01 19:45:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=12[0m
+[32m2025-12-01 19:45:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 16 specific frames[0m
+[32m2025-12-01 19:45:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 16 custom frames[0m
+[32m2025-12-01 19:45:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 16 custom frames instead of uniform sampling[0m
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 881, in _invoke_run
+    time.sleep(monitor_interval)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 85, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1741532 got signal: 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/logging/__init__.py", line 1151, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.13/logging/__init__.py", line 999, in format
+    return fmt.format(record)
+           ~~~~~~~~~~^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/_logging/_internal.py", line 913, in format
+    and (trace_id := torch._guards.CompileContext.current_trace_id())
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/_guards.py", line 825, in current_trace_id
+    @staticmethod
+    
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 85, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1741532 got signal: 1
+Call stack:
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1226, in launch_command
+    multi_gpu_launcher(args)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 853, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 725, in run
+    logger.warning("Received %s death signal, shutting down workers", e.sigval)
+Message: 'Received %s death signal, shutting down workers'
+Arguments: (<Signals.SIGHUP: 1>,)
+W1201 19:45:29.109000 1741532 torch/distributed/elastic/multiprocessing/api.py:908] Sending process 1741555 closing signal SIGHUP
+W1201 19:45:29.109000 1741532 torch/distributed/elastic/multiprocessing/api.py:908] Sending process 1741556 closing signal SIGHUP
+Traceback (most recent call last):
+  File "/home/train01/miraj/lmms_eval/venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+    ~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 1226, in launch_command
+    multi_gpu_launcher(args)
+    ~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/accelerate/commands/launch.py", line 853, in multi_gpu_launcher
+    distrib_run.run(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/run.py", line 927, in run
+    elastic_launch(
+    ~~~~~~~~~~~~~~~
+        config=config,
+        ~~~~~~~~~~~~~~
+        entrypoint=cmd,
+        ~~~~~~~~~~~~~~~
+    )(*cmd_args)
+    ~^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 156, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/launcher/api.py", line 284, in launch_agent
+    result = agent.run()
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/metrics/api.py", line 138, in wrapper
+    result = f(*args, **kwargs)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 717, in run
+    result = self._invoke_run(role)
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/api.py", line 881, in _invoke_run
+    time.sleep(monitor_interval)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/train01/miraj/lmms_eval/venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 85, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1741532 got signal: 1

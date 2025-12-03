@@ -1,0 +1,543 @@
+======================================================
+AUTO LMMS-EVAL LONGVIDEOBENCH RUNNER (NOHUP MODE)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/longvideobench
+YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/master_longvideobench_run_20251129_132317.log
+
+Found 24 JSON files to process
+
+--------------------------------------------------
+[1/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1_20251129_132317.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1_20251129_132317_results
+Start time: Sat Nov 29 13:23:17 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1
+End time: Sat Nov 29 13:30:00 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[2/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2_20251129_133000.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2_20251129_133000_results
+Start time: Sat Nov 29 13:30:00 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter2
+End time: Sat Nov 29 13:36:44 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[3/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3_20251129_133644.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3_20251129_133644_results
+Start time: Sat Nov 29 13:36:44 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter3
+End time: Sat Nov 29 13:43:26 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[4/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1_20251129_134326.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1_20251129_134326_results
+Start time: Sat Nov 29 13:43:26 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1
+End time: Sat Nov 29 13:50:20 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[5/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2_20251129_135020.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2_20251129_135020_results
+Start time: Sat Nov 29 13:50:20 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter2
+End time: Sat Nov 29 13:57:09 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[6/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3_20251129_135709.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3_20251129_135709_results
+Start time: Sat Nov 29 13:57:09 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter3
+End time: Sat Nov 29 14:03:55 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[7/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1_20251129_140355.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1_20251129_140355_results
+Start time: Sat Nov 29 14:03:55 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter1
+End time: Sat Nov 29 14:10:45 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[8/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2_20251129_141045.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2_20251129_141045_results
+Start time: Sat Nov 29 14:10:45 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter2
+End time: Sat Nov 29 14:17:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[9/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3_20251129_141737.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3_20251129_141737_results
+Start time: Sat Nov 29 14:17:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_score_diff_iter3
+End time: Sat Nov 29 14:24:30 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[10/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1_20251129_142430.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1_20251129_142430_results
+Start time: Sat Nov 29 14:24:30 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter1
+End time: Sat Nov 29 14:31:19 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[11/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2_20251129_143119.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2_20251129_143119_results
+Start time: Sat Nov 29 14:31:19 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter2
+End time: Sat Nov 29 14:38:08 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[12/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3_20251129_143808.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3_20251129_143808_results
+Start time: Sat Nov 29 14:38:08 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_4.0_r600_7.0_r3600_10.0_temporal_iter3
+End time: Sat Nov 29 14:44:57 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[13/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1_20251129_144457.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1_20251129_144457_results
+Start time: Sat Nov 29 14:44:57 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter1
+End time: Sat Nov 29 14:51:47 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[14/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2_20251129_145147.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2_20251129_145147_results
+Start time: Sat Nov 29 14:51:47 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter2
+End time: Sat Nov 29 14:58:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[15/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3_20251129_145837.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3_20251129_145837_results
+Start time: Sat Nov 29 14:58:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_score_diff_iter3
+End time: Sat Nov 29 15:05:27 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[16/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1_20251129_150527.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1_20251129_150527_results
+Start time: Sat Nov 29 15:05:27 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter1
+End time: Sat Nov 29 15:12:18 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[17/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2_20251129_151218.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2_20251129_151218_results
+Start time: Sat Nov 29 15:12:18 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter2
+End time: Sat Nov 29 15:19:07 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[18/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3_20251129_151907.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3_20251129_151907_results
+Start time: Sat Nov 29 15:19:07 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_3.0_r60_5.0_r600_9.0_r3600_12.0_temporal_iter3
+End time: Sat Nov 29 15:25:57 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[19/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1_20251129_152557.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1_20251129_152557_results
+Start time: Sat Nov 29 15:25:57 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter1
+End time: Sat Nov 29 15:32:46 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[20/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2_20251129_153246.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2_20251129_153246_results
+Start time: Sat Nov 29 15:32:46 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter2
+End time: Sat Nov 29 15:39:39 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[21/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3_20251129_153939.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3_20251129_153939_results
+Start time: Sat Nov 29 15:39:39 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_score_diff_iter3
+End time: Sat Nov 29 15:46:30 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[22/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1_20251129_154630.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1_20251129_154630_results
+Start time: Sat Nov 29 15:46:30 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter1
+End time: Sat Nov 29 15:53:20 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[23/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2_20251129_155320.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2_20251129_155320_results
+Start time: Sat Nov 29 15:53:20 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter2
+End time: Sat Nov 29 16:00:09 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[24/24] Processing dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16f
+YAML will use test: datasets/longvideobench/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3_20251129_160009.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3_20251129_160009_results
+Start time: Sat Nov 29 16:00:09 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_4.0_r60_6.0_r600_10.0_r3600_15.0_temporal_iter3
+End time: Sat Nov 29 16:07:03 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+======================================================
+ALL LONGVIDEOBENCH DATASETS PROCESSED SEQUENTIALLY.
+Completed: Sat Nov 29 16:07:03 UTC 2025
+======================================================

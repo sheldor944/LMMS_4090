@@ -1,0 +1,1073 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/300_runs
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/300_runs/master_run_20251127_212618.log
+
+Found 62 JSON files to process
+
+--------------------------------------------------
+[1/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_score_diff_20251127_133732.log
+
+--------------------------------------------------
+[2/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup2.0_temporal_20251127_134439.log
+
+--------------------------------------------------
+[3/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_score_diff_20251127_135207.log
+
+--------------------------------------------------
+[4/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup3.0_temporal_20251127_135935.log
+
+--------------------------------------------------
+[5/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_score_diff_20251127_140659.log
+
+--------------------------------------------------
+[6/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.5_sup4.0_temporal_20251127_141439.log
+
+--------------------------------------------------
+[7/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_score_diff_20251127_142202.log
+
+--------------------------------------------------
+[8/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup2.0_temporal_20251127_142940.log
+
+--------------------------------------------------
+[9/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_score_diff_20251127_143707.log
+
+--------------------------------------------------
+[10/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup3.0_temporal_20251127_144442.log
+
+--------------------------------------------------
+[11/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_score_diff_20251127_145210.log
+
+--------------------------------------------------
+[12/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.85_sup4.0_temporal_20251127_145939.log
+
+--------------------------------------------------
+[13/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_score_diff_20251127_150708.log
+
+--------------------------------------------------
+[14/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup2.0_temporal_20251127_151444.log
+
+--------------------------------------------------
+[15/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_score_diff_20251127_152232.log
+
+--------------------------------------------------
+[16/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup3.0_temporal_20251127_153006.log
+
+--------------------------------------------------
+[17/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_score_diff_20251127_153747.log
+
+--------------------------------------------------
+[18/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.95_sup4.0_temporal_20251127_154523.log
+
+--------------------------------------------------
+[19/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_score_diff_20251127_155254.log
+
+--------------------------------------------------
+[20/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.9_sup2.0_temporal_20251127_160025.log
+
+--------------------------------------------------
+[21/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_score_diff_20251127_160800.log
+
+--------------------------------------------------
+[22/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_temporal.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k16_alpha0.9_sup3.0_temporal_20251127_161528.log
+
+--------------------------------------------------
+[23/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff_20251127_212619.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff_20251127_212619_results
+Start time: Thu Nov 27 21:26:19 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_score_diff
+End time: Thu Nov 27 21:33:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[24/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal_20251127_213343.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal_20251127_213343_results
+Start time: Thu Nov 27 21:33:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha0.9_sup4.0_temporal
+End time: Thu Nov 27 21:41:05 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[25/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff_20251127_214105.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff_20251127_214105_results
+Start time: Thu Nov 27 21:41:05 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_score_diff
+End time: Thu Nov 27 21:48:30 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[26/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal_20251127_214830.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal_20251127_214830_results
+Start time: Thu Nov 27 21:48:31 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup2.0_temporal
+End time: Thu Nov 27 21:56:02 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[27/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff_20251127_215602.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff_20251127_215602_results
+Start time: Thu Nov 27 21:56:02 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_score_diff
+End time: Thu Nov 27 22:03:42 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[28/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal_20251127_220342.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal_20251127_220342_results
+Start time: Thu Nov 27 22:03:42 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup3.0_temporal
+End time: Thu Nov 27 22:10:58 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[29/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff_20251127_221058.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff_20251127_221058_results
+Start time: Thu Nov 27 22:10:58 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_score_diff
+End time: Thu Nov 27 22:18:23 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[30/62] Checking dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal_20251127_221823.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal_20251127_221823_results
+Start time: Thu Nov 27 22:18:23 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k16_alpha1.0_sup4.0_temporal
+End time: Thu Nov 27 22:26:05 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[31/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff_20251127_222605.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff_20251127_222605_results
+Start time: Thu Nov 27 22:26:05 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_score_diff
+End time: Thu Nov 27 22:30:11 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[32/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal_20251127_223011.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal_20251127_223011_results
+Start time: Thu Nov 27 22:30:11 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup2.0_temporal
+End time: Thu Nov 27 22:34:41 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[33/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff_20251127_223441.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff_20251127_223441_results
+Start time: Thu Nov 27 22:34:41 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_score_diff
+End time: Thu Nov 27 22:39:08 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[34/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal_20251127_223908.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal_20251127_223908_results
+Start time: Thu Nov 27 22:39:08 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup3.0_temporal
+End time: Thu Nov 27 22:43:29 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[35/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff_20251127_224329.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff_20251127_224329_results
+Start time: Thu Nov 27 22:43:29 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_score_diff
+End time: Thu Nov 27 22:47:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[36/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal_20251127_224743.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal_20251127_224743_results
+Start time: Thu Nov 27 22:47:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.5_sup4.0_temporal
+End time: Thu Nov 27 22:52:04 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[37/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff_20251127_225204.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff_20251127_225204_results
+Start time: Thu Nov 27 22:52:04 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_score_diff
+End time: Thu Nov 27 22:56:21 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[38/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal_20251127_225621.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal_20251127_225621_results
+Start time: Thu Nov 27 22:56:21 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup2.0_temporal
+End time: Thu Nov 27 23:00:45 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[39/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff_20251127_230045.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff_20251127_230045_results
+Start time: Thu Nov 27 23:00:45 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_score_diff
+End time: Thu Nov 27 23:05:23 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[40/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal_20251127_230523.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal_20251127_230523_results
+Start time: Thu Nov 27 23:05:23 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup3.0_temporal
+End time: Thu Nov 27 23:09:46 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[41/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff_20251127_230946.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff_20251127_230946_results
+Start time: Thu Nov 27 23:09:46 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_score_diff
+End time: Thu Nov 27 23:14:08 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[42/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal_20251127_231408.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal_20251127_231408_results
+Start time: Thu Nov 27 23:14:08 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.85_sup4.0_temporal
+End time: Thu Nov 27 23:18:28 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[43/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff_20251127_231828.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff_20251127_231828_results
+Start time: Thu Nov 27 23:18:28 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_score_diff
+End time: Thu Nov 27 23:22:54 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[44/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal_20251127_232254.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal_20251127_232254_results
+Start time: Thu Nov 27 23:22:54 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup2.0_temporal
+End time: Thu Nov 27 23:27:07 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[45/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff_20251127_232707.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff_20251127_232707_results
+Start time: Thu Nov 27 23:27:07 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_score_diff
+End time: Thu Nov 27 23:31:22 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[46/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal_20251127_233122.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal_20251127_233122_results
+Start time: Thu Nov 27 23:31:22 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup3.0_temporal
+End time: Thu Nov 27 23:35:46 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[47/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff_20251127_233546.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff_20251127_233546_results
+Start time: Thu Nov 27 23:35:46 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_score_diff
+End time: Thu Nov 27 23:40:05 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[48/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal_20251127_234005.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal_20251127_234005_results
+Start time: Thu Nov 27 23:40:05 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.95_sup4.0_temporal
+End time: Thu Nov 27 23:44:27 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[49/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff_20251127_234427.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff_20251127_234427_results
+Start time: Thu Nov 27 23:44:27 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_score_diff
+End time: Thu Nov 27 23:48:48 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[50/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal_20251127_234848.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal_20251127_234848_results
+Start time: Thu Nov 27 23:48:48 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup2.0_temporal
+End time: Thu Nov 27 23:53:01 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[51/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff_20251127_235301.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff_20251127_235301_results
+Start time: Thu Nov 27 23:53:01 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_score_diff
+End time: Thu Nov 27 23:57:23 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[52/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal_20251127_235723.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal_20251127_235723_results
+Start time: Thu Nov 27 23:57:23 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup3.0_temporal
+End time: Fri Nov 28 00:01:36 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[53/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff_20251128_000136.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff_20251128_000136_results
+Start time: Fri Nov 28 00:01:36 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_score_diff
+End time: Fri Nov 28 00:05:52 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[54/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal_20251128_000552.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal_20251128_000552_results
+Start time: Fri Nov 28 00:05:52 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha0.9_sup4.0_temporal
+End time: Fri Nov 28 00:10:10 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[55/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff_20251128_001010.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff_20251128_001010_results
+Start time: Fri Nov 28 00:10:10 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_score_diff
+End time: Fri Nov 28 00:15:00 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[56/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal_20251128_001500.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal_20251128_001500_results
+Start time: Fri Nov 28 00:15:00 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup2.0_temporal
+End time: Fri Nov 28 00:19:16 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[57/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff_20251128_001916.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff_20251128_001916_results
+Start time: Fri Nov 28 00:19:16 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_score_diff
+End time: Fri Nov 28 00:23:27 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[58/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal_20251128_002327.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal_20251128_002327_results
+Start time: Fri Nov 28 00:23:27 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup3.0_temporal
+End time: Fri Nov 28 00:27:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[59/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff_20251128_002737.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff_20251128_002737_results
+Start time: Fri Nov 28 00:27:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_score_diff
+End time: Fri Nov 28 00:31:59 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[60/62] Checking dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal_20251128_003159.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal_20251128_003159_results
+Start time: Fri Nov 28 00:32:00 UTC 2025
+
+
+Finished dataset: selected_dbfp_videomme_blip_k8_alpha1.0_sup4.0_temporal
+End time: Fri Nov 28 00:36:21 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[61/62] Checking dataset: selected_videomme_frames_k16_aks
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_frames_k16_aks.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_videomme_frames_k16_aks.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_videomme_frames_k16_aks
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_videomme_frames_k16_aks_20251128_003621.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_videomme_frames_k16_aks_20251128_003621_results
+Start time: Fri Nov 28 00:36:21 UTC 2025
+
+
+Finished dataset: selected_videomme_frames_k16_aks
+End time: Fri Nov 28 00:43:33 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[62/62] Checking dataset: selected_videomme_frames_k8_aks
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_frames_k8_aks.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_videomme_frames_k8_aks.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_videomme_frames_k8_aks
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_videomme_frames_k8_aks_20251128_004334.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/300_runs/selected_videomme_frames_k8_aks_20251128_004334_results
+Start time: Fri Nov 28 00:43:34 UTC 2025
+
+
+Finished dataset: selected_videomme_frames_k8_aks
+End time: Fri Nov 28 00:47:35 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+======================================================
+ALL DATASETS PROCESSED SEQUENTIALLY.
+======================================================
+Summary:
+  Total datasets found: 62
+  Skipped (already done): 22
+  Newly processed: 40
+  Completed: Fri Nov 28 00:47:35 UTC 2025
+======================================================

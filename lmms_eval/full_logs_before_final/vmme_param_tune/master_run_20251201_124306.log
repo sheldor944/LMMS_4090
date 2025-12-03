@@ -1,0 +1,1434 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/master_run_20251201_124306.log
+
+Found 72 JSON files to process
+
+--------------------------------------------------
+[1/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_124306.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_124306_results
+Start time: Mon Dec  1 12:43:06 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+End time: Mon Dec  1 12:50:20 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[2/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_125020.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_125020_results
+Start time: Mon Dec  1 12:50:20 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+End time: Mon Dec  1 12:56:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[3/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_125643.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_125643_results
+Start time: Mon Dec  1 12:56:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+End time: Mon Dec  1 13:03:07 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[4/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_130307.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_130307_results
+Start time: Mon Dec  1 13:03:08 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+End time: Mon Dec  1 13:09:33 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[5/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_130933.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_130933_results
+Start time: Mon Dec  1 13:09:33 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+End time: Mon Dec  1 13:15:59 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[6/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_131559.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_131559_results
+Start time: Mon Dec  1 13:15:59 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+End time: Mon Dec  1 13:22:24 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[7/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_132224.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_132224_results
+Start time: Mon Dec  1 13:22:24 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+End time: Mon Dec  1 13:28:53 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[8/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_132853.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_132853_results
+Start time: Mon Dec  1 13:28:53 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+End time: Mon Dec  1 13:35:24 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[9/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_133524.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_133524_results
+Start time: Mon Dec  1 13:35:24 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+End time: Mon Dec  1 13:41:52 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[10/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_134152.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_134152_results
+Start time: Mon Dec  1 13:41:52 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+End time: Mon Dec  1 13:48:24 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[11/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_134824.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_134824_results
+Start time: Mon Dec  1 13:48:24 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+End time: Mon Dec  1 13:54:53 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[12/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_135453.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_135453_results
+Start time: Mon Dec  1 13:54:53 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+End time: Mon Dec  1 14:01:22 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[13/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_140122.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_140122_results
+Start time: Mon Dec  1 14:01:22 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+End time: Mon Dec  1 14:08:01 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[14/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_140801.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_140801_results
+Start time: Mon Dec  1 14:08:01 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+End time: Mon Dec  1 14:14:42 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[15/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_141442.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_141442_results
+Start time: Mon Dec  1 14:14:42 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+End time: Mon Dec  1 14:21:18 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[16/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_142118.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_142118_results
+Start time: Mon Dec  1 14:21:18 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+End time: Mon Dec  1 14:27:58 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[17/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_142758.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_142758_results
+Start time: Mon Dec  1 14:27:58 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+End time: Mon Dec  1 14:34:34 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[18/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_143434.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_143434_results
+Start time: Mon Dec  1 14:34:34 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+End time: Mon Dec  1 14:41:13 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[19/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_144113.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_144113_results
+Start time: Mon Dec  1 14:41:13 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+End time: Mon Dec  1 14:47:58 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[20/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_144758.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_144758_results
+Start time: Mon Dec  1 14:47:59 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+End time: Mon Dec  1 14:54:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[21/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_145443.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_145443_results
+Start time: Mon Dec  1 14:54:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+End time: Mon Dec  1 15:01:28 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[22/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_150128.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_150128_results
+Start time: Mon Dec  1 15:01:28 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+End time: Mon Dec  1 15:08:15 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[23/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_150815.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_150815_results
+Start time: Mon Dec  1 15:08:15 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+End time: Mon Dec  1 15:14:59 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[24/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_151459.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_151459_results
+Start time: Mon Dec  1 15:14:59 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.5_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+End time: Mon Dec  1 15:21:44 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[25/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_152144.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_152144_results
+Start time: Mon Dec  1 15:21:44 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+End time: Mon Dec  1 15:28:12 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[26/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_152812.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_152812_results
+Start time: Mon Dec  1 15:28:12 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+End time: Mon Dec  1 15:34:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[27/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_153437.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_153437_results
+Start time: Mon Dec  1 15:34:38 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+End time: Mon Dec  1 15:41:06 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[28/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_154106.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_154106_results
+Start time: Mon Dec  1 15:41:06 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+End time: Mon Dec  1 15:47:33 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[29/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_154733.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_154733_results
+Start time: Mon Dec  1 15:47:33 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+End time: Mon Dec  1 15:54:01 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[30/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_155401.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_155401_results
+Start time: Mon Dec  1 15:54:01 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+End time: Mon Dec  1 16:00:29 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[31/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_160029.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_160029_results
+Start time: Mon Dec  1 16:00:29 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+End time: Mon Dec  1 16:07:01 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[32/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_160701.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_160701_results
+Start time: Mon Dec  1 16:07:01 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+End time: Mon Dec  1 16:13:31 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[33/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_161331.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_161331_results
+Start time: Mon Dec  1 16:13:31 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+End time: Mon Dec  1 16:20:03 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[34/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_162003.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_162003_results
+Start time: Mon Dec  1 16:20:03 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+End time: Mon Dec  1 16:26:35 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[35/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_162635.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_162635_results
+Start time: Mon Dec  1 16:26:35 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+End time: Mon Dec  1 16:33:08 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[36/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_163308.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_163308_results
+Start time: Mon Dec  1 16:33:08 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+End time: Mon Dec  1 16:39:41 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[37/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_163941.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_163941_results
+Start time: Mon Dec  1 16:39:41 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+End time: Mon Dec  1 16:46:21 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[38/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_164621.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_164621_results
+Start time: Mon Dec  1 16:46:21 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+End time: Mon Dec  1 16:53:01 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[39/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_165301.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_165301_results
+Start time: Mon Dec  1 16:53:01 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+End time: Mon Dec  1 16:59:39 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[40/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_165939.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_165939_results
+Start time: Mon Dec  1 16:59:39 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+End time: Mon Dec  1 17:06:19 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[41/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_170619.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_170619_results
+Start time: Mon Dec  1 17:06:19 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+End time: Mon Dec  1 17:12:58 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[42/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_171258.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3_20251201_171258_results
+Start time: Mon Dec  1 17:12:58 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter3
+End time: Mon Dec  1 17:19:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[43/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_171937.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1_20251201_171937_results
+Start time: Mon Dec  1 17:19:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter1
+End time: Mon Dec  1 17:26:26 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[44/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_172626.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2_20251201_172626_results
+Start time: Mon Dec  1 17:26:26 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter2
+End time: Mon Dec  1 17:33:12 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[45/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_173312.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3_20251201_173312_results
+Start time: Mon Dec  1 17:33:12 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_score_diff_iter3
+End time: Mon Dec  1 17:39:57 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[46/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_173957.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1_20251201_173957_results
+Start time: Mon Dec  1 17:39:57 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter1
+End time: Mon Dec  1 17:46:45 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[47/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_174645.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2_20251201_174645_results
+Start time: Mon Dec  1 17:46:45 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter2
+End time: Mon Dec  1 17:53:33 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[48/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_175334.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3_20251201_175334_results
+Start time: Mon Dec  1 17:53:34 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.85_adaptive_short_3.0_med_6.0_long_10.0_temporal_iter3
+End time: Mon Dec  1 18:00:20 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[49/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_180020.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251201_180020_results
+Start time: Mon Dec  1 18:00:20 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+End time: Mon Dec  1 18:06:47 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[50/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_180647.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2_20251201_180647_results
+Start time: Mon Dec  1 18:06:47 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter2
+End time: Mon Dec  1 18:13:13 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[51/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_181313.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3_20251201_181313_results
+Start time: Mon Dec  1 18:13:13 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter3
+End time: Mon Dec  1 18:19:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[52/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_181943.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1_20251201_181943_results
+Start time: Mon Dec  1 18:19:43 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter1
+End time: Mon Dec  1 18:26:11 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[53/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_182611.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2_20251201_182611_results
+Start time: Mon Dec  1 18:26:11 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter2
+End time: Mon Dec  1 18:32:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[54/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_183237.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3_20251201_183237_results
+Start time: Mon Dec  1 18:32:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_3.0_long_5.0_temporal_iter3
+End time: Mon Dec  1 18:39:04 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[55/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_183904.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1_20251201_183904_results
+Start time: Mon Dec  1 18:39:04 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter1
+End time: Mon Dec  1 18:45:35 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[56/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_184535.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2_20251201_184535_results
+Start time: Mon Dec  1 18:45:35 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter2
+End time: Mon Dec  1 18:52:06 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[57/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_185206.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3_20251201_185206_results
+Start time: Mon Dec  1 18:52:06 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_score_diff_iter3
+End time: Mon Dec  1 18:58:36 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[58/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_185836.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1_20251201_185836_results
+Start time: Mon Dec  1 18:58:36 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter1
+End time: Mon Dec  1 19:05:12 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[59/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_190512.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2_20251201_190512_results
+Start time: Mon Dec  1 19:05:12 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter2
+End time: Mon Dec  1 19:11:46 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[60/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_191146.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3_20251201_191146_results
+Start time: Mon Dec  1 19:11:46 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_4.0_long_6.0_temporal_iter3
+End time: Mon Dec  1 19:18:18 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[61/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_191818.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1_20251201_191818_results
+Start time: Mon Dec  1 19:18:18 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter1
+End time: Mon Dec  1 19:24:59 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[62/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_192459.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2_20251201_192459_results
+Start time: Mon Dec  1 19:24:59 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter2
+End time: Mon Dec  1 19:31:37 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[63/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_193137.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3_20251201_193137_results
+Start time: Mon Dec  1 19:31:37 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_score_diff_iter3
+End time: Mon Dec  1 19:38:14 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[64/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_193814.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1_20251201_193814_results
+Start time: Mon Dec  1 19:38:14 UTC 2025
+
+
+Finished dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter1
+End time: Mon Dec  1 19:44:54 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[65/72] Processing dataset: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_194454.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_dbfp_dense_videomme_blip_k16_alpha0.8_adaptive_short_2.0_med_5.0_long_8.0_temporal_iter2_20251201_194454_results
+Start time: Mon Dec  1 19:44:54 UTC 2025
+
