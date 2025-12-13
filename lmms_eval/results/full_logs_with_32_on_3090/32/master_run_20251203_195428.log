@@ -1,0 +1,31 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+AND CONDITIONAL GPU SETUP (32 frames = 1 process)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/32
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/32/master_run_20251203_195428.log
+
+Found 5 JSON files to process
+
+--------------------------------------------------
+[1/5] Checking dataset: selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/custom_video_qa/selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff_20251203_195428.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff_20251203_195428_results
+Start time: Wed Dec  3 19:54:28 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 7699

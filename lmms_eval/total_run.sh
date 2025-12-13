@@ -7,8 +7,8 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Define the scripts to run
-SCRIPT1="$SCRIPT_DIR/generate_and_run_custom_videoqa.sh"
-SCRIPT2="$SCRIPT_DIR/generate_and_run_LV.sh"
+SCRIPT1="$SCRIPT_DIR/generate_and_run_custom_videosqa_nonDuplicate.sh"
+SCRIPT2="$SCRIPT_DIR/generate_and_run_LV_nonDuplicate.sh"
 
 # Master log file
 MASTER_LOG="$SCRIPT_DIR/results/full_logs/master_all_experiments_$(date +"%Y%m%d_%H%M%S").log"

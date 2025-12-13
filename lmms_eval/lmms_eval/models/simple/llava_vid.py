@@ -748,3 +748,4 @@ class LlavaVid(lmms):
 
     def generate_until_multi_round(self, requests) -> List[str]:
         raise NotImplementedError("TODO: Implement multi-round generation for LLaVAVid")
+

@@ -4,6 +4,7 @@
 # AUTO LMMS-EVAL MULTI-DATASET RUNNER
 # Sequential with nohup background run
 # WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+# AND CONDITIONAL GPU SETUP BASED ON FRAMES
 ###############################################
 
 # 0) Resolve base paths
@@ -11,7 +12,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/custom_video_qa"
 YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml"
-RESULT_DIR="$SCRIPT_DIR/results/full_logs/vmme_param_tune"
+RESULT_DIR="$SCRIPT_DIR/results/full_logs/FINAL_VMME"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
 MODEL_NAME="llava_vid"
@@ -31,6 +32,7 @@ log_message() {
 log_message "======================================================"
 log_message "AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)"
 log_message "WITH SKIP LOGIC FOR ALREADY PROCESSED FILES"
+log_message "AND CONDITIONAL GPU SETUP (32 frames = 1 process)"
 log_message "======================================================"
 log_message "SCRIPT_DIR = $SCRIPT_DIR"
 log_message "JSON_DIR = $JSON_DIR"
@@ -141,6 +143,7 @@ metric_list:
   - metric: custom_video_qa_score
     aggregation: !function utils.custom_video_qa_aggregate_results
     higher_is_better: true
+
 lmms_eval_specific_kwargs:
   default:
     frame_num: ${frame_num}
@@ -157,7 +160,7 @@ EOF
     log_message ""
 
     ###############################################
-    ###  4) Run lmms_eval SEQUENTIALLY with nohup ###
+    ###  4) Run lmms_eval with conditional GPU setup ###
     ###############################################
     PREFIX="${dataset_name}_$(date +"%Y%m%d_%H%M%S")"
     LOG_PATH="${RESULT_DIR}/${PREFIX}.log"
@@ -168,13 +171,12 @@ EOF
     log_message "Log file: $LOG_PATH"
     log_message "Output path: $OUT_PATH"
     log_message "Start time: $(date)"
-    log_message ""
 
     # Change to SCRIPT_DIR before running lmms_eval
     cd "$SCRIPT_DIR"
 
-    # Run with accelerate
-    CUDA_VISIBLE_DEVICES=0,1 accelerate launch --num_processes 2 \
+    # Conditional execution based on frame_num
+   CUDA_VISIBLE_DEVICES=0 accelerate launch --num_processes 1 \
     -m lmms_eval \
         --model "$MODEL_NAME" \
         --model_args "pretrained=$MODEL_PATH,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=${frame_num},overwrite=False" \
@@ -186,9 +188,10 @@ EOF
         --log_samples_suffix "$PREFIX" \
         --verbosity DEBUG \
         >> "$LOG_PATH" 2>&1
-    
     # Check exit status
     exit_status=$?
+
+   
 
     log_message ""
     log_message "Finished dataset: $dataset_name"

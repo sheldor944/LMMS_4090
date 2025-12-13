@@ -1,0 +1,10 @@
+Setting Name,Overall Accuracy,Short %,Medium %,Long %,Short (correct/total),Medium (correct/total),Long (correct/total)
+selected_dbfp_tmas_videomme_clip_k32_additive_proportional_m0.7_half_life_scoreaware0.3_alpha0.85_temporal_iter0,64.6296,75.56,64.11,54.22
+selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov0.8_half_life_alpha0.85_temporal_iter1,64.4444,75.33,64.33,53.67
+selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov1.73_half_life_alpha0.85_temporal_iter0,65.5926,77.33,63.89,55.56
+selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov1.73_half_life_alpha0.85_temporal_iter1,64.963,76.44,63.22,55.22
+selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov1.73_half_life_scoreaware0.3_alpha0.85_temporal_iter0,65.5185,77.22,63.78,55.56
+selected_dbfp_tmas_videomme_clip_k32_auto_sqrt_cov1.73_half_life_alpha0.85_temporal_iter1,64.7407,76.22,63.78,54.22
+selected_dbfp_videomme_clip_k32_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_temporal_sim_gaussian_lambda1.0_sigma0.1_tau5.0_ovlp2.0_iter1,64.1111,74.78,63.56,54.00
+selected_k32_4425716000b9,64,75.22,63.22,53.56
+selected_k32_f9f619252cb8,64.5185,74.89,64.33,54.33

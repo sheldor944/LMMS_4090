@@ -1,0 +1,12 @@
+Setting Name,Overall Accuracy,15s %,60s %,600s %,3600s %
+selected_1_dbfp_tmas_longvideobench_blip_k32_auto_hybrid_cov2_half_life_bidir_alpha0.85_temporal_iter0_opt,58.94,66.14,67.44,59.95,53.19
+selected_1_longvideobench_frames_k32_aks,60.06,66.14,68.02,61.17,54.79
+selected_dbfp_tmas_longvideobench_blip_k32_auto_hybrid_cov1.73_half_life_alpha0.85_temporal_iter0,59.39,66.14,66.86,59.95,54.43
+selected_dbfp_tmas_longvideobench_blip_k32_auto_hybrid_cov1.73_half_life_scoreaware0.3_alpha0.85_temporal_iter0,59.39,66.14,66.86,60.19,54.25
+selected_dbfp_tmas_longvideobench_blip_k32_auto_hybrid_cov2_half_life_alpha0.85_temporal_iter0_opt,58.94,66.14,67.44,59.95,53.19
+selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.0_opt,60.73,66.14,68.61,62.38,55.32
+selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.73_opt,58.94,66.14,67.44,60.92,52.48
+selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt,59.69,66.14,68.61,60.68,54.08
+selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1.73_opt,60.06,66.14,68.61,60.92,54.79
+selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt,60.21,66.14,68.61,62.38,54.08
+selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt,60.21,66.14,68.61,60.92,55.14

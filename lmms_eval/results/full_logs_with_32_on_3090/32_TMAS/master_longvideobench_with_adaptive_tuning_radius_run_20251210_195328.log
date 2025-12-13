@@ -1,0 +1,114 @@
+======================================================
+AUTO LMMS-EVAL LONGVIDEOBENCH RUNNER (NOHUP MODE)
+WITH SKIP LOGIC AND CONDITIONAL GPU SETUP
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/longvideobench
+YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/master_longvideobench_with_adaptive_tuning_radius_run_20251210_195328.log
+
+Found 6 JSON files to process
+
+--------------------------------------------------
+[1/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.0_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.0_opt.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.0_opt_20251210_165600.log
+
+--------------------------------------------------
+[2/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.73_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.73_opt.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_tmas_longvideobench_clip_k32_auto_budget_based_hybrid_cov1.73_opt_20251210_110436.log
+
+--------------------------------------------------
+[3/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt_20251210_195328.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt_20251210_195328_results
+Start time: Wed Dec 10 19:53:28 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 4186501
+
+Finished dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov0.5_opt
+End time: Wed Dec 10 22:13:43 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[4/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1.73_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1.73_opt.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1.73_opt_20251210_132408.log
+
+--------------------------------------------------
+[5/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt_20251210_221343.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt_20251210_221343_results
+Start time: Wed Dec 10 22:13:43 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 52354
+
+Finished dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_hybrid_cov1_opt
+End time: Thu Dec 11 00:29:24 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[6/6] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt_20251211_002924.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32_TMAS/selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt_20251211_002924_results
+Start time: Thu Dec 11 00:29:24 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 112341
+
+Finished dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt
+End time: Thu Dec 11 02:48:08 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+======================================================
+ALL LONGVIDEOBENCH DATASETS PROCESSED SEQUENTIALLY.
+======================================================
+Summary:
+  Total datasets found: 6
+  Skipped (already done): 3
+  Newly processed: 3
+  Completed: Thu Dec 11 02:48:08 UTC 2025
+======================================================

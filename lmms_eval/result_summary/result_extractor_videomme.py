@@ -4,8 +4,8 @@ import glob
 from pathlib import Path
 
 # ==== CONFIG ====
-INPUT_DIR = "../results/full_logs/vmme_param_tune/"  # Directory containing your result/log files
-OUTPUT_FILE = "./extracted_results_videomme_300_param_tune.csv"  # Output CSV file
+INPUT_DIR = "../results/full_logs/32_new_NMS/"  # Directory containing your result/log files
+OUTPUT_FILE = "./extracted_results_videomme_300_TMAS.csv"  # Output CSV file
 FILE_PATTERN = "*.log"
 # ================
 

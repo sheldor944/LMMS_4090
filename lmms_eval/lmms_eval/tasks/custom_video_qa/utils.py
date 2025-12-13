@@ -112,6 +112,55 @@ def custom_video_qa_doc_to_visual(doc):
 
 
 
+# def custom_video_qa_doc_to_text(doc, lmms_eval_specific_kwargs=None):
+#     """
+#     Format the question and options for the model.
+
+#     Creates a prompt with the question and multiple-choice options,
+#     formatted for the model to answer.
+
+#     Args:
+#         doc: Dataset document containing question and options
+#         lmms_eval_specific_kwargs: Additional configuration from YAML
+
+#     Returns:
+#         Formatted prompt string
+#     """
+#     if lmms_eval_specific_kwargs is None:
+#         lmms_eval_specific_kwargs = {}
+
+#     question = doc["question"]
+
+#     # Format options
+#     # Options can be a list like ["A. Apples.", "B. Candles.", ...]
+#     # or just ["Apples", "Candles", ...]
+#     options = doc.get("options", [])
+
+#     if not options:
+#         eval_logger.warning(f"No options found for question: {question}")
+#         option_text = ""
+#     else:
+#         # If options already include letter prefix (e.g., "A. Apples"), use as-is
+#         # Otherwise, add letter prefixes
+#         if all(opt.startswith(f"{chr(65+i)}.") for i, opt in enumerate(options)):
+#             option_text = "\n".join(options)
+#         else:
+#             option_text = "\n".join(
+#                 [f"{chr(65+i)}. {opt}" for i, opt in enumerate(options)]
+#             )
+
+#     # Get prompts from config
+#     pre_prompt = lmms_eval_specific_kwargs.get("pre_prompt", "")
+#     post_prompt = lmms_eval_specific_kwargs.get(
+#         "post_prompt", "\nAnswer with the option's letter from the given choices directly."
+#     )
+
+#     # Build full prompt
+#     full_prompt = f"{pre_prompt}Question: {question}\n{option_text}{post_prompt}"
+
+#     return full_prompt
+
+
 def custom_video_qa_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     """
     Format the question and options for the model.
@@ -129,6 +178,9 @@ def custom_video_qa_doc_to_text(doc, lmms_eval_specific_kwargs=None):
     if lmms_eval_specific_kwargs is None:
         lmms_eval_specific_kwargs = {}
 
+    # NEW: Add explicit instruction prompt (like Video-MME)
+    option_prompt = "Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option."
+    
     question = doc["question"]
 
     # Format options
@@ -149,17 +201,25 @@ def custom_video_qa_doc_to_text(doc, lmms_eval_specific_kwargs=None):
                 [f"{chr(65+i)}. {opt}" for i, opt in enumerate(options)]
             )
 
+    # Combine question and options (like Video-MME does)
+    question_with_options = question + "\n" + option_text
+
     # Get prompts from config
     pre_prompt = lmms_eval_specific_kwargs.get("pre_prompt", "")
+    
+    # NEW: Changed default post_prompt to match Video-MME style
     post_prompt = lmms_eval_specific_kwargs.get(
-        "post_prompt", "\nAnswer with the option's letter from the given choices directly."
+        "post_prompt", "The best answer is:"
     )
 
-    # Build full prompt
-    full_prompt = f"{pre_prompt}Question: {question}\n{option_text}{post_prompt}"
+    # Build full prompt with new structure
+    # NEW: option_prompt at the beginning, cleaner structure
+    if pre_prompt:
+        full_prompt = f"{pre_prompt}\n{option_prompt}\n{question_with_options}\n{post_prompt}"
+    else:
+        full_prompt = f"{option_prompt}\n{question_with_options}\n{post_prompt}"
 
     return full_prompt
-
 
 def extract_answer(pred_text):
     """

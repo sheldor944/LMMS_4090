@@ -1,0 +1,95 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+AND CONDITIONAL GPU SETUP (32 frames = 1 process)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/master_run_20251203_132959.log
+
+Found 3 JSON files to process
+
+--------------------------------------------------
+[1/3] Checking dataset: selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0_20251203_132959.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0_20251203_132959_results
+Start time: Wed Dec  3 13:29:59 UTC 2025
+Frame count ≠ 32: Using accelerate with 2 processes (multi-GPU)
+
+
+Finished dataset: selected_frames_videomme_ada_dq_k16_beta0.5_delta3.0
+End time: Wed Dec  3 13:31:09 UTC 2025
+Exit status: 1
+✗ FAILED with exit code 1
+-------------------------------------------
+
+--------------------------------------------------
+[2/3] Checking dataset: selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/custom_video_qa/selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0_20251203_133109.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0_20251203_133109_results
+Start time: Wed Dec  3 13:31:09 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 3215
+
+Finished dataset: selected_frames_videomme_ada_dq_k32_beta0.5_delta3.0
+End time: Wed Dec  3 13:31:22 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[3/3] Checking dataset: selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0_20251203_133122.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0_20251203_133122_results
+Start time: Wed Dec  3 13:31:22 UTC 2025
+Frame count ≠ 32: Using accelerate with 2 processes (multi-GPU)
+
+
+Finished dataset: selected_frames_videomme_ada_dq_k8_beta0.5_delta3.0
+End time: Wed Dec  3 13:31:44 UTC 2025
+Exit status: 1
+✗ FAILED with exit code 1
+-------------------------------------------
+
+======================================================
+ALL DATASETS PROCESSED SEQUENTIALLY.
+======================================================
+Summary:
+  Total datasets found: 3
+  Skipped (already done): 0
+  Newly processed: 1
+  Completed: Wed Dec  3 13:31:44 UTC 2025
+======================================================

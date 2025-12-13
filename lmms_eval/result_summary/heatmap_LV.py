@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import os
 
 # ================================================================
 #                 GLOBAL STYLE & DATA PREPARATION
@@ -9,12 +10,26 @@ import numpy as np
 sns.set_theme(style="whitegrid")
 
 # Load data
-df = pd.read_csv("extracted_results_longvideobench.csv")
+CSV_FILE_NAME = "extracted_results_longvideobench_TMAS.csv"
+df = pd.read_csv(CSV_FILE_NAME)
 
-# Extract parameters from Setting Name
+# --- Create output folder based on CSV name ---
+folder_name = os.path.splitext(CSV_FILE_NAME)[0]  # Remove .csv extension
+if not os.path.exists(folder_name):
+    os.makedirs(folder_name)
+    print(f"✓ Created folder: {folder_name}/")
+else:
+    print(f"✓ Using existing folder: {folder_name}/")
+
+# Extract parameters from Setting Name with NaN handling
 df["k"] = df["Setting Name"].str.extract(r"k(\d+)")
-df["alpha"] = df["Setting Name"].str.extract(r"alpha([\d.]+)").astype(float)
-df["sup"] = df["Setting Name"].str.extract(r"sup([\d.]+)").astype(float)
+
+alpha_extracted = df["Setting Name"].str.extract(r"alpha([\d.]+)")
+df["alpha"] = pd.to_numeric(alpha_extracted[0], errors='coerce')
+
+sup_extracted = df["Setting Name"].str.extract(r"sup([\d.]+)")
+df["sup"] = pd.to_numeric(sup_extracted[0], errors='coerce')
+
 df["method"] = df["Setting Name"].str.extract(r"(score_diff|temporal|uniform)")
 
 # Uniform column order
@@ -30,12 +45,38 @@ def make_heatmap(ax, df_slice, value_col, title, ylabel="Config", center=60):
     """
     Creates a well-styled seaborn heatmap with better readability.
     """
-    pivot = df_slice.pivot_table(
+    # Filter out rows with NaN in critical columns
+    df_clean = df_slice.dropna(subset=['method', value_col])
+    
+    if len(df_clean) == 0:
+        ax.text(0.5, 0.5, 'No data available', 
+                ha='center', va='center', transform=ax.transAxes, fontsize=12)
+        ax.set_title(title, fontsize=15, fontweight="bold", pad=12)
+        return
+    
+    index_cols = [c for c in df_clean.columns if c in ["k", "alpha", "sup"] and c != "method"]
+    
+    # Drop rows with NaN in index columns
+    df_clean = df_clean.dropna(subset=index_cols + ['method'])
+    
+    if len(df_clean) == 0:
+        ax.text(0.5, 0.5, 'No data available', 
+                ha='center', va='center', transform=ax.transAxes, fontsize=12)
+        ax.set_title(title, fontsize=15, fontweight="bold", pad=12)
+        return
+    
+    pivot = df_clean.pivot_table(
         values=value_col,
-        index=[c for c in df_slice.columns if c in ["k", "alpha", "sup"] and c != "method"],
+        index=index_cols,
         columns="method",
         aggfunc="mean"
     )
+
+    if pivot.empty:
+        ax.text(0.5, 0.5, 'No data available', 
+                ha='center', va='center', transform=ax.transAxes, fontsize=12)
+        ax.set_title(title, fontsize=15, fontweight="bold", pad=12)
+        return
 
     # Keep consistent column ordering
     pivot = pivot[[c for c in METHOD_ORDER if c in pivot.columns]]
@@ -131,14 +172,15 @@ for row, (metric, label) in enumerate(duration_metrics, start=1):
 # ================================================================
 #                        SAVE OUTPUT
 # ================================================================
-OUTFILE = "longvideobench_heatmap_poster_adaptive.png"
+OUTFILE = f"{folder_name}/longvideobench_heatmap_poster_adaptive.png"
 plt.savefig(OUTFILE, dpi=150, bbox_inches="tight", pad_inches=0.3)
 plt.show()
 
 print("=" * 90)
 print(" ✔ READABLE HEATMAP GENERATED SUCCESSFULLY!")
 print("=" * 90)
-print(f"File: {OUTFILE}")
+print(f"📁 Output Folder: {folder_name}/")
+print(f"📄 File: {OUTFILE}")
 print(f"Canvas Size: 22 × 32 inches")
 print(f"Resolution: 3300 × 4800 px (at 150 DPI)")
 print("=" * 90)
@@ -155,4 +197,6 @@ print("  • Slightly wider: 20 → 22 inches")
 print("  • Optimized spacing for better cell height")
 print("  • Increased font sizes slightly for better visibility")
 print("  • Better aspect ratio for heatmap cells")
+print("  • Added NaN handling for missing parameter data")
+print("  • Output saved to dedicated folder")
 print("=" * 90)
