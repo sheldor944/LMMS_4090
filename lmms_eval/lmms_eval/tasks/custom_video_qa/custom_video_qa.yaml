@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/custom_video_qa/selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov1.73_half_life_scoreaware0.3_alpha0.85_temporal_iter0.json
+    test: datasets/custom_video_qa/selected_videomme_sevila_TOP_k8.json
   cache_dir: custom_video_qa_cache
 
 task: "custom_video_qa"
@@ -26,11 +26,11 @@ metric_list:
 
 lmms_eval_specific_kwargs:
   default:
-    frame_num: 32
+    frame_num: 8
     use_topk: True
     pre_prompt: ""
     post_prompt: "\nAnswer with the option's letter from the given choices directly."
 
 metadata:
   version: 1.0
-  description: "Auto-generated Custom video QA task for selected_dbfp_tmas_videomme_clip_k32_auto_hybrid_cov1.73_half_life_scoreaware0.3_alpha0.85_temporal_iter0"
+  description: "Auto-generated Custom video QA task for selected_videomme_sevila_TOP_k8"

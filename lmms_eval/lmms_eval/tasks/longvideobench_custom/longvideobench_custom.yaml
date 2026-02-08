@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt.json
+    test: datasets/longvideobench/selected_longvideobench_sevila_TOP_k8.json
   cache_dir: longvideobench_custom_cache
 
 task: "longvideobench_custom"
@@ -13,7 +13,7 @@ doc_to_text: !function utils.longvideobench_custom_doc_to_text
 doc_to_target: "correct_choice"
 
 generation_kwargs:
-  max_new_tokens: 128
+  max_new_tokens: 16
   temperature: 0
   do_sample: false
 
@@ -31,4 +31,4 @@ lmms_eval_specific_kwargs:
 
 metadata:
   version: 1.0
-  description: "Auto-generated LongVideoBench task for selected_tmas_longvideobench_clip_k32_auto_half_life_sqrt_cov0.5_opt"
+  description: "Auto-generated LongVideoBench task for selected_longvideobench_sevila_TOP_k8"

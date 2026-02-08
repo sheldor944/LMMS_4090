@@ -1,0 +1,23 @@
+[2025-12-03 13:23:33] ======================================================
+[2025-12-03 13:23:33] MASTER EXPERIMENT RUNNER STARTED
+[2025-12-03 13:23:33] ======================================================
+[2025-12-03 13:23:33] Script 1: /home/train01/miraj/lmms_eval/generate_and_run_custom_videosqa_nonDuplicate.sh
+[2025-12-03 13:23:33] Script 2: /home/train01/miraj/lmms_eval/generate_and_run_LV_nonDuplicate.sh
+[2025-12-03 13:23:33] Master Log: /home/train01/miraj/lmms_eval/results/full_logs/master_all_experiments_20251203_132333.log
+[2025-12-03 13:23:33] 
+[2025-12-03 13:23:33] ------------------------------------------------------
+[2025-12-03 13:23:33] STARTING: Custom Video QA Experiments
+[2025-12-03 13:23:33] ------------------------------------------------------
+[2025-12-03 13:23:33] Start time: Wed Dec  3 13:23:33 UTC 2025
+[2025-12-03 13:24:10] 
+[2025-12-03 13:24:10] FINISHED: Custom Video QA Experiments
+[2025-12-03 13:24:10] End time: Wed Dec  3 13:24:10 UTC 2025
+[2025-12-03 13:24:10] Exit code: 0
+[2025-12-03 13:24:10] ✓ Custom Video QA completed successfully
+[2025-12-03 13:24:10] 
+[2025-12-03 13:24:10] ======================================================
+[2025-12-03 13:24:10] ------------------------------------------------------
+[2025-12-03 13:24:10] STARTING: LongVideoBench Experiments
+[2025-12-03 13:24:10] ------------------------------------------------------
+[2025-12-03 13:24:10] Start time: Wed Dec  3 13:24:10 UTC 2025
+[2025-12-03 13:24:10] ERROR: Script not found: /home/train01/miraj/lmms_eval/generate_and_run_LV_nonDuplicate.sh

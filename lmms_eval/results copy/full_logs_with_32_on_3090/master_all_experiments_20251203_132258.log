@@ -1,0 +1,17 @@
+[2025-12-03 13:22:58] ======================================================
+[2025-12-03 13:22:58] MASTER EXPERIMENT RUNNER STARTED
+[2025-12-03 13:22:58] ======================================================
+[2025-12-03 13:22:58] Script 1: /home/train01/miraj/lmms_eval/generate_and_run_custom_videosqa_nonDuplicate.sh
+[2025-12-03 13:22:58] Script 2: /home/train01/miraj/lmms_eval/generate_and_run_LV_nonDuplicate.sh
+[2025-12-03 13:22:58] Master Log: /home/train01/miraj/lmms_eval/results/full_logs/master_all_experiments_20251203_132258.log
+[2025-12-03 13:22:58] 
+[2025-12-03 13:22:58] ------------------------------------------------------
+[2025-12-03 13:22:58] STARTING: Custom Video QA Experiments
+[2025-12-03 13:22:58] ------------------------------------------------------
+[2025-12-03 13:22:58] Start time: Wed Dec  3 13:22:58 UTC 2025
+[2025-12-03 13:22:58] 
+[2025-12-03 13:22:58] FINISHED: Custom Video QA Experiments
+[2025-12-03 13:22:58] End time: Wed Dec  3 13:22:58 UTC 2025
+[2025-12-03 13:22:58] Exit code: 1
+[2025-12-03 13:22:58] ✗ Custom Video QA FAILED with exit code 1
+[2025-12-03 13:22:58] Stopping execution. Fix the error before continuing.

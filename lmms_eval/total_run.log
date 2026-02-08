@@ -1,0 +1,394 @@
+[2026-01-21 10:04:26] ======================================================
+[2026-01-21 10:04:26] MASTER EXPERIMENT RUNNER STARTED
+[2026-01-21 10:04:26] ======================================================
+[2026-01-21 10:04:26] Script 1: /home/train01/miraj/lmms_eval/generate_and_run_custom_videosqa_nonDuplicate.sh
+[2026-01-21 10:04:26] Script 2: /home/train01/miraj/lmms_eval/generate_and_run_LV_nonDuplicate.sh
+[2026-01-21 10:04:26] Master Log: /home/train01/miraj/lmms_eval/results/full_logs/master_all_experiments_20260121_100426.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] ------------------------------------------------------
+[2026-01-21 10:04:26] STARTING: Custom Video QA Experiments
+[2026-01-21 10:04:26] ------------------------------------------------------
+[2026-01-21 10:04:26] Start time: Wed Jan 21 10:04:26 UTC 2026
+[2026-01-21 10:04:26] ======================================================
+[2026-01-21 10:04:26] AUTO LMMS-EVAL MULTI-DATASET RUNNER (VideoMME)
+[2026-01-21 10:04:26] ======================================================
+[2026-01-21 10:04:26] SCRIPT_DIR = /home/train01/miraj/lmms_eval
+[2026-01-21 10:04:26] JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+[2026-01-21 10:04:26] YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 10:04:26] RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME
+[2026-01-21 10:04:26] MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/master_run_20260121_100426.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] Checking GPU availability...
+index, name, memory.total [MiB], memory.free [MiB]
+0, NVIDIA GeForce RTX 3090, 24576 MiB, 24124 MiB
+1, NVIDIA GeForce RTX 3090, 24576 MiB, 24123 MiB
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] Found 72 JSON files to process
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [1/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_142244.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [2/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260109_152754.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [3/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260109_163305.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [4/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_173915.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [5/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260109_184526.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [6/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260109_195136.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [7/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_205746.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [8/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260110_013957.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [9/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260110_062408.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [10/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260110_110820.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [11/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260110_155131.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [12/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260110_203342.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [13/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_011553.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [14/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_015403.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [15/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_023113.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [16/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_030823.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [17/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_034534.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [18/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:26]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_042144.log
+[2026-01-21 10:04:26] 
+[2026-01-21 10:04:26] --------------------------------------------------
+[2026-01-21 10:04:26] [19/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:26] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_045854.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [20/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_060505.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [21/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_071115.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [22/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_081725.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [23/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_092236.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [24/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_102846.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [25/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_113457.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [26/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_161808.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [27/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_210019.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [28/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_014530.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [29/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_063041.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [30/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_111052.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [31/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_155403.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [32/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_163213.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [33/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_170924.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [34/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_174634.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [35/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_182344.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [36/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_185955.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [37/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_193605.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [38/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_204215.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [39/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_214826.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [40/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_225436.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [41/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_235947.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [42/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260113_010457.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [43/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260113_021007.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [44/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260113_065319.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [45/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260113_113530.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [46/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260113_161641.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [47/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260113_205752.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [48/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_013903.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [49/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_062014.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [50/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_065724.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [51/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_073334.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [52/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_080945.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [53/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:27] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:27]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_084655.log
+[2026-01-21 10:04:27] 
+[2026-01-21 10:04:27] --------------------------------------------------
+[2026-01-21 10:04:27] [54/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:04:28] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:04:28] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:04:28]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_092406.log
+[2026-01-21 10:04:28] 
+[2026-01-21 10:04:28] --------------------------------------------------
+[2026-01-21 10:04:28] [55/72] Checking dataset: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 10:04:28] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_aks_k16_ratio1.json
+[2026-01-21 10:04:28] ✓ Not yet processed, will run
+[2026-01-21 10:04:28] --------------------------------------------------
+[2026-01-21 10:04:28] Detected frame_num = 16
+[2026-01-21 10:04:28] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_aks_k16_ratio1.json
+[2026-01-21 10:04:28] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 10:04:28] YAML overwritten successfully
+[2026-01-21 10:04:28] 
+[2026-01-21 10:04:28] Starting lmms_eval for: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 10:04:28] Using frame_num: 16
+[2026-01-21 10:04:28] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k16_ratio1_20260121_100428.log
+[2026-01-21 10:04:28] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k16_ratio1_20260121_100428_results
+[2026-01-21 10:04:28] Start time: Wed Jan 21 10:04:28 UTC 2026
+[2026-01-21 10:04:28] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 10:04:28] Process started with PID: 12642
+[2026-01-21 10:05:28] 
+[2026-01-21 10:05:28] Finished dataset: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 10:05:28] End time: Wed Jan 21 10:05:28 UTC 2026
+[2026-01-21 10:05:28] Duration: 0h 1m
+[2026-01-21 10:05:28] Exit status: 1
+[2026-01-21 10:05:28] ✗ FAILED with exit code 1
+[2026-01-21 10:05:28] Waiting 10 seconds before next dataset...
+[2026-01-21 10:05:38] -------------------------------------------
+[2026-01-21 10:05:38] 
+[2026-01-21 10:05:38] --------------------------------------------------
+[2026-01-21 10:05:38] [56/72] Checking dataset: selected_videomme_blip_aks_k32_ratio1
+[2026-01-21 10:05:38] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_aks_k32_ratio1.json
+[2026-01-21 10:05:38] ✓ Not yet processed, will run
+[2026-01-21 10:05:38] --------------------------------------------------
+[2026-01-21 10:05:38] Detected frame_num = 32
+[2026-01-21 10:05:38] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_aks_k32_ratio1.json
+[2026-01-21 10:05:38] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 10:05:38] YAML overwritten successfully
+[2026-01-21 10:05:38] 
+[2026-01-21 10:05:38] Starting lmms_eval for: selected_videomme_blip_aks_k32_ratio1
+[2026-01-21 10:05:38] Using frame_num: 32
+[2026-01-21 10:05:38] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k32_ratio1_20260121_100538.log
+[2026-01-21 10:05:38] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k32_ratio1_20260121_100538_results
+[2026-01-21 10:05:38] Start time: Wed Jan 21 10:05:38 UTC 2026
+[2026-01-21 10:05:38] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-21 10:05:38] Process started with PID: 13807

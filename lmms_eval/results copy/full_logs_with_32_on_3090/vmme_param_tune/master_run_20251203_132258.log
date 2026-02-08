@@ -1,0 +1,12 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+AND CONDITIONAL GPU SETUP (32 frames = 1 process)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/vmme_param_tune/master_run_20251203_132258.log
+
+ERROR: No JSON files found in /home/train01/miraj/lmms_eval/datasets/custom_video_qa

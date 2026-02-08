@@ -1,0 +1,117 @@
+{
+  "results": {
+    "custom_video_qa": {
+      "alias": "custom_video_qa",
+      "custom_video_qa_score,none": 59.074074074074076,
+      "custom_video_qa_score_stderr,none": "N/A"
+    }
+  },
+  "group_subtasks": {
+    "custom_video_qa": []
+  },
+  "configs": {
+    "custom_video_qa": {
+      "task": "custom_video_qa",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": "/home/hpc4090/lmms/lmms_eval/datasets/custom_video_qa/test.json"
+        },
+        "cache_dir": "custom_video_qa_cache"
+      },
+      "test_split": "test",
+      "full_docs": false,
+      "process_results_use_image": false,
+      "doc_to_visual": "<function custom_video_qa_doc_to_visual at 0x77d654989580>",
+      "doc_to_text": "<function custom_video_qa_doc_to_text at 0x77d623e1e480>",
+      "doc_to_target": "answer",
+      "process_results": "<function custom_video_qa_process_results at 0x77d623e1db20>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "custom_video_qa_score",
+          "aggregation": "<function custom_video_qa_aggregate_results at 0x77d623e1e0c0>",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "max_new_tokens": 16,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "do_sample": false,
+        "until": [
+          "\n\n"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0,
+        "description": "Custom video QA task for evaluating video understanding with multiple-choice questions"
+      },
+      "lmms_eval_specific_kwargs": {
+        "default": {
+          "frame_num": 64,
+          "use_topk": true,
+          "pre_prompt": "",
+          "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+        },
+        "frame_num": 64,
+        "use_topk": true,
+        "pre_prompt": "",
+        "post_prompt": "\nAnswer with the option's letter from the given choices directly."
+      }
+    }
+  },
+  "versions": {
+    "custom_video_qa": 1.0
+  },
+  "n-shot": {
+    "custom_video_qa": 0
+  },
+  "higher_is_better": {
+    "custom_video_qa": {
+      "custom_video_qa_score": true
+    }
+  },
+  "n-samples": {
+    "custom_video_qa": {
+      "original": 2700,
+      "effective": 2700
+    }
+  },
+  "config": {
+    "model": "llava_vid",
+    "model_args": "pretrained=/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=16,overwrite=False",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": "cuda:0",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": "",
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "f395834",
+  "date": "20251111_002546",
+  "task_hashes": {},
+  "model_source": "llava_vid",
+  "model_name": "/home/hpc4090/miraj/AKS/AKS/llava_eval/LLaVA-NeXT-Video-7B-Qwen2",
+  "model_name_sanitized": "llava_eval__LLaVA-NeXT-Video-7B-Qwen2",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 78739.691375152,
+  "end_time": 83421.878124325,
+  "total_evaluation_time_seconds": "4682.186749172994"
+}

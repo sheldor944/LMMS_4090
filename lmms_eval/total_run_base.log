@@ -1,0 +1,1759 @@
+[2026-01-21 10:16:50] ======================================================
+[2026-01-21 10:16:50] MASTER EXPERIMENT RUNNER STARTED
+[2026-01-21 10:16:50] ======================================================
+[2026-01-21 10:16:50] Script 1: /home/train01/miraj/lmms_eval/generate_and_run_custom_videosqa_nonDuplicate.sh
+[2026-01-21 10:16:50] Script 2: /home/train01/miraj/lmms_eval/generate_and_run_LV_nonDuplicate.sh
+[2026-01-21 10:16:50] Master Log: /home/train01/miraj/lmms_eval/results/full_logs/master_all_experiments_20260121_101650.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] ------------------------------------------------------
+[2026-01-21 10:16:50] STARTING: Custom Video QA Experiments
+[2026-01-21 10:16:50] ------------------------------------------------------
+[2026-01-21 10:16:50] Start time: Wed Jan 21 10:16:50 UTC 2026
+[2026-01-21 10:16:50] ======================================================
+[2026-01-21 10:16:50] AUTO LMMS-EVAL MULTI-DATASET RUNNER (VideoMME)
+[2026-01-21 10:16:50] ======================================================
+[2026-01-21 10:16:50] SCRIPT_DIR = /home/train01/miraj/lmms_eval
+[2026-01-21 10:16:50] JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+[2026-01-21 10:16:50] YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 10:16:50] RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME
+[2026-01-21 10:16:50] MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/master_run_20260121_101650.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] Checking GPU availability...
+index, name, memory.total [MiB], memory.free [MiB]
+0, NVIDIA GeForce RTX 3090, 24576 MiB, 24124 MiB
+1, NVIDIA GeForce RTX 3090, 24576 MiB, 24123 MiB
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] Found 72 JSON files to process
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [1/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_142244.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [2/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260109_152754.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [3/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260109_163305.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [4/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_173915.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [5/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260109_184526.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [6/72] Checking dataset: selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260109_195136.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [7/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260109_205746.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [8/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260110_013957.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [9/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260110_062408.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [10/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260110_110820.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [11/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260110_155131.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [12/72] Checking dataset: selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:50] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:50]    Example: selected_tmas_videomme_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260110_203342.log
+[2026-01-21 10:16:50] 
+[2026-01-21 10:16:50] --------------------------------------------------
+[2026-01-21 10:16:50] [13/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:50] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_011553.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [14/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_015403.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [15/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_023113.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [16/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_030823.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [17/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_034534.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [18/72] Checking dataset: selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_042144.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [19/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_045854.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [20/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_060505.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [21/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_071115.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [22/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_081725.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [23/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_092236.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [24/72] Checking dataset: selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_102846.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [25/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260111_113457.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [26/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260111_161808.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [27/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260111_210019.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [28/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_014530.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [29/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_063041.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [30/72] Checking dataset: selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_111052.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [31/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_155403.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [32/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_163213.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [33/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_170924.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [34/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_174634.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [35/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_182344.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [36/72] Checking dataset: selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_185955.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [37/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_193605.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [38/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_204215.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [39/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260112_214826.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [40/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260112_225436.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [41/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260112_235947.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [42/72] Checking dataset: selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260113_010457.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [43/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260113_021007.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [44/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260113_065319.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [45/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260113_113530.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [46/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260113_161641.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:51] [47/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:51] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:51] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:51]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260113_205752.log
+[2026-01-21 10:16:51] 
+[2026-01-21 10:16:51] --------------------------------------------------
+[2026-01-21 10:16:52] [48/72] Checking dataset: selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_013903.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [49/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_062014.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [50/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_065724.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [51/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_073334.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [52/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_080945.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [53/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_084655.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [54/72] Checking dataset: selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-21 10:16:52] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-21 10:16:52]    Example: selected_tmas_videomme_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_092406.log
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] [55/72] Checking dataset: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 10:16:52] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_aks_k16_ratio1.json
+[2026-01-21 10:16:52] ✓ Not yet processed, will run
+[2026-01-21 10:16:52] --------------------------------------------------
+[2026-01-21 10:16:52] Detected frame_num = 16
+[2026-01-21 10:16:52] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_aks_k16_ratio1.json
+[2026-01-21 10:16:52] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 10:16:52] YAML overwritten successfully
+[2026-01-21 10:16:52] 
+[2026-01-21 10:16:52] Starting lmms_eval for: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 10:16:52] Using frame_num: 16
+[2026-01-21 10:16:52] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k16_ratio1_20260121_101652.log
+[2026-01-21 10:16:52] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k16_ratio1_20260121_101652_results
+[2026-01-21 10:16:52] Start time: Wed Jan 21 10:16:52 UTC 2026
+[2026-01-21 10:16:52] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 10:16:52] Process started with PID: 5069
+[2026-01-21 10:46:52] Still running... Elapsed: 0h 30m
+[2026-01-21 11:16:52] Still running... Elapsed: 1h 0m
+[2026-01-21 11:22:52] 
+[2026-01-21 11:22:52] Finished dataset: selected_videomme_blip_aks_k16_ratio1
+[2026-01-21 11:22:52] End time: Wed Jan 21 11:22:52 UTC 2026
+[2026-01-21 11:22:52] Duration: 1h 6m
+[2026-01-21 11:22:52] Exit status: 0
+[2026-01-21 11:22:52] ✓ SUCCESS - Output files verified
+[2026-01-21 11:22:52] Waiting 10 seconds before next dataset...
+[2026-01-21 11:23:02] -------------------------------------------
+[2026-01-21 11:23:02] 
+[2026-01-21 11:23:02] --------------------------------------------------
+[2026-01-21 11:23:02] [56/72] Checking dataset: selected_videomme_blip_aks_k32_ratio1
+[2026-01-21 11:23:02] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_aks_k32_ratio1.json
+[2026-01-21 11:23:02] ✓ Not yet processed, will run
+[2026-01-21 11:23:02] --------------------------------------------------
+[2026-01-21 11:23:02] Detected frame_num = 32
+[2026-01-21 11:23:02] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_aks_k32_ratio1.json
+[2026-01-21 11:23:02] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 11:23:02] YAML overwritten successfully
+[2026-01-21 11:23:02] 
+[2026-01-21 11:23:02] Starting lmms_eval for: selected_videomme_blip_aks_k32_ratio1
+[2026-01-21 11:23:02] Using frame_num: 32
+[2026-01-21 11:23:02] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k32_ratio1_20260121_112302.log
+[2026-01-21 11:23:02] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k32_ratio1_20260121_112302_results
+[2026-01-21 11:23:02] Start time: Wed Jan 21 11:23:02 UTC 2026
+[2026-01-21 11:23:02] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-21 11:23:02] Process started with PID: 91754
+[2026-01-21 11:53:02] Still running... Elapsed: 0h 30m
+[2026-01-21 12:23:02] Still running... Elapsed: 1h 0m
+[2026-01-21 12:53:02] Still running... Elapsed: 1h 30m
+[2026-01-21 13:23:02] Still running... Elapsed: 2h 0m
+[2026-01-21 13:53:03] Still running... Elapsed: 2h 30m
+[2026-01-21 14:23:03] Still running... Elapsed: 3h 0m
+[2026-01-21 14:53:03] Still running... Elapsed: 3h 30m
+[2026-01-21 15:23:03] Still running... Elapsed: 4h 0m
+[2026-01-21 15:53:03] Still running... Elapsed: 4h 30m
+[2026-01-21 15:55:03] 
+[2026-01-21 15:55:03] Finished dataset: selected_videomme_blip_aks_k32_ratio1
+[2026-01-21 15:55:03] End time: Wed Jan 21 15:55:03 UTC 2026
+[2026-01-21 15:55:03] Duration: 4h 32m
+[2026-01-21 15:55:03] Exit status: 0
+[2026-01-21 15:55:03] ✓ SUCCESS - Output files verified
+[2026-01-21 15:55:03] Waiting 10 seconds before next dataset...
+[2026-01-21 15:55:13] -------------------------------------------
+[2026-01-21 15:55:13] 
+[2026-01-21 15:55:13] --------------------------------------------------
+[2026-01-21 15:55:13] [57/72] Checking dataset: selected_videomme_blip_aks_k8_ratio1
+[2026-01-21 15:55:13] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_aks_k8_ratio1.json
+[2026-01-21 15:55:13] ✓ Not yet processed, will run
+[2026-01-21 15:55:13] --------------------------------------------------
+[2026-01-21 15:55:13] Detected frame_num = 8
+[2026-01-21 15:55:13] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_aks_k8_ratio1.json
+[2026-01-21 15:55:13] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 15:55:13] YAML overwritten successfully
+[2026-01-21 15:55:13] 
+[2026-01-21 15:55:13] Starting lmms_eval for: selected_videomme_blip_aks_k8_ratio1
+[2026-01-21 15:55:13] Using frame_num: 8
+[2026-01-21 15:55:13] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k8_ratio1_20260121_155513.log
+[2026-01-21 15:55:13] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_aks_k8_ratio1_20260121_155513_results
+[2026-01-21 15:55:13] Start time: Wed Jan 21 15:55:13 UTC 2026
+[2026-01-21 15:55:13] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 15:55:13] Process started with PID: 240431
+[2026-01-21 16:25:13] Still running... Elapsed: 0h 30m
+[2026-01-21 16:34:13] 
+[2026-01-21 16:34:13] Finished dataset: selected_videomme_blip_aks_k8_ratio1
+[2026-01-21 16:34:13] End time: Wed Jan 21 16:34:13 UTC 2026
+[2026-01-21 16:34:13] Duration: 0h 39m
+[2026-01-21 16:34:13] Exit status: 0
+[2026-01-21 16:34:13] ✓ SUCCESS - Output files verified
+[2026-01-21 16:34:13] Waiting 10 seconds before next dataset...
+[2026-01-21 16:34:23] -------------------------------------------
+[2026-01-21 16:34:23] 
+[2026-01-21 16:34:23] --------------------------------------------------
+[2026-01-21 16:34:23] [58/72] Checking dataset: selected_videomme_blip_TOP_k16
+[2026-01-21 16:34:23] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_TOP_k16.json
+[2026-01-21 16:34:23] ✓ Not yet processed, will run
+[2026-01-21 16:34:23] --------------------------------------------------
+[2026-01-21 16:34:23] Detected frame_num = 16
+[2026-01-21 16:34:23] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_TOP_k16.json
+[2026-01-21 16:34:23] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 16:34:23] YAML overwritten successfully
+[2026-01-21 16:34:23] 
+[2026-01-21 16:34:23] Starting lmms_eval for: selected_videomme_blip_TOP_k16
+[2026-01-21 16:34:23] Using frame_num: 16
+[2026-01-21 16:34:23] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k16_20260121_163423.log
+[2026-01-21 16:34:23] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k16_20260121_163423_results
+[2026-01-21 16:34:23] Start time: Wed Jan 21 16:34:23 UTC 2026
+[2026-01-21 16:34:23] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 16:34:23] Process started with PID: 278837
+[2026-01-21 17:04:24] Still running... Elapsed: 0h 30m
+[2026-01-21 17:31:24] 
+[2026-01-21 17:31:24] Finished dataset: selected_videomme_blip_TOP_k16
+[2026-01-21 17:31:24] End time: Wed Jan 21 17:31:24 UTC 2026
+[2026-01-21 17:31:24] Duration: 0h 57m
+[2026-01-21 17:31:24] Exit status: 0
+[2026-01-21 17:31:24] ✓ SUCCESS - Output files verified
+[2026-01-21 17:31:24] Waiting 10 seconds before next dataset...
+[2026-01-21 17:31:34] -------------------------------------------
+[2026-01-21 17:31:34] 
+[2026-01-21 17:31:34] --------------------------------------------------
+[2026-01-21 17:31:34] [59/72] Checking dataset: selected_videomme_blip_TOP_k32
+[2026-01-21 17:31:34] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_TOP_k32.json
+[2026-01-21 17:31:34] ✓ Not yet processed, will run
+[2026-01-21 17:31:34] --------------------------------------------------
+[2026-01-21 17:31:34] Detected frame_num = 32
+[2026-01-21 17:31:34] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_TOP_k32.json
+[2026-01-21 17:31:34] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 17:31:34] YAML overwritten successfully
+[2026-01-21 17:31:34] 
+[2026-01-21 17:31:34] Starting lmms_eval for: selected_videomme_blip_TOP_k32
+[2026-01-21 17:31:34] Using frame_num: 32
+[2026-01-21 17:31:34] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k32_20260121_173134.log
+[2026-01-21 17:31:34] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k32_20260121_173134_results
+[2026-01-21 17:31:34] Start time: Wed Jan 21 17:31:34 UTC 2026
+[2026-01-21 17:31:34] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-21 17:31:34] Process started with PID: 323167
+[2026-01-21 18:01:34] Still running... Elapsed: 0h 30m
+[2026-01-21 18:31:34] Still running... Elapsed: 1h 0m
+[2026-01-21 19:01:34] Still running... Elapsed: 1h 30m
+[2026-01-21 19:31:34] Still running... Elapsed: 2h 0m
+[2026-01-21 20:01:34] Still running... Elapsed: 2h 30m
+[2026-01-21 20:31:34] Still running... Elapsed: 3h 0m
+[2026-01-21 21:01:34] Still running... Elapsed: 3h 30m
+[2026-01-21 21:31:35] Still running... Elapsed: 4h 0m
+[2026-01-21 21:34:35] 
+[2026-01-21 21:34:35] Finished dataset: selected_videomme_blip_TOP_k32
+[2026-01-21 21:34:35] End time: Wed Jan 21 21:34:35 UTC 2026
+[2026-01-21 21:34:35] Duration: 4h 3m
+[2026-01-21 21:34:35] Exit status: 0
+[2026-01-21 21:34:35] ✓ SUCCESS - Output files verified
+[2026-01-21 21:34:35] Waiting 10 seconds before next dataset...
+[2026-01-21 21:34:45] -------------------------------------------
+[2026-01-21 21:34:45] 
+[2026-01-21 21:34:45] --------------------------------------------------
+[2026-01-21 21:34:45] [60/72] Checking dataset: selected_videomme_blip_TOP_k8
+[2026-01-21 21:34:45] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_blip_TOP_k8.json
+[2026-01-21 21:34:45] ✓ Not yet processed, will run
+[2026-01-21 21:34:45] --------------------------------------------------
+[2026-01-21 21:34:45] Detected frame_num = 8
+[2026-01-21 21:34:45] YAML will use test: datasets/custom_video_qa/selected_videomme_blip_TOP_k8.json
+[2026-01-21 21:34:45] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 21:34:45] YAML overwritten successfully
+[2026-01-21 21:34:45] 
+[2026-01-21 21:34:45] Starting lmms_eval for: selected_videomme_blip_TOP_k8
+[2026-01-21 21:34:45] Using frame_num: 8
+[2026-01-21 21:34:45] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k8_20260121_213445.log
+[2026-01-21 21:34:45] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_blip_TOP_k8_20260121_213445_results
+[2026-01-21 21:34:45] Start time: Wed Jan 21 21:34:45 UTC 2026
+[2026-01-21 21:34:45] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 21:34:45] Process started with PID: 402031
+[2026-01-21 22:04:45] Still running... Elapsed: 0h 30m
+[2026-01-21 22:07:46] 
+[2026-01-21 22:07:46] Finished dataset: selected_videomme_blip_TOP_k8
+[2026-01-21 22:07:46] End time: Wed Jan 21 22:07:46 UTC 2026
+[2026-01-21 22:07:46] Duration: 0h 33m
+[2026-01-21 22:07:46] Exit status: 0
+[2026-01-21 22:07:46] ✓ SUCCESS - Output files verified
+[2026-01-21 22:07:46] Waiting 10 seconds before next dataset...
+[2026-01-21 22:07:56] -------------------------------------------
+[2026-01-21 22:07:56] 
+[2026-01-21 22:07:56] --------------------------------------------------
+[2026-01-21 22:07:56] [61/72] Checking dataset: selected_videomme_clip_aks_k16_ratio1
+[2026-01-21 22:07:56] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_aks_k16_ratio1.json
+[2026-01-21 22:07:56] ✓ Not yet processed, will run
+[2026-01-21 22:07:56] --------------------------------------------------
+[2026-01-21 22:07:56] Detected frame_num = 16
+[2026-01-21 22:07:56] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_aks_k16_ratio1.json
+[2026-01-21 22:07:56] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 22:07:56] YAML overwritten successfully
+[2026-01-21 22:07:56] 
+[2026-01-21 22:07:56] Starting lmms_eval for: selected_videomme_clip_aks_k16_ratio1
+[2026-01-21 22:07:56] Using frame_num: 16
+[2026-01-21 22:07:56] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k16_ratio1_20260121_220756.log
+[2026-01-21 22:07:56] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k16_ratio1_20260121_220756_results
+[2026-01-21 22:07:56] Start time: Wed Jan 21 22:07:56 UTC 2026
+[2026-01-21 22:07:56] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-21 22:07:56] Process started with PID: 427306
+[2026-01-21 22:37:57] Still running... Elapsed: 0h 30m
+[2026-01-21 23:07:57] Still running... Elapsed: 1h 0m
+[2026-01-21 23:13:57] 
+[2026-01-21 23:13:57] Finished dataset: selected_videomme_clip_aks_k16_ratio1
+[2026-01-21 23:13:57] End time: Wed Jan 21 23:13:57 UTC 2026
+[2026-01-21 23:13:57] Duration: 1h 6m
+[2026-01-21 23:13:57] Exit status: 0
+[2026-01-21 23:13:57] ✓ SUCCESS - Output files verified
+[2026-01-21 23:13:57] Waiting 10 seconds before next dataset...
+[2026-01-21 23:14:07] -------------------------------------------
+[2026-01-21 23:14:07] 
+[2026-01-21 23:14:07] --------------------------------------------------
+[2026-01-21 23:14:07] [62/72] Checking dataset: selected_videomme_clip_aks_k32_ratio1
+[2026-01-21 23:14:07] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_aks_k32_ratio1.json
+[2026-01-21 23:14:07] ✓ Not yet processed, will run
+[2026-01-21 23:14:07] --------------------------------------------------
+[2026-01-21 23:14:07] Detected frame_num = 32
+[2026-01-21 23:14:07] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_aks_k32_ratio1.json
+[2026-01-21 23:14:07] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-21 23:14:07] YAML overwritten successfully
+[2026-01-21 23:14:07] 
+[2026-01-21 23:14:07] Starting lmms_eval for: selected_videomme_clip_aks_k32_ratio1
+[2026-01-21 23:14:07] Using frame_num: 32
+[2026-01-21 23:14:07] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k32_ratio1_20260121_231407.log
+[2026-01-21 23:14:07] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k32_ratio1_20260121_231407_results
+[2026-01-21 23:14:07] Start time: Wed Jan 21 23:14:07 UTC 2026
+[2026-01-21 23:14:07] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-21 23:14:07] Process started with PID: 505878
+[2026-01-21 23:44:07] Still running... Elapsed: 0h 30m
+[2026-01-22 00:14:07] Still running... Elapsed: 1h 0m
+[2026-01-22 00:44:07] Still running... Elapsed: 1h 30m
+[2026-01-22 01:14:07] Still running... Elapsed: 2h 0m
+[2026-01-22 01:44:08] Still running... Elapsed: 2h 30m
+[2026-01-22 02:14:08] Still running... Elapsed: 3h 0m
+[2026-01-22 02:44:08] Still running... Elapsed: 3h 30m
+[2026-01-22 03:14:08] Still running... Elapsed: 4h 0m
+[2026-01-22 03:44:08] Still running... Elapsed: 4h 30m
+[2026-01-22 03:49:08] 
+[2026-01-22 03:49:08] Finished dataset: selected_videomme_clip_aks_k32_ratio1
+[2026-01-22 03:49:08] End time: Thu Jan 22 03:49:08 UTC 2026
+[2026-01-22 03:49:08] Duration: 4h 35m
+[2026-01-22 03:49:08] Exit status: 0
+[2026-01-22 03:49:08] ✓ SUCCESS - Output files verified
+[2026-01-22 03:49:08] Waiting 10 seconds before next dataset...
+[2026-01-22 03:49:18] -------------------------------------------
+[2026-01-22 03:49:18] 
+[2026-01-22 03:49:18] --------------------------------------------------
+[2026-01-22 03:49:18] [63/72] Checking dataset: selected_videomme_clip_aks_k8_ratio1
+[2026-01-22 03:49:18] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_aks_k8_ratio1.json
+[2026-01-22 03:49:18] ✓ Not yet processed, will run
+[2026-01-22 03:49:18] --------------------------------------------------
+[2026-01-22 03:49:18] Detected frame_num = 8
+[2026-01-22 03:49:18] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_aks_k8_ratio1.json
+[2026-01-22 03:49:18] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 03:49:18] YAML overwritten successfully
+[2026-01-22 03:49:18] 
+[2026-01-22 03:49:18] Starting lmms_eval for: selected_videomme_clip_aks_k8_ratio1
+[2026-01-22 03:49:18] Using frame_num: 8
+[2026-01-22 03:49:18] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k8_ratio1_20260122_034918.log
+[2026-01-22 03:49:18] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_aks_k8_ratio1_20260122_034918_results
+[2026-01-22 03:49:18] Start time: Thu Jan 22 03:49:18 UTC 2026
+[2026-01-22 03:49:18] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 03:49:18] Process started with PID: 651417
+[2026-01-22 04:19:18] Still running... Elapsed: 0h 30m
+[2026-01-22 04:27:18] 
+[2026-01-22 04:27:18] Finished dataset: selected_videomme_clip_aks_k8_ratio1
+[2026-01-22 04:27:18] End time: Thu Jan 22 04:27:18 UTC 2026
+[2026-01-22 04:27:18] Duration: 0h 38m
+[2026-01-22 04:27:18] Exit status: 0
+[2026-01-22 04:27:18] ✓ SUCCESS - Output files verified
+[2026-01-22 04:27:18] Waiting 10 seconds before next dataset...
+[2026-01-22 04:27:28] -------------------------------------------
+[2026-01-22 04:27:28] 
+[2026-01-22 04:27:28] --------------------------------------------------
+[2026-01-22 04:27:28] [64/72] Checking dataset: selected_videomme_clip_TOP_k16
+[2026-01-22 04:27:28] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_TOP_k16.json
+[2026-01-22 04:27:28] ✓ Not yet processed, will run
+[2026-01-22 04:27:28] --------------------------------------------------
+[2026-01-22 04:27:28] Detected frame_num = 16
+[2026-01-22 04:27:28] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_TOP_k16.json
+[2026-01-22 04:27:28] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 04:27:28] YAML overwritten successfully
+[2026-01-22 04:27:28] 
+[2026-01-22 04:27:28] Starting lmms_eval for: selected_videomme_clip_TOP_k16
+[2026-01-22 04:27:28] Using frame_num: 16
+[2026-01-22 04:27:28] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k16_20260122_042728.log
+[2026-01-22 04:27:28] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k16_20260122_042728_results
+[2026-01-22 04:27:28] Start time: Thu Jan 22 04:27:28 UTC 2026
+[2026-01-22 04:27:28] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 04:27:28] Process started with PID: 692927
+[2026-01-22 04:57:28] Still running... Elapsed: 0h 30m
+[2026-01-22 05:25:29] 
+[2026-01-22 05:25:29] Finished dataset: selected_videomme_clip_TOP_k16
+[2026-01-22 05:25:29] End time: Thu Jan 22 05:25:29 UTC 2026
+[2026-01-22 05:25:29] Duration: 0h 58m
+[2026-01-22 05:25:29] Exit status: 0
+[2026-01-22 05:25:29] ✓ SUCCESS - Output files verified
+[2026-01-22 05:25:29] Waiting 10 seconds before next dataset...
+[2026-01-22 05:25:39] -------------------------------------------
+[2026-01-22 05:25:39] 
+[2026-01-22 05:25:39] --------------------------------------------------
+[2026-01-22 05:25:39] [65/72] Checking dataset: selected_videomme_clip_TOP_k32
+[2026-01-22 05:25:39] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_TOP_k32.json
+[2026-01-22 05:25:39] ✓ Not yet processed, will run
+[2026-01-22 05:25:39] --------------------------------------------------
+[2026-01-22 05:25:39] Detected frame_num = 32
+[2026-01-22 05:25:39] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_TOP_k32.json
+[2026-01-22 05:25:39] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 05:25:39] YAML overwritten successfully
+[2026-01-22 05:25:39] 
+[2026-01-22 05:25:39] Starting lmms_eval for: selected_videomme_clip_TOP_k32
+[2026-01-22 05:25:39] Using frame_num: 32
+[2026-01-22 05:25:39] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k32_20260122_052539.log
+[2026-01-22 05:25:39] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k32_20260122_052539_results
+[2026-01-22 05:25:39] Start time: Thu Jan 22 05:25:39 UTC 2026
+[2026-01-22 05:25:39] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-22 05:25:39] Process started with PID: 741161
+[2026-01-22 05:55:39] Still running... Elapsed: 0h 30m
+[2026-01-22 06:25:39] Still running... Elapsed: 1h 0m
+[2026-01-22 06:55:39] Still running... Elapsed: 1h 30m
+[2026-01-22 07:25:39] Still running... Elapsed: 2h 0m
+[2026-01-22 07:55:39] Still running... Elapsed: 2h 30m
+[2026-01-22 08:25:39] Still running... Elapsed: 3h 0m
+[2026-01-22 08:55:39] Still running... Elapsed: 3h 30m
+[2026-01-22 09:25:39] Still running... Elapsed: 4h 0m
+[2026-01-22 09:27:39] 
+[2026-01-22 09:27:39] Finished dataset: selected_videomme_clip_TOP_k32
+[2026-01-22 09:27:39] End time: Thu Jan 22 09:27:39 UTC 2026
+[2026-01-22 09:27:39] Duration: 4h 2m
+[2026-01-22 09:27:39] Exit status: 0
+[2026-01-22 09:27:39] ✓ SUCCESS - Output files verified
+[2026-01-22 09:27:39] Waiting 10 seconds before next dataset...
+[2026-01-22 09:27:49] -------------------------------------------
+[2026-01-22 09:27:49] 
+[2026-01-22 09:27:49] --------------------------------------------------
+[2026-01-22 09:27:49] [66/72] Checking dataset: selected_videomme_clip_TOP_k8
+[2026-01-22 09:27:49] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_TOP_k8.json
+[2026-01-22 09:27:50] ✓ Not yet processed, will run
+[2026-01-22 09:27:50] --------------------------------------------------
+[2026-01-22 09:27:50] Detected frame_num = 8
+[2026-01-22 09:27:50] YAML will use test: datasets/custom_video_qa/selected_videomme_clip_TOP_k8.json
+[2026-01-22 09:27:50] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 09:27:50] YAML overwritten successfully
+[2026-01-22 09:27:50] 
+[2026-01-22 09:27:50] Starting lmms_eval for: selected_videomme_clip_TOP_k8
+[2026-01-22 09:27:50] Using frame_num: 8
+[2026-01-22 09:27:50] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k8_20260122_092750.log
+[2026-01-22 09:27:50] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_clip_TOP_k8_20260122_092750_results
+[2026-01-22 09:27:50] Start time: Thu Jan 22 09:27:50 UTC 2026
+[2026-01-22 09:27:50] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 09:27:50] Process started with PID: 826830
+[2026-01-22 09:57:50] Still running... Elapsed: 0h 30m
+[2026-01-22 10:01:50] 
+[2026-01-22 10:01:50] Finished dataset: selected_videomme_clip_TOP_k8
+[2026-01-22 10:01:50] End time: Thu Jan 22 10:01:50 UTC 2026
+[2026-01-22 10:01:50] Duration: 0h 34m
+[2026-01-22 10:01:50] Exit status: 0
+[2026-01-22 10:01:50] ✓ SUCCESS - Output files verified
+[2026-01-22 10:01:50] Waiting 10 seconds before next dataset...
+[2026-01-22 10:02:00] -------------------------------------------
+[2026-01-22 10:02:00] 
+[2026-01-22 10:02:00] --------------------------------------------------
+[2026-01-22 10:02:00] [67/72] Checking dataset: selected_videomme_sevila_aks_k16_ratio1
+[2026-01-22 10:02:00] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_aks_k16_ratio1.json
+[2026-01-22 10:02:00] ✓ Not yet processed, will run
+[2026-01-22 10:02:00] --------------------------------------------------
+[2026-01-22 10:02:00] Detected frame_num = 16
+[2026-01-22 10:02:00] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_aks_k16_ratio1.json
+[2026-01-22 10:02:00] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 10:02:00] YAML overwritten successfully
+[2026-01-22 10:02:00] 
+[2026-01-22 10:02:00] Starting lmms_eval for: selected_videomme_sevila_aks_k16_ratio1
+[2026-01-22 10:02:00] Using frame_num: 16
+[2026-01-22 10:02:00] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k16_ratio1_20260122_100200.log
+[2026-01-22 10:02:00] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k16_ratio1_20260122_100200_results
+[2026-01-22 10:02:00] Start time: Thu Jan 22 10:02:00 UTC 2026
+[2026-01-22 10:02:00] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 10:02:00] Process started with PID: 854186
+[2026-01-22 10:32:00] Still running... Elapsed: 0h 30m
+[2026-01-22 11:02:00] Still running... Elapsed: 1h 0m
+[2026-01-22 11:07:00] 
+[2026-01-22 11:07:00] Finished dataset: selected_videomme_sevila_aks_k16_ratio1
+[2026-01-22 11:07:00] End time: Thu Jan 22 11:07:00 UTC 2026
+[2026-01-22 11:07:00] Duration: 1h 5m
+[2026-01-22 11:07:00] Exit status: 0
+[2026-01-22 11:07:00] ✓ SUCCESS - Output files verified
+[2026-01-22 11:07:00] Waiting 10 seconds before next dataset...
+[2026-01-22 11:07:10] -------------------------------------------
+[2026-01-22 11:07:10] 
+[2026-01-22 11:07:10] --------------------------------------------------
+[2026-01-22 11:07:10] [68/72] Checking dataset: selected_videomme_sevila_aks_k32_ratio1
+[2026-01-22 11:07:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_aks_k32_ratio1.json
+[2026-01-22 11:07:10] ✓ Not yet processed, will run
+[2026-01-22 11:07:10] --------------------------------------------------
+[2026-01-22 11:07:10] Detected frame_num = 32
+[2026-01-22 11:07:10] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_aks_k32_ratio1.json
+[2026-01-22 11:07:10] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 11:07:10] YAML overwritten successfully
+[2026-01-22 11:07:10] 
+[2026-01-22 11:07:10] Starting lmms_eval for: selected_videomme_sevila_aks_k32_ratio1
+[2026-01-22 11:07:10] Using frame_num: 32
+[2026-01-22 11:07:10] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k32_ratio1_20260122_110710.log
+[2026-01-22 11:07:10] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k32_ratio1_20260122_110710_results
+[2026-01-22 11:07:10] Start time: Thu Jan 22 11:07:10 UTC 2026
+[2026-01-22 11:07:10] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-22 11:07:10] Process started with PID: 933063
+[2026-01-22 11:37:10] Still running... Elapsed: 0h 30m
+[2026-01-22 12:07:11] Still running... Elapsed: 1h 0m
+[2026-01-22 12:37:11] Still running... Elapsed: 1h 30m
+[2026-01-22 13:07:11] Still running... Elapsed: 2h 0m
+[2026-01-22 13:37:11] Still running... Elapsed: 2h 30m
+[2026-01-22 14:07:11] Still running... Elapsed: 3h 0m
+[2026-01-22 14:37:11] Still running... Elapsed: 3h 30m
+[2026-01-22 15:07:11] Still running... Elapsed: 4h 0m
+[2026-01-22 15:37:11] Still running... Elapsed: 4h 30m
+[2026-01-22 15:39:11] 
+[2026-01-22 15:39:11] Finished dataset: selected_videomme_sevila_aks_k32_ratio1
+[2026-01-22 15:39:11] End time: Thu Jan 22 15:39:11 UTC 2026
+[2026-01-22 15:39:11] Duration: 4h 32m
+[2026-01-22 15:39:11] Exit status: 0
+[2026-01-22 15:39:11] ✓ SUCCESS - Output files verified
+[2026-01-22 15:39:11] Waiting 10 seconds before next dataset...
+[2026-01-22 15:39:21] -------------------------------------------
+[2026-01-22 15:39:21] 
+[2026-01-22 15:39:21] --------------------------------------------------
+[2026-01-22 15:39:21] [69/72] Checking dataset: selected_videomme_sevila_aks_k8_ratio1
+[2026-01-22 15:39:21] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_aks_k8_ratio1.json
+[2026-01-22 15:39:21] ✓ Not yet processed, will run
+[2026-01-22 15:39:21] --------------------------------------------------
+[2026-01-22 15:39:21] Detected frame_num = 8
+[2026-01-22 15:39:21] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_aks_k8_ratio1.json
+[2026-01-22 15:39:21] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 15:39:21] YAML overwritten successfully
+[2026-01-22 15:39:21] 
+[2026-01-22 15:39:21] Starting lmms_eval for: selected_videomme_sevila_aks_k8_ratio1
+[2026-01-22 15:39:21] Using frame_num: 8
+[2026-01-22 15:39:21] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k8_ratio1_20260122_153921.log
+[2026-01-22 15:39:21] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_aks_k8_ratio1_20260122_153921_results
+[2026-01-22 15:39:21] Start time: Thu Jan 22 15:39:21 UTC 2026
+[2026-01-22 15:39:21] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 15:39:21] Process started with PID: 1078007
+[2026-01-22 16:09:21] Still running... Elapsed: 0h 30m
+[2026-01-22 16:16:21] 
+[2026-01-22 16:16:21] Finished dataset: selected_videomme_sevila_aks_k8_ratio1
+[2026-01-22 16:16:22] End time: Thu Jan 22 16:16:22 UTC 2026
+[2026-01-22 16:16:22] Duration: 0h 37m
+[2026-01-22 16:16:22] Exit status: 0
+[2026-01-22 16:16:22] ✓ SUCCESS - Output files verified
+[2026-01-22 16:16:22] Waiting 10 seconds before next dataset...
+[2026-01-22 16:16:32] -------------------------------------------
+[2026-01-22 16:16:32] 
+[2026-01-22 16:16:32] --------------------------------------------------
+[2026-01-22 16:16:32] [70/72] Checking dataset: selected_videomme_sevila_TOP_k16
+[2026-01-22 16:16:32] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_TOP_k16.json
+[2026-01-22 16:16:32] ✓ Not yet processed, will run
+[2026-01-22 16:16:32] --------------------------------------------------
+[2026-01-22 16:16:32] Detected frame_num = 16
+[2026-01-22 16:16:32] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_TOP_k16.json
+[2026-01-22 16:16:32] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 16:16:32] YAML overwritten successfully
+[2026-01-22 16:16:32] 
+[2026-01-22 16:16:32] Starting lmms_eval for: selected_videomme_sevila_TOP_k16
+[2026-01-22 16:16:32] Using frame_num: 16
+[2026-01-22 16:16:32] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k16_20260122_161632.log
+[2026-01-22 16:16:32] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k16_20260122_161632_results
+[2026-01-22 16:16:32] Start time: Thu Jan 22 16:16:32 UTC 2026
+[2026-01-22 16:16:32] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 16:16:32] Process started with PID: 1119582
+[2026-01-22 16:46:32] Still running... Elapsed: 0h 30m
+[2026-01-22 17:13:32] 
+[2026-01-22 17:13:32] Finished dataset: selected_videomme_sevila_TOP_k16
+[2026-01-22 17:13:32] End time: Thu Jan 22 17:13:32 UTC 2026
+[2026-01-22 17:13:32] Duration: 0h 57m
+[2026-01-22 17:13:32] Exit status: 0
+[2026-01-22 17:13:32] ✓ SUCCESS - Output files verified
+[2026-01-22 17:13:32] Waiting 10 seconds before next dataset...
+[2026-01-22 17:13:42] -------------------------------------------
+[2026-01-22 17:13:42] 
+[2026-01-22 17:13:42] --------------------------------------------------
+[2026-01-22 17:13:42] [71/72] Checking dataset: selected_videomme_sevila_TOP_k32
+[2026-01-22 17:13:42] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_TOP_k32.json
+[2026-01-22 17:13:42] ✓ Not yet processed, will run
+[2026-01-22 17:13:42] --------------------------------------------------
+[2026-01-22 17:13:42] Detected frame_num = 32
+[2026-01-22 17:13:42] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_TOP_k32.json
+[2026-01-22 17:13:42] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 17:13:42] YAML overwritten successfully
+[2026-01-22 17:13:42] 
+[2026-01-22 17:13:42] Starting lmms_eval for: selected_videomme_sevila_TOP_k32
+[2026-01-22 17:13:42] Using frame_num: 32
+[2026-01-22 17:13:42] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k32_20260122_171342.log
+[2026-01-22 17:13:42] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k32_20260122_171342_results
+[2026-01-22 17:13:42] Start time: Thu Jan 22 17:13:42 UTC 2026
+[2026-01-22 17:13:42] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-22 17:13:42] Process started with PID: 1168827
+[2026-01-22 17:43:42] Still running... Elapsed: 0h 30m
+[2026-01-22 18:13:42] Still running... Elapsed: 1h 0m
+[2026-01-22 18:43:42] Still running... Elapsed: 1h 30m
+[2026-01-22 19:13:42] Still running... Elapsed: 2h 0m
+[2026-01-22 19:43:42] Still running... Elapsed: 2h 30m
+[2026-01-22 20:13:42] Still running... Elapsed: 3h 0m
+[2026-01-22 20:43:43] Still running... Elapsed: 3h 30m
+[2026-01-22 21:13:43] Still running... Elapsed: 4h 0m
+[2026-01-22 21:15:43] 
+[2026-01-22 21:15:43] Finished dataset: selected_videomme_sevila_TOP_k32
+[2026-01-22 21:15:43] End time: Thu Jan 22 21:15:43 UTC 2026
+[2026-01-22 21:15:43] Duration: 4h 2m
+[2026-01-22 21:15:43] Exit status: 0
+[2026-01-22 21:15:43] ✓ SUCCESS - Output files verified
+[2026-01-22 21:15:43] Waiting 10 seconds before next dataset...
+[2026-01-22 21:15:53] -------------------------------------------
+[2026-01-22 21:15:53] 
+[2026-01-22 21:15:53] --------------------------------------------------
+[2026-01-22 21:15:53] [72/72] Checking dataset: selected_videomme_sevila_TOP_k8
+[2026-01-22 21:15:53] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_sevila_TOP_k8.json
+[2026-01-22 21:15:53] ✓ Not yet processed, will run
+[2026-01-22 21:15:53] --------------------------------------------------
+[2026-01-22 21:15:53] Detected frame_num = 8
+[2026-01-22 21:15:53] YAML will use test: datasets/custom_video_qa/selected_videomme_sevila_TOP_k8.json
+[2026-01-22 21:15:53] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+[2026-01-22 21:15:53] YAML overwritten successfully
+[2026-01-22 21:15:53] 
+[2026-01-22 21:15:53] Starting lmms_eval for: selected_videomme_sevila_TOP_k8
+[2026-01-22 21:15:53] Using frame_num: 8
+[2026-01-22 21:15:53] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k8_20260122_211553.log
+[2026-01-22 21:15:53] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_VMME/selected_videomme_sevila_TOP_k8_20260122_211553_results
+[2026-01-22 21:15:53] Start time: Thu Jan 22 21:15:53 UTC 2026
+[2026-01-22 21:15:53] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 21:15:53] Process started with PID: 1255192
+[2026-01-22 21:45:53] Still running... Elapsed: 0h 30m
+[2026-01-22 21:48:53] 
+[2026-01-22 21:48:53] Finished dataset: selected_videomme_sevila_TOP_k8
+[2026-01-22 21:48:53] End time: Thu Jan 22 21:48:53 UTC 2026
+[2026-01-22 21:48:53] Duration: 0h 33m
+[2026-01-22 21:48:53] Exit status: 0
+[2026-01-22 21:48:53] ✓ SUCCESS - Output files verified
+[2026-01-22 21:48:53] Waiting 10 seconds before next dataset...
+[2026-01-22 21:49:03] -------------------------------------------
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] ALL VIDEOMME DATASETS PROCESSED SEQUENTIALLY.
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] Summary:
+[2026-01-22 21:49:03]   Total datasets found: 72
+[2026-01-22 21:49:03]   Skipped (already done): 54
+[2026-01-22 21:49:03]   Successfully processed: 18
+[2026-01-22 21:49:03]   Failed: 0
+[2026-01-22 21:49:03]   Completion time: Thu Jan 22 21:49:03 UTC 2026
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] ✓ All datasets processed successfully
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] FINISHED: Custom Video QA Experiments
+[2026-01-22 21:49:03] End time: Thu Jan 22 21:49:03 UTC 2026
+[2026-01-22 21:49:03] Exit code: 0
+[2026-01-22 21:49:03] ✓ Custom Video QA completed successfully
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] ------------------------------------------------------
+[2026-01-22 21:49:03] STARTING: LongVideoBench Experiments
+[2026-01-22 21:49:03] ------------------------------------------------------
+[2026-01-22 21:49:03] Start time: Thu Jan 22 21:49:03 UTC 2026
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] AUTO LMMS-EVAL LONGVIDEOBENCH RUNNER
+[2026-01-22 21:49:03] ======================================================
+[2026-01-22 21:49:03] SCRIPT_DIR = /home/train01/miraj/lmms_eval
+[2026-01-22 21:49:03] JSON_DIR   = /home/train01/miraj/lmms_eval/datasets/longvideobench
+[2026-01-22 21:49:03] YAML_FILE  = /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-22 21:49:03] RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV
+[2026-01-22 21:49:03] MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/master_longvideobench_with_adaptive_tuning_radius_run_20260122_214903.log
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] Checking GPU availability...
+index, name, memory.total [MiB], memory.free [MiB]
+0, NVIDIA GeForce RTX 3090, 24576 MiB, 24124 MiB
+1, NVIDIA GeForce RTX 3090, 24576 MiB, 24123 MiB
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] Found 72 JSON files to process
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] --------------------------------------------------
+[2026-01-22 21:49:03] [1/72] Checking dataset: selected_longvideobench_blip_aks_k16_ratio1
+[2026-01-22 21:49:03] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_aks_k16_ratio1.json
+[2026-01-22 21:49:03] ✓ Not yet processed, will run
+[2026-01-22 21:49:03] --------------------------------------------------
+[2026-01-22 21:49:03] Detected frame_num = 16
+[2026-01-22 21:49:03] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_aks_k16_ratio1.json
+[2026-01-22 21:49:03] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-22 21:49:03] YAML overwritten successfully
+[2026-01-22 21:49:03] 
+[2026-01-22 21:49:03] Starting lmms_eval for: selected_longvideobench_blip_aks_k16_ratio1
+[2026-01-22 21:49:03] Using frame_num: 16
+[2026-01-22 21:49:03] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k16_ratio1_20260122_214903.log
+[2026-01-22 21:49:03] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k16_ratio1_20260122_214903_results
+[2026-01-22 21:49:03] Start time: Thu Jan 22 21:49:03 UTC 2026
+[2026-01-22 21:49:03] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-22 21:49:03] Process started with PID: 1283071
+[2026-01-22 22:17:04] 
+[2026-01-22 22:17:04] Finished dataset: selected_longvideobench_blip_aks_k16_ratio1
+[2026-01-22 22:17:04] End time: Thu Jan 22 22:17:04 UTC 2026
+[2026-01-22 22:17:04] Duration: 0h 28m
+[2026-01-22 22:17:04] Exit status: 0
+[2026-01-22 22:17:04] ✓ SUCCESS - Output files verified
+[2026-01-22 22:17:04] Waiting 10 seconds before next dataset...
+[2026-01-22 22:17:14] -------------------------------------------
+[2026-01-22 22:17:14] 
+[2026-01-22 22:17:14] --------------------------------------------------
+[2026-01-22 22:17:14] [2/72] Checking dataset: selected_longvideobench_blip_aks_k32_ratio1
+[2026-01-22 22:17:14] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_aks_k32_ratio1.json
+[2026-01-22 22:17:14] ✓ Not yet processed, will run
+[2026-01-22 22:17:14] --------------------------------------------------
+[2026-01-22 22:17:14] Detected frame_num = 32
+[2026-01-22 22:17:14] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_aks_k32_ratio1.json
+[2026-01-22 22:17:14] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-22 22:17:14] YAML overwritten successfully
+[2026-01-22 22:17:14] 
+[2026-01-22 22:17:14] Starting lmms_eval for: selected_longvideobench_blip_aks_k32_ratio1
+[2026-01-22 22:17:14] Using frame_num: 32
+[2026-01-22 22:17:14] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k32_ratio1_20260122_221714.log
+[2026-01-22 22:17:14] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k32_ratio1_20260122_221714_results
+[2026-01-22 22:17:14] Start time: Thu Jan 22 22:17:14 UTC 2026
+[2026-01-22 22:17:14] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-22 22:17:14] Process started with PID: 1312618
+[2026-01-22 22:47:14] Still running... Elapsed: 0h 30m
+[2026-01-22 23:17:14] Still running... Elapsed: 1h 0m
+[2026-01-22 23:47:14] Still running... Elapsed: 1h 30m
+[2026-01-23 00:10:14] 
+[2026-01-23 00:10:14] Finished dataset: selected_longvideobench_blip_aks_k32_ratio1
+[2026-01-23 00:10:14] End time: Fri Jan 23 00:10:14 UTC 2026
+[2026-01-23 00:10:14] Duration: 1h 53m
+[2026-01-23 00:10:14] Exit status: 0
+[2026-01-23 00:10:14] ✓ SUCCESS - Output files verified
+[2026-01-23 00:10:14] Waiting 10 seconds before next dataset...
+[2026-01-23 00:10:24] -------------------------------------------
+[2026-01-23 00:10:24] 
+[2026-01-23 00:10:24] --------------------------------------------------
+[2026-01-23 00:10:24] [3/72] Checking dataset: selected_longvideobench_blip_aks_k8_ratio1
+[2026-01-23 00:10:24] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_aks_k8_ratio1.json
+[2026-01-23 00:10:24] ✓ Not yet processed, will run
+[2026-01-23 00:10:24] --------------------------------------------------
+[2026-01-23 00:10:24] Detected frame_num = 8
+[2026-01-23 00:10:24] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_aks_k8_ratio1.json
+[2026-01-23 00:10:24] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 00:10:24] YAML overwritten successfully
+[2026-01-23 00:10:24] 
+[2026-01-23 00:10:24] Starting lmms_eval for: selected_longvideobench_blip_aks_k8_ratio1
+[2026-01-23 00:10:24] Using frame_num: 8
+[2026-01-23 00:10:24] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k8_ratio1_20260123_001024.log
+[2026-01-23 00:10:24] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k8_ratio1_20260123_001024_results
+[2026-01-23 00:10:24] Start time: Fri Jan 23 00:10:24 UTC 2026
+[2026-01-23 00:10:24] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 00:10:24] Process started with PID: 1371037
+[2026-01-23 00:26:24] 
+[2026-01-23 00:26:24] Finished dataset: selected_longvideobench_blip_aks_k8_ratio1
+[2026-01-23 00:26:24] End time: Fri Jan 23 00:26:24 UTC 2026
+[2026-01-23 00:26:24] Duration: 0h 16m
+[2026-01-23 00:26:24] Exit status: 0
+[2026-01-23 00:26:24] ✓ SUCCESS - Output files verified
+[2026-01-23 00:26:24] Waiting 10 seconds before next dataset...
+[2026-01-23 00:26:34] -------------------------------------------
+[2026-01-23 00:26:34] 
+[2026-01-23 00:26:34] --------------------------------------------------
+[2026-01-23 00:26:34] [4/72] Checking dataset: selected_longvideobench_blip_TOP_k16
+[2026-01-23 00:26:34] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_TOP_k16.json
+[2026-01-23 00:26:34] ✓ Not yet processed, will run
+[2026-01-23 00:26:34] --------------------------------------------------
+[2026-01-23 00:26:34] Detected frame_num = 16
+[2026-01-23 00:26:34] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_TOP_k16.json
+[2026-01-23 00:26:34] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 00:26:34] YAML overwritten successfully
+[2026-01-23 00:26:34] 
+[2026-01-23 00:26:34] Starting lmms_eval for: selected_longvideobench_blip_TOP_k16
+[2026-01-23 00:26:34] Using frame_num: 16
+[2026-01-23 00:26:34] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k16_20260123_002634.log
+[2026-01-23 00:26:34] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k16_20260123_002634_results
+[2026-01-23 00:26:34] Start time: Fri Jan 23 00:26:34 UTC 2026
+[2026-01-23 00:26:34] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 00:26:34] Process started with PID: 1386617
+[2026-01-23 00:51:34] 
+[2026-01-23 00:51:34] Finished dataset: selected_longvideobench_blip_TOP_k16
+[2026-01-23 00:51:34] End time: Fri Jan 23 00:51:34 UTC 2026
+[2026-01-23 00:51:34] Duration: 0h 25m
+[2026-01-23 00:51:34] Exit status: 0
+[2026-01-23 00:51:34] ✓ SUCCESS - Output files verified
+[2026-01-23 00:51:34] Waiting 10 seconds before next dataset...
+[2026-01-23 00:51:44] -------------------------------------------
+[2026-01-23 00:51:44] 
+[2026-01-23 00:51:44] --------------------------------------------------
+[2026-01-23 00:51:44] [5/72] Checking dataset: selected_longvideobench_blip_TOP_k32
+[2026-01-23 00:51:44] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_TOP_k32.json
+[2026-01-23 00:51:44] ✓ Not yet processed, will run
+[2026-01-23 00:51:44] --------------------------------------------------
+[2026-01-23 00:51:44] Detected frame_num = 32
+[2026-01-23 00:51:44] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_TOP_k32.json
+[2026-01-23 00:51:44] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 00:51:44] YAML overwritten successfully
+[2026-01-23 00:51:44] 
+[2026-01-23 00:51:44] Starting lmms_eval for: selected_longvideobench_blip_TOP_k32
+[2026-01-23 00:51:44] Using frame_num: 32
+[2026-01-23 00:51:44] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k32_20260123_005144.log
+[2026-01-23 00:51:44] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k32_20260123_005144_results
+[2026-01-23 00:51:44] Start time: Fri Jan 23 00:51:44 UTC 2026
+[2026-01-23 00:51:44] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-23 00:51:44] Process started with PID: 1406303
+[2026-01-23 01:21:45] Still running... Elapsed: 0h 30m
+[2026-01-23 01:51:45] Still running... Elapsed: 1h 0m
+[2026-01-23 02:21:45] Still running... Elapsed: 1h 30m
+[2026-01-23 02:32:45] 
+[2026-01-23 02:32:45] Finished dataset: selected_longvideobench_blip_TOP_k32
+[2026-01-23 02:32:45] End time: Fri Jan 23 02:32:45 UTC 2026
+[2026-01-23 02:32:45] Duration: 1h 41m
+[2026-01-23 02:32:45] Exit status: 0
+[2026-01-23 02:32:45] ✓ SUCCESS - Output files verified
+[2026-01-23 02:32:45] Waiting 10 seconds before next dataset...
+[2026-01-23 02:32:55] -------------------------------------------
+[2026-01-23 02:32:55] 
+[2026-01-23 02:32:55] --------------------------------------------------
+[2026-01-23 02:32:55] [6/72] Checking dataset: selected_longvideobench_blip_TOP_k8_
+[2026-01-23 02:32:55] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_blip_TOP_k8_.json
+[2026-01-23 02:32:55] ✓ Not yet processed, will run
+[2026-01-23 02:32:55] --------------------------------------------------
+[2026-01-23 02:32:55] Detected frame_num = 8
+[2026-01-23 02:32:55] YAML will use test: datasets/longvideobench/selected_longvideobench_blip_TOP_k8_.json
+[2026-01-23 02:32:55] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 02:32:55] YAML overwritten successfully
+[2026-01-23 02:32:55] 
+[2026-01-23 02:32:55] Starting lmms_eval for: selected_longvideobench_blip_TOP_k8_
+[2026-01-23 02:32:55] Using frame_num: 8
+[2026-01-23 02:32:55] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k8__20260123_023255.log
+[2026-01-23 02:32:55] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_blip_TOP_k8__20260123_023255_results
+[2026-01-23 02:32:55] Start time: Fri Jan 23 02:32:55 UTC 2026
+[2026-01-23 02:32:55] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 02:32:55] Process started with PID: 1445688
+[2026-01-23 02:46:55] 
+[2026-01-23 02:46:55] Finished dataset: selected_longvideobench_blip_TOP_k8_
+[2026-01-23 02:46:55] End time: Fri Jan 23 02:46:55 UTC 2026
+[2026-01-23 02:46:55] Duration: 0h 14m
+[2026-01-23 02:46:55] Exit status: 0
+[2026-01-23 02:46:55] ✓ SUCCESS - Output files verified
+[2026-01-23 02:46:55] Waiting 10 seconds before next dataset...
+[2026-01-23 02:47:05] -------------------------------------------
+[2026-01-23 02:47:05] 
+[2026-01-23 02:47:05] --------------------------------------------------
+[2026-01-23 02:47:05] [7/72] Checking dataset: selected_longvideobench_clip_aks_k16_ratio1
+[2026-01-23 02:47:05] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_aks_k16_ratio1.json
+[2026-01-23 02:47:05] ✓ Not yet processed, will run
+[2026-01-23 02:47:05] --------------------------------------------------
+[2026-01-23 02:47:05] Detected frame_num = 16
+[2026-01-23 02:47:05] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_aks_k16_ratio1.json
+[2026-01-23 02:47:05] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 02:47:05] YAML overwritten successfully
+[2026-01-23 02:47:05] 
+[2026-01-23 02:47:05] Starting lmms_eval for: selected_longvideobench_clip_aks_k16_ratio1
+[2026-01-23 02:47:05] Using frame_num: 16
+[2026-01-23 02:47:05] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k16_ratio1_20260123_024705.log
+[2026-01-23 02:47:05] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k16_ratio1_20260123_024705_results
+[2026-01-23 02:47:05] Start time: Fri Jan 23 02:47:05 UTC 2026
+[2026-01-23 02:47:05] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 02:47:05] Process started with PID: 1457243
+[2026-01-23 03:16:05] 
+[2026-01-23 03:16:05] Finished dataset: selected_longvideobench_clip_aks_k16_ratio1
+[2026-01-23 03:16:05] End time: Fri Jan 23 03:16:05 UTC 2026
+[2026-01-23 03:16:05] Duration: 0h 29m
+[2026-01-23 03:16:05] Exit status: 0
+[2026-01-23 03:16:05] ✓ SUCCESS - Output files verified
+[2026-01-23 03:16:05] Waiting 10 seconds before next dataset...
+[2026-01-23 03:16:15] -------------------------------------------
+[2026-01-23 03:16:15] 
+[2026-01-23 03:16:15] --------------------------------------------------
+[2026-01-23 03:16:15] [8/72] Checking dataset: selected_longvideobench_clip_aks_k32_ratio1
+[2026-01-23 03:16:15] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_aks_k32_ratio1.json
+[2026-01-23 03:16:15] ✓ Not yet processed, will run
+[2026-01-23 03:16:15] --------------------------------------------------
+[2026-01-23 03:16:15] Detected frame_num = 32
+[2026-01-23 03:16:15] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_aks_k32_ratio1.json
+[2026-01-23 03:16:15] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 03:16:15] YAML overwritten successfully
+[2026-01-23 03:16:15] 
+[2026-01-23 03:16:15] Starting lmms_eval for: selected_longvideobench_clip_aks_k32_ratio1
+[2026-01-23 03:16:15] Using frame_num: 32
+[2026-01-23 03:16:15] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k32_ratio1_20260123_031615.log
+[2026-01-23 03:16:15] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k32_ratio1_20260123_031615_results
+[2026-01-23 03:16:15] Start time: Fri Jan 23 03:16:15 UTC 2026
+[2026-01-23 03:16:15] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-23 03:16:15] Process started with PID: 1492275
+[2026-01-23 03:46:15] Still running... Elapsed: 0h 30m
+[2026-01-23 04:16:15] Still running... Elapsed: 1h 0m
+[2026-01-23 04:46:16] Still running... Elapsed: 1h 30m
+[2026-01-23 05:12:16] 
+[2026-01-23 05:12:16] Finished dataset: selected_longvideobench_clip_aks_k32_ratio1
+[2026-01-23 05:12:16] End time: Fri Jan 23 05:12:16 UTC 2026
+[2026-01-23 05:12:16] Duration: 1h 56m
+[2026-01-23 05:12:16] Exit status: 0
+[2026-01-23 05:12:16] ✓ SUCCESS - Output files verified
+[2026-01-23 05:12:16] Waiting 10 seconds before next dataset...
+[2026-01-23 05:12:26] -------------------------------------------
+[2026-01-23 05:12:26] 
+[2026-01-23 05:12:26] --------------------------------------------------
+[2026-01-23 05:12:26] [9/72] Checking dataset: selected_longvideobench_clip_aks_k8_ratio1
+[2026-01-23 05:12:26] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_aks_k8_ratio1.json
+[2026-01-23 05:12:26] ✓ Not yet processed, will run
+[2026-01-23 05:12:26] --------------------------------------------------
+[2026-01-23 05:12:26] Detected frame_num = 8
+[2026-01-23 05:12:26] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_aks_k8_ratio1.json
+[2026-01-23 05:12:26] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 05:12:26] YAML overwritten successfully
+[2026-01-23 05:12:26] 
+[2026-01-23 05:12:26] Starting lmms_eval for: selected_longvideobench_clip_aks_k8_ratio1
+[2026-01-23 05:12:26] Using frame_num: 8
+[2026-01-23 05:12:26] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k8_ratio1_20260123_051226.log
+[2026-01-23 05:12:26] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_aks_k8_ratio1_20260123_051226_results
+[2026-01-23 05:12:26] Start time: Fri Jan 23 05:12:26 UTC 2026
+[2026-01-23 05:12:26] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 05:12:26] Process started with PID: 1557852
+[2026-01-23 05:28:26] 
+[2026-01-23 05:28:26] Finished dataset: selected_longvideobench_clip_aks_k8_ratio1
+[2026-01-23 05:28:26] End time: Fri Jan 23 05:28:26 UTC 2026
+[2026-01-23 05:28:26] Duration: 0h 16m
+[2026-01-23 05:28:26] Exit status: 0
+[2026-01-23 05:28:26] ✓ SUCCESS - Output files verified
+[2026-01-23 05:28:26] Waiting 10 seconds before next dataset...
+[2026-01-23 05:28:36] -------------------------------------------
+[2026-01-23 05:28:36] 
+[2026-01-23 05:28:36] --------------------------------------------------
+[2026-01-23 05:28:36] [10/72] Checking dataset: selected_longvideobench_clip_TOP_k16
+[2026-01-23 05:28:36] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_TOP_k16.json
+[2026-01-23 05:28:36] ✓ Not yet processed, will run
+[2026-01-23 05:28:36] --------------------------------------------------
+[2026-01-23 05:28:36] Detected frame_num = 16
+[2026-01-23 05:28:36] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_TOP_k16.json
+[2026-01-23 05:28:36] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 05:28:36] YAML overwritten successfully
+[2026-01-23 05:28:36] 
+[2026-01-23 05:28:36] Starting lmms_eval for: selected_longvideobench_clip_TOP_k16
+[2026-01-23 05:28:36] Using frame_num: 16
+[2026-01-23 05:28:36] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k16_20260123_052836.log
+[2026-01-23 05:28:36] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k16_20260123_052836_results
+[2026-01-23 05:28:36] Start time: Fri Jan 23 05:28:36 UTC 2026
+[2026-01-23 05:28:36] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 05:28:36] Process started with PID: 1576591
+[2026-01-23 05:53:36] 
+[2026-01-23 05:53:36] Finished dataset: selected_longvideobench_clip_TOP_k16
+[2026-01-23 05:53:36] End time: Fri Jan 23 05:53:36 UTC 2026
+[2026-01-23 05:53:36] Duration: 0h 25m
+[2026-01-23 05:53:36] Exit status: 0
+[2026-01-23 05:53:36] ✓ SUCCESS - Output files verified
+[2026-01-23 05:53:36] Waiting 10 seconds before next dataset...
+[2026-01-23 05:53:46] -------------------------------------------
+[2026-01-23 05:53:46] 
+[2026-01-23 05:53:46] --------------------------------------------------
+[2026-01-23 05:53:46] [11/72] Checking dataset: selected_longvideobench_clip_TOP_k32
+[2026-01-23 05:53:46] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_TOP_k32.json
+[2026-01-23 05:53:46] ✓ Not yet processed, will run
+[2026-01-23 05:53:46] --------------------------------------------------
+[2026-01-23 05:53:46] Detected frame_num = 32
+[2026-01-23 05:53:46] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_TOP_k32.json
+[2026-01-23 05:53:46] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 05:53:46] YAML overwritten successfully
+[2026-01-23 05:53:46] 
+[2026-01-23 05:53:46] Starting lmms_eval for: selected_longvideobench_clip_TOP_k32
+[2026-01-23 05:53:46] Using frame_num: 32
+[2026-01-23 05:53:46] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k32_20260123_055346.log
+[2026-01-23 05:53:46] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k32_20260123_055346_results
+[2026-01-23 05:53:46] Start time: Fri Jan 23 05:53:46 UTC 2026
+[2026-01-23 05:53:46] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-23 05:53:46] Process started with PID: 1599705
+[2026-01-23 06:23:46] Still running... Elapsed: 0h 30m
+[2026-01-23 06:53:46] Still running... Elapsed: 1h 0m
+[2026-01-23 07:23:46] Still running... Elapsed: 1h 30m
+[2026-01-23 07:36:46] 
+[2026-01-23 07:36:46] Finished dataset: selected_longvideobench_clip_TOP_k32
+[2026-01-23 07:36:46] End time: Fri Jan 23 07:36:46 UTC 2026
+[2026-01-23 07:36:46] Duration: 1h 43m
+[2026-01-23 07:36:46] Exit status: 0
+[2026-01-23 07:36:46] ✓ SUCCESS - Output files verified
+[2026-01-23 07:36:46] Waiting 10 seconds before next dataset...
+[2026-01-23 07:36:56] -------------------------------------------
+[2026-01-23 07:36:56] 
+[2026-01-23 07:36:56] --------------------------------------------------
+[2026-01-23 07:36:56] [12/72] Checking dataset: selected_longvideobench_clip_TOP_k8_
+[2026-01-23 07:36:56] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_clip_TOP_k8_.json
+[2026-01-23 07:36:56] ✓ Not yet processed, will run
+[2026-01-23 07:36:56] --------------------------------------------------
+[2026-01-23 07:36:56] Detected frame_num = 8
+[2026-01-23 07:36:57] YAML will use test: datasets/longvideobench/selected_longvideobench_clip_TOP_k8_.json
+[2026-01-23 07:36:57] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 07:36:57] YAML overwritten successfully
+[2026-01-23 07:36:57] 
+[2026-01-23 07:36:57] Starting lmms_eval for: selected_longvideobench_clip_TOP_k8_
+[2026-01-23 07:36:57] Using frame_num: 8
+[2026-01-23 07:36:57] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k8__20260123_073657.log
+[2026-01-23 07:36:57] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_clip_TOP_k8__20260123_073657_results
+[2026-01-23 07:36:57] Start time: Fri Jan 23 07:36:57 UTC 2026
+[2026-01-23 07:36:57] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 07:36:57] Process started with PID: 1636886
+[2026-01-23 07:51:57] 
+[2026-01-23 07:51:57] Finished dataset: selected_longvideobench_clip_TOP_k8_
+[2026-01-23 07:51:57] End time: Fri Jan 23 07:51:57 UTC 2026
+[2026-01-23 07:51:57] Duration: 0h 15m
+[2026-01-23 07:51:57] Exit status: 0
+[2026-01-23 07:51:57] ✓ SUCCESS - Output files verified
+[2026-01-23 07:51:57] Waiting 10 seconds before next dataset...
+[2026-01-23 07:52:07] -------------------------------------------
+[2026-01-23 07:52:07] 
+[2026-01-23 07:52:07] --------------------------------------------------
+[2026-01-23 07:52:07] [13/72] Checking dataset: selected_longvideobench_sevila_aks_k16_ratio1
+[2026-01-23 07:52:07] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_aks_k16_ratio1.json
+[2026-01-23 07:52:07] ✓ Not yet processed, will run
+[2026-01-23 07:52:07] --------------------------------------------------
+[2026-01-23 07:52:07] Detected frame_num = 16
+[2026-01-23 07:52:07] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_aks_k16_ratio1.json
+[2026-01-23 07:52:07] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 07:52:07] YAML overwritten successfully
+[2026-01-23 07:52:07] 
+[2026-01-23 07:52:07] Starting lmms_eval for: selected_longvideobench_sevila_aks_k16_ratio1
+[2026-01-23 07:52:07] Using frame_num: 16
+[2026-01-23 07:52:07] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k16_ratio1_20260123_075207.log
+[2026-01-23 07:52:07] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k16_ratio1_20260123_075207_results
+[2026-01-23 07:52:07] Start time: Fri Jan 23 07:52:07 UTC 2026
+[2026-01-23 07:52:07] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 07:52:07] Process started with PID: 1649368
+[2026-01-23 08:21:07] 
+[2026-01-23 08:21:07] Finished dataset: selected_longvideobench_sevila_aks_k16_ratio1
+[2026-01-23 08:21:07] End time: Fri Jan 23 08:21:07 UTC 2026
+[2026-01-23 08:21:07] Duration: 0h 29m
+[2026-01-23 08:21:07] Exit status: 0
+[2026-01-23 08:21:07] ✓ SUCCESS - Output files verified
+[2026-01-23 08:21:07] Waiting 10 seconds before next dataset...
+[2026-01-23 08:21:17] -------------------------------------------
+[2026-01-23 08:21:17] 
+[2026-01-23 08:21:17] --------------------------------------------------
+[2026-01-23 08:21:17] [14/72] Checking dataset: selected_longvideobench_sevila_aks_k32_ratio1
+[2026-01-23 08:21:17] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_aks_k32_ratio1.json
+[2026-01-23 08:21:17] ✓ Not yet processed, will run
+[2026-01-23 08:21:17] --------------------------------------------------
+[2026-01-23 08:21:17] Detected frame_num = 32
+[2026-01-23 08:21:17] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_aks_k32_ratio1.json
+[2026-01-23 08:21:17] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 08:21:17] YAML overwritten successfully
+[2026-01-23 08:21:17] 
+[2026-01-23 08:21:17] Starting lmms_eval for: selected_longvideobench_sevila_aks_k32_ratio1
+[2026-01-23 08:21:17] Using frame_num: 32
+[2026-01-23 08:21:17] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k32_ratio1_20260123_082117.log
+[2026-01-23 08:21:17] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k32_ratio1_20260123_082117_results
+[2026-01-23 08:21:17] Start time: Fri Jan 23 08:21:17 UTC 2026
+[2026-01-23 08:21:17] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-23 08:21:17] Process started with PID: 1684413
+[2026-01-23 08:51:17] Still running... Elapsed: 0h 30m
+[2026-01-23 09:21:17] Still running... Elapsed: 1h 0m
+[2026-01-23 09:51:17] Still running... Elapsed: 1h 30m
+[2026-01-23 10:17:17] 
+[2026-01-23 10:17:17] Finished dataset: selected_longvideobench_sevila_aks_k32_ratio1
+[2026-01-23 10:17:17] End time: Fri Jan 23 10:17:17 UTC 2026
+[2026-01-23 10:17:17] Duration: 1h 56m
+[2026-01-23 10:17:17] Exit status: 0
+[2026-01-23 10:17:17] ✓ SUCCESS - Output files verified
+[2026-01-23 10:17:17] Waiting 10 seconds before next dataset...
+[2026-01-23 10:17:27] -------------------------------------------
+[2026-01-23 10:17:27] 
+[2026-01-23 10:17:27] --------------------------------------------------
+[2026-01-23 10:17:27] [15/72] Checking dataset: selected_longvideobench_sevila_aks_k8_ratio1
+[2026-01-23 10:17:27] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_aks_k8_ratio1.json
+[2026-01-23 10:17:27] ✓ Not yet processed, will run
+[2026-01-23 10:17:27] --------------------------------------------------
+[2026-01-23 10:17:27] Detected frame_num = 8
+[2026-01-23 10:17:27] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_aks_k8_ratio1.json
+[2026-01-23 10:17:27] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 10:17:27] YAML overwritten successfully
+[2026-01-23 10:17:27] 
+[2026-01-23 10:17:27] Starting lmms_eval for: selected_longvideobench_sevila_aks_k8_ratio1
+[2026-01-23 10:17:27] Using frame_num: 8
+[2026-01-23 10:17:27] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k8_ratio1_20260123_101727.log
+[2026-01-23 10:17:27] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_aks_k8_ratio1_20260123_101727_results
+[2026-01-23 10:17:27] Start time: Fri Jan 23 10:17:27 UTC 2026
+[2026-01-23 10:17:27] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 10:17:27] Process started with PID: 1750471
+[2026-01-23 10:33:27] 
+[2026-01-23 10:33:27] Finished dataset: selected_longvideobench_sevila_aks_k8_ratio1
+[2026-01-23 10:33:27] End time: Fri Jan 23 10:33:27 UTC 2026
+[2026-01-23 10:33:27] Duration: 0h 16m
+[2026-01-23 10:33:27] Exit status: 0
+[2026-01-23 10:33:27] ✓ SUCCESS - Output files verified
+[2026-01-23 10:33:27] Waiting 10 seconds before next dataset...
+[2026-01-23 10:33:37] -------------------------------------------
+[2026-01-23 10:33:37] 
+[2026-01-23 10:33:37] --------------------------------------------------
+[2026-01-23 10:33:37] [16/72] Checking dataset: selected_longvideobench_sevila_TOP_k16
+[2026-01-23 10:33:37] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_TOP_k16.json
+[2026-01-23 10:33:38] ✓ Not yet processed, will run
+[2026-01-23 10:33:38] --------------------------------------------------
+[2026-01-23 10:33:38] Detected frame_num = 16
+[2026-01-23 10:33:38] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_TOP_k16.json
+[2026-01-23 10:33:38] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 10:33:38] YAML overwritten successfully
+[2026-01-23 10:33:38] 
+[2026-01-23 10:33:38] Starting lmms_eval for: selected_longvideobench_sevila_TOP_k16
+[2026-01-23 10:33:38] Using frame_num: 16
+[2026-01-23 10:33:38] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k16_20260123_103338.log
+[2026-01-23 10:33:38] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k16_20260123_103338_results
+[2026-01-23 10:33:38] Start time: Fri Jan 23 10:33:38 UTC 2026
+[2026-01-23 10:33:38] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 10:33:38] Process started with PID: 1769300
+[2026-01-23 10:59:38] 
+[2026-01-23 10:59:38] Finished dataset: selected_longvideobench_sevila_TOP_k16
+[2026-01-23 10:59:38] End time: Fri Jan 23 10:59:38 UTC 2026
+[2026-01-23 10:59:38] Duration: 0h 26m
+[2026-01-23 10:59:38] Exit status: 0
+[2026-01-23 10:59:38] ✓ SUCCESS - Output files verified
+[2026-01-23 10:59:38] Waiting 10 seconds before next dataset...
+[2026-01-23 10:59:48] -------------------------------------------
+[2026-01-23 10:59:48] 
+[2026-01-23 10:59:48] --------------------------------------------------
+[2026-01-23 10:59:48] [17/72] Checking dataset: selected_longvideobench_sevila_TOP_k32
+[2026-01-23 10:59:48] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_TOP_k32.json
+[2026-01-23 10:59:48] ✓ Not yet processed, will run
+[2026-01-23 10:59:48] --------------------------------------------------
+[2026-01-23 10:59:48] Detected frame_num = 32
+[2026-01-23 10:59:48] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_TOP_k32.json
+[2026-01-23 10:59:48] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 10:59:48] YAML overwritten successfully
+[2026-01-23 10:59:48] 
+[2026-01-23 10:59:48] Starting lmms_eval for: selected_longvideobench_sevila_TOP_k32
+[2026-01-23 10:59:48] Using frame_num: 32
+[2026-01-23 10:59:48] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k32_20260123_105948.log
+[2026-01-23 10:59:48] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k32_20260123_105948_results
+[2026-01-23 10:59:48] Start time: Fri Jan 23 10:59:48 UTC 2026
+[2026-01-23 10:59:48] GPU Strategy: Using 2 GPUs with 1 process (frame_num > 16)
+[2026-01-23 10:59:48] Process started with PID: 1790809
+[2026-01-23 11:29:48] Still running... Elapsed: 0h 30m
+[2026-01-23 11:59:48] Still running... Elapsed: 1h 0m
+[2026-01-23 12:29:48] Still running... Elapsed: 1h 30m
+[2026-01-23 12:42:48] 
+[2026-01-23 12:42:48] Finished dataset: selected_longvideobench_sevila_TOP_k32
+[2026-01-23 12:42:48] End time: Fri Jan 23 12:42:48 UTC 2026
+[2026-01-23 12:42:48] Duration: 1h 43m
+[2026-01-23 12:42:48] Exit status: 0
+[2026-01-23 12:42:48] ✓ SUCCESS - Output files verified
+[2026-01-23 12:42:48] Waiting 10 seconds before next dataset...
+[2026-01-23 12:42:58] -------------------------------------------
+[2026-01-23 12:42:58] 
+[2026-01-23 12:42:58] --------------------------------------------------
+[2026-01-23 12:42:58] [18/72] Checking dataset: selected_longvideobench_sevila_TOP_k8
+[2026-01-23 12:42:58] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_longvideobench_sevila_TOP_k8.json
+[2026-01-23 12:42:58] ✓ Not yet processed, will run
+[2026-01-23 12:42:58] --------------------------------------------------
+[2026-01-23 12:42:58] Detected frame_num = 8
+[2026-01-23 12:42:58] YAML will use test: datasets/longvideobench/selected_longvideobench_sevila_TOP_k8.json
+[2026-01-23 12:42:58] Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml
+[2026-01-23 12:42:58] YAML overwritten successfully
+[2026-01-23 12:42:58] 
+[2026-01-23 12:42:58] Starting lmms_eval for: selected_longvideobench_sevila_TOP_k8
+[2026-01-23 12:42:58] Using frame_num: 8
+[2026-01-23 12:42:58] Log file: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k8_20260123_124258.log
+[2026-01-23 12:42:58] Output path: /home/train01/miraj/lmms_eval/results/full_logs/FINAL_LV/selected_longvideobench_sevila_TOP_k8_20260123_124258_results
+[2026-01-23 12:42:58] Start time: Fri Jan 23 12:42:58 UTC 2026
+[2026-01-23 12:42:58] GPU Strategy: Using 2 GPUs with 2 processes (frame_num <= 16)
+[2026-01-23 12:42:58] Process started with PID: 1828211
+[2026-01-23 12:57:58] 
+[2026-01-23 12:57:58] Finished dataset: selected_longvideobench_sevila_TOP_k8
+[2026-01-23 12:57:58] End time: Fri Jan 23 12:57:58 UTC 2026
+[2026-01-23 12:57:58] Duration: 0h 15m
+[2026-01-23 12:57:58] Exit status: 0
+[2026-01-23 12:57:58] ✓ SUCCESS - Output files verified
+[2026-01-23 12:57:58] Waiting 10 seconds before next dataset...
+[2026-01-23 12:58:08] -------------------------------------------
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [19/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_100116.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [20/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_103126.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [21/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_110036.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [22/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_112947.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [23/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_115857.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [24/72] Checking dataset: selected_tmas_longvideobench_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_122807.log
+[2026-01-23 12:58:08] 
+[2026-01-23 12:58:08] --------------------------------------------------
+[2026-01-23 12:58:08] [25/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:08] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:08] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:08]    Example: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_125717.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [26/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_145728.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [27/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_165738.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [28/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260114_185749.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [29/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260114_205759.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [30/72] Checking dataset: selected_tmas_longvideobench_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260114_225810.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [31/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_005820.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [32/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_011430.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [33/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_013141.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [34/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_014751.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [35/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_020401.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [36/72] Checking dataset: selected_tmas_longvideobench_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_blip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_022111.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [37/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_023721.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [38/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_030631.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [39/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_033542.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [40/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_040452.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [41/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_043402.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [42/72] Checking dataset: selected_tmas_longvideobench_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_050312.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [43/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_053222.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [44/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_073233.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [45/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_093143.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [46/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_113154.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [47/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_133204.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [48/72] Checking dataset: selected_tmas_longvideobench_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_153115.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [49/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_173125.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [50/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_174736.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [51/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_180346.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [52/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_181956.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [53/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_183606.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [54/72] Checking dataset: selected_tmas_longvideobench_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_clip_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_185216.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [55/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_190826.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [56/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_193737.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [57/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:09] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:09]    Example: selected_tmas_longvideobench_sevila_k16_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_200647.log
+[2026-01-23 12:58:09] 
+[2026-01-23 12:58:09] --------------------------------------------------
+[2026-01-23 12:58:09] [58/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:09] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_203557.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [59/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260115_210507.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [60/72] Checking dataset: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k16_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260115_213417.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [61/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_220328.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [62/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260116_000338.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [63/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260116_020349.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [64/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260116_040359.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [65/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260116_060510.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [66/72] Checking dataset: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k32_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260116_080520.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [67/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260116_100531.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [68/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260116_102241.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [69/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_budget_based_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260116_103951.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [70/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260116_105701.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [71/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvlapl_normmax_clip95_hybrid_cov1.73_opt_20260116_111411.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] --------------------------------------------------
+[2026-01-23 12:58:10] [72/72] Checking dataset: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt
+[2026-01-23 12:58:10] JSON (absolute): /home/train01/miraj/lmms_eval/datasets/longvideobench/selected_tmas_longvideobench_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt.json
+[2026-01-23 12:58:10] ⊘ SKIPPING: Already processed (found 1 existing files)
+[2026-01-23 12:58:10]    Example: selected_tmas_longvideobench_sevila_k8_auto_half_life_curvseco_normmax_clip95_hybrid_cov1.73_opt_20260116_113021.log
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] ======================================================
+[2026-01-23 12:58:10] ALL LONGVIDEOBENCH DATASETS PROCESSED SEQUENTIALLY.
+[2026-01-23 12:58:10] ======================================================
+[2026-01-23 12:58:10] Summary:
+[2026-01-23 12:58:10]   Total datasets found: 72
+[2026-01-23 12:58:10]   Skipped (already done): 54
+[2026-01-23 12:58:10]   Successfully processed: 18
+[2026-01-23 12:58:10]   Failed: 0
+[2026-01-23 12:58:10]   Completion time: Fri Jan 23 12:58:10 UTC 2026
+[2026-01-23 12:58:10] ======================================================
+[2026-01-23 12:58:10] ✓ All datasets processed successfully
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] FINISHED: LongVideoBench Experiments
+[2026-01-23 12:58:10] End time: Fri Jan 23 12:58:10 UTC 2026
+[2026-01-23 12:58:10] Exit code: 0
+[2026-01-23 12:58:10] ✓ LongVideoBench completed successfully
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] ======================================================
+[2026-01-23 12:58:10] ALL EXPERIMENTS COMPLETED SUCCESSFULLY
+[2026-01-23 12:58:10] ======================================================
+[2026-01-23 12:58:10] Total completion time: Fri Jan 23 12:58:10 UTC 2026
+[2026-01-23 12:58:10] 
+[2026-01-23 12:58:10] Summary:
+[2026-01-23 12:58:10]   Custom Video QA: ✓ SUCCESS (exit code: 0)
+[2026-01-23 12:58:10]   LongVideoBench:  ✓ SUCCESS (exit code: 0)
+[2026-01-23 12:58:10] ======================================================

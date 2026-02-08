@@ -41,29 +41,44 @@ def calculate_accuracy(data, file_name="File"):
         'accuracy': accuracy
     }
 
+def get_question_id(entry):
+    """Extract question ID from entry"""
+    # The ID is stored in lvb_custom_acc['id']
+    return entry['lvb_custom_acc'].get('id')
+
 def compare_files(file1_path, file2_path):
     """
-    Compare two JSON files and find entities that are:
-    - Correct in File 1 (parsed_pred == answer)
-    - Incorrect in File 2 (parsed_pred != answer)
+    Compare two JSON files and find entities based on correctness
     """
     
     # Try loading as JSONL first, then as regular JSON
     try:
         data1 = load_jsonl(file1_path)
-        data2 = load_jsonl(file2_path)
-    except:
+        print(f"Loaded File 1 as JSONL: {len(data1)} entries")
+    except Exception as e:
+        print(f"Failed to load File 1 as JSONL: {e}")
         try:
             data1 = load_json(file1_path)
-            data2 = load_json(file2_path)
-            # If it's a single object, wrap it in a list
             if isinstance(data1, dict):
                 data1 = [data1]
+            print(f"Loaded File 1 as JSON: {len(data1)} entries")
+        except Exception as e:
+            print(f"Error loading File 1: {e}")
+            return None, None, None, None
+    
+    try:
+        data2 = load_jsonl(file2_path)
+        print(f"Loaded File 2 as JSONL: {len(data2)} entries")
+    except Exception as e:
+        print(f"Failed to load File 2 as JSONL: {e}")
+        try:
+            data2 = load_json(file2_path)
             if isinstance(data2, dict):
                 data2 = [data2]
+            print(f"Loaded File 2 as JSON: {len(data2)} entries")
         except Exception as e:
-            print(f"Error loading files: {e}")
-            return None, None, None
+            print(f"Error loading File 2: {e}")
+            return None, None, None, None
     
     # Calculate accuracy for both files
     print("=" * 80)
@@ -82,26 +97,35 @@ def compare_files(file1_path, file2_path):
     file2_dict = {}
     
     for entry in data1:
-        question_id = list(entry['lvb_custom_acc'].keys())[0] if isinstance(entry['lvb_custom_acc'], dict) else entry['lvb_custom_acc']['id']
-        file1_dict[question_id] = entry
+        question_id = get_question_id(entry)
+        if question_id:
+            file1_dict[question_id] = entry
+        else:
+            # Fallback to doc_id if no question id
+            file1_dict[entry.get('doc_id')] = entry
     
     for entry in data2:
-        question_id = list(entry['lvb_custom_acc'].keys())[0] if isinstance(entry['lvb_custom_acc'], dict) else entry['lvb_custom_acc']['id']
-        file2_dict[question_id] = entry
+        question_id = get_question_id(entry)
+        if question_id:
+            file2_dict[question_id] = entry
+        else:
+            file2_dict[entry.get('doc_id')] = entry
     
-    # Find entities correct in File 1 but incorrect in File 2
+    print(f"\nFile 1 unique IDs: {len(file1_dict)}")
+    print(f"File 2 unique IDs: {len(file2_dict)}")
+    
+    # Find all common IDs
+    common_ids = set(file1_dict.keys()) & set(file2_dict.keys())
+    print(f"Common IDs: {len(common_ids)}")
+    
+    # Track all combinations
+    both_correct = []
+    both_incorrect = []
     correct_in_file1_incorrect_in_file2 = []
+    correct_in_file2_incorrect_in_file1 = []
     
-    # Also track other combinations
-    both_correct = 0
-    both_incorrect = 0
-    correct_in_file2_incorrect_in_file1 = 0
-    
-    for question_id, entry1 in file1_dict.items():
-        # Check if this entry exists in File 2
-        if question_id not in file2_dict:
-            continue
-        
+    for question_id in common_ids:
+        entry1 = file1_dict[question_id]
         entry2 = file2_dict[question_id]
         
         # Get parsed_pred and answer from both files
@@ -114,47 +138,88 @@ def compare_files(file1_path, file2_path):
         file1_correct = (parsed_pred1 == answer1)
         file2_correct = (parsed_pred2 == answer2)
         
+        # Get the full input (question with options)
+        full_input = entry1.get('input', '')
+        
+        result_entry = {
+            'question_id': question_id,
+            'doc_id': entry1.get('doc_id'),
+            'duration_group': entry1['lvb_custom_acc'].get('duration_group'),
+            'question_category': entry1['lvb_custom_acc'].get('question_category'),
+            'file1_answer': answer1,
+            'file1_parsed_pred': parsed_pred1,
+            'file1_correct': file1_correct,
+            'file2_answer': answer2,
+            'file2_parsed_pred': parsed_pred2,
+            'file2_correct': file2_correct,
+            'full_question': full_input  # Full question with all options
+        }
+        
         # Track all combinations
         if file1_correct and file2_correct:
-            both_correct += 1
+            both_correct.append(result_entry)
         elif not file1_correct and not file2_correct:
-            both_incorrect += 1
+            both_incorrect.append(result_entry)
         elif file1_correct and not file2_correct:
-            correct_in_file1_incorrect_in_file2.append({
-                'question_id': question_id,
-                'doc_id': entry1.get('doc_id'),
-                'file1_answer': answer1,
-                'file1_parsed_pred': parsed_pred1,
-                'file2_answer': answer2,
-                'file2_parsed_pred': parsed_pred2,
-                'input': entry1.get('input', '')[:200] + '...'  # First 200 chars of question
-            })
+            correct_in_file1_incorrect_in_file2.append(result_entry)
         elif not file1_correct and file2_correct:
-            correct_in_file2_incorrect_in_file1 += 1
+            correct_in_file2_incorrect_in_file1.append(result_entry)
     
     # Print comparison statistics
-    total_compared = len(file1_dict) if len(file1_dict) <= len(file2_dict) else len(file2_dict)
     print(f"\nComparison Statistics (matched entries):")
-    print(f"  Total matched entries: {total_compared}")
-    print(f"  Both correct: {both_correct}")
-    print(f"  Both incorrect: {both_incorrect}")
+    print(f"  Total matched entries: {len(common_ids)}")
+    print(f"  Both correct: {len(both_correct)}")
+    print(f"  Both incorrect: {len(both_incorrect)}")
     print(f"  File 1 correct, File 2 incorrect: {len(correct_in_file1_incorrect_in_file2)}")
-    print(f"  File 2 correct, File 1 incorrect: {correct_in_file2_incorrect_in_file1}")
+    print(f"  File 2 correct, File 1 incorrect: {len(correct_in_file2_incorrect_in_file1)}")
     
     comparison_stats = {
-        'total_matched': total_compared,
+        'total_matched': len(common_ids),
+        'both_correct': len(both_correct),
+        'both_incorrect': len(both_incorrect),
+        'file1_correct_file2_incorrect': len(correct_in_file1_incorrect_in_file2),
+        'file2_correct_file1_incorrect': len(correct_in_file2_incorrect_in_file1)
+    }
+    
+    all_results = {
         'both_correct': both_correct,
         'both_incorrect': both_incorrect,
-        'file1_correct_file2_incorrect': len(correct_in_file1_incorrect_in_file2),
+        'file1_correct_file2_incorrect': correct_in_file1_incorrect_in_file2,
         'file2_correct_file1_incorrect': correct_in_file2_incorrect_in_file1
     }
     
-    return correct_in_file1_incorrect_in_file2, acc1, acc2, comparison_stats
+    return all_results, acc1, acc2, comparison_stats
+
+def print_detailed_results(results, category, limit=10):
+    """Print detailed results for a category"""
+    items = results.get(category, [])
+    print(f"\n{'=' * 80}")
+    print(f"{category.upper().replace('_', ' ')} ({len(items)} items)")
+    print("=" * 80)
+    
+    if not items:
+        print("No items in this category.")
+        return
+    
+    for idx, result in enumerate(items[:limit], 1):
+        print(f"\n{idx}. Question ID: {result['question_id']}")
+        print(f"   Doc ID: {result['doc_id']}")
+        print(f"   Category: {result.get('question_category', 'N/A')}")
+        print(f"   Duration: {result.get('duration_group', 'N/A')}")
+        print(f"   File 1 - Answer: {result['file1_answer']}, Predicted: {result['file1_parsed_pred']} {'✓' if result['file1_correct'] else '✗'}")
+        print(f"   File 2 - Answer: {result['file2_answer']}, Predicted: {result['file2_parsed_pred']} {'✓' if result['file2_correct'] else '✗'}")
+        # Print truncated question for console
+        truncated_q = result['full_question'][:200] + '...' if len(result['full_question']) > 200 else result['full_question']
+        print(f"   Question (truncated): {truncated_q}")
+        print("-" * 80)
+    
+    if len(items) > limit:
+        print(f"\n... and {len(items) - limit} more items")
 
 def main():
     # Specify your file paths here
-    file1_path = './results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_temporal_iter1_20251129_202600_results/..__LLaVA-NeXT-Video-7B-Qwen2/20251130_042606_samples_longvideobench_custom.jsonl'
-    file2_path = './results/full_logs/Fixed_radius/selected_dbfp_dense_longvideobench_blip_k16_alpha0.85_adaptive_r15_2.0_r60_3.0_r600_5.0_r3600_8.0_score_diff_iter1_20251129_190916_results/..__LLaVA-NeXT-Video-7B-Qwen2/20251130_030922_samples_longvideobench_custom.jsonl'
+    file1_path = './results/full_logs/FINAL_LV/selected_tmas_longvideobench_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_20260115_005820_results/..__LLaVA-NeXT-Video-7B-Qwen2/20260115_085826_samples_longvideobench_custom.jsonl'
+    file2_path = './results/full_logs/FINAL_LV/selected_longvideobench_blip_aks_k8_ratio1_20260123_001024_results/..__LLaVA-NeXT-Video-7B-Qwen2/20260123_081030_samples_longvideobench_custom.jsonl'
     
     print("Comparing files...")
     print(f"File 1: {file1_path}")
@@ -166,36 +231,39 @@ def main():
     if results is None:
         return
     
-    print("\n" + "=" * 80)
-    print("DETAILED DIFFERENCES (File 1 Correct, File 2 Incorrect)")
-    print("=" * 80)
+    # Print detailed results for each category
+    print_detailed_results(results, 'file1_correct_file2_incorrect', limit=10)
+    print_detailed_results(results, 'file2_correct_file1_incorrect', limit=10)
+    print_detailed_results(results, 'both_correct', limit=5)
+    print_detailed_results(results, 'both_incorrect', limit=5)
     
-    if results:
-        print(f"\nFound {len(results)} entities that are correct in File 1 but incorrect in File 2:\n")
-        
-        for idx, result in enumerate(results, 1):
-            print(f"{idx}. Question ID: {result['question_id']}")
-            print(f"   Doc ID: {result['doc_id']}")
-            print(f"   File 1 - Answer: {result['file1_answer']}, Predicted: {result['file1_parsed_pred']} ✓")
-            print(f"   File 2 - Answer: {result['file2_answer']}, Predicted: {result['file2_parsed_pred']} ✗")
-            print(f"   Question: {result['input']}")
-            print("-" * 80)
-        
-        # Save results to a file
-        output_file = 'comparison_results.json'
-        summary = {
-            'file1_accuracy': acc1,
-            'file2_accuracy': acc2,
-            'comparison_statistics': comp_stats,
-            'differences': results
-        }
-        
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2, ensure_ascii=False)
-        print(f"\nResults saved to: {output_file}")
-        
-    else:
-        print("\nNo entities found that are correct in File 1 but incorrect in File 2.")
+    # Save results to a file with FULL questions
+    output_file = 'comparison_AKS_TMAS_Budget_8_blip_THESIS_LV.json'
+    summary = {
+        'file1_path': file1_path,
+        'file2_path': file2_path,
+        'file1_accuracy': acc1,
+        'file2_accuracy': acc2,
+        'comparison_statistics': comp_stats,
+        'file1_correct_file2_incorrect': results['file1_correct_file2_incorrect'],
+        'file2_correct_file1_incorrect': results['file2_correct_file1_incorrect'],
+        'both_correct': results['both_correct'],
+        'both_incorrect': results['both_incorrect']
+    }
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, indent=2, ensure_ascii=False)
+    print(f"\n\nFull results saved to: {output_file}")
+    
+    # Print summary of what's in the output file
+    print(f"\nOutput file contains:")
+    print(f"  - File paths")
+    print(f"  - Accuracy statistics for both files")
+    print(f"  - Comparison statistics")
+    print(f"  - {len(results['file1_correct_file2_incorrect'])} entries where File 1 correct, File 2 incorrect (with FULL questions)")
+    print(f"  - {len(results['file2_correct_file1_incorrect'])} entries where File 2 correct, File 1 incorrect (with FULL questions)")
+    print(f"  - {len(results['both_correct'])} entries where both correct (with FULL questions)")
+    print(f"  - {len(results['both_incorrect'])} entries where both incorrect (with FULL questions)")
 
 if __name__ == "__main__":
     main()

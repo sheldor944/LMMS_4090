@@ -1,0 +1,122 @@
+======================================================
+AUTO LMMS-EVAL MULTI-DATASET RUNNER (NOHUP MODE)
+WITH SKIP LOGIC FOR ALREADY PROCESSED FILES
+AND CONDITIONAL GPU SETUP (32 frames = 1 process)
+======================================================
+SCRIPT_DIR = /home/train01/miraj/lmms_eval
+JSON_DIR = /home/train01/miraj/lmms_eval/datasets/custom_video_qa
+YAML_FILE = /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+RESULT_DIR = /home/train01/miraj/lmms_eval/results/full_logs/32
+MASTER_LOG = /home/train01/miraj/lmms_eval/results/full_logs/32/master_run_20251204_202239.log
+
+Found 7 JSON files to process
+
+--------------------------------------------------
+[1/7] Checking dataset: selected_dbfp_dense_videomme_clip_k32_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_dense_videomme_clip_k32_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_dense_videomme_clip_k32_alpha0.85_adaptive_short_2.0_med_3.0_long_5.0_score_diff_iter1_20251204_084807.log
+
+--------------------------------------------------
+[2/7] Checking dataset: selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_blip_k32_alpha0.85_sup3_score_diff_20251203_195428.log
+
+--------------------------------------------------
+[3/7] Checking dataset: selected_dbfp_videomme_clip_k32_alpha0.85_sup3_score_diff
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_dbfp_videomme_clip_k32_alpha0.85_sup3_score_diff.json
+⊘ SKIPPING: Already processed (found 1 existing files)
+   Example: selected_dbfp_videomme_clip_k32_alpha0.85_sup3_score_diff_20251204_131336.log
+
+--------------------------------------------------
+[4/7] Checking dataset: selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 16
+YAML will use test: datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0
+Using frame_num: 16
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0_20251204_202239.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0_20251204_202239_results
+Start time: Thu Dec  4 20:22:39 UTC 2025
+Frame count ≠ 32: Using accelerate with 2 processes (multi-GPU)
+
+
+Finished dataset: selected_frames_clip_videomme_ada_dq_k16_beta0.5_delta3.0
+End time: Thu Dec  4 21:26:45 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[5/7] Checking dataset: selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0_20251204_212645.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0_20251204_212645_results
+Start time: Thu Dec  4 21:26:45 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 601673
+
+Finished dataset: selected_frames_clip_videomme_ada_dq_k32_beta0.5_delta3.0
+End time: Fri Dec  5 01:58:10 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[6/7] Checking dataset: selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 8
+YAML will use test: datasets/custom_video_qa/selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0
+Using frame_num: 8
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0_20251205_015810.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0_20251205_015810_results
+Start time: Fri Dec  5 01:58:10 UTC 2025
+Frame count ≠ 32: Using accelerate with 2 processes (multi-GPU)
+
+
+Finished dataset: selected_frames_clip_videomme_ada_dq_k8_beta0.5_delta3.0
+End time: Fri Dec  5 02:33:41 UTC 2025
+Exit status: 0
+✓ SUCCESS
+-------------------------------------------
+
+--------------------------------------------------
+[7/7] Checking dataset: selected_videomme_clip_frames_k32_aks
+JSON (absolute): /home/train01/miraj/lmms_eval/datasets/custom_video_qa/selected_videomme_clip_frames_k32_aks.json
+✓ Not yet processed, will run
+--------------------------------------------------
+Detected frame_num = 32
+YAML will use test: datasets/custom_video_qa/selected_videomme_clip_frames_k32_aks.json
+Overwriting YAML: /home/train01/miraj/lmms_eval/lmms_eval/tasks/custom_video_qa/custom_video_qa.yaml
+YAML overwritten successfully
+
+Starting lmms_eval for: selected_videomme_clip_frames_k32_aks
+Using frame_num: 32
+Log file: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_videomme_clip_frames_k32_aks_20251205_023341.log
+Output path: /home/train01/miraj/lmms_eval/results/full_logs/32/selected_videomme_clip_frames_k32_aks_20251205_023341_results
+Start time: Fri Dec  5 02:33:41 UTC 2025
+Frame count = 32: Using device_map=auto with both GPUs (1,0) in single process
+
+Launched process with PID: 772266
