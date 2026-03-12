@@ -1,0 +1,18 @@
+{
+  "job_name": "batches/tw91gvzztfaf30m7cjvyklgoex8q8efhdroa",
+  "model": "gemini-3-flash-preview",
+  "num_prompts": 10,
+  "submitted_at": "2026-03-11T15:18:28.731798",
+  "prompt_order": [
+    "001-1",
+    "001-2",
+    "001-3",
+    "002-1",
+    "002-2",
+    "002-3",
+    "003-1",
+    "003-2",
+    "003-3",
+    "004-1"
+  ]
+}

@@ -1,0 +1,120 @@
+Judge: gemini_gemini_3_flash_preview
+Mode: TEST
+Timestamp: 20260312_125840
+============================================================
+
+Total questions: 10
+Parsed:          10
+Unparsed:        0
+
+Model 1 wins:    5  (50.0%)
+Model 2 wins:    5  (50.0%)
+
+============================================================
+Per-question breakdown:
+============================================================
+
+Question ID: 0
+Question:    In the video, which subtitles appear at the same time as the man with black hair, dressed in grey cl...
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Model 2 is significantly more exhaustive, as it includes the second half of the subtitles ("front of our crown, like a world of souls") that are present in the correct answer, whereas Model 1 stops halfway through. While Model 1 describes the visual style of the text background, Model 2's superior attention to the textual content makes it more useful for the specific question.
+
+Part 2 analysis: Model 2 provides better domain coverage by identifying specific lighting colors (blue and purple) and noting the presence of logos and text overlays that suggest a music competition context. Model 1 is more generic, missing the specific sneakers and the broadcast-style graphical elements mentioned by Model 2.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1
+Question:    Which subtitles appear at the same time as the gray-haired man in the black shirt on stage in the vi...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Model 1 is more precise, specifying that the subtitles are in the "bottom right corner," whereas Model 2 simply says "bottom of the screen." Model 1 also provides a more vivid description of the background environment (blue and purple gradient with sparkling lights) compared to Model 2's more generic description of a large screen.
+Part 2 analysis: Model 1 offers better domain coverage by explicitly mentioning specific visual effects like "abstract patterns" and "dynamic graphics," as well as identifying specific camera work like "close-up shots." While Model 2 mentions synchronized dance moves, Model 1's description of the visual atmosphere and production style feels more exhaustive for future inquiries.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 10
+Question:    In the scene, a man wearing glasses and dressed in a black suit is speaking to the camera under the ...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Model 2 is more precise and exhaustive in its direct frame evidence, providing specific details about the individuals' clothing (blue suit, red pocket square, dark vest) and the background elements (fence, sunset). Model 1 is more general and potentially less accurate, describing the split-screen as two angles of the same man rather than two different individuals.
+
+Part 2 analysis: Model 1 provides much better full-domain coverage, cataloging a wide variety of visual elements and scenes throughout the video, including the news desk, anchors, winery, barrels, and vineyard. Model 2's Part 2 is far too brief and focuses more on interpretive context than on providing an exhaustive inventory of the visual components, making it less effective for answering diverse future questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 100
+Question:    A woman with earrings, hair tied up, and wearing a short-sleeved T-shirt is standing against a white...
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Model 2 is more precise and exhaustive. While both models correctly identify the sequence of events, Model 2 specifically identifies that the powder is applied to her "cheeks" (matching the correct answer) rather than the generic "face," and it mentions specific details like "opening the lid."
+Part 2 analysis: Model 2 provides a broader and more detailed domain coverage. It includes observations about the brush's visibility, the step-by-step process (opening, picking up brush, application), and even notes on the aesthetic and attire, making it more useful for answering future questions about the scene's components and specific makeup tools used.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1000
+Question:    In front of the curtain, there is a transparent lectern with red text on it. Next to the lectern, a ...
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Model 2 is significantly better as it correctly identifies the microphone attached to the lectern, which is the key object for the question. Model 1 explicitly and incorrectly states that no microphone is visible, failing to capture the most relevant visual detail.
+
+Part 2 analysis: Model 2 offers superior coverage by identifying the specific red text on the lectern as "THE MET," providing a level of detail that allows for more precise future questions. Model 1 remains vague regarding the text and the objects present, missing the opportunity to provide exhaustive domain coverage.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1001
+Question:    On stage, a large screen in the background shows a scene of a building, and in the center of the sta...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Model 1 provides a significantly more exhaustive account of the scene, identifying specific stage elements like the red carpet, a small table, two glasses, and a pitcher. It also accurately reflects the specific character actions mentioned in the question (holding the mic in the left hand and raising the right) which Model 2 glosses over.
+Part 2 analysis: Model 1's domain coverage is superior because it captures the specific accessories and stage layout (table, pitcher, glasses) that would be essential for answering future questions about the environment. Model 2 is much more sparse and even makes a definitive claim about the absence of a table, which reduces its utility as a comprehensive reference.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1002
+Question:    In the black background, there are two screens. On the left, there is a white car passing by on a ro...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Both models identify the primary elements (white car, road, construction building, two people, red carpet stage). Model 1 is slightly more exhaustive by explicitly listing objects it searched for and did not find, which, despite missing the traffic light mentioned in the ground truth, demonstrates a more rigorous attempt at cataloging visual details than Model 2's generic "no other objects" statement.
+Part 2 analysis: Model 1 provides a broader thematic domain coverage, including topics like architecture and community engagement, whereas Model 2 focuses more on the format (seminar/lecture). Model 1's coverage of potential sub-topics feels more ready to answer future questions about the content of the video.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1003
+Question:    In a restroom, the door to a room with a toilet is open, and there's a sink outside the door. A man ...
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Both models provide a solid description of the restroom scene, identifying the man's clothing, backpack, and thumb-up gesture. They both capture the relevant spatial details like the sink and the open toilet door with similar levels of precision.
+
+Part 2 analysis: Model 2 is significantly more exhaustive and better prepared for future questions by listing the various other locations and events in the video, such as the beach, city street, and rooftop. Model 1 fails to provide domain coverage of the full video, instead offering speculative commentary on the single restroom scene described in Part 1.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1004
+Question:    There are people resting in front of the flower bed in the spacious park. Not far from the flower be...
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Both models provide a similar level of detail regarding the immediate scene, identifying the woman, her attire, the beverage, and the surrounding park elements like the flower bed and other people. Description 1 adds a minor detail about a "paved walkway," while Description 2 specifically notes her proximity to the "man in gray clothes" mentioned in the prompt.
+Part 2 analysis: Description 2 is more exhaustive as it includes the "bridge" as a prior location, which is the key piece of evidence needed for the correct answer and represents a more complete tracking of the character's movements. Description 1 fails to mention the bridge, making its domain coverage incomplete compared to Description 2.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1005
+Question:    In a room, the ceiling light emits a blend of colors, a red typewriter is placed on the black table,...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Both models provide identical descriptions for Part 1. They both capture the core elements of the question (red typewriter, black table, woman in gray, mineral water) but fail to identify the "brown table" mentioned in the correct answer, instead claiming the correct answer is not among the options.
+Part 2 analysis: Model 1 provides a more exhaustive list of different environments shown in the video, including a glass building, indoor market, food court, hostel room, café, and cityscape. Model 2 lists fewer locations and spends more time on interpretive commentary about "hydration needs" rather than raw visual evidence.
+
+Winner: 1
+────────────────────────────────────────

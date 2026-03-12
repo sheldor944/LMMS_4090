@@ -179,8 +179,36 @@ def custom_video_qa_doc_to_text(doc, lmms_eval_specific_kwargs=None):
         lmms_eval_specific_kwargs = {}
 
     # NEW: Add explicit instruction prompt (like Video-MME)
-    option_prompt = "Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option."
+    # option_prompt = "Select the best answer to the following multiple-choice question based on the video. Respond with only the letter (A, B, C, or D) of the correct option."
+    # option_prompt ="Below is a quention and multiple choice options. But your task is to generate description of the question. That means what the qestion is asking, you have to generate your way of description what you can perceive from the images."
+
     
+    option_prompt = """You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+"""
+
+
     question = doc["question"]
 
     # Format options

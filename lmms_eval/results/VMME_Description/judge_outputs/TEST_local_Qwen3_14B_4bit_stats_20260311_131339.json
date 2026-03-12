@@ -1,0 +1,14 @@
+{
+  "judge_name": "local_Qwen3_14B_4bit",
+  "total_questions": 3,
+  "total_parsed": 0,
+  "unparsed": 3,
+  "model1_wins": 0,
+  "model2_wins": 0,
+  "model1_win_rate": 0,
+  "model2_win_rate": 0,
+  "model_id": "Qwen/Qwen3-14B",
+  "model_load_time_s": 238.4,
+  "judging_time_s": 36.4,
+  "avg_time_per_question_s": 12.1
+}

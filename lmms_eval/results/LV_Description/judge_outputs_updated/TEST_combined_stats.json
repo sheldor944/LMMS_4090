@@ -1,0 +1,12 @@
+{
+  "openai": {
+    "judge_name": "openai_gpt_5.4_2026_03_05",
+    "total_questions": 50,
+    "total_parsed": 50,
+    "unparsed": 0,
+    "model1_wins": 37,
+    "model2_wins": 13,
+    "model1_win_rate": 74.0,
+    "model2_win_rate": 26.0
+  }
+}

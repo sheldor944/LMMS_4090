@@ -1,0 +1,616 @@
+Judge: openai_gpt_5.4_2026_03_05
+Mode: TEST
+Timestamp: 20260312_144840
+============================================================
+
+Total questions: 50
+Parsed:          50
+Unparsed:        0
+
+Model 1 wins:    37  (74.0%)
+Model 2 wins:    13  (26.0%)
+
+============================================================
+Per-question breakdown:
+============================================================
+
+Question ID: 0
+Question:    In the video, which subtitles appear at the same time as the man with black hair, dressed in grey cl...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it includes both subtitle segments associated with the man on stage, including the crucial continuation “front of our crown, like a world of souls,” whereas Description 1 stops earlier and omits that relevant subtitle content. Both identify the man and stage context, but Description 2 provides a more complete reconstruction of the subtitle timing tied to the question.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions give broad stage-performance context, but Description 2 adds slightly more potentially useful scene details such as blue and purple lighting, sneakers, and the presence of logos/text overlays that could support follow-up questions about the performance setting. Description 1 is more generic and includes less scene-specific coverage beyond choreography and mood.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1
+Question:    Which subtitles appear at the same time as the gray-haired man in the black shirt on stage in the vi...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same two subtitle lines, which is the core answer. Description 2 is slightly more precise because it adds the white undershirt, specifies the subtitles are at the bottom of the screen, and mentions a large screen with abstract visuals behind the gray-haired man, giving a more reconstructable view of the exact moment than Description 1’s more generic sparkling-light background.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides somewhat stronger scene coverage by mentioning large background screens, abstract visuals, and synchronized dance moves, which are useful for follow-up questions about staging and performance. Description 1 includes similar broad performance context, but more of it is generic and less concretely tied to visible stage elements in the same scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 10
+Question:    In the scene, a man wearing glasses and dressed in a black suit is speaking to the camera under the ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 more directly matches the asked event: after the subtitle, it explicitly states the screen switches to a split-screen with two cameras showing different angles, which aligns closely with the correct scene change. Description 2 adds more appearance detail about the two people in the split screen, but it weakens precision by describing them as two individuals rather than emphasizing the two-camera switch itself.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially more scene-related visual coverage, including the news desk, cityscape, split-screen transition, close-up, winery, vineyard, and ABC News end screen, giving much better support for possible follow-up questions. Description 2 is sparse and leans on interpretation about interview format and topic rather than concrete additional visible elements from the scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 100
+Question:    A woman with earrings, hair tied up, and wearing a short-sleeved T-shirt is standing against a white...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it gives the key question-resolving detail more precisely: she applies the powder specifically to her cheeks, matching the asked event after picking up the box. Description 1 only says she applies powder to her face using a brush, which is less exact, even though it includes the table detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides slightly stronger scene coverage because it preserves the action sequence with more concrete intermediate steps—opening the lid, picking up the brush, and applying to the cheeks—while staying within the same makeup-application scene. Description 1 adds some broader commentary about hand movements and facial expressions, but this is less useful and less specific for future scene-based questions than Description 2’s clearer procedural coverage.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1000
+Question:    In front of the curtain, there is a transparent lectern with red text on it. Next to the lectern, a ...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is clearly better because it includes the key scene detail needed for the question: the microphone attached to the transparent lectern. Description 1 repeats the lectern, blue coat, raised right hand, and dark curtain, but then incorrectly says no microphone is visible, so it is less useful and less precise for reconstructing the scene relevant to the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides stronger scene-related coverage by adding the microphone and the red text reading “THE MET,” which could support follow-up questions about the venue or setup. Description 1’s extra details are mostly generic atmosphere statements and a list of absent unrelated items, which adds little value for future questions within this scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1001
+Question:    On stage, a large screen in the background shows a scene of a building, and in the center of the sta...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly stronger because it matches more of the key scene details from the question: two seated people, the building on the large screen, the blue suit, the white shirt, the left-hand microphone, and the raised right hand. Description 2 is less precise and introduces inaccuracies relative to the scene description, such as saying the blue-suited person is holding a microphone and omitting the raised-hand detail, so it is less reconstructive for answering what object is absent.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more useful in-scene supporting details, including the red carpet and the small table with two glasses and a pitcher, which could help answer follow-up questions about the stage setup. Description 2 drifts into broader claims about art installations, sculptures, other scenes, and a red lamp, which are outside the current scene boundary and therefore should be penalized.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1002
+Question:    In the black background, there are two screens. On the left, there is a white car passing by on a ro...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions restate the two-screen setup, the white car, construction building, and two people on a red carpet stage. Description 1 is slightly better because it explicitly addresses the candidate object list and states that no traffic light is visible, whereas Description 2 only says there are no other objects present, which is less precise for the multiple-choice target.
+
+Rubric 2 analysis (related/future-question coverage): Both are weak and mostly speculative rather than adding visible scene elements. However, Description 2 provides a bit more scene-related contextual coverage by noting the black background and two-screen presentation format as a formal presentation setting, which is more useful for future scene questions than Description 1’s broader topic speculation.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1003
+Question:    In a restroom, the door to a room with a toilet is open, and there's a sink outside the door. A man ...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give essentially the same direct scene details: restroom, open toilet-room door, sink outside, gray short-sleeve shirt, backpack, and right thumb up. Neither adds much finer visual precision, but Description 2 is marginally better because it more explicitly restates the full configuration in a cleaner, question-focused way.
+
+Rubric 2 analysis (related/future-question coverage): Description 1’s Part 2 mostly drifts into speculation about hitchhiking, travel, weather, and comfort, which is not useful scene coverage. Description 2 provides concrete additional appearances and related locations from the same person’s broader scene context, including the beach, which is directly relevant to the question and more useful for future follow-up questions.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1004
+Question:    There are people resting in front of the flower bed in the spacious park. Not far from the flower be...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give only sparse park-scene details, but Description 2 is slightly more precise because it explicitly states the woman is standing next to the man in gray and mentions the flower bed, greenery, and other people in the distance. Description 1 is vaguer, referring to “two other individuals” and a general public outdoor space, which is less reconstructive for this question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 is clearly better because it includes the key prior location “bridge,” which is directly relevant to the question topic and useful for follow-up questions about where the woman appeared earlier. Description 1 drifts more with broad, scene-external narrative speculation and omits the crucial bridge reference, making it less useful within the defined scene/topic.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1005
+Question:    In a room, the ceiling light emits a blend of colors, a red typewriter is placed on the black table,...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are equally weak on the core question: they restate the setup but fail to identify the correct placement of the bottle within the scene. Neither provides any extra precise visual detail about the bottle’s actual location, so there is no meaningful advantage for either on direct question-specific evidence.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 is slightly better because its Part 2 stays somewhat closer to the relevant room scene by repeating the ceiling light, red typewriter, black table, and woman with the bottle, which could marginally help with follow-up questions. Description 1 drifts more broadly into unrelated settings and adds less useful scene-specific coverage, making it less helpful for future questions within the same scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1006
+Question:    Against the white background, there are texts in both pink and black colors. In the bottom right cor...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives substantially more precise visual detail from the relevant scene: the title text, the explanatory sentence, the ingredient/coffee illustrations, quantities, and arrow relationships, all while matching the woman’s appearance and pose. Description 1 is much sparser and, crucially, asserts the bottom-right number is “6,” which is incorrect for the scene boundary implied by the question, so it is less reliable and less reconstructive.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides better scene-useful coverage by describing the instructional diagram structure and the tutorial’s step-by-step visual aids, which would better support follow-up questions about the same limiting-reactants example. Description 1’s Part 2 is mostly generic chemistry-topic speculation and includes less concrete scene content, making it less useful for future question answering.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1007
+Question:    On a white background with some text and mathematical formulas, there is an orange dialogue box. In ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it directly identifies the key queried event: after the subtitle “the coffee beans and the milk so that’s,” a green letter “F” appears, while also noting the woman in white extending two fingers. Description 2 gives more surrounding coffee-example context, but it never actually states the green letter that appears, which is the central detail needed to answer the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage within the same instructional context, including the visible chemistry problem, balanced equation, and calculation steps that could support follow-up questions about the same scene. Description 2 adds some coffee-illustration details, but much of its Part 2 is generic speculation about possible topics and applications rather than concrete scene elements, making it less useful for future scene-specific questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1008
+Question:    In the bottom right corner of the screen, there is a woman with long hair wearing white. Her left ha...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly better because it directly states the key scene change after the subtitle cue: the woman’s hand then holds a green cup with a straw. Description 2 contradicts the scene outcome by claiming no object appears, so it fails to capture the crucial question-specific detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides somewhat more useful scene-related context, including the close-up transition, the cup as a visual aid, and the instructional setting, even if some of it is interpretive. Description 2 is weaker because its added context is vaguer, more speculative, and built around the incorrect claim that no object appears, making it less useful for future questions about the same scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1009
+Question:    In the orange-red sunset, what is the girl, who is sitting back to the camera on a kayak with short ...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give essentially the same direct answer and the same visible details: the girl is seated with her back to the camera on a kayak, wearing short sleeves with tied hair, and rowing on the water when the subtitle appears. Neither adds finer motion, positioning, or scene-timing details, so they are equal on the core question-specific content.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 stays closer to the same travel/water-activity scene, adding plausible related elements like crystal-clear water, beach chairs, inflatable rafts, and hammocks that could support follow-up questions about the surrounding montage. Description 1 includes more scene-drifting material such as feeding giraffes and swimming with dolphins, which is less tightly tied to the current kayaking/sunset scene boundary and should be penalized.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 101
+Question:    In a room, there is a sofa and a staircase. To the left, there are some black shelves. The backgroun...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is clearly better because it directly states the key event after the quoted speech: the pop-up changes from the group photo to an old building under a blue sky. Description 1 mostly repeats the setup and speaking context but does not explicitly include the immediate answer event in Part 1, so it is less precise for answering the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene progression within the same pop-up sequence, mentioning the later beach/family image with “10%” and that the pop-up eventually disappears, which gives stronger coverage for possible follow-up questions. Description 2 includes the main transition and disappearance, but its extra coverage is thinner and more generic.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1010
+Question:    In the video, a woman dressed in a blue suit with black hair adorned with a pink flower is squatting...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a more concrete visual cue directly tied to the action: the woman is holding a bunch of leafy greens, which more strongly supports “picking vegetables” than Description 2’s vaguer “holding a small plant.” Both descriptions are otherwise similarly generic and avoid explicitly stating the picking action, but Description 1 provides the more precise reconstructable scene detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 offers somewhat more scene-related coverage within the garden context, mentioning they are surrounded by various types of vegetables and expanding on the educational/gardening setting in ways that could support follow-up questions. Description 1’s Part 2 is broader and drifts more into general resort/conservation messaging, with less concrete coverage of the immediate garden scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1011
+Question:    In the blue seawater, there are coral reefs and seashells. On the screen, there is a person wearing ...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a clearer sequence within the relevant scene: transition to underwater footage, snorkeling, another person diving in a black wetsuit and fins, and finally the person in a diving suit underwater among coral reefs and seashells. Description 1 only states the person is underwater with coral reefs and seashells and vaguely says they are “likely engaged in scuba diving or snorkeling,” which is less precise and less directly aligned with the action asked in the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides more scene-related context that could support follow-up questions, including the beach setting, underwater activity variations, gear details, coral reef context, and the on-screen resort text. Description 1 adds some related material, but it is more generic and less detailed, with weaker coverage of specific visible elements and less useful scene reconstruction for future questions.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 1012
+Question:    In a restaurant, what is the man wearing a white shirt and a gray patterned jacket doing, standing t...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1, giving the same core action: the man in a white shirt and gray patterned jacket stands to the right of the girl, pulls her next to him, and looks at her. They also include the same limited restaurant background details, so neither provides more precise or more exhaustive question-specific evidence.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, covering the same restaurant decor, other patrons/staff, clothing contrast, and hairstyle/context remarks. Since neither adds any extra scene elements or broader follow-up utility beyond the other, they are equal on future-question coverage as well.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1013
+Question:    In the driver's seat of a car, a tense-looking man with a seatbelt on is driving. The car is speedin...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1. Both state the same directly relevant details: the man is in the driver’s seat, wearing a brown shirt, with a seatbelt on, and the car appears to be moving fast due to the blurred background. Neither provides any extra precision over the other.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2. Both include the same additional scene/context elements, including the convenience store gunpoint sequence, the speeding car, the shirt color, the seatbelt, urgency, and the text overlays. Since there is no difference in quantity or usefulness of related details, neither outperforms the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1014
+Question:    In a room with a grey chair, two people are sitting on a sofa watching a broadcasted news program on...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1 and provide the same limited details about the sofa, grey chair, TV news broadcast, female reporter in a red coat, and subtitle text. Crucially, neither description includes the actually relevant detail for answering the question—the blue wall behind the TV—so neither has an advantage on question-specific precision.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, with the same scene progression, repeated mention of the living room setup, TV close-ups, and the later police/car news imagery. Since the coverage, scope, and usefulness for follow-up questions are exactly the same, neither description is better on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1015
+Question:    In a dimly lit room with a bed and a lamp, a woman picks up a black phone with one hand and puts it ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same level of detail about the woman’s dark blue short-sleeved top, the phone action, and the room elements. Neither offers any extra precision over the other for identifying the clothing type.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same additional context about the room, mood, subtitle implication, and her reaction to the knocking. Since neither includes more scene-relevant coverage than the other, there is no substantive difference in future-question usefulness.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1016
+Question:    In the scene, there is a group of people, young and old, male and female, gathered in front of a bui...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in the details they provide: the same statue, building architecture, and crowd elements are mentioned with the same level of precision. Neither gives any extra question-specific detail over the other, and both fail to identify the correct object within the scene boundary.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again provide the exact same additional scene coverage, including the urban setting, possible monument function, public-event context, and crowd characteristics. Since the content is identical, neither offers broader or more useful future-question support than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1017
+Question:    At the very beginning, a man with a mustache and curly hair says in the subtitles 'the prospective b...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in their question-specific content. Both mention the same wide shot, the same man with a mustache and curly hair, the same subtitle line, and the same close-up, with no extra precision from either one about the hair color itself.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in their broader scene coverage. Each includes the same contextual details about the room, clothing, cultural setting, and marriage discussion, with no difference in exhaustiveness or usefulness for future questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1018
+Question:    In the red video frame, after a man with a mustache lies down facing the left side, what event happe...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same quantity and precision of details about the man lying down, his orientation, and the listed ribbon possibilities. Neither offers any additional question-specific visual evidence beyond the other.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same contextual details about the red lighting, the man’s clothing, lack of other people or objects, and the stillness of the scene. Neither description gives broader or more useful future-question coverage than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1019
+Question:    On a white marble countertop, there is a rectangular container lined with white paper. On the white ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in the scene details they provide: rectangular container, white paper lining, white marble countertop, chocolate-colored dessert, yellow hard fruit bits, and the same subtitle claim. Neither offers any extra precision, timeline detail, or additional directly question-relevant visual information beyond the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again provide the exact same additional scene coverage: mixing bowl, whisk, spoon, spatula, baking pan, text overlay, countertop aesthetics, garnish interpretation, and dessert-preparation context. Since the content is identical, neither is more exhaustive or more useful for future related questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 102
+Question:    A man wearing a red lettered t-shirt is explaining in front of a background wall with musical instru...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the first object as a woman in black sitting and playing a small string instrument, but Description 1 gives a more reconstructable account of the scene by adding that she is seated on a chair, holding the instrument with both hands, and that the background includes display cases and plaques. Description 2 adds her position on the right side, but its background details are less aligned with the question scene and less useful for precisely reconstructing the key moment.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more useful same-scene coverage by connecting the presenter, the wall of wooden string instruments, the whiteboard introduction, the transition to the performer, and even a close-up of the instrument. Description 2 includes some extra exhibit context, but much of it drifts into less relevant museum speculation and non-string-instrument details, making it less helpful for future questions within this scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1020
+Question:    On a wooden table, a green container pours chocolate sauce into a red cake mold. After the subtitle ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical and provide the same incorrect question-specific detail: they say the first object shown after the subtitle is a single red cake mold, rather than the scene boundary indicated by the correct answer of three cake molds filled with chocolate sauce. Since the wording, quantity, and precision are exactly the same, neither description is better on this rubric.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again give the same additional scene coverage, including the chocolate-coated bars, text overlay, pouring into the mold, dipping and coating with nuts, and the final plated popsicle. They also include the same extra mentions, so there is no difference in breadth or usefulness for future related questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1021
+Question:    On a wooden table, there is a wooden cutting board covered with a layer of white paper. There are si...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in their listing of the table, cutting board, white paper, six tofu pieces, red sauce, pink brush, and the on-screen text. Neither one actually states the key visible action as clearly as the correct scene implies, but since they provide the same quantity and precision of question-relevant details, neither has an advantage on this rubric.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are again identical in their added contextual coverage about the recipe, sauce application, white paper, and cooking setting. They also share the same weakness of including speculative future-purpose statements, so neither description is better than the other for follow-up usefulness.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1022
+Question:    In the black pot with some broth, tomato sauce, and yellow vegetable pieces, what items are visible ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are effectively identical in Part 1, providing the same limited details about the black pot, broth, tomato sauce, yellow vegetable pieces, and subtitle timing. Neither gives stronger precision or a more reconstructable account of the item visible at that moment.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same general cooking context and the same mentions of possible ingredient types and absent items. Neither offers broader or more useful scene coverage for future related questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1023
+Question:    The upper left side of the screen shows a window overlooking the street below. When the yellow-green...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1. Each clearly states that the snack package first appears while being held up to the camera in front of a window overlooking the street, and both include the same label and packaging details. Neither provides any extra question-specific precision beyond the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2. Each gives the same additional coverage of the package design, snack appearance, window background, and later pouring/open-package view, with no difference in breadth or usefulness for follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1024
+Question:    There are some scattered white chocolate balls on a white table, a knife is placed on a chocolate ba...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1, giving the same close-up scene details: scattered chocolate balls on a white table, one cut in half with the interior visible, a knife placed on it, and the subtitle “Please.” Neither description adds any extra motion or timeline detail that would better capture the answer event, so neither is stronger here.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, with the same speculative recipe context and the same limited supporting details. Since the content matches exactly, neither provides broader or more useful scene coverage than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1025
+Question:    After a woman with green nail polish sitting in a red seat in the car holds up an eyebrow pencil to ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same limited details: the woman with green nail polish sits in a red car seat, holds an eyebrow pencil to the mirror, and the car interior includes the steering wheel and dashboard. Neither description actually states the key next action of drawing her eyebrows, so neither is strong, but they are equal in quantity and precision.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again contain the same generic, speculative coverage about grooming, errands, and beauty tips, with little concrete additional scene detail. Since the content is identical, neither offers better future-question usefulness, but a winner is required.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1026
+Question:    On a white marble tabletop, there is a white bowl with some brown sauce inside. There is a glass bot...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same limited details about the bowl, brown sauce, oil bottle, spatula, and subtitle timing. Neither includes the key post-subtitle object appearance, so neither is stronger on question-specific precision or completeness.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same speculative cooking-context remarks and no additional concrete scene elements that would help answer future questions. Since coverage, usefulness, and scene-bound details are exactly the same, neither description exceeds the other on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1027
+Question:    Which of the following sequences of events is correct?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same sequence, object details, label text, and background information. Neither offers any additional precision over the other for reconstructing the scene relevant to the event order question.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same extra contextual details about the morning routine, packaging, oil appearance, pot, and implied usage. Since neither includes more scene-related supporting information than the other, there is no difference in future-question coverage.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1028
+Question:    In the video, there is a white bowl on a wooden grain table, containing white condensed milk. When t...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same details: a white bowl of condensed milk on a wooden grain table, the milk placed onto a green pepper-like vegetable, and the item then placed on a wooden board. Neither description includes the correct change of red bread crumbs being sprinkled on top, and both instead only negate other red toppings, so there is no difference in quantity or precision.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again match exactly in their added context about snack preparation, the pepper as a base, the condensed milk as filling, and the board as a presentation/preparation surface. Neither offers broader or more useful scene coverage than the other, and both are equally limited.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1029
+Question:    A lady with gray hair tied up is sitting on a sofa watching TV, holding a white bowl in one hand and...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same question-specific details: the woman’s appearance and pose, the bowl and spoon, the sofa, mirror, TV reflection, wall, pillows, belt, and the on-screen text. There is no difference in quantity, precision, or reconstructability between Description 1 and Description 2 on the details relevant to identifying the absent object.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again give the same additional scene coverage, including the living room context, cereal product review, Kellogg’s Special K Pumpkin Spice box, and supporting contextual observations. Since the content is identical, neither description offers broader or more useful future-question coverage than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 103
+Question:    A woman with short hair dressed in black is sitting in a large hall with many glass display cases. S...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions incorrectly identify the first object as the white instrument, but Description 1 still provides slightly more scene-specific detail by mentioning the display cases contain large vases and other musical instruments, whereas Description 2 stays more generic. Description 1 is marginally more reconstructive of the immediate scene, though neither captures the key transition implied by the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 is clearly stronger because it includes additional visible scene elements and timeline details within the same musical-instrument setting: text overlays (“Quatrista,” “Tipe Puertorriqueño”), the later switch to a red-and-black string instrument, and the sequence of playing/stopping/speaking. Description 2 remains broad and speculative, offering mostly generic museum-context statements with fewer concrete details useful for follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1030
+Question:    The rectangular box is filled with brown-colored desserts, and it seems to have some white nuts insi...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same objects, toppings, drizzle action, and background context. Neither gives any extra precision about the key post-drizzle event beyond the same pre-event setup, so neither is stronger on question-specific detail.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same coverage of ingredients, preparation steps, cutting into squares, decoration, and presentation. Since neither includes more scene-relevant supporting detail than the other, there is no substantive difference in future-question usefulness.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1031
+Question:    The screen shows a prepared wrap, with a piece cut off and held by a pair of hands. The background i...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same level of detail about the hands holding the cut wrap, the white marble table, and the preparation sequence leading up to the wrap. Neither gives any extra precision about the specific “other scene” beyond the same shared details, so neither is stronger on this rubric.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, covering the same wrap-making process, ingredients, marble-table context, and mention of sesame seeds. Since neither adds broader or more useful scene coverage than the other, they remain indistinguishable on this rubric as well.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1032
+Question:    The screen shows a pile of colorful foods, with a white paper towel underneath, a silver plate below...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same question-relevant details: cherry tomatoes, yellow bell peppers, white seasoned blocks, and the absence of cauliflower florets and carrots. There is no difference in precision, quantity, or reconstructability between them.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again match exactly in their added scene coverage, mentioning the white paper towel, silver floral plate, color/texture emphasis, and speculative identification of feta and oregano. Since the content is identical, neither offers stronger future-question readiness than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1033
+Question:    The screen shows a close-up of a purple flower. The entire petal of the flower is elongated. The sta...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same limited Part 1 details: a close-up purple flower with elongated petals, yellow stamen, and similar nearby flowers. Neither adds any direct visual detail about what happened when the flower first appeared, so neither is stronger on the question-specific event.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again contain the same Part 2 content, including broader garden/estate context and bee-related commentary. The coverage is identical in quantity and usefulness, and both also drift beyond the immediate flower scene in the same way.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1034
+Question:    In the scene, there is a woman wearing a white dress. She is standing on a rock, gazing into the dis...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1 and only restate the setup of the woman in a white dress on a rock facing a green lake with orange buildings in the distance. Neither description includes the crucial next event from the correct scene boundary, so neither provides stronger question-specific detail than the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2 and provide broad travel-video context, but much of it drifts beyond the specific scene boundary, mentioning beaches, umbrellas, and Europe generally rather than the immediate stone path, plants, and pink/yellow buildings. Since the coverage and the off-scene drift are the same, neither is better on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1035
+Question:    Under the grey sky, there is a person dressed in a blue and pink patchwork garment. She is kneeling ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical and provide the same direct details: the woman kneeling, raising her hands, looking at them, grey sky, and then incorrectly emphasizing a clothing change rather than the key scene change of standing up before walking. Since the content is exactly the same, neither offers more precise or more exhaustive question-specific detail than the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again match exactly, and both Part 2 sections are dominated by interpretive language about symbolism and transformation rather than concrete additional scene elements useful for future questions. Because they contain the same limited and partly off-target coverage, neither description is better on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1036
+Question:    On the sea, a woman wearing sunglasses and long hair is sitting in a cart with the text 'WATER LINK'...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same direct details: the woman is seated in an amphibious car on the sea, wearing sunglasses with long hair, with “WATER LINK” visible on the side, and the vehicle is moving through the water creating waves. Neither adds any extra precision about her action beyond implying she is operating/driving the vehicle, so they are equal on question-specific content.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again contain the same additional scene-related/domain-related information about amphibious cars, their water operation features, recreational use, and possible Dubai context. Since the content is identical, neither offers broader or more useful follow-up coverage than the other.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1037
+Question:    On the cliff, there are many protruding rocks. Water flows down the rocks from the peak. Below, ther...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1. They provide the same scene elements—the rocky cliff, flowing water, two bare-chested men below, the running man from the staircase, the subtitle timing, and the clothing colors red and white—with the same level of precision and no extra distinguishing detail.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, covering the same hot spring resort context, terraced pools, vegetation, waterfall, text overlay, and cave reference. Neither offers more exhaustive or more useful future-question coverage than the other, and neither is more scene-specific.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1038
+Question:    In front of a building with a green roof, there is an ice surface reflecting the building. Many peop...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1, giving the same limited details about the skating scene, subtitle, and the claimed next item. Neither provides more quantity, precision, or reconstructable scene detail than the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, with the same broad, low-specificity contextual statements and no additional scene-specific visual coverage. Neither offers better support for future questions within the scene boundary.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1039
+Question:    A narrow alley lies between two clean, white houses. The alley is paved with stone slabs, and severa...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1. Each gives the same relevant scene details: narrow alley, white houses, stone slabs, blue flower pots, and the cat walking away from the camera, with the same added note about striped fur and normal pace. Neither provides any extra precision over the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, with the same additional contextual details about the Mediterranean village setting, white-washed houses, blue accents, greenery, flower pots, and text overlay. Since the content and usefulness for follow-up questions are exactly the same, neither description has broader or more precise scene coverage.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 104
+Question:    What is the person in the video doing when a bowl of white yogurt appears above a transparent glass ...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give essentially the same core answer: yogurt is being poured from above into a transparent glass container holding beaten yellow egg liquid on a dark red wooden table. Description 1 is marginally better because it includes the same direct scene elements while phrasing the action slightly more concretely around the pouring into the container, whereas Description 2 adds no extra question-relevant precision beyond that.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides somewhat broader scene coverage by mentioning additional related elements such as sugar, black gloves, and the visibility of ingredients through transparent containers, which could help with follow-up questions in the same cooking scene. Description 2 stays more generic and speculative about future steps, offering fewer concrete scene details that would support later questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1040
+Question:    In the middle of the white room, there is a door with two pots of flowers on its sides. The flower o...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1. Both state that the door is pink and include the same supporting details about the two flower pots, the tall flower on the right, the smaller plant on the left, and the triangular top of the door. Neither provides any extra question-specific precision over the other.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2. Both include the same additional scene elements and contextual details about the white-washed building, Mediterranean style, white pipe, cobblestone pathway, and blue sky, with no difference in breadth or usefulness for future questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 1041
+Question:    Holding two cups containing liquid, the cup on the right has some bubbles inside. In the distance, t...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in the details they provide about the cups, bubbles, sunset, and what allegedly happens when the glasses touch. Neither gives any extra precision over the other, and both equally fail to match the actual scene outcome, so there is no difference in question-specific coverage.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in their added scene context about the outdoor setting, railing, celebratory atmosphere, and drink properties. Neither offers broader or more useful future-question coverage than the other, and neither includes any unique related scene details.
+
+Winner: 1
+────────────────────────────────────────

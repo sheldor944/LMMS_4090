@@ -1,0 +1,616 @@
+Judge: openai_gpt_5.4_2026_03_05
+Mode: TEST
+Timestamp: 20260312_145424
+============================================================
+
+Total questions: 50
+Parsed:          50
+Unparsed:        0
+
+Model 1 wins:    29  (58.0%)
+Model 2 wins:    21  (42.0%)
+
+============================================================
+Per-question breakdown:
+============================================================
+
+Question ID: 001-1
+Question:    When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same core elements—apples, candles, and berries—but Description 1 gives slightly more concrete visual detail by specifying the candles’ orange-and-white striping and explicitly comparing counts among all three decoration types. Description 2 adds branch placement and background trees, but it is less precise for the counting question and still incorrectly emphasizes apples as most numerous, so Description 1 is marginally stronger on direct scene reconstruction.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially broader scene-related coverage within the video’s Christmas-tree-decoration domain, mentioning earlier and later visuals such as historical illustrations, family-around-tree imagery, fireplace stockings, presents, and a news-logo ornament that could support follow-up questions. Description 2 mostly shifts into generic cultural interpretation and symbolism rather than additional visible scene elements, so it is much less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 001-2
+Question:    What is the genre of this video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 gives a fuller reconstruction of the news-report scene by including more sequential visual elements tied to identifying the genre: the “NEW AT 6” card, anchors in studio, multiple holiday imagery shots, the on-screen text “Paradise trees,” and the continued historical Christmas-tree visuals. Description 1 captures the core news setup, but it is shorter and less exhaustive; Description 2 provides more scene-specific detail, though a few items are less precise.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 is clearly broader within the same scene/topic, adding extra visible elements that could support follow-up questions, such as ornament types, the living-room/fireplace setting, stockings, and the “Paradise trees” label. Description 1 stays more general and summarizes the topic, but it offers fewer concrete additional details that would help answer future questions about the report’s content and visuals.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 001-3
+Question:    How many red socks are above the fireplace at the end of this video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly better because it directly states the key answerable detail: there are three red stockings above the fireplace, and it adds precise visual qualifiers like white trim, white bows, and even spacing on the mantel. Description 2 describes the stockings and surrounding decor, but it never explicitly gives the count, so it is less useful and less precise for answering the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides somewhat broader scene coverage with extra concrete details like the black marble surround, wrapped presents, close-ups of red and gold baubles, and a visible “13 NEWS” ornament, which could help with follow-up questions. Description 1 includes some related holiday context, but much of Part 2 is more generic and interpretive, so its future-question utility is weaker overall.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 002-1
+Question:    Which of the following features/items is not discussed in the video in relation to the tomb?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives a more granular visual inventory of the tomb scene, adding details like the niche’s rectangular opening, the vessels being arranged in a row against a brick wall, and the text overlays including source information. Description 1 covers the same main items but is a bit less spatially precise, though it does add the carved stone lintel above the door.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 stays more usefully within the tomb scene and expands on contextual elements that could support follow-up questions about arrangement, excavation, preservation, and craftsmanship. Description 1 drifts by making an incorrect option-selection claim and adds less scene-anchored future-question utility, so it is weaker under this rubric.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 002-2
+Question:    Which of the following reasons motivated the archaeologists to excavate the tomb?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives more concrete visual specifics within the tomb scene, such as the black ceramic vessels, the chair’s appearance, the coffins’ peeling paint, and the brick walls with arched doorways. Description 1 is similar overall but more generic in several places and adds less precise scene reconstruction tied to the excavation/tomb visuals.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides somewhat stronger follow-up utility by covering a broader set of visible elements with more distinguishing attributes, which would better support future questions about artifacts, architecture, and condition. Description 1 includes many of the same components, but its Part 2 is more abstract and repetitive, with less itemized coverage of scene details.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 002-3
+Question:    How many porcelain jars were discovered in the niches located in the primary chamber of the tomb?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives a more reconstructable account of the jar scene: nine jars, arranged in two rows, against a brick wall, on a dirt floor, with a wooden plank across the front row. Description 2 also identifies nine jars, but it is less precise and internally weaker for the question because it says they are in a single row and later claims the video does not provide the exact number, which undercuts its usefulness.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays closer to the same scene and adds useful contextual details such as the brick walls, dirt floor, text overlay, and mention of the tomb entrance, all of which could support follow-up questions about the chamber and discovery context. Description 2 includes more speculative or less scene-secure additions like wooden furniture, stone tiles, painted wooden panels, and ornate metalwork, which drift from the specific chamber scene and are less reliable for future questions within the defined scene boundary.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 003-1
+Question:    How many national flags appear in the video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it lists more distinct flags and gives more precise visual attributes for each one, which is more useful for determining the count. Description 1 only identifies two flags and gives a much thinner account, so it is clearly less complete for the specific question of how many national flags appear.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 stays within the same scene/topic and adds several concrete visible elements that could support follow-up questions, such as the “Hamburger History” title, hand-drawn cut-outs, a hamburger patty, a thermometer, and a “Western Union” building label. Description 1 mostly shifts into broad thematic speculation about diplomacy, migration, and international cooperation, which is less scene-specific and less useful for future visual questions.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 003-2
+Question:    What is the video telling when the burger placed in the upper right corner at the end of the video f...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it more directly captures the relevant scene progression leading to the burger’s first appearance in the upper-right-end segment, including the historical spread narrative and the final upper-right burger placement with accompanying text. Description 2 includes several specific objects, but many of its details are less precise or less clearly tied to the key moment asked about, and it does not identify the “steak burgers spread throughout the United States” idea as clearly.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader coverage of the hamburger-history scene, including origins, spread through Europe, movement to the United States, standardization, and American burger culture, which would better support follow-up questions in this same scene. Description 2 mentions some extra props and map elements, but its broader coverage is thinner and less useful, with fewer coherent historical steps tied to the same scene domain.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 003-3
+Question:    In which country is the food featured in the video recognized worldwide?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a much fuller reconstruction of the visible scene tied to identifying the country: it mentions the “Hamburger History: Briefly!” page, the burger placed on it, the Europe map with Germany marked, the Statue of Liberty with an American flag, and the later New York-shaped drawing. Description 2 is much thinner and also less precise, mainly summarizing “burgers and fries” plus U.S. landmarks, with fewer concrete scene elements and less timeline detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again covers more of the same scene’s related elements that could support follow-up questions, including the sequence of drawings, map, flags, bowl of food, and transitions between Germany and the U.S. Description 2 becomes generic and speculative about hamburger history and globalization rather than documenting additional visible scene details, so it is less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 004-1
+Question:    According to the video, which of the following is considered the earliest stage of human evolution?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same key evidence: Dryopithecus appears first and is labeled “Lived 15 to 20 million years ago,” followed by later stages with their dates. Description 1 is slightly better because it adds a bit more precise visual characterization of the sequence and presentation, including side-profile depiction and the progression framing, whereas Description 2 is a little more generic.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more scene-useful follow-up coverage by naming more later evolutionary stages and attaching more specific visual/evolutionary descriptors to several of them. Description 2 covers much of the same sequence but is more compressed and less detailed overall, giving fewer reconstructable scene elements for future questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 004-2
+Question:    According to the video, in which state did human's ancestors first begin to walk on two legs?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it explicitly includes Ramapithecus, its label (“Lived 7 million years ago”), and its placement between Dryopithecus and Ardipithecus Ramidus in the sequence, which directly supports identifying the first ancestor that began walking on two legs within the relevant scene. Description 1 is much less useful for this question because it mentions Dryopithecus and then jumps broadly through the progression without naming Ramapithecus at all, so it provides weaker direct evidence for the answer.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 also gives stronger same-scene coverage by listing more of the evolutionary sequence in order and including additional intermediate figures and dates that could support follow-up questions about chronology and progression of bipedalism. Description 1 is broader but more generic, with several high-level claims about brain development and major milestones rather than as much concrete scene-specific coverage from the displayed sequence.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 004-3
+Question:    Given the information provided by the video, during which stage of human evolution did the regressio...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it not only lists the full evolutionary sequence with labels and dates, but also explicitly describes the visual progression of decreasing body hair and identifies the late-stage figures as less hairy, which is directly relevant to the question. Description 2 gives the same sequence and labels, but then says the video does not explicitly mention the rapid regression of body hair during any specific stage, providing less useful question-targeted detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more anchored to the visible scene by expanding on the visual transformation across the timeline, including ape-like appearance, increasing upright posture, and reduced hair in later figures. Description 2 includes broader follow-up topics like geography, diet, social structures, environmental changes, genetic adaptations, and cultural developments, which drift beyond the scene as presented and are less useful under the scene-boundary rule.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 005-1
+Question:    According to the video, how many individuals were in the car when Archduke Franz Ferdinand was assas...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly more focused on the exact car scene, noting the driver/passenger roles, the street setting, and visible clothing, all of which directly help reconstruct the assassination-car moment relevant to counting occupants. Description 2 includes some of the same car details, but it spends part of Part 1 on later overlays and a gun close-up rather than adding more precise occupant-related evidence, so it is less concentrated on the question-specific scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1’s Part 2 drifts heavily into historical background and inferred context rather than visible scene elements, which should be penalized. Description 2, while also including some broader material, provides substantially more visible scene coverage from the same segment—title card, street animation, text overlays, alliance map, countries shown, later military-uniform frame, and book promo—making it more useful for follow-up questions about the same video segment.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 005-2
+Question:    What's the trigger that set off the war mentioned in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a more continuous account of the visible sequence tied to the war-causes setup, including the gunman, the cause labels, the alliance maps, and the transition into nationalism. Description 2 includes some similar elements, but it is less precise in places, introduces a questionable combined text screen, and spends more of Part 1 on later unrelated figures rather than the core trigger/causes scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more tightly within the WWI-causes scene and covers the related explanatory elements more exhaustively, including the title card, alliance names with dates, Africa imperialism imagery, nationalism, and the book cover. Description 2 adds extra end-scene people and credits details, but these are less useful for future questions about the same scene/topic and drift more from the core causes segment.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 005-3
+Question:    Which of the following options is incorrect regarding the events in Sarajevo depicted in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a clearer sequence of the Sarajevo scene, including the transition to the car moving through a street, the crowd on both sides, the “SARAJEVO” sign on top of the green car, and then a close-up of two men with clothing details. Description 2 is shorter and less precise, and it introduces a woman in a blue dress beside the car without matching the stronger scene progression and object detail provided in Description 1.
+
+Rubric 2 analysis (related/future-question coverage): Description 1’s Part 2 is weak and partly generic, but it still mentions several scene-related elements such as planning, crowd reactions, and aftermath/context. Description 2 includes more follow-up-oriented claims about the driver, killer, seating position, and Black Hand, but much of it is asserted in a way that drifts into unsupported or contradictory specifics within the scene description, making it less reliable and less useful under the scene-boundary constraint.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 006-1
+Question:    What is one of the symbols of the festival that is introduced by the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives more concrete visual details tied to identifying the symbol: the person holding a shamrock, the on-screen text "HI, MY NAME IS PATRICK" and "THE PATRON SAINT," the map of Ireland with shamrocks, and the green background with "34 MILLION AMERICANS CLAIM IRISH ANCESTRY." Description 2 is thinner and less precise for the target scene, and some of its cited text ("RETURNED TO IRELAND," "SPENT 30 YEARS CONVERTING IRISH") is more biographical than directly helpful for identifying the festival symbol.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides stronger scene-relevant coverage because it includes multiple visible St. Patrick’s Day elements likely useful for follow-up questions, such as parades, crowds, rivers dyed green, Irish ancestry statistics, and the shamrock’s recurring presence. Description 2 adds background explanation about the shamrock and St. Patrick, but much of it is generalized exposition rather than broader visible scene coverage, so it is less useful for future frame-based questions within the same scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 006-2
+Question:    What happened when Irish imiggrants brought the tradition of St. Patrick's Day to America?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a fuller timeline within the relevant scene: immigrants bringing the holiday, Guinness drinking, the first parade, nationwide parades, and the river dyed green. Description 1 includes several of these same elements, but it omits the final visible timeline item and is slightly less exhaustive for reconstructing what happened in America after the tradition arrived.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions drift into generic background beyond the visible scene, but Description 2 still preserves more useful scene-related follow-up material by mentioning additional celebration practices that align with the shown American evolution of the holiday. Description 1 is more general and less ready for future questions about later American St. Patrick’s Day customs and visual elements from the sequence.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 006-3
+Question:    What is special about the celebration in New York according to the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives more concrete scene details tied to the answer: the on-screen text “2 MILLION SPECTATORS WATCH NYC PARADE,” the New York reference, the parade participants in traditional Irish attire, and the cheering crowd. Description 2 includes the same key text but is less detailed overall, adding only that people are dressed in green and playing bagpipes, so it is less reconstructive of the exact scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader useful coverage of related visible/topic-relevant elements from the same segment, including the U.S. map with shamrocks, the “34 MILLION AMERICANS CLAIM IRISH ANCESTRY” text, Boston’s first parade, Chicago’s green river, and Guinness-related context. Description 2 stays more generic and summary-like, with fewer specific scene elements and less concrete detail that would help answer follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 007-1
+Question:    How is the smoke generated by the man depicted in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a fuller reconstruction of the immediate scene: the man in traditional attire, feathered headdress, campfire, and the broader backdrop with white outlines of buildings and cacti. Description 2 includes the cactus and text, but it is less precise overall and adds a weaker claim about “burning cloth” rather than clearly emphasizing the fire/bonfire as the smoke source.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides somewhat richer scene-adjacent coverage by naming additional communication methods and also noting visible branding elements, which could support follow-up questions about the same video segment. Description 2 also summarizes the broader communication timeline, but it is a bit more generic and less anchored to concrete scene details within the relevant domain.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 007-2
+Question:    What kind of communication is listed before Semaphore?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is much stronger because it explicitly includes the relevant sequence around the answer: smoke signal, homing pigeon, Pony Express, and then semaphore flag, making it easy to determine what comes before Semaphore. Description 1’s Part 1 only describes later items like telephone, radio, email, and Facebook, so it largely misses the key scene details needed for this question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader scene coverage within the communication-history sequence, listing nearly every communication method shown and adding useful visual specifics such as the title cards, horse rider, flags, telegraph machine, and smartphone. Description 1’s Part 2 does list the sequence, but it is less visually detailed and less comprehensive for follow-up questions about the exact frames.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 007-3
+Question:    What is the specific sentence in the smart phone that makes the man embarrassed?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the correct sentence, but Description 2 is slightly more precise because it adds the visible phone detail that the brand name “KONNEKT” appears at the bottom and keeps the focus on the phone frame itself. Description 1 mentions the man appearing embarrassed, but otherwise gives less concrete visual detail tied to the exact phone shot.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions cover the broader communication-history sequence, but Description 2 provides somewhat more useful scene-linked context by noting the smartphone’s role in a sequence of interactions and retaining the visible brand detail for possible follow-up questions. Description 1 is broader but more generic, with less scene-specific information that would help answer future questions about this exact segment.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 008-1
+Question:    In the video, what color pen did the author use when he wrote "guitar" for the second time?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it gives more concrete, scene-reconstructable details tied to the writing sequence: it specifies that “The History of” is written in blue and “Guitar” is written in brown the first time, then “Guitar” is written again. Description 1 includes an extra action (drawing and circling a guitar) but is less precise about the surrounding text and sequence, and both descriptions are wrong about the second color, so Description 2 still has the stronger question-focused detail set overall.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides at least one additional visible scene element within the same whiteboard segment—the guitar drawing and blue circle—which could support follow-up questions about what was drawn after the writing. Description 2’s Part 2 is mostly speculative topic interpretation and likely future content rather than visible scene coverage, so it is weaker for future-question readiness within the bounded scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 008-2
+Question:    How many different guitar-shaped instruments are there in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a somewhat fuller inventory of the visible guitar-related items by separating the whiteboard electric guitar, the labeled Tarbou, the labeled Sitar, and the tablet guitar game display, with a few concrete visual details like colors, labels, and the score. Description 2 is less precise because it merges “Tarbou” and “Sitar” into one photographed instrument entry and adds a red electric guitar/stick figure claim, making its scene reconstruction less coherent for counting the different guitar-shaped instruments.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more potentially useful follow-up details within the same scene, including the whiteboard drawing style, labeled instruments, close-up playing shot, guitar neck/frets, tablet interface, score, and ending “smule Subscribe!” text. Description 2 includes some related elements, but several are vaguer or less useful for future questions, such as speculative interpretation (“music being like water”) and less precise app/text details (“Guitar Hero,” “FREE!”), so it offers weaker scene coverage overall.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 008-3
+Question:    What does the second half of the video show?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it includes more scene-specific details from the second half that align with the correct scene boundary of an advertisement for music software: the tablet gameplay, visible UI elements like the pause button, score progression, and the later whiteboard text/drawings (“FREE!”, “smule,” “Subscribe!”). Description 1 focuses narrowly on the tablet game and misses the ad-specific end frames, so it is less precise and less reconstructive of what the second half actually shows.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides more useful within-scene coverage by capturing additional visible ad elements and branding-related content that could support follow-up questions about text, promotional messaging, or sequence of events. Description 1’s Part 2 mostly drifts into generic speculation about history, industry impact, and education, which is not visible scene coverage and is less useful for future questions about this exact scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 009-1
+Question:    Which color of clothes is QuYuan wearing in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a somewhat richer visual scene tied to identifying QuYuan, mentioning the platform, red ribbon, yellow hat, surrounding crowd, colorful objects, and the on-screen text that helps confirm the figure. Description 2 is also clear and relevant, adding the cliff, water, mountains, scroll, and red ribbon in his hair, but it is less anchored by explicit identifying evidence than Description 1.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially more scene-related coverage for possible follow-up questions, including dragon boats, zongzi, ingredients, wrapping process, and people eating festival foods. Description 2 mostly shifts into interpretive cultural commentary about the meaning of white clothing, offering little additional visible scene content that would help answer future visual questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 009-2
+Question:    Based on the video, which day does the festival fall on the lunar calendar?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly better because it gives the key on-screen text tied to the question: “people began to hold the fifth day of May Dragon Boat Festival,” which directly supports the correct lunar date and also mentions the dragon boats visible in the same scene. Description 2 gives a conflicting date (“ninth day of the fifth lunar month”) and even says the specific date is not mentioned, so its question-specific evidence is both less precise and less useful.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more useful scene-related coverage, including Qu Yuan, dragon boat races, zongzi preparation, ingredients, and the concluding festival emblem, all of which could support follow-up questions about the same festival segment. Description 2 includes some related festival details too, but it is weakened by the repeated wrong date and adds more generic cultural claims, making it less reliable and less tightly aligned to the scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 009-3
+Question:    According to the video, which of the following is the main reason why people commemorate Qu Yuan?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly stronger because it includes the key on-screen statement directly tied to the answer: “He brought peace and prosperity to the state,” along with the surrounding sequence about Qu Yuan, the crowd, buildings, accusation scene, conquest, and commemoration. Description 2 mostly focuses on commemoration scenes and festival customs, but it does not anchor the answer as directly or precisely in the relevant scene, and it omits the crucial betrayal/conquest context that helps reconstruct why he is being remembered.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 gives broader within-scene coverage of the historical narrative and linked festival elements: Qu Yuan’s identity, accusation by traitors, Chu’s conquest, the origin of the fifth day/fifth month commemoration, and dragon boat/zongzi customs. Description 2 adds some extra festival details like zongzi ingredients, but much of it is less tied to the core scene boundary and offers weaker coverage of the historical sequence that would support follow-up questions about Qu Yuan’s story.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 010-1
+Question:    What can be learned from this video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are misaligned with the actual question topic, but Description 2 provides a denser and more precise account of the visible scene within the given boundary. It includes more concrete frame details than Description 1, such as thought bubbles, labeled airline counters, aviator goggles and scarf, the “Hierarchical” gauge, musical notes, and the final on-screen text identifying Dr. Deborah Swallow, making the scene more reconstructable.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again offers broader scene coverage that would better support follow-up questions, because it captures additional visible contextual elements from the same intercultural-communication animation sequence rather than staying at a higher level of abstraction. Description 1 is sparser and more generic in Part 2, while Description 2 preserves more potentially queryable details like emotional contrasts, dashboard components, and the closing credit text.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 010-2
+Question:    What is the pattern on the clothing of the staff who is behaving informally at the airline counter?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives a more precise visual account of the clothing pattern, describing multiple palm tree designs spread across the shirt, whereas Description 1 only says “coconut tree pattern” with less detail. Both identify the relevant staff member at the counter, but Description 2 provides a clearer reconstructable description of the pattern itself, which is the core of the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 offers more useful in-scene contextual details, such as the international departures area, the queue, the “FLEX CHECK IN” sign, the “Have your ticket and passport ready” text, and the contrast with other staff attire. Description 2 drifts outside the scene boundary by mentioning boarding an airplane and aerial landscape shots, which should be penalized, so its extra coverage is less useful for future questions about this scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 010-3
+Question:    At the end of the animation, which place does not the copilot travel to?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a fuller visual timeline tied to the travel question: the plane ascends, passes clouds, flies over a cityscape with tall buildings, a tree, a double-decker bus, and ends over mountains and a small village, while also naming Big Ben and the pyramids. Description 2 is much thinner and partly wastes space restating the answer options instead of adding scene detail, so it is less reconstructive of the actual sequence.
+
+Rubric 2 analysis (related/future-question coverage): Description 1, while somewhat generic in Part 2, still stays closer to the landmark-travel scene and mentions recognizable landmarks and the copilot’s role. Description 2 includes more extra elements, but several drift outside the scene boundary or appear unrelated to the landmark sequence (airport boarding line, diversity dashboard, labeled gauges), so its added coverage is less useful and should be penalized.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 011-1
+Question:    What is the kind of the dance in the video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly stronger because it gives a more concrete reconstruction of the scene: it specifies four dancers, white tutus and ballet shoes, synchronized movement, raised arms, spins, leg extensions, overhead lighting, dark background, and audience placement. Description 1 is also clearly about ballet and includes relevant ballet-specific moves like pirouettes, arabesques, and lifts, but it is a bit less scene-specific and slightly more generic in how it describes the performers and staging.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions weaken in Part 2 by drifting into general knowledge about ballet rather than sticking to visible scene elements, so both should be penalized. However, Description 2 still retains somewhat more scene-usable follow-up detail by mentioning choreographed movements, spotlight use, and the live audience/theater context, whereas Description 1 is more broadly encyclopedic and less useful for future questions about this exact scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 011-2
+Question:    What's the color of the cosmos introduced by the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it explicitly mentions the video opening on a completely black screen, later fading to black again, and also notes the white “Symphony” title card before the ballet scene. Description 2 also identifies the black opening and dark stage background, but it is shorter and omits the title-card detail, so it gives a less reconstructable account of the scene relevant to identifying the cosmos color as black.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage within the same segment, including the title text, repeated black-to-white-to-stage transitions, the four ballerinas, audience, lighting, and the ending fade to black. Description 2 stays more generic and interpretive, with less concrete scene inventory and fewer follow-up-useful details from the same visible sequence.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 011-3
+Question:    What are the moves in the last scene of this dance?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a clearer, more directly scene-relevant account of the last pose: kneeling on one knee, leaning back, arms extended upward, with stage/background and costume details that help reconstruct the exact final image. Description 2 repeats the core move but becomes less precise by adding a questionable leg configuration (“one leg extended behind”) and is overall less concrete about the exact final tableau.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more usable scene coverage within the same performance context, including the number of dancers, white tutus, dim stage lighting, and audience visibility, which could support follow-up questions about the scene. Description 2 is mostly generic ballet commentary and terminology, with less actual scene-specific coverage and less value for future questions about what is visibly present in this final scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 012-1
+Question:    Based on the video, which of the following describes the reason why the student ate the banana?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives a fuller sequence tied to the reason for eating the banana: the student peels and eats it, reattaches the peel with the same tape, and includes the key on-screen line that “damaging a work of modern art could also be art,” which directly supports the correct reason. Description 2 is less precise and includes a conflicting on-screen claim that he ate it “because he was hungry,” which weakens its usefulness for this question, even though it also mentions the later Miami comparison.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more scene-specific follow-up material, including the reattachment action, the 2019 Art Basel Miami Beach comparison, the performance artist identification, and quoted explanation of why he “decided to eat his art.” Description 2 covers some of the same territory but with fewer concrete scene details and more generic thematic summary, making it less useful for future questions about this exact scene and related examples.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 012-2
+Question:    What did the student do after eating the banana in the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key action correctly: after eating the banana, the student reattached the banana skin to the wall using the same tape. Description 1 is slightly stronger because it gives a fuller sequence around that action, including the close-up of the taped banana and the surrounding on-screen text, whereas Description 2 is a bit shorter and includes a less precise rendering of the name/text.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more scene-related follow-up material, including the additional example of the Miami incident, the interviewee identification, and a final shot of the person standing with the banana. Description 2 includes some of this context too, but its Part 2 is more generic and less useful for answering future scene-specific questions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 012-3
+Question:    What's the color of the tape in the video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the tape as gray and mention a close-up of a banana taped to a wall. Description 1 is slightly more precise because it specifies “gray duct tape” and cites the on-screen text with that exact wording, whereas Description 2 uses the more generic “gray tape” and adds a less direct detail about reattaching the banana skin.
+
+Rubric 2 analysis (related/future-question coverage): Both Part 2 sections are weak because they drift into abstract interpretation rather than concrete visible scene details. However, Description 2 provides somewhat more usable scene-related context within the same domain—artwork by Maurizio Cattelan, banana taped to wall, a person eating the banana, interviews, and the tape recurring across events—while Description 1 spends more of its space on metaphorical commentary and broader claims less helpful for future visual questions.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 013-1
+Question:    Which of the following is visible in the background of the video when the miniature bottle is shown ...
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key relevant detail that the empty miniature bottle is shown with seashells around it on a white surface. Description 2 is slightly better because it gives a bit more precise spatial phrasing (“seashells scattered around”) and keeps the bottle and surroundings more explicitly tied together, making the scene marginally easier to reconstruct.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader and more useful scene coverage within the same craft sequence, including the title text, the empty-bottle transition, the materials shown, the completed bottle appearance, and the ending channel screen. Description 1 includes some useful material labels and process steps, but it is more generic and speculative in places (“likely,” “may be”), so it is less strong for future follow-up questions.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 013-2
+Question:    According to the video, which of the following ingredients is not used in the artwork?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives more precise, scene-reconstructable details about the visible ingredients and tools: it specifies a tube of E6000 adhesive, a dropper, separate containers of oil and water, and the sequence of adding water, dye, oil, and glue. Description 1 identifies the main ingredients and correctly notes that shells are absent, but it is more generic and omits several concrete visible items and process details directly tied to determining what was used.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides better follow-up utility by covering additional scene elements within the same crafting process, including the dropper, layered liquid effect, adhesive use on the cork, and the final bottle appearance. Description 1 stays mostly at a high level and repeats the ingredient list with limited extra scene coverage, so it is less useful for answering future questions about tools, steps, or visual outcomes in the same scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 013-3
+Question:    What was the next step taken by the operator after filling the bottle with oil?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify that the operator applied glue to the cork next, but Description 2 is slightly stronger because it includes the adhesive’s full visible label and the immediate follow-up action of placing the cork onto the bottle. Description 1 does mention the on-screen text “Glue on the cork,” which is useful, but overall Description 2 gives a more reconstructable account of the step itself.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader and more useful scene coverage within the same craft sequence, including the bottle contents, order of materials added, the sealing purpose of the cork, the finished charm with a metal loop, and the end screen with completed projects. Description 1 includes some related context, but it is thinner and less operationally useful for future questions about the process or final object.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 014-1
+Question:    Which of the following can be identified as Susan White-Oakes' most recent art piece, based on the v...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives more concrete scene evidence tied to identifying the art piece: the on-screen text “SUSAN WHITE-OAKES COPPER ART IN PROGRESS,” the hashtag “#gocopper,” the wooden base, and the close-up emphasis on the sculpture’s scales and texture. Description 2 also identifies the pangolin and mentions tools and copper pieces, but it is less precise and less exhaustive about the visible cues in the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides better scene-bound coverage by adding useful workshop context, the in-progress nature of the sculpture, and the craftsmanship involved in shaping detailed scales, all of which could support follow-up questions about the same scene. Description 2 includes several generic or external facts about pangolins and copper rather than additional visible scene elements, so it is less useful under the required rubric and drifts away from scene-specific coverage.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 014-2
+Question:    Based on the video, what is Susan White-Oakes' latest art work made of?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key evidence that the work is copper, especially the on-screen text “SUSAN WHITE-OKES COPPER ART IN PROGRESS” and the hashtag #gocopper. Description 2 is slightly stronger because it adds more direct scene detail tied to the making process—mentioning the copper’s texture and color and that tools are used to shape and refine it—whereas Description 1 is a bit more generic about shaping or assembling.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are weak here because much of Part 2 drifts into general background about copper rather than visible scene content. However, Description 2 still provides somewhat better future-question utility by retaining a few scene-adjacent points about the artist’s process, craftsmanship, and the campaign implication of #gocopper, while Description 1 is more generic and less useful for follow-up questions about the actual scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 014-3
+Question:    What does Susan White-Oakes often do before polishing the whole body?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives more concrete visual detail about the sculpture itself, mentioning scales and claws and the workshop context with the opening text. However, neither description actually captures the key question-specific detail about deciding the head size before polishing, so both are weak on the central action. Description 1 is more generic and less reconstructive.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides stronger scene coverage by adding visible process details such as attaching copper scales, shaping claws, and polishing the surface, which would better support follow-up questions about the sculpture-making process. Description 1 stays broad and abstract, leaning on general statements about craftsmanship and copper art rather than concrete scene elements.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 015-1
+Question:    Which elements are depicted in the painting introduced by the video?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the key answer elements: a little girl and a red balloon, and both add similar gallery-context details such as the dark wall, audience, and the "West Gallery" sign. Description 1 is slightly better because it adds the painting being unveiled or revealed, which is a more concrete timeline detail tied to the introduction of the painting, whereas Description 2 is very close but a bit more generic in its phrasing about people reacting.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage within the same event, including the auction context, the hidden mechanism inside the frame, the unveiling, and Banksy-related social media posts, all of which could support follow-up questions about what happens around the painting’s introduction. Description 2 includes useful details like Sotheby’s, the title, and visual style, but it also spends space on interpretive symbolism and source branding ("Inside Edition" logo, social media prompts), which is less useful for future scene-based questions than Description 1’s event-specific and mechanism-related details.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 015-2
+Question:    Based on the video, what happened when the painting was sold?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a clearer sequence tied to the sale moment: auctioneer at the podium, audience watching, shredding beginning from the bottom, and the painting continuing to shred as people react. Description 1 identifies the painting and the audience reaction, but it is less precise about the auction action itself and includes a more generic statement about the frame mechanism.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader useful scene coverage within the same event, including the auction room setup, bidding context, bottom-up shredding, text overlays, and the ending news/social-media presentation. Description 1 adds some relevant context like the Instagram post and Dismaland sign, but it is less exhaustive about the actual auction scene and event progression, which makes it less useful for likely follow-up questions on this scene.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 015-3
+Question:    Based on the information provided by the video, which of the following statements is not correct?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a fuller reconstruction of the key scene: it mentions the painting on the wall, multiple viewing angles, two men working on the back, the auctioneer at the podium, a smartphone photographing the work, and the bottom-up shredding that reveals the mechanism. Description 2 includes some core elements, but it is less detailed and slightly less precise, replacing several concrete scene details with broader phrasing like “part of an art exhibition” and adding fewer timeline-specific observations.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage relevant to follow-up questions, including the hidden shredder in the frame, audience reaction, explanatory text overlays about Banksy’s role and protest motive, and the Inside Edition/social prompts. Description 2 covers some of the same domain context, but it is thinner overall and less useful for future questions because it omits several visible setup details and gives a more generic summary of overlays and reactions.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 016-1
+Question:    When was the painting mentioned in the video painted?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it includes the key on-screen wording structure around the painting identification and gives a clearer reconstruction of the scene with gallery display, viewers, and close-ups of brushwork. Description 2 also identifies "Starry Night," but its quoted text is less precise and does not actually provide the crucial date-related detail; overall it is a bit vaguer and less directly useful for answering when it was painted.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more scene-relevant coverage of the same Van Gogh-focused segment, including self-portraits, landscapes, biographical imagery, and the painting’s significance. Description 2 adds some extra elements, but parts like the whiteboard with "CULTURE," "FESTIVAL," and "CULTURAL TOURISM" feel less tightly tied to the painting scene and more drifted, making it less useful within the bounded scene.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 016-2
+Question:    Which of the following elements does not appear in the paintings primarily mentioned in the video?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is much stronger because it enumerates many concrete visible elements from the relevant scene: specific paintings, on-screen text snippets, museum viewers, a suited person with a pipe, and other artwork shown in sequence. Description 1 stays vague, gives only broad references to paintings and self-portraits, and even centers its answer around an unsupported option choice rather than reconstructing the scene in detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides broader scene coverage that would better support follow-up questions, including the subscribe screen, multiple distinct paintings, whiteboard text, museum context, and end-card text. Description 1 includes some extra context, but it is generic, less exhaustive, and adds interpretive summary rather than a rich inventory of visible scene elements.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 016-3
+Question:    Which of the following elements is not present in the "Starry Sky"?
+Winner:      2
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give essentially the same direct scene details: stars, a moon, swirling clouds, and the absence of houses or a castle, with similar comments about vibrant colors and brushstrokes. Neither provides meaningfully more precise or exhaustive visual evidence than the other, but Description 2 is marginally cleaner and slightly more specific in phrasing about the brushwork and movement.
+
+Rubric 2 analysis (related/future-question coverage): Both Part 2 sections are weak because they drift into art-historical interpretation and biography rather than additional visible scene elements. Description 2 is slightly better because it at least reiterates more scene-linked elements such as the stars, moon, and swirling clouds and ties them back to the painting’s visible composition, whereas Description 1 spends more space on broader non-scene commentary.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 017-1
+Question:    Based on the information provided by the video, what is the maximum number of fingers required to pl...
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it mentions chords, repeated simultaneous note groupings, and finger movement across the keys, which are more directly relevant to inferring the maximum number of fingers needed. Description 2 gives a similar high-level account of labeled notes and highlighted keys, but it is more generic and less precise for reconstructing hand/finger demands in the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more useful scene-level extras within the same piano-instruction context, including the app name, instructional framing, text overlays, and ending logo/slogan, which could support follow-up questions about the tutorial scene. Description 2 adds little beyond restating the note-display setup and includes speculative commentary about what “would depend” on context, which is less useful and less scene-descriptive.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 017-2
+Question:    What do the characters in this video mean?
+Winner:      1
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a more detailed and precise account of the visible note letters and their presentation, including the keyboard placement, multiple specific letters, color assignments, and that the sequence changes over time. Description 2 is sparser and more generic; although it adds “F,” it provides less concrete scene reconstruction overall and fewer direct visual specifics tied to what the characters mean.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays within the same piano-instruction scene and adds useful scene-related context about the note display system, color coding, and sequential guidance for playing. Description 2 includes some relevant tutorial context, but it drifts into speculative broader topics like sheet music, staff, and series branding, which are less clearly useful within the bounded scene.
+
+Winner: 1
+────────────────────────────────────────

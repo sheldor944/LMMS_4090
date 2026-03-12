@@ -1,0 +1,24 @@
+{
+  "overall": {
+    "judge_name": "GPT-5.4",
+    "total_questions": 100,
+    "total_parsed": 100,
+    "unparsed": 0,
+    "model1_wins": 59,
+    "model2_wins": 41,
+    "model1_win_rate": 59.0,
+    "model2_win_rate": 41.0
+  },
+  "per_question_analysis": {
+    "total_questions_with_variants": 34,
+    "total_checkable": 0,
+    "consistent": 0,
+    "inconsistent": 0,
+    "consistency_rate": null
+  },
+  "usage": {
+    "total_prompt_tokens": 121944,
+    "total_completion_tokens": 19130,
+    "total_tokens": 141074
+  }
+}

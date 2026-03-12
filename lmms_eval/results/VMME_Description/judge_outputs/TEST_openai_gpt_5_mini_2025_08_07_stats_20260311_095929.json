@@ -1,0 +1,10 @@
+{
+  "judge_name": "openai_gpt_5_mini_2025_08_07",
+  "total_questions": 10,
+  "total_parsed": 6,
+  "unparsed": 4,
+  "model1_wins": 2,
+  "model2_wins": 4,
+  "model1_win_rate": 33.33,
+  "model2_win_rate": 66.67
+}

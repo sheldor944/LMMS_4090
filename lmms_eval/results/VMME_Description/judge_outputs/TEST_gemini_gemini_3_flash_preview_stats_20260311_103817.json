@@ -1,0 +1,10 @@
+{
+  "judge_name": "gemini_gemini_3_flash_preview",
+  "total_questions": 100,
+  "total_parsed": 100,
+  "unparsed": 0,
+  "model1_wins": 61,
+  "model2_wins": 39,
+  "model1_win_rate": 61.0,
+  "model2_win_rate": 39.0
+}

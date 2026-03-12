@@ -1,0 +1,109 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2026-03-11 22:46:31[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2026-03-11 22:46:31[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2026-03-11 22:46:32[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2026-03-11 22:46:33[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2026-03-11 22:46:33[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/VMME_Description/selected_longvideobench_blip_aks_k8_ratio1_results'}[0m
+[32m2026-03-11 22:46:33[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m430[0m - [33m[1m --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.[0m
+[32m2026-03-11 22:46:33[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['longvideobench_custom'][0m
+[32m2026-03-11 22:46:33[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+force sample: False
+Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:11,  3.71s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.20s/it]
+Model Class: LlavaQwenForCausalLM
+[32m2026-03-11 22:46:49[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m219[0m - [1mUsing 1 devices with tensor parallelism[0m
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/api/task.py", line 1052, in download
+    self.dataset = datasets.load_dataset(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/load.py", line 1485, in load_dataset
+    builder_instance = load_dataset_builder(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/load.py", line 1130, in load_dataset_builder
+    dataset_module = dataset_module_factory(
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/load.py", line 912, in dataset_module_factory
+    ).get_module()
+      ^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/load.py", line 525, in get_module
+    data_files = DataFilesDict.from_patterns(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/data_files.py", line 709, in from_patterns
+    else DataFilesList.from_patterns(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/data_files.py", line 602, in from_patterns
+    resolve_pattern(
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/datasets/data_files.py", line 390, in resolve_pattern
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/home/hpc4090/miraj/LMMS_4090/lmms_eval/datasets/longvideobench/selected_dbfp_longvideobench_blip_k32_alpha0.75_sup1.0_score_diff.json'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 549, in <module>
+    cli_evaluate()
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 368, in cli_evaluate
+    raise e
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/evaluator.py", line 200, in simple_evaluate
+    task_dict = get_task_dict(tasks, task_manager, task_type)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/__init__.py", line 565, in get_task_dict
+    task_name_from_string_dict = task_manager.load_task_or_group(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/__init__.py", line 378, in load_task_or_group
+    all_loaded_tasks = dict(collections.ChainMap(*map(load_fn, task_list)))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/__init__.py", line 297, in _load_individual_task_or_group
+    return _load_task(task_config, task=name_or_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/__init__.py", line 267, in _load_task
+    task_object = TaskObj(config=config, model_name=self.model_name)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/api/task.py", line 722, in __init__
+    self.download(self.config.dataset_kwargs)
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 330, in wrapped_f
+    return self(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 467, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 368, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 411, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x7f7ed63d1190 state=finished raised FileNotFoundError>]
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1405, in launch_command
+    simple_launcher(args)
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 993, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/bin/python3.12', '-m', 'lmms_eval', '--model', 'llava_vid', '--model_args', 'pretrained=../LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=32,overwrite=False,device_map=auto', '--tasks', 'longvideobench_custom', '--batch_size', '1', '--output_path', './results/VMME_Description/selected_longvideobench_blip_aks_k8_ratio1_results', '--log_samples', '--log_samples_suffix', 'selected_longvideobench_blip_aks_k8_ratio1', '--verbosity', 'DEBUG', '--limit', '3']' returned non-zero exit status 1.

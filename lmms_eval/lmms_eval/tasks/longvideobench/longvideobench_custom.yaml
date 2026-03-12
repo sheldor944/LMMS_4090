@@ -1,7 +1,7 @@
 dataset_path: json
 dataset_kwargs:
   data_files:
-    test: datasets/longvideobench/selected_dbfp_longvideobench_blip_k32_alpha0.75_sup1.0_score_diff.json
+    test: datasets/longvideobench/selected_tmas_longvideobench_blip_k32_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt.json
   cache_dir: longvideobench_custom_cache
 
 task: "longvideobench_custom"
@@ -13,7 +13,7 @@ doc_to_text: !function utils.longvideobench_custom_doc_to_text
 doc_to_target: "correct_choice"
 
 generation_kwargs:
-  max_new_tokens: 128
+  max_new_tokens: 2048
   temperature: 0
   do_sample: false
 
@@ -27,7 +27,7 @@ metric_list:
 lmms_eval_specific_kwargs:
   default:
     pre_prompt: ""
-    post_prompt: "Answer with the option's letter from the given choices directly."
+    post_prompt: "\nNow generate your two-part descriptive answer:"
 
 metadata:
   version: 1.0

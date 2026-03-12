@@ -1,0 +1,149 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2026-03-10 16:43:57[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2026-03-10 16:43:57[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2026-03-10 16:43:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2026-03-10 16:43:58[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2026-03-10 16:43:58[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/testing/selected_videomme_blip_aks_k32_ratio1_results'}[0m
+[32m2026-03-10 16:43:58[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m430[0m - [33m[1m --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.[0m
+[32m2026-03-10 16:43:58[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2026-03-10 16:43:58[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+force sample: False
+Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.69s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.56s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.33s/it]
+Model Class: LlavaQwenForCausalLM
+[32m2026-03-10 16:44:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m219[0m - [1mUsing 1 devices with tensor parallelism[0m
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 2700 examples [00:00, 63188.38 examples/s]
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2026-03-10 16:44:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank0-world_size1-tokenizer is not cached, generating...[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 0...[0m
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 15703.12it/s]
+[32m2026-03-10 16:44:07[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 10[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/10 [00:00<?, ?it/s][32m2026-03-10 16:44:07[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 32 frames for video fFjv93ACGo8[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=0[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 32 specific frames[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 32 custom frames[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m379[0m - [1m[CUSTOM_FRAMES] Subsampling from 32 to 24 frames[0m
+[32m2026-03-10 16:44:07[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 24 custom frames instead of uniform sampling[0m
+[32m2026-03-10 16:44:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and berries, which kind of the decoration has the largest number?
+A. Apples.
+B. Candles.
+C. Berries.
+D. The three kinds are of the same number.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 16:44:13[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video shows a close-up of a Christmas tree decorated with red apples, golden candles, and blue berries. The apples are the most numerous type of decoration on the tree, followed by the golden candles and blue berries. The tree is set against a white background, and the decorations are clearly visible.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video demonstrates the traditional German modern Christmas tree, which is decorated with various ornaments such as apples, candles, and berries. The apples are the most common type of decoration, followed by candles and berries. The video also shows other types of Christmas trees, including a simple green tree and a more elaborate tree with golden ornaments. The video highlights the importance of the Christmas tree in German culture and the different ways it can be decorated. The video also includes historical illustrations of Christmas trees and their evolution over time.[0m
+Model Responding:  10%|█         | 1/10 [00:05<00:51,  5.76s/it][32m2026-03-10 16:44:13[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 32 frames for video fFjv93ACGo8[0m
+[32m2026-03-10 16:44:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=1[0m
+[32m2026-03-10 16:44:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 32 specific frames[0m
+[32m2026-03-10 16:44:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 32 custom frames[0m
+[32m2026-03-10 16:44:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m379[0m - [1m[CUSTOM_FRAMES] Subsampling from 32 to 24 frames[0m
+[32m2026-03-10 16:44:13[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 24 custom frames instead of uniform sampling[0m
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 549, in <module>
+    cli_evaluate()
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 368, in cli_evaluate
+    raise e
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 349, in cli_evaluate
+    results, samples = cli_evaluate_single(args)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/__main__.py", line 484, in cli_evaluate_single
+    results = evaluator.simple_evaluate(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/evaluator.py", line 268, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/utils.py", line 536, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/evaluator.py", line 506, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)  # Choiszt run generate until
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/models/simple/llava_vid.py", line 727, in generate_until
+    output_ids = self.model.generate(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/LLaVA-NeXT/llava/model/language_model/llava_qwen.py", line 135, in generate
+    return super().generate(position_ids=position_ids, attention_mask=attention_mask, inputs_embeds=inputs_embeds, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2404, in greedy_search
+    outputs = self(
+              ^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/LLaVA-NeXT/llava/model/language_model/llava_qwen.py", line 103, in forward
+    return super().forward(
+           ^^^^^^^^^^^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 1187, in forward
+    logits = logits.float()
+             ^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.12 GiB. GPU 0 has a total capacity of 31.36 GiB of which 3.09 GiB is free. Process 741275 has 8.09 GiB memory in use. Including non-PyTorch memory, this process has 20.16 GiB memory in use. Of the allocated memory 17.40 GiB is allocated by PyTorch, and 2.16 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Model Responding:  10%|█         | 1/10 [00:08<01:16,  8.50s/it]
+Traceback (most recent call last):
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 1405, in launch_command
+    simple_launcher(args)
+  File "/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/lib/python3.12/site-packages/accelerate/commands/launch.py", line 993, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/home/hpc4090/miraj/LMMS_4090/lmms_eval/.venv/bin/python3.12', '-m', 'lmms_eval', '--model', 'llava_vid', '--model_args', 'pretrained=../LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=24,overwrite=False,device_map=auto', '--tasks', 'custom_video_qa', '--batch_size', '1', '--output_path', './results/testing/selected_videomme_blip_aks_k32_ratio1_results', '--log_samples', '--log_samples_suffix', 'selected_videomme_blip_aks_k32_ratio1', '--verbosity', 'DEBUG', '--limit', '10']' returned non-zero exit status 1.

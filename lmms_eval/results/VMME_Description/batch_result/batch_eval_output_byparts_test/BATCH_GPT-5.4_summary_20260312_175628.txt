@@ -1,0 +1,1423 @@
+Judge: GPT-5.4
+Source: Batch API Results
+Timestamp: 20260312_175628
+============================================================
+
+Total questions: 100
+Parsed:          100
+Unparsed:        0
+
+Model 1 wins:    59  (59.0%)
+Model 2 wins:    41  (41.0%)
+
+============================================================
+Token Usage:
+============================================================
+  Total prompt tokens:     121944
+  Total completion tokens:  19055
+  Total tokens:            140999
+
+============================================================
+Per-response breakdown:
+============================================================
+
+Custom ID:   001-1
+Question ID: 001
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same core elements—apples, candles, and berries—but Description 1 gives slightly more concrete visual detail by specifying the candles’ orange-and-white striping and explicitly comparing counts among all three decoration types. Description 2 is a bit thinner and less precise for the counting question, adding only that candles are spaced along branches and berries are small/greenish-blue, while still incorrectly emphasizing apples as most numerous.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially more scene-related coverage across the surrounding Christmas-tree demonstration, including earlier and later visuals such as historical illustrations, a family around a tree, stockings, presents, and a logo shot, which would better support follow-up questions about the same video segment. Description 2 mostly shifts into generic cultural interpretation and symbolism rather than additional visible scene content, so it is less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   001-2
+Question ID: 001
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 gives a more exhaustive and precise account of the visible news-report framing, including the studio setup, multiple Christmas-themed cutaways, the on-screen text “Paradise trees,” and additional scene transitions that better reconstruct the segment. Description 1 captures the basic news format and several relevant visuals, but it is shorter and omits several scene details that strengthen identification of the video as a news report about Christmas decoration history.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader coverage of related scene elements within the same topic, including more decoration specifics, the living-room/fireplace setting, ornament types, and the historical/traditional progression of Christmas tree imagery, making it more useful for follow-up questions. Description 1 stays on-topic but is comparatively sparse and offers less scene inventory overall.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   001-3
+Question ID: 001
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly better because it explicitly states that there are three red stockings above the fireplace, directly answering the question with precise count and placement. Description 2 gives color and trim details but never states the number of stockings, so it is less useful and less reconstructive for the specific question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides more concrete additional scene details within the same Christmas living-room setting, including the black marble surround, wrapped presents, close-ups of red and gold baubles, and a wooden ornament reading "13 NEWS." Description 1 adds only broad, generic holiday context like garlands, wreaths, and a family-oriented atmosphere, which is less specific and less useful for follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   002-1
+Question ID: 002
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives a more granular visual inventory of the tomb scene, adding details like the niche’s rectangular opening, the vessels being arranged in a row against a brick wall, and the text overlays including source information. Description 1 covers the same main items but is a bit less spatially precise, though it does include the stone shelf and carved lintel; overall, Description 2 is more reconstructable for the specific scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 stays within the tomb scene and adds broader but still relevant contextual coverage about excavation/preservation, object arrangement, and what the artifacts reveal about the period. Description 1 weakens its coverage by drifting into an incorrect answer claim about inkstones and a speculative statement not supported by the scene-focused task, which should be penalized.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   002-2
+Question ID: 002
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions mostly inventory the same sequence of tomb images rather than directly identifying the motivation for excavation, but Description 2 is slightly more precise in several frame-level details: it specifies black ceramic vessels, peeling paint, visible wear, and arched doorways, whereas Description 1 is more generic. Description 1 does mention text overlays in a broader way, but it does not extract any clearer question-relevant evidence than Description 2.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides somewhat richer scene coverage by adding more concrete visual attributes of the artifacts and chamber layout that could support follow-up questions about contents, condition, and architecture. Description 1 includes similar categories of objects, but its Part 2 is more abstract and repetitive, with less scene-specific detail useful for future questioning.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   002-3
+Question ID: 002
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives a more reconstructable account of the jar scene: nine jars, arranged in two rows, with variation in size/shape, against a brick wall, on a dirt floor, and with a wooden plank in front. Description 2 also identifies nine jars, but it is less precise and includes weaker or less reliable specifics like calling them a single row and black, while offering fewer scene-anchored details overall.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more usefully within the same scene by adding contextual visible elements such as the brick wall, dirt floor, wooden plank, and on-screen text, which could support follow-up questions about the chamber and artifact layout. Description 2 includes more drift and less dependable scene coverage, bringing in items like wooden furniture, painted panels, ornate metalwork, and stone tiles that are not clearly tied to the jar niche scene, so it is less helpful under the scene-boundary constraint.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   003-1
+Question ID: 003
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it lists more distinct flags and gives more precise visual characteristics for each one, which is directly useful for counting national flags. Description 1 only identifies two flags and stays vague, so it is much less reconstructive for answering how many flags appear.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides more scene-relevant supporting details within the same domain, including the “Hamburger History” title, the hand-drawn/cut-out presentation style, and other visible objects that could support follow-up questions. Description 1’s Part 2 is mostly speculative thematic interpretation and offers fewer concrete scene elements tied to the same scene.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   003-2
+Question ID: 003
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it more directly tracks the historical sequence leading to the moment when the burger in the upper right first appears, including the title card, timeline references, Europe-to-U.S. spread, and the final upper-right burger placement with accompanying text. Description 2 includes several specific objects, but many are either imprecise or less clearly tied to the asked moment, and it does not identify the upper-right placement as cleanly.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene-relevant coverage of the hamburger-history narrative, including Germany, Europe, Russia, standardization, and U.S. steak burger context, which better supports likely follow-up questions about the same scene. Description 2 adds some extra props like fries and markers, but these are less useful for future questions on the historical content, and its historical details are more fragmented and less coherent.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   003-3
+Question ID: 003
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a much fuller reconstruction of the visible scene tied to identifying the country: it mentions the “Hamburger History: Briefly!” page, the burger placed on it, the Europe map with Germany marked, the Statue of Liberty with an American flag, and other sequential visual elements. Description 2 is much thinner and more generic, only mentioning burgers/fries, the title text, and U.S. landmarks, with less precision and less scene-specific detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 includes substantially more additional scene content from the same topic area, such as the knight drawing, the boat with an Egyptian flag, the labeled building, the bowl of food, and the final hand-drawn state-like shape, which would better support follow-up questions about the video’s historical/contextual presentation. Description 2 mostly shifts into broad background claims about hamburgers and globalization rather than covering more visible scene elements, so it is less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   004-1
+Question ID: 004
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same key evidence: Dryopithecus appears first and is labeled “Lived 15 to 20 million years ago,” followed by Ramapithecus, Ardipithecus Ramidus, and Australopithecus Anamensis with their dates. Description 1 is slightly better because it adds more precise scene detail relevant to reconstructing the sequence, such as the side-profile depiction and explicit evolutionary progression, whereas Description 2 is a bit thinner and only notes a generic walking pose.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more detailed coverage of the same evolution sequence, including additional named stages and more specific visual/structural distinctions across them. Description 2 covers much of the same sequence but is less exhaustive and less precise overall, offering more generalized statements about posture and development.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   004-2
+Question ID: 004
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it explicitly includes Ramapithecus—the correct scene-relevant ancestor for the question—and gives its label and timeline (“Lived 7 million years ago”), along with the surrounding sequence from Dryopithecus to Ardipithecus Ramidus. Description 1 mostly mentions Dryopithecus and then jumps broadly to later figures, so it is less precise and less reconstructive for identifying which ancestor first began walking on two legs.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides stronger follow-up coverage within the same evolutionary sequence by naming more intermediate ancestors and preserving the progression of bipedal development with associated dates. Description 1 includes broader evolutionary commentary, but much of it is generic and less scene-specific, making it less useful for future questions about the exact labeled sequence shown in the video.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   004-3
+Question ID: 004
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it not only lists the evolutionary stages and their labels/timelines, but also explicitly connects the visual progression of decreasing body hair to the later stages, which is directly relevant to the question. Description 2 provides the same stage list, but then says the video does not explicitly mention the rapid regression of body hair during a specific stage, making it less useful and less precise for answering the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more anchored to the visible evolution sequence and related physical changes within the same scene, especially the progression from hairier early hominids to less hairy later humans. Description 2 adds broader domain claims like geographical distribution, diet, social structures, environmental changes, and genetic adaptations, which are less clearly tied to the depicted scene and therefore less useful under the scene-boundary rule.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   005-1
+Question ID: 005
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly more focused on the exact car scene, noting the driver/passenger roles, the street setting, and visible clothing, all of which help reconstruct the moment relevant to counting occupants. Description 2 includes some of the same car details, but it spends more of Part 1 on later overlays and a gun close-up rather than adding useful evidence about how many people were in the car.
+
+Rubric 2 analysis (related/future-question coverage): Description 1’s Part 2 contains substantial drift into historical background not needed for the visible scene, but it still stays somewhat tied to the assassination context. Description 2 also drifts beyond the scene, yet it provides a broader inventory of visible related elements from the same video segment—title card, text overlays, maps, countries highlighted, later military-uniform frame, and book promo—which would better support follow-up questions about the surrounding educational content.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   005-2
+Question ID: 005
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a more concrete sequence of the opening visuals tied to the causes of WWI, including the gunman animation, the separate appearance of “MILITARISM,” “ALLIANCES,” “TRIPLE ALLIANCE (1882),” “TRIPLE ENTENTE (1907),” “IMPERIALISM,” and “NATIONALISM.” Description 2 includes similar elements but is less precise in places, compresses labels together oddly (“MILITARISM ALLIANCES IMPERIALISM”), and adds a weaker, less clearly relevant final segment.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides broader and more useful scene coverage within the WWI-causes segment, including the Europe alliance maps, Africa imperialism visual, historical-attire group shot, and the book cover. Description 2 adds some extra end details, but several are vague or drift from the core scene/topic, making it less reliable for future follow-up questions about this exact segment.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   005-3
+Question ID: 005
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a clearer sequence of the Sarajevo scene, including the transition to the car moving through a crowd, the “SARAJEVO” sign on top of the green car, and a close-up of two men with clothing details. Description 2 is thinner and less precise, mentioning a white-hatted man and a woman by the car, but it provides less timeline structure and fewer directly observable scene details tied to evaluating the options.
+
+Rubric 2 analysis (related/future-question coverage): Description 1’s Part 2 is weak and includes broad historical context, but it still gestures toward crowd reaction and subsequent events in the depicted Sarajevo segment. Description 2 adds more potentially useful scene-related claims about positions, attire, and participants, but much of it is framed as option-checking assertions rather than broader coverage of visible elements, and it is less reliable/useful for reconstructing the scene as a whole. 
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   006-1
+Question ID: 006
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives more concrete visual details tied to identifying the symbol: the person holding a shamrock, the on-screen text "HI, MY NAME IS PATRICK" and "THE PATRON SAINT," the map of Ireland with shamrocks, and the green background with "34 MILLION AMERICANS CLAIM IRISH ANCESTRY." Description 2 is thinner and less precise for the relevant scene, and some of its cited text ("RETURNED TO IRELAND," "SPENT 30 YEARS CONVERTING IRISH") is more about biography than directly showing the symbol being introduced.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides stronger scene-relevant coverage by including additional visible St. Patrick’s Day elements such as parades, crowds, rivers dyed green, Irish ancestry text, and the holiday’s cultural significance, which would better support follow-up questions from the same scene. Description 2 includes more explanatory background, but much of it shifts into general historical narration rather than clearly scene-bounded visible elements, so it is less useful under the stated rubric.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   006-2
+Question ID: 006
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a fuller timeline within the relevant scene: immigrants bringing the holiday, Guinness consumption, the first parade, nationwide parades, and the river-dyeing detail. Description 1 covers most of the same core points but omits the final visible river-green frame and is slightly less complete for reconstructing what happened in America as the celebration became centered on drinking and public festivity.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides better scene-bound coverage by including additional visible celebration elements tied to the same American St. Patrick’s Day sequence, especially the river-dyeing tradition, which could support follow-up questions. Description 1’s Part 2 drifts more into generic background and unsupported historical exposition, making it less useful and less scene-focused.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   006-3
+Question ID: 006
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives more concrete, scene-reconstructable details tied to the New York celebration: the on-screen text, traditional Irish attire, cheering spectators, and the NYC reference. Description 2 mentions the same key text and adds bagpipes, but overall it is shorter and less exhaustive about the parade scene that supports the answer about New York’s large parade.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides stronger scene-related follow-up coverage by including additional visible topic elements such as the shamrock-covered U.S. map, the “34 MILLION AMERICANS CLAIM IRISH ANCESTRY” text, Boston’s first parade, Chicago’s green river, and Guinness-related context. Description 2 stays broad and generic, with less specific scene content and more summary-style statements that would be less useful for answering future detailed questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   007-1
+Question ID: 007
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly more detailed and precise about the immediate scene: it mentions the man’s traditional attire, feathered headdress, campfire, the “THE SMOKE SIGNAL” text, and more background context. However, both descriptions make the same key mistake by attributing the smoke to a cloth rather than the fire, so neither is strong on the core causal detail asked by the question. Still, Description 1 provides a fuller reconstruction of the visible scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 gives a somewhat cleaner list of adjacent communication methods and visual presentation elements that could support follow-up questions, while Description 1 includes more speculative explanation about societal use and branding that is less useful. But both drift beyond the immediate smoke-signal scene, and Description 1 at least retains a bit more scene-linked context from the same communication-history segment. Overall, Description 1 remains marginally more useful across the two rubrics combined.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   007-2
+Question ID: 007
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is much stronger because it explicitly includes the key sequence around the answer: “THE PONY EXPRESS” followed by “THE SEMAPHORE FLAG,” along with the surrounding communication methods in order. Description 1’s Part 1 omits the relevant scene entirely and only describes later items like telephone, radio, email, and Facebook, so it provides little direct evidence for what comes before Semaphore.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 gives broader and more useful coverage of the communication timeline within the same scene, including the title cards and nearly every listed method in sequence, which would better support follow-up questions. Description 1 does mention smoke signal, homing pigeon, Pony Express, and semaphore in Part 2, but it is less exhaustive and less visually specific overall than Description 2.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   007-3
+Question ID: 007
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the correct embarrassing sentence, but Description 2 gives a slightly more precise reconstruction of the phone shot by noting the visible brand name “KONNEKT” and that the phone is held by a hand. Description 1 adds that the man appears embarrassed while looking at the phone, which is useful, but overall Description 2 provides the more concrete frame-specific visual detail tied to the question.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions cover the broader communication-history sequence, listing many of the same methods and giving similar context for the smartphone segment. Description 2 is stronger because it adds extra scene-relevant details that could support follow-up questions, such as the message being part of interactions between three individuals and the visible phone branding, whereas Description 1 stays more generic.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   008-1
+Question ID: 008
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it gives more concrete, scene-specific detail tied to the writing sequence: it includes the phrase “The History of” in blue and identifies the first “Guitar” in brown before describing the second instance. Description 1 adds a guitar drawing and blue circle, but its account of the second “guitar” is less useful for reconstructing the exact writing context, so overall Description 2 is more precise and complete for the question scene.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions drift into speculative interpretation, which should be penalized, but Description 1 still includes more visible scene elements from the same whiteboard segment, namely the guitar drawing and the blue circle around it. Description 2’s Part 2 is mostly generic guesses about the video’s broader content, offering less reusable scene coverage for follow-up questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   008-2
+Question ID: 008
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are weak because they identify only three instruments despite the scene containing seven, but Description 1 gives slightly more precise itemization by separating the whiteboard electric guitar, the labeled Tarbou, the labeled Sitar, and also noting the tablet guitar game interface as an additional guitar-related visual element. Description 2 is less precise because it collapses Tarbou and Sitar into a single photographed item, introduces a red electric guitar held by a stick figure without clearly establishing it as a distinct instrument in the scene timeline, and provides less reconstructable detail overall.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 offers broader scene coverage within the guitar-related domain, mentioning the close-up of a hand playing a real instrument, the guitar neck with strings and frets, the tablet interface with title and score, and the ending “smule Subscribe!” text. Description 2 includes some related elements, but several details are vaguer or less useful for follow-up questions, such as speculative interpretation (“music being like water”), the incorrect “Guitar Hero” title, and the less informative ending “FREE!” text.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   008-3
+Question ID: 008
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it captures more of the second-half scene that supports the correct answer: not just the tablet rhythm-game visuals, but also the later ad-like whiteboard sequence with “FREE!,” the tree drawing, “smule,” and “Subscribe!,” which makes the advertisement framing much more reconstructable. Description 1 is narrower and mostly describes the tablet gameplay, missing the key promotional elements that define the second half as an advertisement for music software.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides more useful scene-bound coverage by including additional visible elements within the same ad sequence, especially the branding and call-to-action details that could answer follow-up questions about text, product name, or promotional content. Description 1’s Part 2 drifts into generic claims about history, industry impact, and education that are not scene-specific and are less useful for future questions about the actual visible content.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   009-1
+Question ID: 009
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a somewhat richer visual scene tied to identifying QuYuan, mentioning the platform, red ribbon, yellow hat, surrounding crowd, colorful objects, and the on-screen text that helps confirm the figure. Description 2 also clearly states the white clothing and adds the cliff, water, mountains, scroll, and red ribbon in his hair, but it is slightly less anchored by direct identifying detail than Description 1.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially more scene-related coverage for possible follow-up questions, including dragon boats, zongzi, ingredients, wrapping process, and people eating festival foods. Description 2 mostly shifts into interpretive cultural commentary about the meaning of white rather than adding visible scene elements, so it is much less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   009-2
+Question ID: 009
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly better because it gives the key on-screen text tied to the question: “people began to hold the fifth day of May Dragon Boat Festival,” which directly supports the correct lunar date and also mentions the dragon boat racing scene. Description 2 gives a conflicting date (“ninth day of the fifth lunar month”) and even says the specific date is not mentioned, so its question-specific evidence is both less precise and less useful.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more scene-relevant follow-up coverage, including Qu Yuan, dragon boat races, zongzi preparation, ingredients, and a concluding festival emblem. Description 2 includes some related traditions, but it is weakened by repeating the wrong date and adding more generic cultural claims, making it less reliable and less useful for future scene-based questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   009-3
+Question ID: 009
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly stronger because it includes the key on-screen statement directly tied to the answer: “He brought peace and prosperity to the state,” along with surrounding scene context about Qu Yuan, the crowd, and the historical sequence. Description 2 mostly describes commemoration scenes, festival date, dragon boat racing, and zongzi, but it does not clearly capture the decisive visual/text evidence for why people commemorate Qu Yuan.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays within the relevant scene and covers more of the historical narrative arc: Qu Yuan’s identity, accusation by traitors, conquest of Chu, the origin of commemoration, and festival practices. Description 2 adds some potentially useful festival details, but much of Part 2 becomes generic or drifts into unsupported summary-style coverage, while offering less scene-specific historical context from the relevant segment.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   010-1
+Question ID: 010
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are misaligned with the actual question topic, but Description 2 provides a denser and more precise account of the visible scene within the bounded segment. It includes more concrete frame details than Description 1, such as thought bubbles, labeled airline counters, aviator goggles and scarf, the “Hierarchical” gauge, musical notes, and the closing on-screen text identifying Dr. Deborah Swallow, making the scene more reconstructable.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again offers broader coverage of additional visible elements from the same scene, including emotional contrasts in thought bubbles, more cockpit/dashboard specifics, and the end credit text/website that could support follow-up questions. Description 1 is sparser and more generic in Part 2, mostly summarizing intercultural communication themes without preserving as many potentially useful scene details.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   010-2
+Question ID: 010
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives a more precise visual account of the clothing pattern itself, noting multiple palm tree designs spread across the shirt, which is closer to the asked pattern detail. Description 1 identifies a “coconut tree pattern” but gives less concrete visual specificity about the pattern on the clothing.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more useful scene-boundary details from the airline counter area, including the check-in queue, signage, and contrast with other staff attire, all of which could support follow-up questions about the same scene. Description 2 drifts outside the counter scene into boarding and aerial landscape shots, which should be penalized, making its additional coverage less useful despite some relevant airport context.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   010-3
+Question ID: 010
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a fuller reconstruction of the travel sequence within the scene, mentioning the plane’s ascent, clouds, cityscape, double-decker bus, and final mountainous village setting in addition to Big Ben and the pyramids. Description 2 is much thinner and mostly restates the question/options rather than adding visual evidence, so it is less precise and less useful for determining where the copilot does or does not travel.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 includes several additional scene elements still tied to the same travel animation domain, such as the cockpit appearance, recognizable landmark context, and intermediate environments. Description 2 adds some potentially useful travel-related context, but it also drifts into questionable or less scene-bounded material like the dashboard labels and airport-line details, making it less clean and less reliable for future questions within the defined scene.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   011-1
+Question ID: 011
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better because it gives a more specific count of the performers (“four dancers”) and still includes relevant visible details like white tutus, ballet shoes, synchronized movement, raised arms, spins, leg extensions, stage lighting, dark background, and audience placement. Description 1 is also clearly about ballet and includes strong ballet-specific cues like pirouettes, arabesques, and lifts, but it is a bit less precise about the number of dancers and overall scene structure.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions weaken in Part 2 by drifting into generic background knowledge about ballet rather than sticking to additional visible scene elements. However, Description 2 is still better because it includes a few more scene-anchored details useful for follow-up questions, such as spotlight use, live audience context, and theater setting, whereas Description 1 is more abstract and less tied to the specific performance shown.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   011-2
+Question ID: 011
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it explicitly mentions the video opening on a completely black screen, later fading to black again, and also includes the white “Symphony” title card before the ballet scene. Since the question asks for the color of the cosmos introduced by the video, those direct color and opening-scene details are more precise and reconstructable than Description 2, which also notes a black opening but gives a shorter, less detailed account.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides broader scene coverage within the same segment, including the title text, stage setup, four ballerinas, costumes, audience, repeated movement types, and the ending fade to black. Description 2 covers the ballet context more generally, but it is less exhaustive and more abstract, offering fewer concrete visible details that would help answer follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   011-3
+Question ID: 011
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it directly states the final move and adds concrete visible details from the last scene: the dancers are on one knee, leaning back, with arms extended upward, on a dark stage with lighting emphasizing white costumes. Description 2 also identifies the move, but it becomes less precise by adding a possibly overinterpreted leg configuration (“one leg extended behind”) and gives fewer clearly scene-reconstructable details than Description 1.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more useful scene-related context for follow-up questions, including the number of dancers, white tutus, dim stage lighting, and audience visibility, all of which could support later questions about the same performance scene. Description 2’s Part 2 is mostly generic ballet explanation and terminology, with less concrete coverage of visible scene elements and more drift into abstract domain knowledge rather than scene-specific details.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   012-1
+Question ID: 012
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives a fuller sequence tied to the reason for eating the banana: the student peels and eats it, reattaches the peel with the same tape, and includes the key on-screen line that “damaging a work of modern art could also be art,” which directly supports the correct reason. Description 2 is less precise and includes a conflicting on-screen claim that he ate it “because he was hungry,” which weakens its usefulness for this question, even though it also mentions the later comparison case.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more scene-specific follow-up material within the same art-installation context, including the reattachment action, the 2019 Miami comparison, the performance artist identification, and quoted explanation of deciding to “eat his art.” Description 2 covers some of the same territory but with fewer concrete scene details and more generic summary language, making it less useful for future questions about the installation, participants, and sequence of events.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   012-2
+Question ID: 012
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a slightly fuller reconstruction of the key sequence: the student eating the banana, standing against a plain white wall, the explicit overlay about reattaching the banana skin with the same tape, and the close-up of the taped banana afterward. Description 2 covers the same core action but is a bit less complete and precise overall, with fewer scene details and a more compressed account of the immediate timeline.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 includes more scene-adjacent material that could support follow-up questions, such as the additional person eating a banana in front of another artwork, the interview identification, and more of the quoted on-screen text. Description 2 includes some related context, but its Part 2 is more generic and less useful, while Description 1 provides more concrete scene elements despite some broad summary language.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   012-3
+Question ID: 012
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the tape as gray and mention a close-up of a banana taped to a wall. Description 1 is slightly more precise because it specifies “gray duct tape” and cites the on-screen text with that exact wording, whereas Description 2 uses the more generic “gray tape” and adds a less direct note about reattaching the banana skin.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions drift into abstract interpretation and interview context rather than concrete visible scene details, so neither is strong here. However, Description 2 provides somewhat more usable scene-related coverage by mentioning the artwork setup, the person eating the banana, and the tape’s continued presence across the sequence, while Description 1 spends more of Part 2 on metaphorical commentary that is less helpful for future visual questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   013-1
+Question ID: 013
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify that the empty miniature bottle appears with seashells around it on a white surface, but Description 2 is slightly more precise by stating the shells are “scattered around” the bottle and keeping the focus tighter on the visible arrangement. Description 1 is very similar, but its wording is a bit more generic and adds less reconstructable detail beyond the same core elements.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader and more useful scene coverage within the same craft sequence, including the “Ocean in a Bottle” title, the empty bottle without the cork, the materials shown, the completed charm appearance, and the ending channel screen. Description 1 includes some relevant craft materials and text overlays, but it is less comprehensive and more speculative about intended use, which adds less value for future scene-based questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   013-2
+Question ID: 013
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives more precise, scene-reconstructable details about the visible ingredients and tools, including the E6000 adhesive, dropper, and separate containers of oil and water, plus the sequence of adding them. Description 1 identifies the main ingredients but is more generic and omits several concrete visual specifics that directly support determining which listed ingredient is absent.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides better follow-up utility by covering additional scene elements and process details within the same bottle-artwork setup, such as the layered effect, precise dye application, and how the cork is secured. Description 1 adds some context, but much of it is broad summary language rather than extra scene-specific details that would help answer future questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   013-3
+Question ID: 013
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the correct next step, but Description 2 is more precise because it includes the adhesive’s fuller label and the immediate follow-up action of placing the cork onto the bottle. Description 1 adds the on-screen text “Glue on the cork,” which is useful, but overall it gives slightly less reconstructable detail about the exact action sequence.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader scene coverage within the same craft process, including the bottle contents, sequence of adding dye/oil/water, the finished charm with a metal loop, background decorations, and the end screen with completed projects. Description 1 includes some related context, but it is sparser and less useful for answering likely follow-up questions about the craft scene and final product.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   014-1
+Question ID: 014
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives more concrete scene evidence tied to identifying the art piece: the on-screen text “SUSAN WHITE-OAKES COPPER ART IN PROGRESS,” the hashtag “#gocopper,” the wooden base, and the close-up emphasis on the sculpture’s scales and texture. Description 2 identifies the pangolin too, but it is more generic and provides fewer precise visual details from the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more usefully within the scene by covering the workshop context, the copperworking process, and the visible craftsmanship details that could support follow-up questions. Description 2 includes several off-scene factual claims about pangolins and copper properties (keratin, human hair and nails, material malleability) that are not additional visible scene coverage, so it is less helpful under this rubric.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   014-2
+Question ID: 014
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key evidence equally well: the on-screen text “SUSAN WHITE-OKES COPPER ART IN PROGRESS,” the hashtag #gocopper, and close-up views of the work. Description 2 is slightly stronger because it adds visible details about the copper’s texture and color and mentions tools being used to shape and refine the piece, making the scene a bit more reconstructable.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are weak here because most of Part 2 drifts into generic background about copper rather than additional visible scene elements. Description 2 still does a bit better by retaining a few scene-linked observations—tool use, craftsmanship, and the campaign implication of #gocopper—whereas Description 1 is more generic and speculative about Susan specializing in copper art.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   014-3
+Question ID: 014
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives slightly more concrete scene detail directly tied to the relevant moment, including Susan’s clothing, close-ups of her hands and face, and the exact visible text overlays. Description 2 adds some sculpture-specific detail like scales and claws, but it is less precise on the on-screen text and still does not capture the key head-sizing action; overall Description 1 is marginally stronger on direct reconstructable scene detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader and more useful coverage of the sculpture-making process within the same scene, mentioning attaching copper scales, shaping claws, and polishing/refining steps that could support follow-up questions. Description 1 stays more generic, mostly summarizing copper art and workshop context without as many concrete additional visible elements.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   015-1
+Question ID: 015
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the key elements in the painting as a little girl and a red balloon, and both add similar gallery-context details like the dark wall, audience, and the "West Gallery" sign. Description 1 is slightly better because it adds the more specific visual phrasing that the painting is being "unveiled or revealed," which helps reconstruct the exact introduction moment a bit more precisely than Description 2’s more generic "individuals reacting."
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage within the same event, including the hidden mechanism in the wooden frame, the audience engagement, and the later unveiling, all of which are useful for follow-up questions about what happens around the painting’s introduction. Description 2 includes some useful details such as Sotheby’s, the title, and the painting’s black-and-white style, but it also spends more space on interpretive symbolism and end-card/social-media material, which is less useful for future scene-based questions than Description 1’s event-specific details.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   015-2
+Question ID: 015
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 gives a clearer reconstruction of the sale moment itself: the auctioneer at the podium, the audience seated around the room, and the painting shredding from the bottom as bidding progresses. Description 1 identifies the painting and audience reaction, but it is less precise about the auction action and includes less scene-specific sequencing tied to what happened when it was sold.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader useful scene coverage within the same event, including the auction setup, the hidden shredder becoming visible, text overlays, and the ending news/social-media framing. Description 1 adds some context, but parts like the “Dismaland” building feel less central to the exact auction scene and therefore less useful under the scene-boundary constraint.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   015-3
+Question ID: 015
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives a fuller timeline of the relevant scene: the painting on the wall, multiple viewing angles, two men working on the back, the auctioneer at the podium, a smartphone photographing the work, and the bottom-up shredding that reveals the mechanism. Description 2 includes some core elements, but it is less exhaustive and slightly less precise, omitting several scene details that help reconstruct how the event unfolded.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides broader useful coverage within the same scene, including the hidden shredder in the frame, audience reaction, explanatory text about Banksy’s intent, and the Inside Edition/social prompts. Description 2 overlaps on the main event but is thinner overall and adds less scene-specific support for likely follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   016-1
+Question ID: 016
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it includes the key on-screen wording structure around the painting identification and gives a clearer reconstruction of the scene with gallery display, viewers, and close-ups emphasizing brushstrokes and color. Description 2 mentions similar core elements, but its quoted text is less precise and does not actually provide the crucial date-related detail, making its question-focused evidence weaker.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more tightly within the Van Gogh/Starry Night scene by adding self-portraits, landscapes, biographical context, and the painting’s significance, all of which are plausible follow-up targets in the same scene domain. Description 2 includes some useful extra details, but it drifts more into broader channel/context material like cultural tourism and whiteboard text, which is less helpful for future questions about the painting scene.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   016-2
+Question ID: 016
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is clearly stronger because it enumerates many specific visible frames tied to the paintings mentioned in the video: multiple artworks, museum-viewing shots, on-screen text snippets, and distinct scene elements. Description 1 stays broad and generic, gives only a few high-level references, and even spends space asserting an answer rather than reconstructing the visible scene in detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides broader scene coverage within the same Van Gogh/art-video domain, including additional paintings, presentation elements, museum context, end-screen prompts, and text like “CULTURAL TOURISM,” which would better support follow-up questions. Description 1 includes some extra context, but it is much less exhaustive and more summary-like, with fewer concrete scene details that could be reused later.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   016-3
+Question ID: 016
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are nearly identical in Part 1, listing the same core visible elements: stars, a moon, swirling clouds, and the absence of houses or a castle. Description 2 is marginally better only in phrasing clarity, but neither provides meaningfully more precise or exhaustive scene detail than the other.
+
+Rubric 2 analysis (related/future-question coverage): Both Part 2 sections are weak because they drift into art-historical interpretation and biography rather than additional visible scene content. Description 2 is slightly better because it at least reiterates more scene-linked elements such as the stars, moon, and swirling clouds, making it a bit more useful for follow-up visual questions within the same scene.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   017-1
+Question ID: 017
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it at least mentions chords, repeated simultaneous note groupings, and finger movement across the keyboard, which are more directly relevant to inferring the maximum number of fingers needed. Description 2 gives a more generic account of colored bars and labeled notes, but it is less precise for this question and even avoids committing to the visible implication about finger count.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader scene coverage within the piano-instruction context, including the app branding, instructional framing, text overlays, and ending logo, which could support follow-up questions about the same scene. Description 2 stays narrower and more repetitive, adding little beyond the basic keyboard-and-notes layout, while also including an unhelpful meta statement about not being able to determine the finger count.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   017-2
+Question ID: 017
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a more detailed and precise account of the visible note letters and their presentation, including more explicit color-note associations and the changing sequence over time. Description 2 adds “F,” but otherwise is less specific about the scene and gives fewer reconstructable details tied to what the characters mean in this piano-note context.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more tightly within the same scene and provides more useful scene-level context about the keyboard, colored note labels, and instructional melody-following setup. Description 2 includes some potentially useful context, but it drifts into less scene-grounded future-topic speculation like sheet music and staff reading, which is less helpful under the rubric.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   017-3
+Question ID: 017
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 directly answers the question with the key detail that blue and green indicate left hand versus right hand, and it also describes the keyboard, vertical timeline, and matching colored note bars. Description 2 gives more surface detail about labeled notes and the interface appearance, but it never identifies the actual reason for the color difference, so it is much weaker on the question-specific criterion.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 includes more visible interface-related details that could help with follow-up questions, such as note labels on keys, the black grid background, sequential illumination, and color-matched vertical bars. Description 1’s Part 2 drifts into speculative app features like practice exercises and progress tracking, which are not clearly confined to the shown scene, so its broader coverage is less useful despite being on-topic.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   018-1
+Question ID: 018
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is clearly stronger because it directly identifies the Em9 fingering and explicitly states that the little finger is not used, which is the key detail needed to answer the question. Description 1 stays more general, mentioning the chord diagram and hand placement but never specifies which fingers are used or unused for Em9.
+
+Rubric 2 analysis (related/future-question coverage): Within the same guitar-chord scene, Description 2 again provides more useful follow-up coverage by listing additional chord labels and giving concrete fret/string placement details that could support later questions. Description 1 includes some scene context, but much of Part 2 is generic instructional commentary rather than visible, scene-specific coverage, and Description 2’s speculative remarks are weak but it still offers more actionable scene detail overall.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   018-2
+Question ID: 018
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify seven chord types and mention on-screen chord diagrams, but Description 1 gives a slightly fuller account by noting the player’s hands forming each chord and listing a broader mix including E9, which fits the “kinds of chords played” focus more concretely. Description 2 is also specific, adding the diagram location in the bottom right, but overall it is a bit less complete for reconstructing the chord demonstration itself.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides more useful scene-bound contextual details for follow-up questions, such as the player’s dark blue sweatshirt with partial “CHAMPION” text and the guitar’s black pickups, while still staying within the same guitar-demo scene. Description 1 adds some relevant instrument context, but it also drifts into speculative teaching goals and music-theory content that is less grounded in future visible-scene questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   018-3
+Question ID: 018
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key latter-part action as the YouTuber playing/strumming through multiple chords and list the same visible chord labels. Description 1 is slightly better because it adds a bit more scene precision, noting the chord diagrams are on the right side and mentioning the pickguard and plain light background, which helps reconstruct the exact visual setup more clearly than Description 2.
+
+Rubric 2 analysis (related/future-question coverage): Both Part 2 sections drift somewhat into inference about tutorial purpose and audience, but Description 2 stays a little more anchored to scene-relevant guitar/chord content by emphasizing chord technique, specific frets, and the role of the diagrams for learning the finger positions. Description 1 includes more weakly useful speculation such as the sweatshirt implying an approachable style, which is less helpful for future scene-based questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   019-1
+Question ID: 019
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it more directly matches the key scene boundary in the question: all birds have left except one remaining on the branch. It gives a clearer reconstructable image of the lone bird on a bare, snow-covered branch against a gray sky, whereas Description 2 incorrectly centers on one bird flying away while others remain, which weakens its usefulness for answering this specific question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides somewhat broader scene-related coverage by describing the barren tree, snow, overcast sky, and the visual mood created by the solitary composition. Description 2 adds some thematic extensions, but because it misstates the core bird arrangement in the scene, its follow-up usefulness within this exact scene is less reliable.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   019-2
+Question ID: 019
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a bit more concrete scene detail around the raven—leafless tree branches, overcast sky, and the bird’s silhouette—while Description 2 is similarly generic and also only says the raven is perched and stationary. However, neither description actually captures the key action implied by the correct scene boundary, and both are weak on directly answering what the raven is doing.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays more within the immediate raven scene, adding nearby contextual elements like the tree, season-like setting, and text overlays, even though it drifts into interpretation. Description 2 provides a much longer list, but most of it clearly wanders far outside the relevant raven scene, so it should be heavily penalized under the scene-boundary rule.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   019-3
+Question ID: 019
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a more precise account of the authorship evidence by specifying the final frame, black background, centered white text, and that the text is the only visible element. Description 2 also identifies Edgar Allan Poe, but its claim about a raven image behind the text is less precise for the scene boundary and provides fewer concrete visual details tied to answering the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 includes a substantially broader inventory of visible scene elements from the poem video—tree branches, red moon, cemetery, lone walker, bird, statue, spider web, bench by a lake, lightning, eye, and crows—which would better support follow-up questions. Description 2 spends much of Part 2 on external background about Poe rather than visible scene content, and its scene coverage is much sparser.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   020-1
+Question ID: 020
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives more concrete scene-specific visual details tied to the question: close-up of the torch and crown, the greenish hue, the on-screen text, the split-screen coin flip, the illustration with the tablet date, and the distant shot with the “viator” label. Description 2 is more generic and quickly shifts into explanation rather than reconstructing the exact visible evidence from the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides broader scene coverage within the same topic by mentioning the historical illustration, coins, distant and close views, and the interior copper sheets that could support follow-up questions about material and history. Description 2 mostly gives general chemistry facts about oxidation and patina, which are less useful for future scene-based questions and include less visible scene content.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   020-2
+Question ID: 020
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is clearly stronger because it directly states the key visible action: the photographer is lying on the ground while taking the picture, and it also specifies the three tourists on a stone platform with the Statue of Liberty behind them. Description 1 is weaker and partly mischaracterizes the setup, suggesting a slightly elevated position or tripod/higher vantage point, which is less precise and less useful for answering the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides a much broader and more concrete inventory of scene elements tied to the Statue of Liberty visit sequence, including skyline shots, taxi, on-screen text, museum approach, selfie moment, museum interior details, sunset shot, and promotional end screen. Description 1 stays much more generic and includes broad thematic commentary like symbolism and cultural impact, which is less useful for future scene-specific questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   020-3
+Question ID: 020
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly better because it gives a more concrete scene cue tied to the answer: a close-up of the crown plus an aerial view with the skyline, which more directly supports “at her crown.” Description 2 mentions generic various angles, a face close-up, and a text overlay, but these are less precise and less directly useful for reconstructing why the crown is the best aerial-photo spot.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions drift heavily into general encyclopedia-style facts rather than visible scene elements, but Description 1 still provides somewhat more scene-relevant follow-up coverage by mentioning visitor photo perspectives from the base, pedestal, and crown. Description 2 includes even more off-scene historical/background information, so it is less useful under the required scene-boundary constraint.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   021-1
+Question ID: 021
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a clearer step-by-step account of the mRNA vaccine mechanism central to the question: title card, labeled cell, syringe injecting a blue mRNA-like object, spike production labeled “COVID SPIKES,” and antibodies interacting with those spikes. Description 1 includes some relevant labels and antibody imagery, but it is less precise and partly drifts into describing a virus entering the cell and being processed as if the vaccine itself were a virus particle, which makes the scene reconstruction less exact for this specific question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides more useful follow-up coverage within the same educational scene by including the injection step, cell machinery interaction, spike production, immune response, and even end credits/source information that could support later questions about the video’s presentation. Description 1’s Part 2 is broader and more generic, repeating the main idea without adding as many concrete scene elements that would help answer future questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   021-2
+Question ID: 021
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it more directly answers where the mRNA comes from by explicitly showing a syringe filled with teal liquid labeled “mRNA,” i.e. from a vaccine, and it lays out the sequence from title card to injection to cell processing. Description 2 includes some extra visual styling details, but it is less precise on the key source point and even introduces a muddier phrasing that the virus is “being injected,” which weakens question-specific clarity.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 gives broader same-scene coverage of the vaccine mechanism, including labeled elements like “COVID SPIKES” and “IMMUNE CELL,” antibody formation, and end credits text, making it more useful for follow-up questions. Description 2 overlaps heavily but is slightly narrower and less reliable in its scene summary because of the confusing description of what is injected.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   021-3
+Question ID: 021
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is better because it gives more directly relevant, reconstructable details for the asked scene: it explicitly identifies the red cell outline as the membrane, notes the virus invading the yellow cell, and mentions the visible “VIRUS” and “CELL” labels. Description 2 also states the membrane is red, but its supporting details are more generic and less precise, with weaker scene-specific cues and no mention of the on-screen labels.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more useful same-domain coverage, including virus entry, mRNA triggering immune response, antibody production, immune cells, and text overlays, while keeping the color coding of key elements. Description 2 covers similar concepts but with less breadth and specificity overall, so it is less helpful for answering follow-up questions from the same scene/topic.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   022-1
+Question ID: 022
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better on direct scene detail because it gives a more precise reconstruction of the visible setup: the person’s dark gray shirt, left forearm tattoo, the hand motion, and the yellow circular timer with labeled 5-minute increments from 0 to 25. Description 1 is sparser and less precise, and its claim that the timer reaches 23 minutes is less well supported by concrete visual structure than Description 2’s fuller account of the timer display and progression.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially more useful scene-related coverage for follow-up questions, including diagrams/animations of synovial fluid, X-ray images of hands, the cited study, osteoarthritis discussion, and the Vox end screen. Description 2’s Part 2 is mostly generic interpretation about patience, hand health, and social aspects, with far fewer concrete visible elements from the same scene/domain.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   022-2
+Question ID: 022
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is slightly better on the exact opening sequence because it gives a clearer timeline of the beginning frames: hands, then the text “What happens to our joints when we,” then the joint diagram and the caption about synovial fluid deriving partially from ovum, Latin for egg. Description 1 includes the key caption too, but its mention of “Is it bad for you?” is less directly tied to the asked detail and makes the opening sequence a bit less precise.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader scene coverage within the same topic, adding the fluid’s movement in the joint space, X-rays of hands and knees, the “Popped knuckles” vs. “Didn’t pop knuckles” comparison, and the Donald L. Unger quote. Description 1 has some useful related context, but it is more general and less exhaustive, so it is less helpful for future follow-up questions about the same scene and topic.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   022-3
+Question ID: 022
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives more concrete scene details directly tied to the topic: the joint diagram with synovial fluid, a clock-like time graphic, X-ray images, comparison text about cracking versus not cracking, and a Nobel laureate quote. Description 1 is more generic, mentioning anatomical diagrams, X-rays, and text overlays, but it is less precise and less reconstructive of what is actually shown in this segment.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides more useful follow-up coverage within the same topic, naming specific anatomical elements (synovial fluid, tendons, muscles, bones) and possible outcomes like osteoarthritis and joint function. Description 1 includes some relevant material such as joint lubrication and synovial fluid, but it spends more space on weaker or less useful extras like the Vox logo and general channel identity, which are less helpful for future questions about the scene.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   023-1
+Question ID: 023
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a more complete step-by-step account of the immune-cell action central to the question, including labels like “Bacteria,” the phagosome stage, and the final fate of the digested material. Description 1 is solid and includes several on-screen text details, but it is slightly less exhaustive about the later stages of the destruction process and ends more generally.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides better follow-up utility because it includes additional process details that could support future questions, such as engulfment into a phagosome and release or reuse of harmless particles. Description 1’s Part 2 is broader and more generic, with more domain-summary language and less scene-specific coverage, so it is less useful for future scene-based questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   023-2
+Question ID: 023
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly more detailed and reconstructable for the specific question because it includes the visible “Bacteria” label with an arrow, the transition into ingestion, and the sequence from attachment to phagosome to enzyme breakdown. Description 2 covers the same core answer but is a bit leaner and omits some scene-specific visual/timeline details that Description 1 includes.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays closer to the same scene and adds useful follow-up details such as the broader phagocytosis sequence and the ending note about harmless particles, while remaining mostly within the scene boundary. Description 2 includes broader biology explanations like pattern recognition receptors, signaling pathways, and innate immune response framing, which are less scene-specific and therefore less useful under the requirement to stay tightly within the depicted scene.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   023-3
+Question ID: 023
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is slightly more detailed and precise for identifying the matching cell type: it explicitly tracks the white blood cells/macrophages through engulfment, phagosome formation, and enzyme digestion, and includes more of the on-screen explanatory text in sequence. Description 2 is similar but a bit less precise, and it adds a less clearly supported detail about “special proteins present on the cell surface,” while otherwise giving a slightly thinner reconstruction of the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader coverage of the same scene by summarizing the full phagocytosis process, the signaling/attachment/engulfment/digestion sequence, and the fate of the harmless particles. Description 2 covers much of the same domain, but its Part 2 is shorter, more generic, and includes a weaker extra claim that the video is “part of a series,” which is less useful for future scene-specific questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   024-1
+Question ID: 024
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is more precise on the core event relevant to the question: it explicitly identifies the virus particle, its spikes, and the labeled interaction between “Viral Surface Proteins” and “Cell Receptor,” which directly supports “a virus attacks a cell.” Description 2 is longer, but much of it is hedged (“possibly,” “could be”) and includes less precise question-targeted detail, despite adding the virus’s dark center and motion across the surface.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides more useful scene-domain coverage by noting the labeled components and the viral entry/interaction process, which would better support follow-up questions about how the attack occurs. Description 2 adds some extra scene elements, but several are speculative or less useful (“possibly an organ,” “could represent immune cells”), and its final sentence about what the video does not depict is irrelevant to the scene.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   024-2
+Question ID: 024
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better on the core question because it gives a more direct and precise identification of the small flying black dot, explicitly noting that it is labeled “Virus Particle” and describing its motion across the textured surface. Description 1 also identifies the dot as a virus, but it adds less reliable-looking interpretive detail about surrounding yellowish structures and a more complex target structure, which is less tightly focused on the exact object asked about.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides stronger scene-bound coverage for follow-up questions by including additional visible elements such as the labeled “Viral Surface Proteins” and “Cell Receptor,” the virus entering through an opening in the membrane, and the presence of concluding informational text. Description 2’s Part 2 is much more generic and speculative, with less concrete scene detail and more broad statements about virology and educational purpose rather than specific visible elements.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   024-3
+Question ID: 024
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives a fuller sequence of the infection-related scene: the virus moving through the cellular environment, approaching the labeled cell receptor, the labeled viral surface proteins, and a zoomed-out continuation suggesting entry. Description 2 includes the same core elements but with less specificity and weaker scene reconstruction, using vaguer phrasing like “biological structure” and “small, dark object.”
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more useful additional scene coverage within the same domain by including the ending title card (“Hilleman,” subtitle, and website) and tying the animation to vaccine education, which could support follow-up questions about the source or context of the clip. Description 2’s Part 2 is more generic and speculative, especially with mention of immune response not explicitly supported by the described scene, so it is less useful for future question coverage.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   025-1
+Question ID: 025
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions clearly identify the main structure as a human heart model, but Description 2 gives a more reconstructable account of the scene by adding the cross-sectional view, branching arteries and veins, muscular texture, and the final external-surface focus. Description 1 is solid but more generic, and some of its wording leans into interpretation rather than concrete scene detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader scene coverage for follow-up questions by including both exterior and interior views, color differences in the internal structures, and the brief pumping animation. Description 1 adds some related anatomy context and the ending text, but overall it offers less scene-specific variety and less useful coverage of additional visible elements within the heart-focused segment.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   025-2
+Question ID: 025
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it gives a more concrete inventory of visible heart-model features tied to the answer choice set: red/blue vessels, atria, ventricles, aorta, pulmonary arteries, and close-up surface structure, before stating hepatic veins are not visible. Description 1 mentions coronary arteries, pulmonary veins, and the aortic valve, but it is less comprehensive overall and includes weaker phrasing like “not explicitly mentioned or shown,” which is less precise for the visibility question.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 stays more within the same scene/domain by adding useful follow-up-ready context about viewing angles, internal/external features, and circulatory flow emphasis. Description 1 drifts more into generic educational commentary and even lifestyle/medical-intervention discussion, which is outside the visible scene and less useful for future scene-based questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   025-3
+Question ID: 025
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the same core evidence: a realistic animated human heart, visible vessels/chambers, multiple angles, and the “ARC Creative Media” end card. Description 1 is slightly better because it adds more question-relevant precision, especially the red/blue coding for oxygenated vs. deoxygenated blood and the emphasis on blood flow through chambers, which more strongly supports the “medical education” purpose.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides somewhat broader medically relevant follow-up coverage by explicitly mentioning chambers, valves, blood vessels, heart function, and possible public-health context. However, Description 1 still offers useful future-question support through cardiovascular-system focus and educational utility, while avoiding some weaker speculation; overall the gap here is smaller than in Rubric 1.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   026-1
+Question ID: 026
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same details about the normal pancreas view, the “Normal Pancreas 2000 X Magnification” text, and the highlighted “Pancreatic Cancer Cell.” Neither offers any additional question-specific precision over the other, so there is no substantive difference on this rubric.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same coverage of normal versus cancerous cells, magnification, irregular structure, and broader pancreatic cancer context. Since neither includes more scene-relevant supporting detail than the other, they are effectively equal here as well.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   026-2
+Question ID: 026
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1, and both directly include the key on-screen text “2000 X Magnification,” which fully answers the question. Neither provides any extra question-specific detail beyond the same label and surrounding cell imagery, so neither is stronger on precision or completeness.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, covering the same additional elements about normal versus cancerous pancreatic cells, coloration, irregular structure, and disease progression. Since the content matches exactly, neither offers broader or more useful future-question coverage than the other.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   026-3
+Question ID: 026
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same amount of detail about the pancreatic tissue, the normal and abnormal cells, the coloration, and the on-screen labels. Neither offers any additional precision or scene-specific evidence over the other for answering the mitosis question.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same speculative discussion of pancreatic cancer development, mitosis, enzymes, and other contextual elements. Since neither includes more exhaustive or more useful scene-related coverage than the other, there is no substantive difference on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   027-1
+Question ID: 027
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions give nearly the same direct evidence: the woman in a waiting area, holding a bottle and cup, the on-screen text about preparation information, and the sequence of pouring and drinking water. Description 2 is only marginally more precise by noting the bottle is large and that she drinks from the cup, but the difference is very small.
+
+Rubric 2 analysis (related/future-question coverage): Both Part 2 sections drift into generic medical explanation rather than visible scene coverage, which should be penalized. Description 2 is slightly better because it at least stays a bit more focused on the CT-scan preparation context, whereas Description 1 adds broader claims like flushing contrast agents out and educational intent that are less useful for scene-based follow-up questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   027-2
+Question ID: 027
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions identify the key evidence for the publisher—the opening title card with the “Having a CT Scan” text and the Cancer Research UK logo—but Description 1 stays more tightly anchored to the visible sequence and adds several concrete scene details such as the “Somatom Definition Edge” label, the “Sub-Wait” sign, and the emergency call button. Description 2 includes some useful specifics, but several details are less clearly tied to the publisher question and feel more diffuse, so Description 1 is slightly stronger in precise, reconstructable scene detail.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 gives broader scene coverage across the preparation, injection, positioning, and scan phases, and includes additional contextual elements like staff roles, hospital signage, and text overlays that could support follow-up questions. Description 2 adds a CT image monitor and some preparation details, but overall it is more generic and less exhaustive about the surrounding scene and process.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   027-3
+Question ID: 027
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a much more reconstructable sequence of the CT-scan scene: the healthcare worker’s appearance, hallway-to-room transition, the patient’s clothing, cup and bottle of contrast dye, injection, blanket, positioning on the table, and CT images on a monitor. Description 1 identifies the CT scanner and mentions the “Somatom Definition Edge” label, but overall it is more generic and provides fewer concrete visual details tied to inferring that the patient is undergoing a CT scan.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides broader useful scene coverage for follow-up questions, including staff attire, room entry, injection step, blanket, patient positioning, and the monitor displaying cross-sectional images. Description 1 adds some contextual mention of preparation and text overlays, but its Part 2 is mostly high-level explanation rather than exhaustive visible scene elements that would help answer future questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   028-1
+Question ID: 028
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in their question-specific content. Both mention the woman’s clothing, the anatomical model, the lab setting, and that she removes a brown organ identified as the liver based on size and shape. Neither provides any extra precision over the other.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in their broader scene coverage. Both include the same contextual details about the lab, the educational use of the anatomical model, the learning exercise, and the significance of the lab coat, with no difference in scope or usefulness for follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   028-2
+Question ID: 028
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same sequence of laboratory actions, anatomical model interaction, and the same closing university branding details that support identifying the video as an admissions-style school promotion. Neither offers any additional precision or scene-specific detail beyond the other.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same coverage of the medical science context, hands-on learning emphasis, university branding, and recruitment-oriented interpretation. Neither description includes more exhaustive or more useful related scene details than the other.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   028-3
+Question ID: 028
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are effectively identical in their account of the single visible person, their clothing changes, actions around the anatomical models, and the explicit statement that no other people appear. Neither provides any additional question-specific detail beyond the other, so there is no meaningful difference in precision or completeness.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions give the same additional scene context about the anatomy-education setting, lab coat, anatomical models, and the University of Queensland branding. Since the coverage and usefulness for follow-up questions are the same, neither description is stronger on this rubric either.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   029-1
+Question ID: 029
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions are identical in Part 1, providing the same level of detail about the visible lungs, their symmetry, translucency, branching patterns, surrounding smoke, and implied motion. Neither offers any additional question-specific precision over the other.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions are also identical in Part 2, with the same added coverage about the respiratory system, bronchial tree, alveoli, smoke symbolism, and educational/health context. Since neither includes more scene-related supporting detail than the other, there is no substantive difference in future-question usefulness.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   029-2
+Question ID: 029
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions provide exactly the same scene details: dark background, orange-yellow molten flow, heart-like shape, smoke, lung-like flame structures, and the final CDC overdose-risk text. There is no difference in quantity, precision, or reconstructability of the health-advice message.
+
+Rubric 2 analysis (related/future-question coverage): Both descriptions again contain the same additional coverage about visual metaphors, bodily harm, public health messaging, and the CDC resource. Neither offers any extra scene-related detail beyond the other, and neither is better for follow-up questions.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   029-3
+Question ID: 029
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): The two descriptions are identical in Part 1, providing the same sequence of visual elements: fiery fluid, white smoke, heart-like form, lungs, graph-like line, DNA-like shape, and the final CDC text. Neither offers any additional precision or scene detail beyond the other, so there is no meaningful difference on question-specific evidence.
+
+Rubric 2 analysis (related/future-question coverage): The two descriptions are also identical in Part 2, with the same coverage of metaphorical interpretation, body-system references, and the call-to-action text. Since neither includes more scene-related supporting detail than the other, they are equal on future-question usefulness as well.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   030-1
+Question ID: 030
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is stronger because it gives a much more precise visual account of the organelle shown at the beginning: the mitochondrion’s blue highlighting, the zoom into the inner membrane, and labels for intermembrane space and ATP synthase. Description 1 identifies the mitochondrion and mentions ATP-like red particles, but it is less detailed and spends more of its limited scene description on the general cell and nucleus rather than the organelle itself.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 clearly provides broader and more useful same-scene coverage for follow-up questions, including inner and outer membranes, ATP synthase, matrix, and complexes I–IV, all within the mitochondrion-focused scene. Description 1’s Part 2 is comparatively generic, with explanatory biology language and speculation about what the video “likely continues” to show, which is less useful and drifts beyond the bounded scene.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   030-2
+Question ID: 030
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify ATP as red and mention the labeled ATP particles near a blue mitochondrion. Description 2 is slightly more precise for the question because it adds visible attributes of the ATP particles themselves—small, spherical, and red—whereas Description 1 spends some of its Part 1 on less directly relevant structural transition details.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides stronger scene-specific follow-up coverage by naming more visible labeled components in the mitochondrion scene, including cytosol, complex I, matrix, complex III, ATP synthase, intermembrane space, and outer membrane. Description 2 stays more general, mentioning the nucleus, mitochondria, and electron transport chain with color highlights, but it is less exhaustive and less useful for detailed future questions within the same scene.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   030-3
+Question ID: 030
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives more concrete scene-reconstructable visual details tied to the question, including the organelle’s blue elongated appearance, labeled parts such as outer membrane, intermembrane space, inner membrane space, matrix, and cristae, plus visible ATP movement around the mitochondrion. Description 2 is also relevant, but it is slightly less visually specific and leans more on inferred process language; its mention of ATP synthase, ADP, NADH, and proton movement is useful, yet it provides fewer direct scene-defining details than Description 1.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays within the same scene and expands with multiple mitochondrion-specific structures and processes that could support follow-up questions, such as oxidative phosphorylation, electron transport chain, ATP synthase, matrix, and cristae. Description 2 includes some strong related content, but it drifts into broader biology topics like glycolysis, fatty acid oxidation, cellular signaling, and programmed cell death, which are less clearly confined to the depicted scene and therefore should be penalized.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   031-1
+Question ID: 031
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it not only identifies the three colored segments in the "ASSET UNDER MANAGEMENT" bar and their relative sizes, but also explicitly maps them to the asset types asked in the question: stocks, bonds, and cash. Description 1 gives the colors and sizes but never directly states which assets those colors represent in Part 1, so it is less precise for answering this specific question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides substantially broader scene coverage, including the earlier list of asset types, the animated investors, Will’s Fund, the $1,000 and MAV = $1.100 pie charts, fee deduction visuals, and the closing mutual funds branding. Description 2 stays more generic and explanatory, with fewer concrete scene elements that would help answer follow-up questions from the same video segment.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   031-2
+Question ID: 031
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 gives a denser step-by-step account of the mutual-fund explainer scene, including more intermediate visuals such as the hourglass, question marks, “WILL’S FUND,” the pie-chart labels, and the sequence of $10,000 to $11,000 to “MAV = $1,100.” Description 1 is solid but more compressed and misses several scene elements that help reconstruct the explanatory flow of how the mutual fund works.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 covers more potentially useful follow-up details from the same instructional scene, especially the specific chart forms, labels, and transitions that could support later questions about examples, fund structure, or value changes. Description 1’s Part 2 is more generic and includes less scene-specific supporting material, so it is less useful for future question answering.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   031-3
+Question ID: 031
+Variant:     3
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it includes more scene-specific visual details tied to the mutual-fund explanation relevant to statement A: the investor character, hourglass, question marks, light bulb, named figures, the $1,000 amount, the pie chart, and the asset-under-management graphics. Description 1 is sparser and shifts quickly into closed-ended funds, which is less directly tied to the question’s key idea that a mutual fund provides diversification without the buyer selecting each asset.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 again provides broader useful coverage within the same scene, including fees, amounts shown on screen, character transitions, and multiple graphics that could support follow-up questions about how mutual funds work. Description 1 adds some related domain material, but much of its extra coverage centers on open-ended versus closed-ended funds, which is less useful for this specific scene boundary and drifts away from the main explanatory segment.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   032-1
+Question ID: 032
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 2 is better because it gives a more differentiated account of the three simultaneous buildings by noting the labels and the distinct visual markers on each: an American flag on CITY HALL, a green vertical bar above the WHITE HOUSE, and a dollar sign above the skyscraper. Description 1 is less precise and appears weaker on direct scene reconstruction, since it assigns dollar bill icons to both CITY HALL and the WHITE HOUSE and gives less specific visual distinction for the third building.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides more useful follow-up coverage within the same bond-market scene by explicitly mapping the three buildings to municipal, federal, and corporate bonds and explaining how they function as different issuer categories. Description 1 stays more generic about funding and collaboration, while Description 2 offers more scene-relevant domain structure, though its mention of the Federal Reserve/regulatory bodies is somewhat less grounded to the immediate scene.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   032-2
+Question ID: 032
+Variant:     2
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is stronger because it gives both labeled market names and the specific values "$50.1 TRILLION" and "$40.7 TRILLION," then explicitly states the computed difference as $9.4 trillion, approximately $10 trillion. Description 2 is less precise and less useful because it gives the stock market value as "$40.1 TRILLION," which weakens reconstructability of the exact comparison shown in the scene.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides more scene-related supporting details, including the color-coded banners, the presence of buildings and people in the animation, and the Charles Schwab disclaimer/logo at the end, all of which could support follow-up questions about the same segment. Description 2 adds less concrete scene coverage and instead gives vague commentary about clarity and "risks and benefits of investing," which is less tied to visible scene elements in this comparison graphic.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   032-3
+Question ID: 032
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives slightly more concrete scene detail tied to the factory shot: three laptops on the conveyor belt, their rightward movement, and factory features like two smokestacks and windows. Description 2 also mentions three laptops and adds the red roof/white walls plus a claim about one being produced versus two completed, but overall it is not clearly more exhaustive and is less precise on the visible count/timeline needed for the question.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 stays within the factory scene and includes additional in-scene elements such as the conveyor system, smokestacks, windows, and background color change that could support follow-up questions about the same production shot. Description 2 drifts outside the scene into unrelated buildings and workers from elsewhere in the video, which should be penalized under the scene-boundary rule, making it less useful for future questions about this factory segment.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   033-1
+Question ID: 033
+Variant:     1
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the denominations and total, but Description 2 is slightly more precise because it names the denominations in a clearer itemized way and adds the visible arrangement in the opening animation. Description 1 gives the same core answer but with less scene-specific precision beyond the denomination list and total.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides denser, more useful follow-up coverage within the same minimum-wage scene, including layout of the opening currency, the exact wage formula text, the "$2.13" payment screen, map/graph titles and sources, and protest-sign text. Description 1 is broader but more generic, with less precise visual detail and more summary-style interpretation, so it is less useful for future scene-specific questions.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   033-2
+Question ID: 033
+Variant:     2
+Winner:      2
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 gives a fuller reconstruction of the portrait scene: it mentions the figure seated at a desk, a document in front, an American flag in the background, the dollar-sign pattern, the speech bubble, and the ornate golden frame. Description 2 includes fewer portrait-specific details, mainly the dollar-sign speech bubble, dollar-sign background, and “USA TODAY” text, so it is less precise for identifying the depicted historical figure.
+
+Rubric 2 analysis (related/future-question coverage): Description 2 provides broader scene coverage within the minimum-wage segment, adding a U.S. map of state wage laws, an inflation-adjusted graph, the protest scene, and the timeline, which would better support follow-up questions. Description 1 includes some of this context, but it is more general and omits several concrete visual elements that Description 2 names.
+
+Winner: 2
+────────────────────────────────────────
+Custom ID:   033-3
+Question ID: 033
+Variant:     3
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Both descriptions correctly identify the visual aid as a line graph with two lines comparing nominal minimum wage to its 2019-dollar value. Description 1 is slightly stronger because it adds more precise scene details directly tied to the graph, including the line colors and the cited source, making the specific visual more reconstructable than Description 2’s more generic phrasing.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 provides broader and more useful coverage of related scene elements, including the state wage map, historical trend graphs, side-by-side dollar comparisons, protests, and animations about employer/employee effects. Description 2 includes some of the same elements, but it is more repetitive and less comprehensive, with fewer distinct supporting details and less scene-specific breadth.
+
+Winner: 1
+────────────────────────────────────────
+Custom ID:   034-1
+Question ID: 034
+Variant:     1
+Winner:      1
+Model:       gpt-5.4-2026-03-05
+Raw Response:
+Comparison:
+
+Rubric 1 analysis (question-specific details): Description 1 is clearly stronger because it gives a fuller step-by-step account of the animation tied to quantitative easing: the 2007–2009 timeline on the globe, the bank labeled “BANK,” the printing press, the “CENTRAL BANK” screen with balance fields and £1,000 input, the bond certificate with “£375bn” and “SINCE 2009,” the yield-curve graphic, and later money/shares/business-owner visuals. Description 2 includes some relevant elements, but it is less exhaustive and also introduces a less reliable emphasis on a prohibition sign over the printing press while omitting several concrete labels and later scene details that help reconstruct the explanation of QE.
+
+Rubric 2 analysis (related/future-question coverage): Description 1 again provides broader scene coverage for follow-up questions by including additional visible elements such as the British flag beside the bond certificate, the “SHARES” title card, the “SMALL BUSINESS OWNER” label, the handshake, and the stacks of money being split. Description 2 stays at a higher-level summary of central-bank policy and crisis response, but it covers fewer scene-specific supporting details from the same explanatory sequence and is therefore less useful for future question answering.
+
+Winner: 1
+────────────────────────────────────────

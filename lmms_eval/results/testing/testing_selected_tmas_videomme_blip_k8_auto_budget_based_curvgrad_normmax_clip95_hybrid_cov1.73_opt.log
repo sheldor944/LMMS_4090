@@ -1,0 +1,499 @@
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+[32m2026-03-10 13:53:50[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate[0m:[36m311[0m - [1mVerbosity set to DEBUG[0m
+[32m2026-03-10 13:53:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m458[0m - [34m[1m`group` and `group_alias` keys in tasks' configs will no longer be used in the next release of lmms-eval. `tag` will be used to allow to call a collection of tasks just like `group`. `group` will be removed in order to not cause confusion with the new ConfigurableGroup which will be the offical way to create groups with addition of group-wide configuations.[0m
+[32m2026-03-10 13:53:50[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile illusionvqa.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/illusionvqa could not be loaded as a task or group[0m
+[32m2026-03-10 13:53:51[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.tasks[0m:[36m_get_task_and_group[0m:[36m484[0m - [34m[1mFile _default_template.yaml in /home/hpc4090/miraj/LMMS_4090/lmms_eval/lmms_eval/tasks/video-tt could not be loaded as a task or group[0m
+[32m2026-03-10 13:53:51[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m400[0m - [1mEvaluation tracker args: {'output_path': './results/testing/testing_selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_results'}[0m
+[32m2026-03-10 13:53:51[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m430[0m - [33m[1m --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.[0m
+[32m2026-03-10 13:53:51[0m | [1mINFO    [0m | [36m__main__[0m:[36mcli_evaluate_single[0m:[36m480[0m - [1mSelected Tasks: ['custom_video_qa'][0m
+[32m2026-03-10 13:53:51[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36msimple_evaluate[0m:[36m161[0m - [1mSetting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234[0m
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+You are using a model of type llava to instantiate a model of type llava_qwen. This is not supported for all configurations of models and can yield errors.
+OpenCLIP not installed
+force sample: False
+Loaded LLaVA model: ../LLaVA-NeXT-Video-7B-Qwen2
+Loading vision tower: google/siglip-so400m-patch14-384
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.71s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.32s/it]
+Model Class: LlavaQwenForCausalLM
+[32m2026-03-10 13:53:59[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36m__init__[0m:[36m219[0m - [1mUsing 1 devices with tensor parallelism[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m402[0m - [1mRunning on rank 0 (local rank 0)[0m
+[32m2026-03-10 13:54:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.caching.cache[0m:[36mload_from_cache[0m:[36m34[0m - [34m[1mrequests-custom_video_qa-0shot-rank0-world_size1-tokenizer is not cached, generating...[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.api.task[0m:[36mbuild_all_requests[0m:[36m427[0m - [1mBuilding contexts for custom_video_qa on rank 0...[0m
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 11008.67it/s]
+[32m2026-03-10 13:54:02[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m460[0m - [34m[1mTask: custom_video_qa; number of requests on this rank: 10[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.evaluator[0m:[36mevaluate[0m:[36m495[0m - [1mRunning generate_until requests[0m
+Model Responding:   0%|          | 0/10 [00:00<?, ?it/s][32m2026-03-10 13:54:02[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video fFjv93ACGo8[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=0[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:02[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and berries, which kind of the decoration has the largest number?
+A. Apples.
+B. Candles.
+C. Berries.
+D. The three kinds are of the same number.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:06[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video shows a Christmas tree decorated with various ornaments. The tree is adorned with red apples, golden candles, and blue berries. The apples are the most numerous type of decoration on the tree, with a total of eight apples visible in the frames.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video demonstrates the traditional German modern Christmas tree, which is decorated with a variety of ornaments. The tree is shown in different settings, including an outdoor forest, a cozy indoor room, and a close-up of a decorated branch. The decorations include red apples, golden candles, and blue berries, which are all common elements in German Christmas tree traditions. The apples are a significant part of the decoration, symbolizing abundance and fertility. The golden candles represent light and warmth, while the blue berries add a touch of color and contrast to the overall design. The video also features a close-up of a wooden ornament with the text "13 NEWS NOW" hanging from the tree, indicating a possible news segment or sponsorship.[0m
+Model Responding:  10%|█         | 1/10 [00:04<00:36,  4.06s/it][32m2026-03-10 13:54:06[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video fFjv93ACGo8[0m
+[32m2026-03-10 13:54:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=1[0m
+[32m2026-03-10 13:54:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:06[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:11[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+What is the genre of this video?
+A. It is a news report that introduces the history behind Christmas decorations.
+B. It is a documentary on the evolution of Christmas holiday recipes.
+C. It is a travel vlog exploring Christmas markets around the world.
+D. It is a tutorial on DIY Christmas ornament crafting.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:11[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video opens with a purple screen displaying the text "NEW AT 6" in white, bold letters within a white rectangular border. The website "13newsnow.com" is visible in the top left corner. This suggests that the video is likely a news segment or announcement. The scene transitions to a series of blurred, warm-colored lights, possibly representing bokeh effect from a camera lens capturing out-of-focus light sources. Following this, a fully decorated Christmas tree appears, adorned with red and gold ornaments, white lights, and a star on top, set against a plain white background. The next frame shows a red ribbon with a wavy pattern, followed by three hanging Christmas ornaments: one red, one gold with horizontal stripes, and one pink with diagonal stripes. These elements suggest that the video is related to Christmas decorations.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video appears to be a segment about Christmas decorations, specifically focusing on the types of ornaments and ribbons used during the holiday season. The use of a Christmas tree as a central element indicates that the video may discuss traditional Christmas decor. The blurred lights could imply a festive atmosphere or a transition effect between scenes. The mention of a website suggests that the video might be part of a news report or an online feature. The red ribbon and ornaments are common decorative items associated with Christmas, indicating that the video could provide information on how to decorate for the holiday season. The video does not explicitly state its genre, but the visual cues strongly suggest it is related to Christmas traditions and decorations.[0m
+Model Responding:  20%|██        | 2/10 [00:09<00:37,  4.66s/it][32m2026-03-10 13:54:11[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video fFjv93ACGo8[0m
+[32m2026-03-10 13:54:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=2[0m
+[32m2026-03-10 13:54:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:11[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+How many red socks are above the fireplace at the end of this video?
+A. 1.
+B. 4.
+C. 2.
+D. 3.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:15[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+The video shows a cozy living room decorated for Christmas. There is a lit fireplace with stockings hanging above it. The stockings are red with white trim and bows. The number of red socks above the fireplace is three.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+The video depicts a traditional Christmas scene with a focus on the fireplace and stockings, which are common symbols of the holiday season. The living room is decorated with a Christmas tree adorned with golden ornaments, wrapped presents under the tree, and a wreath above the fireplace. The fireplace itself has a black marble surround with intricate carvings, and the mantel is decorated with garlands and small Christmas trees. The overall atmosphere is warm and festive, evoking a sense of family and tradition during the holiday season. The presence of the stockings suggests that the scene is set up for Santa Claus to deliver gifts, a popular tradition in many cultures during Christmas Eve.[0m
+Model Responding:  30%|███       | 3/10 [00:12<00:28,  4.10s/it][32m2026-03-10 13:54:15[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video N1cdUjctpG8[0m
+[32m2026-03-10 13:54:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=3[0m
+[32m2026-03-10 13:54:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:15[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+Which of the following features/items is not discussed in the video in relation to the tomb?
+A. Inkstone.
+B. Niche.
+C. Jade.
+D. Sacrificial table.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:19[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video shows a well-preserved tomb dating back to the Ming Dynasty, specifically between 1364-1644, found in Xinzhou city, Shanxi province. The tomb's entrance is intricately carved with detailed patterns and motifs, indicative of the craftsmanship of the period. The text overlay provides information about the tomb's historical context and location. The photo credit is given to chinadaily.com.cn.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video focuses on the architectural and artistic elements of the tomb, highlighting the craftsmanship and cultural significance of the Ming Dynasty. The intricate carvings on the tomb's entrance suggest a high level of skill and attention to detail, which was typical of the period's art and architecture. The video does not discuss any specific items or features such as an inkstone, niche, jade, or sacrificial table. However, it is possible that these items may have been present inside the tomb, as they were common in ancient Chinese tombs for various purposes, including writing, storage, and offerings. The video does not provide any information about the contents of the tomb or the items that may have been buried with the deceased.[0m
+Model Responding:  40%|████      | 4/10 [00:16<00:24,  4.07s/it][32m2026-03-10 13:54:19[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video N1cdUjctpG8[0m
+[32m2026-03-10 13:54:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=4[0m
+[32m2026-03-10 13:54:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:19[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+Which of the following reasons motivated the archaeologists to excavate the tomb?
+A. Because it's from Ming Dynasty and of specific archaeological significance.
+B. Because a new railway line will be built nearby.
+C. Because there were treasures inside the tomb.
+D. Highway realignment.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:23[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The image shows the interior of a well-preserved tomb dating back to the Ming Dynasty (1368-1644) found in Xinzhou city, Shanxi province. The text overlay provides this information. The scene depicts a room with stone walls and a tiled floor, containing various artifacts that appear to be part of a burial chamber. There are wooden structures, possibly coffins or furniture, and several ceramic objects scattered on the floor. The overall condition of the artifacts suggests they have been well-preserved over time.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The domain of this question is the archaeological excavation of historical tombs, specifically those from the Ming Dynasty. The reasons for excavating such tombs can include historical significance, cultural heritage, scientific research, and sometimes the discovery of valuable artifacts. In this case, the tomb's age and association with the Ming Dynasty make it of specific archaeological interest. The presence of a railway line nearby could also be a factor, as infrastructure projects often lead to the discovery of previously unknown archaeological sites. However, the text overlay indicates that the primary motivation for this particular excavation was the historical significance of the tomb, not the construction of a new railway line or highway realignment. The preservation of the artifacts suggests careful excavation techniques were employed to maintain their condition for study and display.[0m
+Model Responding:  50%|█████     | 5/10 [00:21<00:21,  4.20s/it][32m2026-03-10 13:54:23[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video N1cdUjctpG8[0m
+[32m2026-03-10 13:54:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=5[0m
+[32m2026-03-10 13:54:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:23[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+How many porcelain jars were discovered in the niches located in the primary chamber of the tomb?
+A. 4.
+B. 9.
+C. 5.
+D. 13.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:28[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The image shows a series of niches in the primary chamber of a well-preserved tomb from the Ming Dynasty (1364-1644) found in Xinzhou city, Shanxi province. There are nine porcelain jars arranged in two rows against a blue-gray brick wall. The jars vary slightly in size and shape but are generally dark-colored with some having a speckled texture. In front of the jars, there is a wooden stick lying horizontally across the floor, which appears to be part of the excavation site. The floor is made of concrete or stone, and there are some small debris and fragments scattered around the jars. Text overlay at the bottom of the image provides context about the discovery and the source of the photo.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The image depicts an archaeological excavation site of a well-preserved tomb from the Ming Dynasty, highlighting the primary chamber where the jars were discovered. The niches in the blue-gray brick wall suggest a structured layout typical of ancient tombs, designed to protect and organize the burial goods. The porcelain jars, likely used for storage or as grave goods, are an essential aspect of Chinese burial practices during the Ming Dynasty. The presence of the wooden stick indicates ongoing excavation work, emphasizing the careful documentation and preservation efforts by archaeologists. The text overlay provides historical context, indicating the significance of the discovery and its location in Xinzhou city, Shanxi province. This scene exemplifies the meticulous process of uncovering and preserving historical artifacts, showcasing the importance of archaeological research in understanding past cultures and societies.[0m
+Model Responding:  60%|██████    | 6/10 [00:26<00:18,  4.52s/it][32m2026-03-10 13:54:28[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video HIjX8OPuf-w[0m
+[32m2026-03-10 13:54:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=6[0m
+[32m2026-03-10 13:54:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:28[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:37[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+How many national flags appear in the video?
+A. 3.
+B. 4.
+C. 2.
+D. 5.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:37[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video shows a series of frames where various national flags are depicted. In the first frame, there is a drawing of a map with a small flag resembling the Russian flag. In the second frame, a hand places a small red object on the map, and in the third frame, the hand draws a black outline of a country on the map. In the fourth frame, a cutout of the Statue of Liberty holding a flag appears next to the map. In the fifth frame, a bowl of food is placed on the map, and in the sixth frame, a cutout of a boat with an American flag is added to the scene. In the seventh frame, a cutout of a building with an Egyptian flag is added to the scene. In the eighth frame, a cutout of a boat with an Italian flag is added to the scene. In the ninth frame, a cutout of a boat with a French flag is added to the scene. In the tenth frame, a cutout of a boat with a British flag is added to the scene.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video depicts a series of frames where various national flags are used as props in a visual narrative. The flags represent different countries, including Russia, the United States, Egypt, Italy, France, and the United Kingdom. The flags are used to symbolize different nations and their respective cultures, histories, and identities. The video also includes a drawing of a map with a small flag resembling the Russian flag, which is used to indicate a specific location or region. The video also includes a cutout of the Statue of Liberty holding a flag, which is a symbol of freedom and democracy. The video also includes a bowl of food, which represents the cultural diversity of the different nations represented by the flags. The video also includes a cutout of a boat with an American flag, which represents the United States' maritime history and its role as a global superpower. The video also includes a cutout of a building with an Egyptian flag, which represents Egypt's rich history and culture. The video also includes a cutout of a boat with an Italian flag, which represents Italy's maritime history and its role as a major player in the global economy. The video also includes a cutout of a boat with a French flag, which represents France's cultural and historical significance. The video also includes a cutout of a boat with a British flag, which represents the United Kingdom's historical and cultural significance. Overall, the video uses national flags as props to create a visual narrative that highlights the diversity and complexity of global cultures and identities.[0m
+Model Responding:  70%|███████   | 7/10 [00:34<00:17,  5.73s/it][32m2026-03-10 13:54:37[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video HIjX8OPuf-w[0m
+[32m2026-03-10 13:54:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=7[0m
+[32m2026-03-10 13:54:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:37[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:41[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+What is the video telling when the burger placed in the upper right corner at the end of the video first appears?
+A. Beef with spices came from Russia to Germany.
+B. The steak began to be sandwiched between two pieces of bread.
+C. Steak burgers spread throughout the United States.
+D. The standardization of hamburgers.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:41[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+The video shows a close-up of a white sheet of paper with the title "Hamburger History: Briefly!" written in red marker. Below the title, there is additional text that reads "By Jorge Cremo, VO by Food Historian George Mitz." The background is black, and there are various objects around the paper, including a bag of fries, two markers, and a pen. A hand holding a burger appears and places it on the paper. The burger has a sesame seed bun, a beef patty, and a slice of cheese. The hand then moves away, leaving the burger on the paper.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+The video appears to be an educational or informative piece about the history of hamburgers. The title "Hamburger History: Briefly!" suggests that the video will provide a brief overview of the history of hamburgers. The presence of the food historian's name indicates that the video may include expert commentary or insights. The bag of fries and the burger itself suggest that the video may also discuss the cultural significance of hamburgers and their relationship to other fast foods. The use of a white sheet of paper as a backdrop for the title and the burger placement could be a visual metaphor for the simplicity and clarity of the information being presented. The video may explore the origins of hamburgers, their evolution over time, and their impact on American cuisine and culture.[0m
+Model Responding:  80%|████████  | 8/10 [00:39<00:10,  5.40s/it][32m2026-03-10 13:54:41[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video HIjX8OPuf-w[0m
+[32m2026-03-10 13:54:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=8[0m
+[32m2026-03-10 13:54:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:41[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:47[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+In which country is the food featured in the video recognized worldwide?
+A. Mongolia.
+B. Russia.
+C. Germany.
+D. United States.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:47[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video features a series of frames showing various food items and drawings on white paper placed on a dark surface. The first frame shows a drawing of a red meat cut with the text "Sov after!" and a small flag resembling the Russian flag. The second frame shows a bowl of food with a drawing of the Statue of Liberty and a flag resembling the American flag, along with a drawing of a building that could be the Empire State Building. The third frame shows a drawing of a map with the text "Manhattan" and a red dot. The fourth frame shows a plate with four burgers and a sandwich, with the text "NY burger com" written on the paper beneath them.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video appears to be exploring the theme of food and cultural symbols associated with different countries. The first frame suggests a connection between Russia and the Soviet Union era, as indicated by the drawing of the meat cut and the Russian flag. The second frame seems to juxtapose American and Russian cultural icons, with the Statue of Liberty representing the United States and the American flag, while the building in the background could be the Empire State Building, a famous landmark in New York City. The third frame further emphasizes the connection to New York City with the map labeled "Manhattan" and the red dot, possibly indicating a specific location or event. The fourth frame presents a variety of burgers and a sandwich, with the text "NY burger com," which could imply a focus on American fast food culture, particularly burgers, which are a staple of American cuisine. The video may be exploring the idea of how food can represent national identity and cultural exchange between different countries.[0m
+Model Responding:  90%|█████████ | 9/10 [00:44<00:05,  5.41s/it][32m2026-03-10 13:54:47[0m | [34m[1mDEBUG   [0m | [36mutils[0m:[36mcustom_video_qa_doc_to_visual[0m:[36m97[0m - [34m[1m[custom_video_qa] Selected 8 frames for video HwnB8aCn8yE[0m
+[32m2026-03-10 13:54:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m626[0m - [1m[CUSTOM_FRAMES] Detected custom frame selection for doc_id=9[0m
+[32m2026-03-10 13:54:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m629[0m - [1m[CUSTOM_FRAMES] Will load 8 specific frames[0m
+[32m2026-03-10 13:54:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m375[0m - [1m[CUSTOM_FRAMES] Received 8 custom frames[0m
+[32m2026-03-10 13:54:47[0m | [1mINFO    [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mload_video[0m:[36m386[0m - [1m[CUSTOM_FRAMES] Using 8 custom frames instead of uniform sampling[0m
+[32m2026-03-10 13:54:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m742[0m - [34m[1mQuestion: <image>
+You are an expert visual anthropologist analyzing a video clip frame-by-frame.
+
+Below is a multiple-choice question and its options.
+
+YOUR TASK IS NOT TO CHOOSE A, B, C, or D.
+
+Instead, generate a detailed, standalone two-part description of what the question is really asking about, based ONLY on what you perceive in the provided video frames.
+
+Part 1 – Direct Frame Evidence (question-specific)
+Describe exactly what you see in the frames that relates directly to the question: objects, actions, sequence of events, timeline, text overlays, labels, diagrams, animations, people, environments, tools, or any other visual elements. Be exhaustive — list every relevant visual detail and how they connect to the exact topic of the question. Imagine you are writing precise field notes that another researcher could use to reconstruct the exact scene without watching the video.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+Now describe everything related to the question’s domain or topic that you can see anywhere in the frames. Cover every single aspect, sub-topic, variation, step, component, related object, concept, sequence, or idea that belongs to the same broader domain — even if it is not directly mentioned in the question. Be completely exhaustive so that any future question on any part of this domain can be answered from this description alone. Include all key principles, methods, alternatives, applications, or connections that are visible in the video. Write as if you are creating a detailed encyclopedia entry that fully maps the entire topic shown in the video.
+
+Rules:
+* Base everything strictly on visuals you actually see — never invent or assume content.
+* Use precise, descriptive, and educational language.
+* Do NOT mention the options, the correct answer, or say “the question is testing…”.
+* Do NOT summarize; be as detailed and comprehensive as possible in both parts.
+* Structure your response clearly with Part 1 and Part 2 headings.
+
+Question:
+
+
+According to the video, which of the following is considered the earliest stage of human evolution?
+A. Ramapithecus.
+B. Dryopithecus.
+C. Ardipithecus Ramidus.
+D. Homo Sapiens.
+
+Now generate your two-part descriptive answer:[0m
+[32m2026-03-10 13:54:52[0m | [34m[1mDEBUG   [0m | [36mlmms_eval.models.simple.llava_vid[0m:[36mgenerate_until[0m:[36m743[0m - [34m[1mAnswer: Part 1 – Direct Frame Evidence (question-specific)
+
+The video shows two frames depicting human evolution. The first frame features a side profile of a figure labeled "Homo Habilis (Lived 2.0 to 1.0 million years ago)." This figure is depicted with a more primitive, ape-like appearance, with a prominent jaw and less developed brain structure. The second frame shows another side profile of a figure labeled "Homo Erectus (Lived 1.8 million - 300,000 years ago)." This figure has a more upright posture and a slightly more developed brain structure compared to the Homo Habilis figure.
+
+Part 2 – Full Domain Coverage (everything related that might be questioned later)
+
+The video covers the early stages of human evolution, focusing on the emergence of the genus Homo. Homo Habilis is considered one of the earliest known members of the genus Homo, characterized by its ability to use tools and control fire. Homo Erectus is an early member of the genus Homo that is known for its more advanced tool use, control of fire, and migration out of Africa. Both species are significant in the study of human evolution as they represent important steps in the development of modern humans. The video also touches on other early human species such as Ramapithecus, Dryopithecus, and Ardipithecus Ramidus, but these are not explicitly mentioned in the question. The video provides a visual representation of the timeline and physical characteristics of these early human species, emphasizing their contributions to the evolutionary journey of the human lineage.[0m
+Model Responding: 100%|██████████| 10/10 [00:49<00:00,  5.26s/it]Model Responding: 100%|██████████| 10/10 [00:49<00:00,  4.94s/it]
+Postprocessing:   0%|          | 0/10 [00:00<?, ?it/s]Postprocessing: 100%|██████████| 10/10 [00:00<00:00, 9742.87it/s]
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m402[0m - [1m================================================================================[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m403[0m - [1mOverall Accuracy: 10.00% (1/10)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m404[0m - [1m================================================================================[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m408[0m - [1m
+Accuracy by Task Type:[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m409[0m - [1m--------------------------------------------------------------------------------[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Action Reasoning              :  0.00% (0/1)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Counting Problem              :  0.00% (0/4)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Information Synopsis          : 100.00% (1/1)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Object Reasoning              :  0.00% (0/1)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Object Recognition            :  0.00% (0/2)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m413[0m - [1m  Temporal Perception           :  0.00% (0/1)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m419[0m - [1m
+Accuracy by Domain:[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m420[0m - [1m--------------------------------------------------------------------------------[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m424[0m - [1m  Knowledge                     : 10.00% (1/10)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m430[0m - [1m
+Accuracy by Sub-Category:[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m431[0m - [1m--------------------------------------------------------------------------------[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m435[0m - [1m  Humanity & History            : 10.00% (1/10)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m441[0m - [1m
+Accuracy by Duration:[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m442[0m - [1m--------------------------------------------------------------------------------[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m446[0m - [1m  short                         : 10.00% (1/10)[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mutils[0m:[36mcustom_video_qa_aggregate_results[0m:[36m450[0m - [1m================================================================================[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_aggregated[0m:[36m188[0m - [1mSaving results aggregated[0m
+[32m2026-03-10 13:54:52[0m | [1mINFO    [0m | [36mlmms_eval.loggers.evaluation_tracker[0m:[36msave_results_samples[0m:[36m287[0m - [1mSaving samples to results/testing/testing_selected_tmas_videomme_blip_k8_auto_budget_based_curvgrad_normmax_clip95_hybrid_cov1.73_opt_results/..__LLaVA-NeXT-Video-7B-Qwen2/20260310_215351_samples_custom_video_qa.jsonl[0m
+llava_vid (pretrained=../LLaVA-NeXT-Video-7B-Qwen2,conv_template=chatml_direct,video_decode_backend=decord,max_frames_num=24,overwrite=False,device_map=auto), gen_kwargs: (), limit: 10.0, num_fewshot: None, batch_size: 1
+|     Tasks     |Version|Filter|n-shot|       Metric        |   |Value|   |Stderr|
+|---------------|------:|------|-----:|---------------------|---|----:|---|------|
+|custom_video_qa|      1|none  |     0|custom_video_qa_score|↑  |   10|±  |   N/A|
+

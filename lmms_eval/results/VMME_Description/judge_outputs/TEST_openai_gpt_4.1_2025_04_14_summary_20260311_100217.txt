@@ -1,0 +1,125 @@
+Judge: openai_gpt_4.1_2025_04_14
+Mode: TEST
+Timestamp: 20260311_100217
+============================================================
+
+Total questions: 10
+Parsed:          10
+Unparsed:        0
+
+Model 1 wins:    6  (60.0%)
+Model 2 wins:    4  (40.0%)
+
+============================================================
+Per-question breakdown:
+============================================================
+
+Question ID: 001-1
+Question:    When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and...
+Winner:      1
+Raw Response:
+Comparison:  
+Part 1 analysis: Both descriptions detail the three main types of decorations—apples, candles, and berries—found on the modern Christmas tree, their colors, and basic arrangement. However, Description 1 references the number of each decoration type, though mistakenly stating apples are the most numerous, and adds more specificity on candle color (orange and white stripes) and contextual background (green background, possibly outdoors). Description 2 offers similar detail but falls short of Description 1 in precise visual specifics (less detail about candle color, for example), though it mentions "other trees" in the background.
+
+Part 2 analysis: Description 1 provides a more comprehensive coverage of the domain, mentioning the historical evolution of tree decoration (from fruits, nuts, and musical notes to modern ornaments), multiple settings (historical indoor family scene, cozy indoor scene with stockings, presents, and fireplace), and even notes a sponsorship logo ornament, which contributes to exhaustive coverage. Description 2 covers symbolic meanings and tradition (apples symbolizing abundance, candles representing Christ, etc.) and comments on arrangement and prominence but lacks the breadth and variety of visual and historical details presented in Description 1.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 001-2
+Question:    What is the genre of this video?
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Description 2 is more exhaustive and precise than Description 1 in its frame-by-frame detailing. Description 2 includes additional details such as the large studio windows, specific types of food and desserts, the presence of candles, pinecones, and the arrangement and atmosphere of the dining table. It also mentions colorful ornaments, silver stars, bokeh effects, the appearance of the "Paradise trees" text overlay, and detailed decorations (e.g., stockings on a mantel, fireplace lit) that are not present in Description 1. Description 1 is good, but less comprehensive and less explicit about each frame's specifics.
+
+Part 2 analysis: Description 2 offers greater full-domain coverage, specifically naming topics like "DIY Christmas ornament crafting," itemizing more decorative elements (red apples, candles, ornaments, baubles, silver stars, pine cones), and expanding on the nostalgic and historical significance. It more clearly lays out the variety of settings and traditions covered and better anticipates the breadth of possible future questions. Description 1, while covering the topic appropriately, is broader and less itemized in its domain elements.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 001-3
+Question:    How many red socks are above the fireplace at the end of this video?
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Description 1 clearly and explicitly states that there are three red stockings with white trim and white bows above the fireplace, specifying their arrangement ("evenly spaced" and "hanging from the mantelpiece"). Description 2 mentions red stockings with white trim and bows, but does not specify the count of stockings, which is a critical visual detail, nor their arrangement. Description 1 is therefore more exhaustive and precise regarding the direct frame evidence.
+
+Part 2 analysis: Description 1 provides a comprehensive overview of all major elements in the scene (stockings, fireplace, tree, ornaments, garlands, wreaths), ties them to traditions, and describes the arrangement and atmosphere. Description 2 covers most visible elements, but omits details such as garlands and wreaths, and gives less detail about symbolic implications. While Description 2 does add a unique detail (the "13 NEWS" ornament), it lacks the depth and exhaustiveness of Description 1 in discussing arrangements and thematic context.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 002-1
+Question:    Which of the following features/items is not discussed in the video in relation to the tomb?
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Description 2 provides slightly more precise direct frame evidence, specifying the "rectangular opening at the top" of the niche, the arrangement of the vessels "in a row against a brick wall," and noting the source of the images and their focus on the artifacts' archaeological significance. Description 1 lists similar objects and features but is less precise in certain spatial and compositional details and omits the specific arrangement and context for some items.
+Part 2 analysis: Description 2 offers broader domain coverage, expanding on preservation and excavation methods, cultural and historical context, craftsmanship, and how artifact arrangement provides insight into Ming Dynasty life. It mentions more domain-relevant aspects, such as social, economic, and artistic insights, making it more future-question ready. Description 1 gives a good overview, but its domain coverage is narrower, with a less comprehensive sweep of potential tangential topics that could be queried.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 002-2
+Question:    Which of the following reasons motivated the archaeologists to excavate the tomb?
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Both descriptions list the same sequence of frames and cover similar visual evidence, identifying the Ming Dynasty tomb, its location, structure, specific artifacts (vases, black ceramic vessels, wooden panels, pottery, furniture, coffins, stone doors), and reference text overlays. Description 2, however, provides slightly more detail, such as noting "black ceramic vessels," "peeling paint and visible wear," and "brick walls with arched doorways," and it includes debris around the chair, which are absent or less specific in Description 1. This makes Description 2 somewhat more exhaustive and precise in its field note qualities.
+
+Part 2 analysis: Both descriptions attempt to provide domain coverage by referencing artistic expression, craftsmanship, preservation, and the tomb's significance as cultural heritage. Description 2 edges out by mentioning "meticulous care taken to preserve the artifacts," "preservation efforts," and "valuable insights into the period's history, art, and daily life," suggesting a slightly broader coverage of the domain, including preservation methods, historical interpretation, and their importance for future generations—points only loosely touched upon in Description 1. Description 1, while solid, repeats a few points rather than expanding the domain coverage.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 002-3
+Question:    How many porcelain jars were discovered in the niches located in the primary chamber of the tomb?
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Description 1 provides an exhaustive account of the direct visual evidence, detailing the arrangement, number, and individual characteristics (size, shape) of all nine jars, the presence of a wooden plank, the material of the floor, and the exact placement of jars in relation to the wall. It also captures the text overlay precisely. By contrast, Description 2 references a row of nine jars and offers some detail about their uniformity and placement but lacks information about their arrangement (rows), the plank, variety in jar forms, or further environmental details noted in Description 1.
+
+Part 2 analysis: Description 1 systematically addresses domain coverage by explaining the function and significance of the jars, reasons for their variety, the role of supporting elements (like the plank), architectural materials, and contextual historical data. It even references other visible features such as the tomb entrance and stone doors, showing attentiveness to all aspects of the tomb environment that could yield future questions. Description 2 expands to mention other types of artifacts and architectural elements in the video, such as wooden furniture and metalwork, but its coverage is less specific about every object’s relevance or distinguishing aspects, and misses targeted discussion of the jars' cultural use or the significance of construction features. 
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 003-1
+Question:    How many national flags appear in the video?
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Description 2 provides a more thorough and precise listing of the national flags visible in the video, detailing their colors, features, and presentation (e.g., how they’re drawn and layered). It also mentions their appearance in different scenes and the method of depiction (hand-drawn, cut-out). In contrast, Description 1 mentions only two flags (American and Egyptian) with limited visual detail and does not enumerate all flags present, missing key frame evidence.
+
+Part 2 analysis: Description 2 offers broader and deeper domain coverage, referencing the video's title, the main topic ("Hamburger History"), supporting props (hamburger patty, thermometer, Western Union building), the use of visual storytelling techniques, and thematic connections (spread of the hamburger, national influence, Westernization). This would provide a basis for answering a wider range of future questions about content, style, topic, and visual elements. Description 1 is much less specific, mostly speculating about thematic elements (international relations, diplomacy) without exhaustively describing all visual components or domain topics present.
+
+Winner: 2
+────────────────────────────────────────
+Question ID: 003-2
+Question:    What is the video telling when the burger placed in the upper right corner at the end of the video f...
+Winner:      1
+Raw Response:
+Comparison:  
+Part 1 analysis: Description 1 provides a detailed frame-by-frame breakdown with clear mention of the timeline, direct references to labels (like "Hamburger History: Briefly!" and "NY burger.com"), and specifics about what is drawn or placed in each key moment—including the precise location of the burger in the upper right corner at the end. It explicitly mentions transitions, actions (like pointing with a pen), and textual details. In contrast, Description 2 focuses on some actions and props in the frame (like markers and fries) and gives a timeline of visual steps, but its coverage of relevant textual and scene-specific details is less exhaustive, somewhat muddled with extraneous or ambiguous mentions ("84 by James," "Now After!"), and it is less clear on sequence and contextual detail specifically related to the critical burger placement.
+
+Part 2 analysis: Description 1 gives a comprehensive account of the entire domain by mentioning origins, regional transitions, standardization, cultural significance, and modern relevance, ensuring all key sub-topics (origins, spread, societal impact, burger joints, and contemporary presence) are addressed. Description 2 gives a broad arc of historical progression and includes props used, but its domain coverage is less exhaustive: the summary stops short of fully elaborating on cultural significance, the role of burger joints, or the full scope of modern impact. It also introduces confusing or possibly irrelevant details as part of its “full coverage,” diluting its clarity.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 003-3
+Question:    In which country is the food featured in the video recognized worldwide?
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Description 1 provides a notably more exhaustive and precise account of direct frame evidence, listing fine details such as the specific text seen on the paper, the appearance and placement of food items, drawings (such as the knight and Statue of Liberty), a map with a red dot, flags, building labels, and even the shape of New York with associated text. This enables a nearly scene-by-scene reconstruction. Description 2, while mentioning some specific elements (burgers, fries, text "Hamburger History," Statue of Liberty, White House), lacks the granular, sequential detail and comprehensiveness, instead grouping scenes and not specifying the same range of unique or subtle visual cues.
+
+Part 2 analysis: Description 1 delivers broader and more detailed coverage of the domain, including specific references to geographic origins, year hints, historical figures, international connections (Germany, United States, Egypt), and more contextual elements like menus and roles (video jockeys), as well as integrating these into cultural and historical context. Description 2, in contrast, remains generic—providing a basic summary of hamburger history, its global spread, American symbolism, and the impact of globalization, but without the fine-grained or scenario-specific depth present in Description 1.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 004-1
+Question:    According to the video, which of the following is considered the earliest stage of human evolution?
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Description 1 provides more precise detail about the frame evidence than Description 2. It specifies not only the sequence and exact labels but also describes the side profile, the bipedal walking pose, and clear chronological labeling. Description 2 is accurate but generalizes the walking pose and omits mention of the side profile and finer distinctions in posture and gait depicted, making it less exhaustive.
+
+Part 2 analysis: Description 1 is more comprehensive in its domain coverage. It gives more detail about each species' characteristics (e.g., "ape-like appearance," "small brain," "human-like pelvis," "robust brain"), and explicitly references the depiction of all major hominins shown in the video, the Miocene epoch, and both anatomical and cognitive evolution. Description 2, though mentioning each species and covering the timeline, is less exhaustive about the anatomical features, cognitive changes, and detailed presentation methods shown in the video.
+
+Winner: 1
+────────────────────────────────────────

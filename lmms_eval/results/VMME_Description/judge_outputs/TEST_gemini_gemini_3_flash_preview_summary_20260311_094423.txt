@@ -1,0 +1,36 @@
+Judge: gemini_gemini_3_flash_preview
+Mode: TEST
+Timestamp: 20260311_094423
+============================================================
+
+Total questions: 2
+Parsed:          2
+Unparsed:        0
+
+Model 1 wins:    1  (50.0%)
+Model 2 wins:    1  (50.0%)
+
+============================================================
+Per-question breakdown:
+============================================================
+
+Question ID: 001-1
+Question:    When demonstrating the Germany modern Christmas tree is initially decorated with apples, candles and...
+Winner:      1
+Raw Response:
+Comparison:
+Part 1 analysis: Description 1 is more precise, specifying the colors of the candle stripes (orange and white) and describing the berries as blue. Description 2 is more general, describing the candles only as "striped" and the berries as "greenish-blue."
+Part 2 analysis: Description 1 provides much better coverage for future questions by detailing distinct scenes such as the historical illustration with musical notes, the black-and-white family scene, and the indoor fireplace setting with a news logo. Description 2 focuses more on the symbolic meaning of the decorations rather than capturing the diverse visual elements present in the full video.
+
+Winner: 1
+────────────────────────────────────────
+Question ID: 001-2
+Question:    What is the genre of this video?
+Winner:      2
+Raw Response:
+Comparison:
+Part 1 analysis: Model 2 is significantly more exhaustive and precise. It captures critical details missed by Model 1, such as the specific text overlay "Paradise trees," the fireplace and stockings in the cozy room scene, and the detailed description of the historical Christmas market illustration.
+Part 2 analysis: Model 2 provides a broader scope of the domain, connecting the visual evidence to thematic concepts like the "Paradise tree" and DIY crafting. Its inclusion of more specific historical elements makes it much better prepared to answer diverse future questions about the video's content.
+
+Winner: 2
+────────────────────────────────────────

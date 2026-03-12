@@ -1,0 +1,14 @@
+{
+  "judge_name": "local_Qwen2_5_14B_Instruct_4bit",
+  "total_questions": 100,
+  "total_parsed": 96,
+  "unparsed": 4,
+  "model1_wins": 46,
+  "model2_wins": 50,
+  "model1_win_rate": 47.92,
+  "model2_win_rate": 52.08,
+  "model_id": "Qwen/Qwen2.5-14B-Instruct",
+  "model_load_time_s": 6.7,
+  "judging_time_s": 435.2,
+  "avg_time_per_question_s": 4.4
+}
