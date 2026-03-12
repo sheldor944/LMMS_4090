@@ -28,3 +28,4 @@ lmms_eval/custom_video_qa_cache/
 lmms_eval/longvideobench_custom_cache/
 *.lock
 *.arrow
+.env
