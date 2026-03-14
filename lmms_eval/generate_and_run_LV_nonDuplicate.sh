@@ -249,7 +249,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 JSON_DIR="$SCRIPT_DIR/datasets/longvideobench"
-YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/longvideobench_custom/longvideobench_custom.yaml"
+YAML_FILE="$SCRIPT_DIR/lmms_eval/tasks/longvideobench/longvideobench_custom.yaml"
 RESULT_DIR="$SCRIPT_DIR/results/full_logs/FINAL_LV"
 
 MODEL_PATH="../LLaVA-NeXT-Video-7B-Qwen2"
